@@ -1,5 +1,5 @@
-# Computação
-Repositório pra registro das máterias de ciência da computação
+# Ciência da Computação
+Repositório pra registro das máteria/assuntos de ciência da computação, programação e tecnologia no geral
 ---
 
 * [Circuitos Digitais](./circuitos-digitais.md)
