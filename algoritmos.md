@@ -1,5 +1,5 @@
 # Algoritmos
-##Exercicios de algoritmos feito do curso do gustavo guanabara
+Exercicios de algoritmos feito do curso do gustavo guanabara
 
 Olá, o objetivo desse repositorio é salvar e documentar todos os exercícios feito durante o curso de algoritmos-lógica de programação disponibilizado pelo curso em vídeo do gustavo guanabara.
 
