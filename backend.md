@@ -3,6 +3,9 @@
 
 
 ###  Desenvolvimento backend 
+fontes:
+https://www.youtube.com/watch?v=XBu54nfzxAQ
+https://www.youtube.com/watch?v=4r6WdaY3SOA
 
  Todo site é composto por duas partes: o front end e back end.
 
