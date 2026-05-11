@@ -13,7 +13,8 @@
 ### Por fora da faculdade ( projeto backend developer)
  
  - Em andamento
- 2. [JAVA](./java.md)  
+ 2. [JAVA](./java.md)
+ 3. [Web e seus protocolos de comunicação](./web-e-seus-procolos-de-comunicação-básicos.md)
  - Concluído
    
 7. [introdução ao desenvolvimento backend ](./backend.md)  
