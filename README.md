@@ -2,14 +2,14 @@
 ### Repositório pra registro das máteria/assuntos de ciência da computação, programação e tecnologia no geral aprendidos durante o período da faculdade (seja por fora ou pela instituição).
 ---
 
-- Por dentro
+- Por dentro (faculade e/ou estoudos faculdade pessoal)
 1. [Circuitos Digitais](./circuitos-digitais.md)
 
 
 
 
 
-- Por fora
+- Por fora da faculdade ( projeto backend developer)
   
 1. [algoritmos](./algoritmos.md)
 2. [Git e Github](./git-hub.md)
