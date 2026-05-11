@@ -14,7 +14,7 @@
  
  - Em andamento
  2. [JAVA](./java.md)
-   
+7. [introdução ao desenvolvimento backend e fundamentos da internet](./introdução_ao_desenvolvimento_backend_e_fundamentos_da_internet.md)  
  - Concluído
    
  3. [algoritmos](./algoritmos.md)
@@ -25,7 +25,6 @@
 - Futuramente
   
 5. [cs50x de havard](./cs50x_de_havard.md)
-6. [introdução ao desenvolvimento backend e fundamentos da internet](./introdução_ao_desenvolvimento_backend_e_fundamentos_da_internet.md)
 7. [HTML e CSS](./html-css.md)
    
   
