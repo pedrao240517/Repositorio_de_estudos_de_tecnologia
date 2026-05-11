@@ -13,10 +13,10 @@
 ### Por fora da faculdade ( projeto backend developer)
  
  - Em andamento
- 2. [JAVA](./java.md)
-7. [introdução ao desenvolvimento backend e fundamentos da internet](./introdução_ao_desenvolvimento_backend_e_fundamentos_da_internet.md)  
+ 2. [JAVA](./java.md)  
  - Concluído
    
+7. [introdução ao desenvolvimento backend e fundamentos da internet](./introdução_ao_desenvolvimento_backend_e_fundamentos_da_internet.md)  
  3. [algoritmos](./algoritmos.md)
  4. [Git e Github](./git-hub.md)
 
