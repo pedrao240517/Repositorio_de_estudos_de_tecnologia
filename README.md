@@ -11,7 +11,7 @@
 
 - Futuramente
 
-### Por fora da faculdade ( projeto backend developer)
+### Por fora da faculdade (projeto backend developer)
  
  - Em andamento
  2. [JAVA](./java.md)
