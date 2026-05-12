@@ -36,6 +36,5 @@ Durante o Curso aprendi como utilizar o git,github,github desktop, é como edita
 
 13)Hospedagem Grátis no GitHub Pages – Curso de Git e GitHub
 
----
-*[página teste criada para aprender a usar o github pages](https://pedrao240517.github.io/projeto-site-teste/)
+
 
