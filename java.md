@@ -12,7 +12,7 @@
 - Porque usar o IntelliJ IDEA
   IntelliJ IDEA é amplamente considerado a melhor IDE para Java e Kotlin devido à sua análise de código inteligente em tempo real, refatoração robusta, excelente suporte a frameworks (Spring, Jakarta EE) e navegação rápida, aumentando a produtividade e a qualidade do código
 
-  principal motivo: muito autonomia no autocomplete
+  principal motivo: muito autonomia no autocomplete, ou seja ele facilita na hora da escrita de código.
 
 - Configurações
   Ao Longo do aprendizado vou registrar os atalhos de uso da ferramenta que achei aqui.
@@ -33,7 +33,9 @@ exemplo: idade = 16;
 
 - Tipos de dados (primitivos)
 
-1) string(caractere)
+obs: São tipos de dados que de maneira geral não recebem métodos de maneira padrão.
+
+1) caractere
 char - pra armazenar um único caractere
 
 2) int(Números inteiro) - valor máximo 2 147 483 647 
@@ -49,9 +51,27 @@ float: Números de ponto flutuante de precisão simples.
 
 4) Boolean (lógico - true e false)
 
+- Tipos de dados não primitivos 
+
+obs: São tipos de dados em que pode-se colocar metodos para fazer alterações na variável sem que seja mudado seu escopo.
+
+1) string(caractere) - aramzenar um nome 
+2) array(lista encadeadas)[ vvariável composta homogênea]
+3) Class - (também conhecida como campo estático) é um atributo declarado com a palavra-chave static dentro de uma classe, mas fora de qualquer método
+4) enuns
+5) objects
+6) interfaces
+
+- Principal difença entre dados primitivo e não primitivos ?
+
+poder usar métodos nas variáveis.
+
 ![alt text](image.png)
 
-- Qual a linguagem de ter uma linguagem fortemente tipada? 
+- O que são métodos ?
+ São carcteristicas que colocamos dentro de variáveis. um método em Java é uma função, mas com a particularidade de estar obrigatoriamente associado a uma classe ou objeto
+
+- Qual a vantagem de ter uma linguagem fortemente tipada? 
 Aumenta a segurança do código, previne erros de lógica, melhora a legibilidade e facilita a manutenção, sendo muito utilizada em sistemas de grande porte.
 
 
@@ -63,3 +83,21 @@ O que é uma class: é um molde de criação de código
 O que é um boilerplate?: Uma formúla de bolo toda vez que cria um projeto.
 
 psvm - public static void main
+
+atalho - sout  e cntrl r pra executar a aplicação
+
+Principais Shortcuts
+No Windows:
+
+Ctrl + Shift + A: Encontrar e executar qualquer ação
+Ctrl + E: Mostrar arquivos recentes
+Ctrl + /: Comentar/descomentar linha
+Ctrl + Shift + F10: Executar a aplicação
+
+- Comando de Saída em java 
+
+System.out.print - mostra para o usuário na tela
+System.out.println - mostra para o usuário na tela e pula uma linha 
+
+
+// aula  Dados não primitivos? Métodos? Que bosta é essa - 01:31 // 
