@@ -92,7 +92,7 @@ Com isso, eles criaram uma rede de compartilhamento entres as bases militares a 
 • informações que permitiam a remontagem da mensagem original. 
 
 Esses sistema, funcionava por meio de um protocolo chamado NCP - Network Control Protocol (protocolo de controle de rede) e de maneira simples tinha o obejtivo de vários computadores falarem a mesma linguagem.
-![ARPANET](image.png)
+
 
 Porém, o NCP tinha um problema de funcionar apenas uma comunicação por vez, ou seja, ao longo de uma transmisão, se outro conputadores quiserem se comunicar tem que esperar o fim da transmissão.
 
@@ -123,7 +123,7 @@ Os IPS levam essas informações até os Hubs de Internet, nos hubs de internet 
 
 Nesse ponto chegamos as espinhas centrais da internet, por meio de cabos submarinos são interligado os litorais dos paises.
 
-![Cabos maritimos](image-1.png)
+
 
 Ok, nesse ponto abrangimos, quase tudo sobre a infraestrutura da internet, mas você deve se perguntar, e aqueles que não tem IPS em suas regiões e não moram e regiões litorâneas? 
 
@@ -132,7 +132,7 @@ Para isso temos meios de trasnmissão de internet para todos como sátelites e b
 
 ##### Como era a internet antigamente?
 
-![ ](image-2.png)
+
 Por meio de um protocolo de navegação chamado gopher, era acessado as informações que o funcionário queria.
 
 Em 1993 um inglês chamado Tim Berness-Lee criou um protocolo que foi incluido mais tarde no TCP/IP o HTTP (HyperText Transfer Protocol) e a linguagem HTML (HyperText Markup Language) e com isso mudou a internet pra uma World Wide Web (rede de alcançe mundial) pois permitia a facilitação do funcionamento da internet.
@@ -141,7 +141,6 @@ Outra coisa que foi criado pra internet funcionar foi um navegador (O Mosaic)
 
 No caso a World Wide Web e uma subrede da internet.
 
-![WWW](image-3.png)
 
 
 
