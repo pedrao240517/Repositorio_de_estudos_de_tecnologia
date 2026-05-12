@@ -46,7 +46,7 @@
 34) Design Responsivos 
 35) Projeto tela de login responsiva
 
-### Módulo 5  - Aprofundamento em  técnicas de CSS3 para criar páginas modernas e responsivas (novas tecnlogias )
+### Módulo 5 - Aprofundamento em  técnicas de CSS3 para criar páginas modernas e responsivas (novas tecnlogias)
 36) Flexbox
 37) Grid Layout
 38) Projeto Final
