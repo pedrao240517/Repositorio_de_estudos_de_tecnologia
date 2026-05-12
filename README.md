@@ -15,7 +15,7 @@
  
  - Em andamento
  2. [JAVA](./java.md)
- 7. [HTML e CSS](./html-css-anotações.md)
+ 7. [HTML e CSS](./html-css-notas.md)
 
  - Concluído
    
