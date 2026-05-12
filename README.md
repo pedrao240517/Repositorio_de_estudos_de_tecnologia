@@ -15,7 +15,8 @@
  
  - Em andamento
  2. [JAVA](./java.md)
- 3. [Web e seus protocolos de comunicação](./web-e-seus-procolos-de-comunicação-básicos.md)
+ 7. [HTML e CSS](./html-css.md)
+
  - Concluído
    
 7. [introdução ao desenvolvimento backend ](./backend.md)  
@@ -23,10 +24,8 @@
  4. [Git e Github](./git-hub.md)
 
 
-
 - Futuramente
-  
+1. [Web e seus protocolos de comunicação](./web-e-seus-procolos-de-comunicação-básicos.md)  
 5. [cs50x de havard](./cs50x_de_havard.md)
-7. [HTML e CSS](./html-css.md)
-   
+
   

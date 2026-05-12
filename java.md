@@ -6,6 +6,19 @@
 - Roadmaph.sh (https://roadmap.sh/java)
 
 ---
+### Index
+- O que é uma IDE?
+- Porque usar o IntelliJ IDEA
+- Configurações
+- Variaveis, tipagem de dados
+- Mas o que é uma variavél?
+- Tipos de dados (primitivos)
+- Tipos de dados não primitivos 
+- Principal difença entre dados primitivo e não primitivos ?
+- Perguntas relevantes e outros? 
+- Comando de Saída em java 
+
+---
 - O que é uma IDE?
   IDE significa Integrated Development Environment (Ambiente de Desenvolvimento Integrado). É um software que reúne, em uma única interface gráfica, as ferramentas essenciais para criar, testar, depurar (debugar) e compilar código, aumentando a produtividade dos programadores.
 
