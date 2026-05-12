@@ -10,11 +10,56 @@
   IDE significa Integrated Development Environment (Ambiente de Desenvolvimento Integrado). É um software que reúne, em uma única interface gráfica, as ferramentas essenciais para criar, testar, depurar (debugar) e compilar código, aumentando a produtividade dos programadores.
 
 - Porque usar o IntelliJ IDEA
-  IntelliJ IDEA é amplamente considerado a melhor IDE para Java e Kotlin devido à sua análise de código inteligente em tempo real, refatoração robusta, excelente suporte a frameworks (Spring, Jakarta EE) e navegação rápida, aumentando a produtividade e a qualidade do códig
+  IntelliJ IDEA é amplamente considerado a melhor IDE para Java e Kotlin devido à sua análise de código inteligente em tempo real, refatoração robusta, excelente suporte a frameworks (Spring, Jakarta EE) e navegação rápida, aumentando a produtividade e a qualidade do código
+
+  principal motivo: muito autonomia no autocomplete
 
 - Configurações
   Ao Longo do aprendizado vou registrar os atalhos de uso da ferramenta que achei aqui.
 
 - Variaveis, tipagem de dados
 
-Primeiramente, vale resaltar que java é uma linguagem fortemente tipada.
+Primeiramente, vale resaltar que java é uma linguagem fortemente tipada, o que é isso? (ma linguagem fortemente tipada (ou altamente tipada) é aquela que impõe regras rigorosas sobre os tipos de dados (como int, string, bool), não permitindo conversões automáticas implícitas entre tipos incompatíveis e exigindo que tipos de variáveis sejam bem definidos.)
+
+- Mas o que é uma variavél?
+
+De maneira simples é um espaço na mémoria do computador onde vamos guardar os nossos dados e podemos alocar valores nesses espaços(letras, números e etc)
+
+Pra poder declarar valores pra variavéis em java ou seja atribuições, devemos colocar o sinal de = e um ponto e vígula (;) depois do valor atíbuido para saber onde finaliza aquele trecho de código.
+
+exemplo: idade = 16;
+         altura = 1.64;
+         vivo ou morto = true;
+
+- Tipos de dados (primitivos)
+
+1) string(caractere)
+char - pra armazenar um único caractere
+
+2) int(Números inteiro) - valor máximo 2 147 483 647 
+sub dados 
+long - com sinal de 64 bits usado para armazenar números inteiros grande (9.223.372.036.854.775.807)[o atribuir um valor literal a uma longvariável, você deve acrescentar um L(ou minúsculo l, embora maiúsculo seja preferível para maior clareza) para informar ao compilador que o número é um longe não um algarismo int]
+
+byte: Números inteiros pequenos.
+
+short: Números inteiros menores que um int.
+
+3) Double(Números reais) -  úmeros de ponto flutuante de precisão dupla.
+float: Números de ponto flutuante de precisão simples.
+
+4) Boolean (lógico - true e false)
+
+![alt text](image.png)
+
+- Qual a linguagem de ter uma linguagem fortemente tipada? 
+Aumenta a segurança do código, previne erros de lógica, melhora a legibilidade e facilita a manutenção, sendo muito utilizada em sistemas de grande porte.
+
+
+- Perguntas relevantes e outros? 
+O que é um package: uma pasta pra organizar classes e interfaces relacionadas a um único grupo.
+
+O que é uma class: é um molde de criação de código
+
+O que é um boilerplate?: Uma formúla de bolo toda vez que cria um projeto.
+
+psvm - public static void main
