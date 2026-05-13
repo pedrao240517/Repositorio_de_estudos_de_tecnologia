@@ -341,10 +341,14 @@ obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, u
 
 obs: Não utlize o br br várias vezes 
 
-<!--> </!--> -- comentario 
+<<!--> </!--> -- comentario 
+
 <h1> título 
+
 <p> parágrafo
+
 <hr> linha horizontal 
+
 <br> pular linha 
 
 Um &lt; estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
@@ -360,6 +364,5 @@ tabela de opçoes de símbolos (pesquise na documentação se não achar)
 Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de emoji e pegue o código em hexadecimal. Para inserir coloque &amp;#xcodigo;
 
 &amp;#x1F596; pra  &amp;#x1F596;
- 
 
 
