@@ -17,7 +17,7 @@ A URL tem todas as informações necessárias para processar a solcitação, o p
 
 Ex de url: https://example.com/path?query=value
 
-O protocolo da solicitação informa ao servidor se a solicitação está criptografada, HTTP é para solicitações padrão não criptografadas e HTTPS epara solicitações criptografadas. 
+O protocolo da solicitação informa ao servidor se a solicitação está criptografada, HTTP é para solicitações padrão não criptografadas e HTTPS e para solicitações criptografadas. 
 
 depois temos a hospedagem que é chamada também de domínio, onde serve apenas para dizer a internet para qual servidor enviar a resposta, cada servidor tem seu próprio domínio.
 
