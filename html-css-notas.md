@@ -51,7 +51,7 @@
 37) Grid Layout
 38) Projeto Final
 
-
+Acesse a pasts questões HTML e CSS, exercícios e Desafios para ver o que foi feito durante o curso
 ---
 - melhores livros pra aprender HTML e CSS
 1) Material de apoio - curso em vídeo
@@ -237,11 +237,103 @@ Para quem: Sites que variam muito o tráfego e precisam de escalabilidade (aumen
 HTTP (Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto) é o protocolo fundamental da World Wide Web, criado para transferir documentos hipermídia (como HTML) entre um cliente (navegador) e um servidor. Ele funciona em um modelo cliente-servidor, onde o navegador faz uma solicitação e o servidor responde com os dados da página.
 
 O HTTPS utiliza criptografia para garantir a privacidade e segurança.
+##### Como Funciona os navegadores?
+Um navegador web é um aplicativo usado para acessar sites na Internet. É um software que permite aos usuários acessar e visualizar conteúdo na World Wide Web. Um navegador web funciona como um tradutor, recebendo informações de servidores web e exibindo-as ao usuário como uma página web. As principais funções de um navegador web são buscar e exibir páginas da web e fornecer uma interface para interação com o usuário.
 
+exemplos: Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge e Opera.
+###### História dos navegadores da Web
+Mosaic (primeiro navegador gráfico da web.)
+![alt text](image-9.png)
 
+Netscape Navigator(o primeiro navegador comercial amplamente utilizado.)
+![alt text](image-10.png)
 
+Internet Explorer (acesso gratuito com windows)
 
+navegadores modernos (mais popular é o google chrome)
 
+###### O processo dos navegadores 
+ Depois de receber os HTML e CSS o navegador renderiza pelo motor de renderização, sendo cada navegador com o seu próprio.
+
+ - Componetes do navegador
+
+Interface do Usuário (IU)
+Motor de renderização
+Componente de Rede
+Mecanismo JavaScript
+Componentes de segurança:
+
+- Tipos de navegadores
+
+computador - os mais usados
+móveis  - navegação rápida e fácil
+Navegadores incorporados - versõesm em miniatura de navegadores da web (ex: navegador pra exubir conteudo do email e pesquisa)
+
+- caracteristicas de navegadores 
+
+navegação por abas
+favoritos
+historico de navegação
+gerenciador de downloads
+barra de pesquisa 
+personalização da interface do usuario (IU)
+extensões e complementos
+sincronização
+Suporte ao Protocolo de Transferência de Hipertexto (https)
+Bloqueador de Pop-ups
+Modo de navegação anônima
+bloqueio de rastreadores 
+sandbox -isolamento de site com o S.O
+e etc.............
+
+obs: Cookies são pequenos arquivos de texto, criados por sites e armazenados no seu computador ou celular, que salvam dados sobre sua navegação
+
+##### Como funciona a HTML e as CSS? 
+
+1) Não existe programar em HTML e CSS, exite desenvolve em HTML e CSS
+
+Porque?
+HTML e CSS não são linguagens de programação porque são declarativas e focadas em estrutura e estilo, não em lógica ou processamento de dados.
+
+HTML -> Hypertext Markup Language (contéudo)
+CSS  -> Cascading Style Sheets (Design)
+JS   -> Java Script (interatividade)
+
+extension web developer pra visualização das ferramentas em um site 
+
+###### HTML (contéudo)
+
+você precisa se tags <> (marcações)
+exemplo: 
+<h1> - abertura de tag (título)
+</h1> - fechamento de tag
+
+ex: <h1> Titulo teste </h1>
+paragrafo <p> </p>
+<img src ="foto.png"> alt =" exemplo de foto">
+![tags básicas](image-6.png)
+
+###### Estilo CSS
+
+H1(seletor) {
+    font-family:arial {
+    font-size: 20pt             declaração
+    color(propriedade):blue (valor)        }
+
+}
+##### Estrutura básica da HTML
+
+<!DOCTYPE html>  -> vou desenvolver um site em HTML5
+<html lang="pt-br"> -> linguagem do site
+  <head> -> cabeça
+    <title>Título da página</title>
+    <meta charset="utf-8">  -> meu site vai ser compativel com o código utf- 8
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> o site vai ocupar toda a parte branca e vai ocupar na escala de 100%
+  </head>
+  <body> -> Corpo
+    Aqui vai o código HTML que fará seu site aparecer.
+  </body>
+</html>
 
 
 
