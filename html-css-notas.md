@@ -302,15 +302,7 @@ JS   -> Java Script (interatividade)
 extension web developer pra visualização das ferramentas em um site 
 
 ###### HTML (contéudo)
-<pre>
-<code>
-você precisa se tags <> (marcações)
-exemplo: 
-<h1> - abertura de tag (título)
-</h1> - fechamento de tag
-paragrafo <p> </p>
-</code>
-</pre>
+![alt text](image-13.png)
 <img src ="foto.png"> alt =" exemplo de foto">
 ![tags básicas](image-6.png)
 
