@@ -337,8 +337,24 @@ H1(seletor) {
 
 ###### Tags HTML
 
+obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, uma boa prática é escrver todas em minusculas para melhor legibilidade e consistência no código.
+
+obs: Não utlize o br br várias vezes 
+
+<!--> </!--> -- comentario 
 <h1> título 
 <p> parágrafo
 <hr> linha horizontal 
+<br> pular linha 
+Um &lt; estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
+Um &gt; estamos pedindo para coloca o símbolo maior que (greater than - maior que ). 
+&reg; - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
+
+tabela de opçoes de símbolos (pesquise na documentação se não achar)
+![tabela](image-11.png)
+
+Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de emoji e pegue o código em hexadecimal. Para inserir coloque &#xcodigo  &#x1F596 pra  &#x1F596;
+ 
+ 
 
 
