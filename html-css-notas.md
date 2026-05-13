@@ -117,13 +117,15 @@ Essas redes queriam se conectar em inglês - Interconnect Networking que abrevia
 
 Primeiramente a internet e dividida em milhas, a primeira é ultima milha server pra tudo que fazemos para nos conectar ou receber informações.
 
-O dispostivo manda os pacotes por meio de ondas de rádio que o receptor (o roteador), determinar se são 0 ou 1 por meio de uma frequência pré establecida (frequência da modulação). O roteador tem que transformar esses sinais em outras coisas para passar pelos cabos de transmisão até o IPS (provedores de internet)[responsável por achar a melhor rota pra informação]. 
+O dispostivo manda os pacotes por meio de ondas de rádio que o receptor (o roteador domestico ou movel), determinar se são 0 ou 1 por meio de uma frequência pré establecida (frequência da modulação). O roteador tem que transformar esses sinais em outras coisas para passar pelos cabos de transmisão até o IPS (provedores de internet)[responsável por achar a melhor rota pra informação]. 
+
+Em muitos contextos esses dispostivos são chamados de modem pois fazem o processos de modulação(de ondas quadradas a ondas sinoidais) e demodulação (de onda sinoidal a quadrada).
+
+Esse motivo e porque ele "junta" esses aparelhos em um só o que chamamos de gateway
 
 Os IPS levam essas informações até os Hubs de Internet, nos hubs de internet e eles repassam pelos ips e devolvem ao destinatario, sempre buscando a rota mais curta. Mas e se essa mensagem sair da região de distribuição de internet dos IPS?
 
 Nesse ponto chegamos as espinhas centrais da internet, por meio de cabos submarinos são interligado os litorais dos paises.
-
-
 
 Ok, nesse ponto abrangimos, quase tudo sobre a infraestrutura da internet, mas você deve se perguntar, e aqueles que não tem IPS em suas regiões e não moram e regiões litorâneas? 
 
@@ -141,11 +143,100 @@ Outra coisa que foi criado pra internet funcionar foi um navegador (O Mosaic)
 
 No caso a World Wide Web e uma subrede da internet.
 
+##### Representação de Dados
+01- digitato binario -> bit ->  8 bits -> byte (porção minima pra representação de dados) 
+Código do teclado atual -> código mulitbyte UTF-8
+![ondas](image-3.png)
 
+transfomação e a cada cojunto de 1024
+1024 bytes = 1 KB (\(2^{10}\))
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
 
+MB <> Mb (Megabytes[armazenamento] e megabits[transmissão])
 
+##### Voltando a internet o passo a passo
 
+1) computador pede mensagem (requisão) essa mensagem é divida em partes e enviadas em pacotes de bytes 
 
+2) O roteador recebe e transforma em ondas sinoidais para passar pela infrestrutura da internet
+
+3) a mensagem chega no servidor e o servidor devolve a mensagem ou para o cliente ou para destinatario do cliente de forma invesa do processo de envio 
+
+### detalhando o processo (o IP)
+-para que se acha as pessoas e locais da internet que as mensagem deve passar e recolher/enviar informações temos o IP (interconnect protocol) que da um número de  x diugitos e informa para outra parte que vamos falar agora.
+Os IPs mais modernos (IPv6), usam 128 bits ao todo (o que é 4x mais bits que o
+IPv4).
+Ex: 2001:0db8:85a3:08d3:1319:8a2e:0370:7344
+
+##### Servidores DNS 
+A internet tem uma "agenda eletrônica" que salva os ips em nomes que nem uma agenda de telefone celular, essa "agenda" é chamado de servidor DNS (domain Name system) -Sistemas de nome de dominio, mas aliais o que é dominio?
+
+##### Dominio e hospedagem
+ De maneira simples o dominio (nome unico) e o nome de indentificação de um site e hospedagem e onde o site está armazenado(espaço, memória e recusrsos).
+
+ Na URL -Uniform Resource Locator (Localizador Uniforme de Recursos) cada parte dela tem uma função.
+
+ ![URL](image-4.png)
+
+Extensões finais
+ TLD - top level domain (.com, .gov, .io, .edu.br)  
+ GTLD - : São TLDs genéricos, sem indicação de país. Alguns dos domínios genéricos são
+.com, .net, .gov, .org, .io, .info, .online, .store, etc
+ccTLD: São TLDs com designação do país (coutry code). Alguns dos domínios desse
+tipo são .com.br, .edu.us, .co.fr, .jp, .es, etc. 
+
+Um subdomínio é um prefixo adicionado ao nome de domínio principal,  serve para organizar, segmentar e gerenciar diferentes áreas de um site de forma independente.
+
+o caminho e literalmente o caminho que o servidor vai recorrer( detalhado em introdução ao desenvolvimento backend)
+
+outro:
+![alt text](image-5.png)
+
+Os tipos incluem hospedagem compartilhada, VPS, hospedagem dedicada e hospedagem em nuvem com recursos escaláveis. Os serviços incluem infraestrutura, registro de domínio, segurança e suporte técnico para garantir a disponibilidade confiável do site.
+
+Escolher o tipo certo de hospedagem é como escolher onde morar: depende do quanto você pode pagar e de quanto espaço (ou privacidade) você precisa.
+
+Aqui está uma explicação direta de cada modelo:
+
+1. Hospedagem Compartilhada
+É como morar em um apartamento com vários colegas. Todos dividem a mesma cozinha, o mesmo banheiro e as contas.
+
+Como funciona: Vários sites usam os recursos de um único servidor.
+
+Para quem: Sites pequenos, blogs pessoais ou iniciantes que buscam o menor custo.
+
+2. VPS (Servidor Virtual Privado)
+É como morar em um condomínio. Você ainda compartilha o prédio, mas tem o seu próprio apartamento com paredes sólidas e controle total da sua porta para dentro.
+
+Como funciona: O servidor é dividido virtualmente. Você tem recursos (RAM, CPU) reservados só para você.
+
+Para quem: Sites que estão crescendo e precisam de mais estabilidade que a compartilhada.
+
+3. Hospedagem Dedicada
+É como ter uma mansão de luxo. O terreno e a casa inteira são só seus. Ninguém mais mora lá.
+
+Como funciona: Um servidor físico inteiro é dedicado exclusivamente ao seu site.
+
+Para quem: Grandes e-commerces ou sites com tráfego altíssimo que exigem segurança máxima e performance bruta.
+
+4. Hospedagem em Nuvem (Cloud)
+É como uma rede de hotéis. Se um quarto tem problema, você é movido para outro instantaneamente sem perceber.
+
+Como funciona: O site não fica em um só computador, mas em vários interconectados. Se um falha, outro assume.
+
+Para quem: Sites que variam muito o tráfego e precisam de escalabilidade (aumentar recursos rapidamente se houver um pico de acessos).
+
+##### Protocolo HTTP e HTTPS
+
+HTTP (Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto) é o protocolo fundamental da World Wide Web, criado para transferir documentos hipermídia (como HTML) entre um cliente (navegador) e um servidor. Ele funciona em um modelo cliente-servidor, onde o navegador faz uma solicitação e o servidor responde com os dados da página.
+
+O HTTPS utiliza criptografia para garantir a privacidade e segurança.
 
 
 
