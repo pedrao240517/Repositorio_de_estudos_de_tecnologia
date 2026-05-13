@@ -308,7 +308,6 @@ exemplo:
 <h1> - abertura de tag (título)
 </h1> - fechamento de tag
 
-ex: <h1> Titulo teste </h1>
 paragrafo <p> </p>
 <img src ="foto.png"> alt =" exemplo de foto">
 ![tags básicas](image-6.png)
