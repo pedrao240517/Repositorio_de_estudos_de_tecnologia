@@ -350,11 +350,11 @@ hr linha horizontal
 
 br pular linha 
 
-Um &lt; estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
+Um &lt estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
 
-Um &gt; estamos pedindo para coloca o símbolo maior que (greater than - maior que ).
+Um &gt estamos pedindo para coloca o símbolo maior que (greater than - maior que ).
 
-&reg; - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
+&reg - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
 
 tabela de opçoes de símbolos (pesquise na documentação se não achar)
 
