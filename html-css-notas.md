@@ -334,8 +334,8 @@ H1(seletor) {
     Aqui vai o código HTML que fará seu site aparecer.
   </body>
 </html>
-<pre>
-<code>
+</code>
+</pre>
 ###### Tags HTML
 
 obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, uma boa prática é escrver todas em minusculas para melhor legibilidade e consistência no código.
