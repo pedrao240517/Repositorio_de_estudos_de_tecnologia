@@ -121,7 +121,8 @@ Scanner - toda vez que você abre essa caixa tem que fechar
 IF - se 
 ELSE - Senão
 ELSE-IF = se encadeado
-Swicht case - escolha caso
+Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pode usar tipo lógico))
+?: ternário- maneira pra enxugar o código (if e else junto)
 
 - Desafios
 1) Refazer desafio 1 
@@ -134,3 +135,10 @@ precisa entender orientação a objetos cedo;
 é mais verbosa (escreve mais código);
 o compilador reclama de tudo;
 exige organização desde o começo.
+obs: pra determinar o fim do comando precisa colocar ; 
+
+- Laços de repetição (sempre inclemente o que está trabalhando)
+while (enquanto) - repete sempre um a mais 
+For (para) -for(inicialização; condição; incremento) { // código }
+do..while(faça enquanto)
+ForEach (para cada)
