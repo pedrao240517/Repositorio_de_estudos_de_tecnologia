@@ -17,7 +17,7 @@ A URL tem todas as informações necessárias para processar a solcitação, o p
 
 Ex de url: https://example.com/path?query=value
 
-O protocolo da solicitação informa ao servidor se a solicitação está criptografada, HTTP é para solicitações padrão não criptografadas e HTTPS epara solicitações criptografadas. 
+O protocolo da solicitação informa ao servidor se a solicitação está criptografada, HTTP é para solicitações padrão não criptografadas e HTTPS e para solicitações criptografadas. 
 
 depois temos a hospedagem que é chamada também de domínio, onde serve apenas para dizer a internet para qual servidor enviar a resposta, cada servidor tem seu próprio domínio.
 
@@ -31,7 +31,7 @@ específico
 Por fim a string de consulta (query string ) é usada pela seção específica escolhida do servidor para alterar a resposta, a string de consulta é dividada em parãmetros de consulta específicos que pode aprimorar a forma como o servidor responde a uma solicitação para um caminho específico. Por exemplo, o youtube usa o mesmo caminho quando você pesquisa um vídeo, mas a string de consulta contém um parãmetro de pesquisa que informa ao servidor o que você pesquisou para que ele possa responder com o que você deseja.
 <img width="1884" height="913" alt="image" src="https://github.com/user-attachments/assets/6caf027b-4c10-4960-9eb5-cf250072ab1d" />
 
-Por fim, a URL sozinha não é suficiente para dizer ao servidor o que fazer exatamente, a seção selecionada pelo patch e o parâmetro colocado pela sting de consulta ainda é dividida ainda mais em várias partes diferentes. Para determinar qual parte dessa seção o servidor deve selecionar, ele deve realizar uma ação que é passada junto com a URL.  Essa a ação pode ser GET, POST, PUT, DELETE, combinando a ação e o caminho, o servidor pode encontrar a parte correta da seção que precisa executar. Geralmente a resposta do servidor será uma página HTML gerda dinamicamente com base na solicitação do cliente.
+Por fim, a URL sozinha não é suficiente para dizer ao servidor o que fazer exatamente, a seção selecionada pelo patch e o parâmetro colocado pela sting de consulta ainda é dividida ainda mais em várias partes diferentes. Para determinar qual parte dessa seção o servidor deve selecionar, ele deve realizar uma ação que é passada junto com a URL.  Essa a ação pode ser GET, POST, PUT, DELETE, combinando a ação e o caminho, o servidor pode encontrar a parte correta da seção que precisa executar. Geralmente a resposta do servidor será uma página HTML gerada dinamicamente com base na solicitação do cliente.
 <img width="1304" height="701" alt="image" src="https://github.com/user-attachments/assets/fe39b3b4-dc6b-49f7-93d4-ace319758092" />
 
 Outro ponto a observar sobre um servidor é que ele só é acessível ao mundo externo por meio das seções, isso significa que você pode armazenar qualquer informação confidencial no servidor e ela estará segura desde que não seja exposto o caminho específico, por isso, é relevate ter um banco de dados e um site rodando ao mesmo tempo, já que o servidor escolhe expor apenas o site e não o banco de dados. Essencialmente o servidor atua como uma barreira entre o mundo externo e todas as parte de um servidor. Mas no entanto o que é um servidor?
