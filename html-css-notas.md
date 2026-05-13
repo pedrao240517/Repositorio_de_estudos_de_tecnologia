@@ -335,4 +335,10 @@ H1(seletor) {
   </body>
 </html>
 
+###### Tags HTML
+
+<h1> título 
+<p> parágrafo
+<hr> linha horizontal 
+
 
