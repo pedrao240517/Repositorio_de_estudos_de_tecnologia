@@ -346,15 +346,20 @@ obs: Não utlize o br br várias vezes
 <p> parágrafo
 <hr> linha horizontal 
 <br> pular linha 
+
 Um &lt; estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
-Um &gt; estamos pedindo para coloca o símbolo maior que (greater than - maior que ). 
+
+Um &gt; estamos pedindo para coloca o símbolo maior que (greater than - maior que ).
+
 &reg; - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
 
 tabela de opçoes de símbolos (pesquise na documentação se não achar)
+
 ![tabela](image-11.png)
 
-Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de emoji e pegue o código em hexadecimal. Para inserir coloque &#xcodigo  &#x1F596 pra  &#x1F596;
- 
+Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de emoji e pegue o código em hexadecimal. Para inserir coloque &amp;#xcodigo;
+
+&amp;#x1F596; pra  &amp;#x1F596;
  
 
 
