@@ -66,13 +66,13 @@ float: Números de ponto flutuante de precisão simples.
 
 - Tipos de dados não primitivos 
 
-obs: São tipos de dados em que pode-se colocar metodos para fazer alterações na variável sem que seja mudado seu escopo.
+obs: São tipos de dados em que pode-se colocar metódos para fazer alterações na variável sem que seja mudado seu escopo.
 
 1) string(caractere) - aramzenar um nome 
-2) array(lista encadeadas)[ vvariável composta homogênea]
+2) array(lista encadeadas)[variável composta homogênea] -Estruturas para armazenar múltiplos valores em uma única variável.
 3) Class - (também conhecida como campo estático) é um atributo declarado com a palavra-chave static dentro de uma classe, mas fora de qualquer método
 4) enuns
-5) objects
+5) objects -Instâncias de classes que encapsulam dados e comportamentos. 
 6) interfaces
 
 - Principal difença entre dados primitivo e não primitivos ?
@@ -97,7 +97,8 @@ O que é um boilerplate?: Uma formúla de bolo toda vez que cria um projeto.
 
 psvm - public static void main
 
-atalho - sout  e cntrl r pra executar a aplicação
+atalho - sout para escrever System.out.println mas rápido
+ e cntrl r pra executar a aplicação
 
 Principais Shortcuts
 No Windows:
@@ -111,6 +112,3 @@ Ctrl + Shift + F10: Executar a aplicação
 
 System.out.print - mostra para o usuário na tela
 System.out.println - mostra para o usuário na tela e pula uma linha 
-
-
-// aula  Dados não primitivos? Métodos? Que bosta é essa - 01:31 // 
