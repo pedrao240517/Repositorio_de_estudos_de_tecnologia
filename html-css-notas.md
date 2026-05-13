@@ -343,13 +343,13 @@ obs: Não utlize o br br várias vezes
 
 <<!--> </!--> -- comentario 
 
-<h1> título 
+h1 título 
 
-<p> parágrafo
+p parágrafo
 
-<hr> linha horizontal 
+hr linha horizontal 
 
-<br> pular linha 
+br pular linha 
 
 Um &lt; estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
 
