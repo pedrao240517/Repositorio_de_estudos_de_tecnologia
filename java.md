@@ -82,7 +82,7 @@ poder usar métodos nas variáveis.
 ![alt text](image.png)
 
 - O que são métodos ?
- São carcteristicas que colocamos dentro de variáveis. um método em Java é uma função, mas com a particularidade de estar obrigatoriamente associado a uma classe ou objeto
+ São carcteristicas que colocamos dentro de variáveis. um método em Java é uma função, mas com a particularidade de estar obrigatoriamente associado a uma classe ou objeto.No caso, para ativar um método em uma varivel, basta colocar um ponto sobre a váriavel declarada e escolher um método java ou próprio
 
 - Qual a vantagem de ter uma linguagem fortemente tipada? 
 Aumenta a segurança do código, previne erros de lógica, melhora a legibilidade e facilita a manutenção, sendo muito utilizada em sistemas de grande porte.
@@ -95,7 +95,8 @@ O que é uma class: é um molde de criação de código
 
 O que é um boilerplate?: Uma formúla de bolo toda vez que cria um projeto.
 
-psvm - public static void main
+psvm - public static void main 
+psvma  -public static void main string args
 
 atalho - sout para escrever System.out.println mas rápido
  e cntrl r pra executar a aplicação
@@ -112,3 +113,24 @@ Ctrl + Shift + F10: Executar a aplicação
 
 System.out.print - mostra para o usuário na tela
 System.out.println - mostra para o usuário na tela e pula uma linha 
+
+- Comando de Entrada em Java 
+Scanner - toda vez que você abre essa caixa tem que fechar
+
+- Condicionais 
+IF - se 
+ELSE - Senão
+ELSE-IF = se encadeado
+Swicht case - escolha caso
+
+- Desafios
+1) Refazer desafio 1 
+
+- Qual a maior diferença de JAVA pra JS e porque é mais complicado que algumas linguagens?
+Java é considerada mais complicada porque:
+
+tem muita regra;
+precisa entender orientação a objetos cedo;
+é mais verbosa (escreve mais código);
+o compilador reclama de tudo;
+exige organização desde o começo.
