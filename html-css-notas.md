@@ -313,29 +313,18 @@ paragrafo <p> </p>
 ![tags básicas](image-6.png)
 
 ###### Estilo CSS
-
+<pre>
+<code>
 H1(seletor) {
     font-family:arial {
     font-size: 20pt             declaração
     color(propriedade):blue (valor)        }
 
 }
-##### Estrutura básica da HTML
-<pre>
-<code>
-<!DOCTYPE html>  -> vou desenvolver um site em HTML5
-<html lang="pt-br"> -> linguagem do site
-  <head> -> cabeça
-    <title>Título da página</title>
-    <meta charset="utf-8">  -> meu site vai ser compativel com o código utf-8
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> o site vai ocupar toda a parte branca e vai ocupar na escala de 100%
-  </head>
-  <body> -> Corpo
-    Aqui vai o código HTML que fará seu site aparecer.
-  </body>
-</html>
 </code>
 </pre>
+##### Estrutura básica da HTML
+![alt text](image-12.png)
 ###### Tags HTML
 
 obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, uma boa prática é escrver todas em minusculas para melhor legibilidade e consistência no código.
