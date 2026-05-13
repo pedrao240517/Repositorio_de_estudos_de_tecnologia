@@ -327,13 +327,12 @@ H1(seletor) {
 <html lang="pt-br"> -> linguagem do site
   <head> -> cabeça
     <title>Título da página</title>
-    <meta charset="utf-8">  -> meu site vai ser compativel com o código utf- 8
+    <meta charset="utf-8">  -> meu site vai ser compativel com o código utf-8
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> o site vai ocupar toda a parte branca e vai ocupar na escala de 100%
   </head>
   <body> -> Corpo
     Aqui vai o código HTML que fará seu site aparecer.
   </body>
 </html>
-
 
 
