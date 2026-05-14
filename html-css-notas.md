@@ -349,6 +349,67 @@ Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de
 
 &amp;#x1F596; pra  &amp;#x1F596;
 
+#### Imagens e Favicons
+
+você não pode usar qualquer imagem por conta de direitos autorais. 
+ 
+Ou você compra ela em sitesm como iStockPhoto,
+DepositPhotos, ShutterStock ou pega imagens de dóminio público
+
+UnSplash
+ Pexels
+ FreePik
+ Rawpixel
+ Pixabay
+ Libreshot
+ Wikimedia Commons
+
+ GIMP - Programa de manipulação de imagnes
+
+ ##### Formatos de imagem 
+
+- Principais
+
+ JPEG ->  criado em 1983 ele compacta uma imagem 
+(Joint Photographic Experts Group).
+Ele é amplamente utilizado
+por câmeras digitais modernas e programas de tratamento de imagens. A grande vantagem do uso de arquivos JPG (em formato JPEG) é gerar arquivos
+muito pequenos e que ocupam pouco espaço em disco. Isso é muito importante, pois
+quando colocarmos nosso site no ar, ele tem que ser leve e carregar as imagens muito
+rapidamente. 
+
+Toma cuidado para não exagerar na hora de configurar o nível de
+compactação. Isso pode fazer com que sua imagem fique horrível e toda borrada (dá
+só uma olhada na imagem abaixo)
+
+obs:
+
+ PNG -> Portable Network Graphics,surgiu em 1996, desenvolvido pelo
+W3C, (o mesmo órgão que gerencia a linguagem HTML) com o objetivo de substituir o
+formato GIF (que hoje voltou a ser popular graças ao WhatsApp e Instagram). Ele
+também é um formato compactado, mas não tanto quanto o JPEG. 
+
+A principal característica do PNG - e que o diferencia do JPEG - é a capacidade de
+configurar a opacidade de cada pixel (deixá-lo transparente ou com transparência
+limitada). 
+
+![formatos de imagem ](image-15.png)
+
+- outros 
+
+GIF -> formato de imagem de baixa qualidade mas que permite opacidade de pixel e animação (muito famnoso as figurinhas do whattsap)
+
+- sobre os tamanhos 
+
+A regra de ouro nesses casos é: use imagens do tamanho certo! Vai precisar de
+uma imagem que vai ter 200 pixels de largura? Gere um arquivo exatamente com
+esse tamanho! Nada de ficar salvando arquivos gigantes e diminuindo o tamanho da
+imagem com códigos
+
+650x433 tamnho razoável
+
+##### Como carregar uma imagem em HTML
+
 
 
 
