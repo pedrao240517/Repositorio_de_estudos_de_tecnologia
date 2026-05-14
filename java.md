@@ -20,9 +20,11 @@
 
 ---
 - O que é uma IDE?
+
   IDE significa Integrated Development Environment (Ambiente de Desenvolvimento Integrado). É um software que reúne, em uma única interface gráfica, as ferramentas essenciais para criar, testar, depurar (debugar) e compilar código, aumentando a produtividade dos programadores.
 
-- Porque usar o IntelliJ IDEA
+- Porque usar o IntelliJ IDEA?
+
   IntelliJ IDEA é amplamente considerado a melhor IDE para Java e Kotlin devido à sua análise de código inteligente em tempo real, refatoração robusta, excelente suporte a frameworks (Spring, Jakarta EE) e navegação rápida, aumentando a produtividade e a qualidade do código
 
   principal motivo: muito autonomia no autocomplete, ou seja ele facilita na hora da escrita de código.
@@ -82,13 +84,16 @@ poder usar métodos nas variáveis.
 ![alt text](image.png)
 
 - O que são métodos ?
+
  São carcteristicas que colocamos dentro de variáveis. um método em Java é uma função, mas com a particularidade de estar obrigatoriamente associado a uma classe ou objeto.No caso, para ativar um método em uma varivel, basta colocar um ponto sobre a váriavel declarada e escolher um método java ou próprio
 
 - Qual a vantagem de ter uma linguagem fortemente tipada? 
+
 Aumenta a segurança do código, previne erros de lógica, melhora a legibilidade e facilita a manutenção, sendo muito utilizada em sistemas de grande porte.
 
 
 - Perguntas relevantes e outros? 
+
 O que é um package: uma pasta pra organizar classes e interfaces relacionadas a um único grupo.
 
 O que é uma class: é um molde de criação de código
@@ -115,30 +120,98 @@ System.out.print - mostra para o usuário na tela
 System.out.println - mostra para o usuário na tela e pula uma linha 
 
 - Comando de Entrada em Java 
+
 Scanner - toda vez que você abre essa caixa tem que fechar
 
+- Operadores matematicos básicos 
+
+Adição - + 
+
+subtração - (-)
+
+Divisão  - / 
+
+Multiplicação - *
+
+Restante/ Módulo -  %
+
+para saber outros operadores acesse a documentação oficial ou tutoriais (https://jenkov.com/tutorials/java/math-operators-and-math-class.html)
+
 - Condicionais 
+
 IF - se 
+
 ELSE - Senão
+
 ELSE-IF = se encadeado
+
 Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pode usar tipo lógico))
+
 ?: ternário- maneira pra enxugar o código (if e else junto)
 
 - Desafios
 1) Refazer desafio 1 
 
 - Qual a maior diferença de JAVA pra JS e porque é mais complicado que algumas linguagens?
+
 Java é considerada mais complicada porque:
 
-tem muita regra;
+Tem muita regra;
 precisa entender orientação a objetos cedo;
 é mais verbosa (escreve mais código);
 o compilador reclama de tudo;
 exige organização desde o começo.
 obs: pra determinar o fim do comando precisa colocar ; 
 
-- Laços de repetição (sempre inclemente o que está trabalhando)
+- Laços de repetição (sempre inclemente o que 
+está trabalhando)
+
 while (enquanto) - repete sempre um a mais 
 For (para) -for(inicialização; condição; incremento) { // código }
 do..while(faça enquanto)
 ForEach (para cada)
+
+- Arrays (Matrizes)
+
+ São estruturas de dados fundamentais usadas para armazenar uma coleção de elementos do mesmo tipo de dados em locais de memória contíguos. Eles fornecem uma maneira de organizar e acessar múltiplos valores usando um único nome de variável e um índice.
+
+ ![Arrays unidimensionais](image-14.png)
+
+ Estrutura array unidimensionais 
+
+ String[] ninja = new String[3];
+
+ -String - tipo do elemento
+
+ -ninja - nome do array
+
+ -new - criar novo espaço de objeto de mémoria memória do computador
+
+ -[3] - tamanho do array
+
+ Dados não primitivos também podem ser chamados de tipo de referência pois precisamos alocar um pedaço da mémoria do computador pra esse array, ou seja, vamos ter que referenciar uma memória pra ele.
+
+ Ordenação começa com 0 (index)
+
+ null - Não tem nada pra devolver 
+
+ cada array tem um resultado diferente dependendo do tipo (ex: tipo string da null e tipo int da 0 se não tiver nada no espaço)[inicialização].
+
+ array <> lista 
+
+ O array sempre vai ter um  tamanhos fixo a lista não.
+
+ Inicialização Implícita: Quando o array é declarado, os valores são automaticamente atribuídos com base em seu tipo, economizando a necessidade de inicializar cada elemento individualmente.
+
+Inicialização Explícita: É possível inicializar o array com valores específicos no momento de sua criação, como int[] numeros = {1, 2, 3, 4};. Isso evita o uso dos valores padrões.
+
+###### Garbage collector 
+
+Garbage Collection (GC) é o processo automático de gerenciamento de memória, onde objetos que não estão mais em uso são removidos da memória. Isso ajuda a evitar vazamentos de memória.
+
+O Garbage Collector monitora objetos que não têm mais referências ativas e os limpa da memória.
+Durante a sobre escrita, o Garbage collector retira momentaneamente o array declarado e cria um novo com o mesmo parâmetro
+
+O Garbage Collection é especialmente importante em linguagens como Java e C#, onde a memória é gerenciada automaticamente.
+
+
