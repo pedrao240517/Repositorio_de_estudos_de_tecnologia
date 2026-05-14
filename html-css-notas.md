@@ -325,6 +325,10 @@ obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, u
 
 obs: Não utlize o br br várias vezes 
 
+&nbsp  (espaço que não quebra linha).
+
+pre → preserva todos os espaços
+
 <<!--> </!--> -- comentario 
 
 h1 título 
@@ -334,6 +338,30 @@ p parágrafo
 hr linha horizontal 
 
 br pular linha 
+
+strong - negrito
+
+em - dar enfase
+
+mark - marcação (marca-textp)
+
+small - texto menor
+
+q - (quote-citar)citação
+
+abbr - Abreviações(siclas)
+
+blockquote - citações em mais longas (em bloco)
+
+ins - embaixo da letra (texto inseridor)
+
+sub -. O texto em subscrito aparece ligeiramente abaixo da linha de texto normal e geralmente é renderizado em um tamanho de fonte menor.
+
+sup -O texto em subrescrito aparece ligeiramente acima da linha de texto normal e geralmente é renderizado em um tamanho de fonte menor.
+
+code - trechos de código
+
+BDO - texto invertido
 
 Um &lt estamos pedindo pra colocar o símbolo menor que (less than - menor que ).
 
@@ -406,11 +434,43 @@ uma imagem que vai ter 200 pixels de largura? Gere um arquivo exatamente com
 esse tamanho! Nada de ficar salvando arquivos gigantes e diminuindo o tamanho da
 imagem com códigos
 
-650x433 tamnho razoável
+650x433 tamanho razoável
 
 ##### Como carregar uma imagem em HTML
 
+coloque a tag img e adcione a imagen em uma pasta no projeto. em seguida aperte ctrl + espaço pra buscar a imagem guardada na pasta ou coloque o link direto do endereço web.
 
+Textos alternativos ajudam muito na indexação do seu site em
+mecanismos de busca e também ajudam muito na Acessibilidade 
 
+#### Icones de favoritos  (favicons)
 
+Aqueles icones que coloca em cima de guias 
 
+![favicons exemplo](image-16.png)
+
+procure no iconearchive
+
+ou transforme/ crie no site favicon.cc
+
+formato icon - recome
+ 
+Pra colocar e a mesma forma que imagens apenas coloca link:favicon em cima do titulo na área da cabeça
+
+### Hierarquia de títulos 
+
+a hierarquia emm html e de h1 a h6 diminuido sempre de maeira crescente 
+
+obs: um site pode ter +1 h1
+
+comando pra usar de paragrafo qualquer (lorem)
+
+### Formatação de texto (semântica)
+
+semântica - é o ramo da linguística que estuda o significado das palavras, frases e expressões dentro de um contexto (significado dos vocabulos por oposição a sua forma).
+
+existem tags que não funcionam mais, procure artigos de tags obsoletas e evite usar pois seu site pode cair no futuro e atrabalha no SEO do seu site.
+
+as tags focam em significado e sem forma.
+
+mais rapido -> ctrl + fixa + P, digite abb , coloque wrab abrevision e coloque a tag que quer usar no texto selcionado.
