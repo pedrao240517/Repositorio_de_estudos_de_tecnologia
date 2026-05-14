@@ -350,3 +350,6 @@ Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de
 &amp;#x1F596; pra  &amp;#x1F596;
 
 
+
+
+
