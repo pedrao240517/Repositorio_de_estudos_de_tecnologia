@@ -288,6 +288,45 @@ e etc.............
 
 obs: Cookies são pequenos arquivos de texto, criados por sites e armazenados no seu computador ou celular, que salvam dados sobre sua navegação
 
+### SEO (Search Engine Optimization)-Oimização para Mecanismos de Busca 
+
+link de pesquisa: https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br
+
+1) Conferir se o Google pode ver sua página da mesma forma que um usuário. https://support.google.com/webmasters/answer/9012289?hl=pt-br
+
+2) Não quer ter uma página nos resultados da pesquisa do Google?
+https://developers.google.com/search/docs/crawling-indexing/control-what-you-share?hl=pt-br#how-to-block-content
+
+3) Organizar seu site
+
+4) Usar URLs descritivos
+
+5) Agrupar páginas de tópicos semelhantes em diretórios
+
+5) Reduzir o conteúdo duplicado
+
+6) Deixar o site mais prático e interessante
+
+7) Antecipar os termos de pesquisa dos leitores
+
+8) Evitar anúncios que distraiam os usuários
+
+9) Criar links para recursos relevantes
+
+10) Influenciar a aparência do seu site na Pesquisa Google
+
+11) Adicionar e otimizar imagens no seu site
+
+13) Otimizar seus vídeos
+
+14) Promover seu site
+
+15) evite:
+
+Meta palavras-chave,Excesso de palavras-chave,Palavras-chave no nome de domínio ou no caminho do URL,Comprimento mínimo ou máximo do conteúdo,Subdomínios e subdiretórios,PageRank,quantidade e ordem de titulos.
+
+
+
 ##### Como funciona a HTML e as CSS? 
 
 1) Não existe programar em HTML e CSS, exite desenvolve em HTML e CSS
@@ -368,6 +407,8 @@ Um &lt estamos pedindo pra colocar o símbolo menor que (less than - menor que )
 Um &gt estamos pedindo para coloca o símbolo maior que (greater than - maior que ).
 
 &reg - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
+
+meta - são elementos do HTML que fornecem metadados sobre o documento. Em termos simples, são informações sobre a página que não aparecem diretamente para o usuário final (como textos ou imagens), mas que são lidas por navegadores, motores de busca (Google) e outros serviços web.
 
 tabela de opçoes de símbolos (pesquise na documentação se não achar)
 
@@ -469,8 +510,25 @@ comando pra usar de paragrafo qualquer (lorem)
 
 semântica - é o ramo da linguística que estuda o significado das palavras, frases e expressões dentro de um contexto (significado dos vocabulos por oposição a sua forma).
 
-existem tags que não funcionam mais, procure artigos de tags obsoletas e evite usar pois seu site pode cair no futuro e atrabalha no SEO do seu site.
+existem tags que não funcionam mais, procure artigos de tags obsoletas e evite usar pois seu site pode cair no futuro e atrapalha no SEO  do seu site.
 
 as tags focam em significado e sem forma.
 
 mais rapido -> ctrl + fixa + P, digite abb , coloque wrab abrevision e coloque a tag que quer usar no texto selcionado.
+
+pra saber qual usar pesquise aqui e veja tags html
+
+### Listas em HDML
+
+- lista ordenada(1,2,3..)
+
+use ol pra organizar e li pra cada item
+pode colocar um parâtmetro pra mudar o tipo de sequência o type dentro do ol
+
+- Lista não ordenadas( .....)
+use ul pra fazer listas não ordenadas, pra tipos deve mudar no css
+
+- Listas mistas
+e só intercalar os tipos de listas com as tags 
+
+
