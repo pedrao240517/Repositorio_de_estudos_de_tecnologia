@@ -29,3 +29,7 @@
 5. [cs50x de havard](./cs50x_de_havard.md)
 
   
+- Outros
+  
+ 6. [Livros](./livros.md)
+  
