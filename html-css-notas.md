@@ -532,3 +532,11 @@ use ul pra fazer listas não ordenadas, pra tipos deve mudar no css
 e só intercalar os tipos de listas com as tags 
 
 
+- lista de definições
+
+É como se fosse um dicionário, temos os termos e as suas descrições. É uma lista sem
+demarcadores, mas bem útil em alguns casos. 
+
+dt(definition term)- termo
+dd-(definition descrition)- descrição
+abre com dl -(definition lis)
