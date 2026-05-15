@@ -392,6 +392,8 @@ abbr - Abreviações(siclas)
 
 blockquote - citações em mais longas (em bloco)
 
+dfn -  colocar uma citação em uma palavara de um texto(geralmente colocada dentro de uma tag de bloco como p , a ou citação)
+
 ins - embaixo da letra (texto inseridor)
 
 sub -. O texto em subscrito aparece ligeiramente abaixo da linha de texto normal e geralmente é renderizado em um tamanho de fonte menor.
@@ -409,6 +411,9 @@ Um &gt estamos pedindo para coloca o símbolo maior que (greater than - maior qu
 &reg - coloca & e pesquisa um símbolo do vscode em html ou importa um se não tiver
 
 meta - são elementos do HTML que fornecem metadados sobre o documento. Em termos simples, são informações sobre a página que não aparecem diretamente para o usuário final (como textos ou imagens), mas que são lidas por navegadores, motores de busca (Google) e outros serviços web.
+
+address -  fornecer metadados legíveis por máquina sobre a autoria ou propriedade de uma página ou seção.(geralmente usado dentro de um bloco forter o que deixa ele meio italico)
+
 
 tabela de opçoes de símbolos (pesquise na documentação se não achar)
 
@@ -484,6 +489,18 @@ coloque a tag img e adcione a imagen em uma pasta no projeto. em seguida aperte 
 Textos alternativos ajudam muito na indexação do seu site em
 mecanismos de busca e também ajudam muito na Acessibilidade 
 
+- atributos uteis para implatanção de imagens.
+
+source- fonte
+
+alt- texto alternativo (pra acessibilidade)
+
+src - caminho/localização da imagem
+
+width -largura da imagem 
+
+height - altura da imagem 
+
 #### Icones de favoritos  (favicons)
 
 Aqueles icones que coloca em cima de guias 
@@ -540,3 +557,51 @@ demarcadores, mas bem útil em alguns casos.
 dt(definition term)- termo
 dd-(definition descrition)- descrição
 abre com dl -(definition lis)
+
+### Links e Âncoras(hiperlinks)
+
+#### links externos 
+-use ancoras sobre o texto que quer que seja um hiperlink, pra isso use a tag  <a
+
+coloque target black para abrir o link em uma nova aba. e o rel para mostrar a natureza do destino do link
+
+- alguns usos do atributo rel:
+
+‣next indica que o link é para a próxima parte do documento atual
+
+‣prev indica que o link é para a parte anterior do documento atual
+
+‣author indica que é um link para o site do autor do artigo atual
+
+‣external indica que é um link para outro site que não faz parte do site 
+
+‣nofollow - mescanimos de busca não vai na páginas
+
+- outros atributos 
+
+‣ _blank vai abrir o link em uma nova janela em branco
+
+‣ _self vai abrir o link na janela ou frame atual (padrão) [ná própria página]
+
+‣ _top vai desfazer todos os frames e abrir o destino no 
+navegador completo
+
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+#### Links internos 
+
+São links que vai levar para outra página do nosso servidor.
+
+1- entre páginas  do site 
+funciona da mesma formas, a diferença e que não precisa usar tag pra abri nova guia, mais importante expecificar se é próxima página ou anterior, pra isso, use tags como rel next, target self
+
+#### link para Download
+veja os tipos  de média no site: https://www.iana.org/assignments/media-types/media-types.xhtml
+
+pra incorporar pecisa estar na pastas
+
+obs: nem todo type funciona em todo navegador, exemplo o chroome não funciona baixar pdf com o clique mais se apaertar o botão direitoe salvar link como ele consegue.
+
+
