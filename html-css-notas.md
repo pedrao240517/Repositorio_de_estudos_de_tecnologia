@@ -604,4 +604,43 @@ pra incorporar pecisa estar na pastas
 
 obs: nem todo type funciona em todo navegador, exemplo o chroome não funciona baixar pdf com o clique mais se apaertar o botão direitoe salvar link como ele consegue.
 
+#### Imagens dinãmicas 
+
+Imagens dinâmicas e imagens que se adapata ao tamanho do navegador pra isso use a tag picture e um img da image, em cima do img coloque um source do tipo media time e configure a imagem maior pra maxima largura com 50 pixel a mais( pra não aparecer barra de rolagem ) e menor um outro  source outra  menor. Exemplo:
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mídias em HTML5</title>
+</head>
+<body>
+    <h1> imagem dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminue o tamnaho deo seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+    </picture>
+
+
+
+</body>
+</html>
+```
+ Note que a tag <source> possui três atributos:
+
+‣ type vai indicar o media type da imagem que usamos (veja mais informações
+sobre media types no capítulo 10)
+
+‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho
+indicado for atingido
+
+‣ media indica o tamanho máximo a ser considerado para carregar a imagem
+indicada no atributo srcset. 
+
+#### Audios 
 
