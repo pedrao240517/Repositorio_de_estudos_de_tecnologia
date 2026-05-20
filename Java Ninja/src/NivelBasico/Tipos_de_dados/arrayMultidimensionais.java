@@ -4,7 +4,7 @@ public class arrayMultidimensionais {
     static void main(String[] args) {
 
 
-        /
+        
         
         String[][] ninjasEaldeias = new String[3][3];
         
