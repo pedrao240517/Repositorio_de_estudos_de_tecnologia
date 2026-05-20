@@ -725,4 +725,93 @@ dois serviços bons são o youtube e o vimeo, que você pode hospedar vídeos.
 Pra youtube e só clicar em incorporar quando for compartilhar e pegar o código html e incorporar no site.
 
 
+### Partindo pra CSS
+
+Bom agora que já sabemos um pouco de html vamos começar css pra incorporar estilos nos nossos sites. Fique tranquilo vamos voltar para html no futuro.
+
+#### Estilos CSS
+
+relembrando css significa folhas de estilo em cascata (Cascading Style Sheets)
+
+As css pode ser aplicado de três formas: style inline, 
+
+##### Estilos Inline (estilos em linha/embutido )
+
+menos recomendado pois polui o código, tem que fazer um por um, a cada alteração tem que mudar cada uma das tags 
+
+O CSS inline consiste em aplicar estilos diretamente a elementos HTML individuais usando o styleatributo `style`. Esse método permite definir propriedades visuais específicas para um único elemento, sobrescrevendo quaisquer estilos definidos em folhas de estilo externas ou blocos de estilo internos. 
+
+coisas que pode mudar:
+
+fontes
+
+cores
+
+fundo 
+
+tamanho 
+
+
+#### Estilos Internos/local
+
+ CSS interno consiste em incorporar regras CSS diretamente em um documento HTML. Isso é feito usando a `<style>`tag `<style>`, geralmente colocada dentro da `<head>`seção `<head>` do arquivo HTML. As regras CSS definidas dentro da `<style>`tag `<style>` serão então aplicadas aos elementos desse documento HTML específico.
+ ```
+    Exemplo:
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos internos/locais </title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font: size 20px; ;
+        }
+        h1{
+            color: blue;
+            background-color: yellow;
+        }
+        h2{
+            color: red;
+        }
+        p{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+ ```
  
+Ela tem 2 desvantagens:
+
+1) O estilo geralmente tem muita coisa o que faz deixar o arquivo gigante e demorar pra chegar no htmnl.
+
+2) Seu tiver mais páginas eu tenho que fazer exatamente os estilos anteriores nos arquivos html das páginas.
+
+#### Estilos Externos
+
+dica pra criar um arquivo no vscode: ctrl+ click 
+
+obs: pra questões de sincroização em css você pode usar a regra @charset"UTF-8"; assim com em html
+
+obs: você pode usar mais de um link na página html
+
+O CSS externo consiste em escrever regras CSS em um arquivo separado (com .cssextensão) e, em seguida, vincular esse arquivo ao seu documento HTML. Essa abordagem promove um código mais limpo, facilita a manutenção e permite a reutilização de estilos em várias páginas da web. Ao separar o estilo do conteúdo, você pode modificar a aparência do seu site sem alterar a estrutura HTML.
+
+Recursos gratuitos
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+```
+
+obs: Você pode usar os três tipos de aplicações no css.
