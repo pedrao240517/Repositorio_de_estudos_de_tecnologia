@@ -644,3 +644,85 @@ indicada no atributo srcset.
 
 #### Audios 
 
+use a tag <audio  e algusn source para fazer o site ser capaz de tocar qualquer audio.
+![alt text](image-18.png)
+
+Vamos analisar os principais atributos da tag <audio> antes de mais nada:
+
+‣ O atributo preload indica se o áudio será pré-carregado ou não e aceita três
+valores:
+
+๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,
+tempo, informações de direitos, etc)
+
+๏ none não vai carregar absolutamente nada até que o usuário clique no botão
+play ou um script inicie a reprodução
+๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for
+carregada, mesmo que o usuário nunca aperte o play
+
+O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag
+<audio, o controle será transparente e o usuário não poderá interagir com ele. 
+
+O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+a página for carregada. 
+
+O atributo loop vai fazer com que o áudio seja repetido eternamente assim que
+terminar a sua reprodução.
+
+formatos aceitos> MP3 , WAV, OGG
+
+Dentro da tag <audio, adicionamos vários <source com formatos diferentes do
+mesmo áudio. Coloque na parte de cima o seu formato favorito. Os demais só serão
+carregados caso o de cima falhe. Caso todos falhem, criamos um parágrafo que
+permite o download do arquivo MP3 para ouvir no player padrão do dispositivo.
+
+WAV é muito pesado.
+
+#### Vídeos
+
+-não precisa baixar a melhor qualidade.
+
+Suporte de padrões: MP4, MPEG, WEBM , M4V OGG (use conversores conforme a necessidade) - 
+https://handbrake.fr/downloads.php 
+
+coloque todos pois cada navegador suporta um tipo de padrão.
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente </h1>
+    <p>Este vídeo está hospedado no meu próprio servidor. </p>
+    <video controls width="600" poster="imagens/limoes-capa.png">
+        <source src="media/meu-video.m4v" type="">
+        
+    
+    
+    
+    </video>
+
+    
+</body>
+</html>
+
+
+
+```
+Quando colocamos vídeos no nosso próprio servidor, podemos passar por problemas
+com alto consumo de banda, site lento e incompatibilidades com alguns navegadores
+por conta dos codecs. E geralmente só percebemos esses problemas quando
+colocamos nosso projeto no ar e lançamos oficialmente. 
+
+- Adicionando vídeos de serviços de hospedagem de vídeo
+
+dois serviços bons são o youtube e o vimeo, que você pode hospedar vídeos.
+
+Pra youtube e só clicar em incorporar quando for compartilhar e pegar o código html e incorporar no site.
+
+
+ 

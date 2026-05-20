@@ -1,0 +1,1 @@
+Conforme o tamanho do navegador ele deve ajudar o tamnho da imagem
