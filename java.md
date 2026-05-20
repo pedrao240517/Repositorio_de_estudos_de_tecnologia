@@ -6,19 +6,6 @@
 - Roadmaph.sh (https://roadmap.sh/java)
 
 ---
-### Index
-- O que é uma IDE?
-- Porque usar o IntelliJ IDEA
-- Configurações
-- Variaveis, tipagem de dados
-- Mas o que é uma variavél?
-- Tipos de dados (primitivos)
-- Tipos de dados não primitivos 
-- Principal difença entre dados primitivo e não primitivos ?
-- Perguntas relevantes e outros? 
-- Comando de Saída em java 
-
----
 - O que é uma IDE?
 
   IDE significa Integrated Development Environment (Ambiente de Desenvolvimento Integrado). É um software que reúne, em uma única interface gráfica, as ferramentas essenciais para criar, testar, depurar (debugar) e compilar código, aumentando a produtividade dos programadores.
@@ -61,7 +48,7 @@ byte: Números inteiros pequenos.
 
 short: Números inteiros menores que um int.
 
-3) Double(Números reais) -  úmeros de ponto flutuante de precisão dupla.
+3) Double(Números reais) -  números de ponto flutuante de precisão dupla.
 float: Números de ponto flutuante de precisão simples.
 
 4) Boolean (lógico - true e false)
@@ -121,7 +108,33 @@ System.out.println - mostra para o usuário na tela e pula uma linha
 
 - Comando de Entrada em Java 
 
-Scanner - toda vez que você abre essa caixa tem que fechar
+Scanner - toda vez que você abre essa caixa tem que fechar (palavra reservada)
+
+um unico scanner pode trabalhar com diferentes tipos de dados 
+
+Scanner nomeDoScanner = new Scanner(System.in);
+
+Scanner → tipo da variável
+
+nomeDoScanner → nome que você escolheu
+
+new Scanner(System.in) → cria um scanner para receber dados do teclado
+
+Explicando:
+
+new Scanner(System.in)
+
+new → cria um novo objeto
+
+Scanner → classe usada para ler entradas do usuário
+
+System.in → entrada padrão do sistema (teclado)
+
+###### métodos
+
+nextLine(); // recebe texto
+
+nextInt();  // recebe inteiro
 
 - Operadores matematicos básicos 
 
@@ -149,8 +162,6 @@ Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pod
 
 ?: ternário- maneira pra enxugar o código (if e else junto)
 
-- Desafios
-1) Refazer desafio 1 
 
 - Qual a maior diferença de JAVA pra JS e porque é mais complicado que algumas linguagens?
 
@@ -204,6 +215,12 @@ ForEach (para cada)
  Inicialização Implícita: Quando o array é declarado, os valores são automaticamente atribuídos com base em seu tipo, economizando a necessidade de inicializar cada elemento individualmente.
 
 Inicialização Explícita: É possível inicializar o array com valores específicos no momento de sua criação, como int[] numeros = {1, 2, 3, 4};. Isso evita o uso dos valores padrões.
+
+###### arrays multimdimencionais 
+conhecido como array de array ou array 2D ou matriz.
+
+String[][] ninjasEaldeias = new String[3][3];
+é uma matriz 
 
 ###### Garbage collector 
 
