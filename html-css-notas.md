@@ -23,7 +23,7 @@
 17) Aprender a trabalhar com multimia (vídeos,imagens e aúdios)
 18) Como Aplicar estilos nas CSS 
 
-#### Módulo 2 -  Cores (cap 13 a 17)
+#### Módulo 2 - Deixando as coisas mais bonitas (cap 13 a 17)
 19) Psicologia das cores 
 20) Harmonização de cores
 21) Paleta de cores 
