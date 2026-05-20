@@ -815,3 +815,6 @@ Recursos gratuitos
 ```
 
 obs: Você pode usar os três tipos de aplicações no css.
+
+
+colocar flashcards e questões do módulo no anki
