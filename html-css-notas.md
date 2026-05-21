@@ -104,7 +104,9 @@ Vint Cerf - IP (internetwork Protocol) - Indentificador de máquinas
 Com o tempo a ARPANET cresceu tanto que eles resolveram separar ela em três redes.
 
 MILNET - MILITAR 
+
 NFFNET - CIENTÍFICA
+
 Comerciais
 
 Essas redes queriam se conectar em inglês - Interconnect Networking que abreviando fica internetwoking que abreviando de novo fica internet.
@@ -144,18 +146,24 @@ Outra coisa que foi criado pra internet funcionar foi um navegador (O Mosaic)
 No caso a World Wide Web e uma subrede da internet.
 
 ##### Representação de Dados
-01- digitato binario -> bit ->  8 bits -> byte (porção minima pra representação de dados) 
+01- digito binario -> bit ->  8 bits -> byte (porção minima pra representação de dados) 
 Código do teclado atual -> código mulitbyte UTF-8
 ![ondas](image-3.png)
 
 transfomação e a cada cojunto de 1024
 1024 bytes = 1 KB (\(2^{10}\))
+
 1024 KB = 1 MB
+
 1024 MB = 1 GB
+
 1024 GB = 1 TB
 1024 TB = 1 PB
+
 1024 PB = 1 EB
+
 1024 EB = 1 ZB
+
 1024 ZB = 1 YB
 
 MB <> Mb (Megabytes[armazenamento] e megabits[transmissão])
@@ -171,14 +179,14 @@ MB <> Mb (Megabytes[armazenamento] e megabits[transmissão])
 ### detalhando o processo (o IP)
 -para que se acha as pessoas e locais da internet que as mensagem deve passar e recolher/enviar informações temos o IP (interconnect protocol) que da um número de  x diugitos e informa para outra parte que vamos falar agora.
 Os IPs mais modernos (IPv6), usam 128 bits ao todo (o que é 4x mais bits que o
-IPv4).
+IPv4 -32  bits).
 Ex: 2001:0db8:85a3:08d3:1319:8a2e:0370:7344
 
 ##### Servidores DNS 
 A internet tem uma "agenda eletrônica" que salva os ips em nomes que nem uma agenda de telefone celular, essa "agenda" é chamado de servidor DNS (domain Name system) -Sistemas de nome de dominio, mas aliais o que é dominio?
 
 ##### Dominio e hospedagem
- De maneira simples o dominio (nome unico) e o nome de indentificação de um site e hospedagem e onde o site está armazenado(espaço, memória e recusrsos).
+ De maneira simples o dominio (nome unico) e o nome de indentificação de um site e hospedagem e onde o site está armazenado(espaço, memória e recursos).
 
  Na URL -Uniform Resource Locator (Localizador Uniforme de Recursos) cada parte dela tem uma função.
 
@@ -255,35 +263,39 @@ navegadores modernos (mais popular é o google chrome)
 ###### O processo dos navegadores 
  Depois de receber os HTML e CSS o navegador renderiza pelo motor de renderização, sendo cada navegador com o seu próprio.
 
- - Componetes do navegador
+ - Componentes do navegador
 
-Interface do Usuário (IU)
-Motor de renderização
-Componente de Rede
-Mecanismo JavaScript
-Componentes de segurança:
+Interface do Usuário (IU),
+Motor de renderização,
+Componente de Rede,
+Mecanismo JavaScript,
+Componentes de segurança.
 
 - Tipos de navegadores
 
 computador - os mais usados
+
 móveis  - navegação rápida e fácil
-Navegadores incorporados - versõesm em miniatura de navegadores da web (ex: navegador pra exubir conteudo do email e pesquisa)
+
+Navegadores incorporados - versõesm em miniatura de 
+
+navegadores da web (ex: navegador pra exubir conteudo do email e pesquisa)
 
 - caracteristicas de navegadores 
 
-navegação por abas
-favoritos
-historico de navegação
-gerenciador de downloads
-barra de pesquisa 
-personalização da interface do usuario (IU)
-extensões e complementos
-sincronização
-Suporte ao Protocolo de Transferência de Hipertexto (https)
-Bloqueador de Pop-ups
-Modo de navegação anônima
-bloqueio de rastreadores 
-sandbox -isolamento de site com o S.O
+navegação por abas,
+favoritos,
+historico de navegação,
+gerenciador de downloads,
+barra de pesquisa ,
+personalização da interface do usuario (IU),
+extensões e complementos,
+sincronização,
+Suporte ao Protocolo de Transferência de Hipertexto (https),
+Bloqueador de Pop-ups,
+Modo de navegação anônima,
+bloqueio de rastreadores ,
+sandbox -isolamento de site com o S.O,
 e etc.............
 
 obs: Cookies são pequenos arquivos de texto, criados por sites e armazenados no seu computador ou celular, que salvam dados sobre sua navegação
@@ -335,7 +347,9 @@ Porque?
 HTML e CSS não são linguagens de programação porque são declarativas e focadas em estrutura e estilo, não em lógica ou processamento de dados.
 
 HTML -> Hypertext Markup Language (contéudo)
+
 CSS  -> Cascading Style Sheets (Design)
+
 JS   -> Java Script (interatividade)
 
 extension web developer pra visualização das ferramentas em um site 
@@ -606,7 +620,7 @@ obs: nem todo type funciona em todo navegador, exemplo o chroome não funciona b
 
 #### Imagens dinãmicas 
 
-Imagens dinâmicas e imagens que se adapata ao tamanho do navegador pra isso use a tag picture e um img da image, em cima do img coloque um source do tipo media time e configure a imagem maior pra maxima largura com 50 pixel a mais( pra não aparecer barra de rolagem ) e menor um outro  source outra  menor. Exemplo:
+Imagens dinâmicas são imagens que se adapata ao tamanho do navegador pra isso use a tag picture e um img da image, em cima do img coloque um source do tipo media time e configure a imagem maior pra maxima largura com 50 pixel a mais( pra não aparecer barra de rolagem ) e menor um outro  source outra  menor. Exemplo:
 
 ```
 <!DOCTYPE html>
@@ -633,8 +647,7 @@ Imagens dinâmicas e imagens que se adapata ao tamanho do navegador pra isso use
 ```
  Note que a tag <source> possui três atributos:
 
-‣ type vai indicar o media type da imagem que usamos (veja mais informações
-sobre media types no capítulo 10)
+‣ type vai indicar o media type da imagem que usamos 
 
 ‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho
 indicado for atingido
@@ -801,7 +814,7 @@ obs: você pode usar mais de um link na página html
 
 O CSS externo consiste em escrever regras CSS em um arquivo separado (com .cssextensão) e, em seguida, vincular esse arquivo ao seu documento HTML. Essa abordagem promove um código mais limpo, facilita a manutenção e permite a reutilização de estilos em várias páginas da web. Ao separar o estilo do conteúdo, você pode modificar a aparência do seu site sem alterar a estrutura HTML.
 
-Recursos gratuitos
+
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -816,5 +829,17 @@ Recursos gratuitos
 
 obs: Você pode usar os três tipos de aplicações no css.
 
+nota -
+como era a internet antigamente ?
+historia do navegadores
+sobre seo
+dfn 
+ver os tipos de dowloads
 
-colocar flashcards e questões do módulo no anki
+## Módulo 2 - Deixando as coisas mais bonitas 
+
+### Psicologia das cores 
+
+A emoção das cores - a cor de alguma coisa está relacionado a emoção que ele transmite de maneira inconciente.
+
+![tabelas cores](image-20.png)

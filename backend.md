@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=4r6WdaY3SOA
 
 1) O servidor recebe uma solicitação de um cliente na forma de URL
 
-A URL tem todas as informações necessárias para processar a solcitação, o protocolo, domínio, caminho(patch) e string de consulta.
+A URL tem todas as informações necessárias para processar a solicitação, o protocolo, domínio, caminho(patch) e string de consulta.
 
 Ex de url: https://example.com/path?query=value
 
@@ -36,7 +36,7 @@ Por fim, a URL sozinha não é suficiente para dizer ao servidor o que fazer exa
 
 Outro ponto a observar sobre um servidor é que ele só é acessível ao mundo externo por meio das seções, isso significa que você pode armazenar qualquer informação confidencial no servidor e ela estará segura desde que não seja exposto o caminho específico, por isso, é relevate ter um banco de dados e um site rodando ao mesmo tempo, já que o servidor escolhe expor apenas o site e não o banco de dados. Essencialmente o servidor atua como uma barreira entre o mundo externo e todas as parte de um servidor. Mas no entanto o que é um servidor?
 
-2) o Que é um servidor ?
+2) O Que é um servidor ?
 
 Pra entender o que é um servidor é necessário mostraro processo de forma simpleficada.
 
@@ -48,7 +48,7 @@ Entretanto, esses computadores não entendem essa mensagem de maneira simples, p
 
 3) Lingugens back end
 
-Quase toda linguagem de programação backend tem um recurso pra transformar um computador em um cliente e permite que ele receba mensagens.
+Quase toda linguagem de programação backend tem um recurso pra transformar um computador em um servidor  e permite que ele receba mensagens.
 
 <img width="1193" height="600" alt="image" src="https://github.com/user-attachments/assets/448fe53f-6ea8-4398-a4a9-42008944ae97" />
 
@@ -62,7 +62,7 @@ Um framework nos ajuda a criar um servidor mais facilmente e com menos código, 
 Exemplos:
 Express em javascript, django em python,  ruby on rains em ruby e spring em java. 
 
-Na parte interna do sitema também utilizamos muitos códigos criados por outras pessoas, o qual chamamos de pacotes, e para gerenciar vários pacotes, utlizamos o que chamamos de gerenciador de pacotes, assim como os framework, cada linguagem tem seu próprio gerenciador de pacotes.
+Na parte interna do sistema também utilizamos muitos códigos criados por outras pessoas, o qual chamamos de pacotes, e para gerenciar vários pacotes, utlizamos o que chamamos de gerenciador de pacotes, assim como os framework, cada linguagem tem seu próprio gerenciador de pacotes.
 
 Exemplos:
 NPM -Javascript
@@ -86,7 +86,7 @@ Esse é geralmente o básico pra uma aplicaçõa web
 sendo o que o cliente pede chamado de requisção (request) e o que o servidor manda de resposta (response) -> request-responde cycle
 
 5) O que acontece em um requição?
-de maneira simples a seção de trabalho dessa requição vai ser definidadas no backend após receber a o comando pela URL, durante a definição vamos definir a lista de toso os diferentes tipos de requisções que o backend permite nessa seção, isso é o que chamamos de API (Application Programming Interface)- Interface de programação de aplicativos. Se você enviar uma solicitação que não seja permitidade pela API, o servidor responderá com erro.
+de maneira simples a seção de trabalho dessa requição vai ser definidadas no backend após receber a o comando pela URL, durante a definição vamos definir a lista de todos os diferentes tipos de requisções que o backend permite nessa seção, isso é o que chamamos de API (Application Programming Interface)- Interface de programação de aplicativos. Se você enviar uma solicitação que não seja permitidade pela API, o servidor responderá com erro.
 
 Na URL patch temos uma convenção de nomeclatura para nossas solicitações, essa convenção é chamada de transferência de estados represntacional - REST
 <img width="1125" height="650" alt="image" src="https://github.com/user-attachments/assets/62268b73-5579-461a-a3b0-ebbe5f934b6d" />

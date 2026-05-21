@@ -1,5 +1,3 @@
-Aqui estão as questões formatadas em Markdown, prontas para serem copiadas. O nome sugerido para o arquivo é exercicios_multimidia_web.md.
-
 Exercícios: Mídias e HTML
 1. Quando você está criando um site ou qualquer outro tipo de conteúdo, deve se preocupar bastante com os direitos de uso de determinada mídia (imagem, som, vídeo, etc). Qual dos itens a seguir melhor define esse assunto?
 
