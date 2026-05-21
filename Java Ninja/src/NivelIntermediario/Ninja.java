@@ -6,11 +6,16 @@ public class Ninja {
         int idade;
 
 
+
+        /*
         // Criar método Público personalizado
         // VOID - não retorna valor nenhum
         public  void  ShariganAtivado (){
-                System.out.println("O sharigam Ativou");
+                System.out.println("O sharigam ativado, eu sou um uchiha");
         }
+        */
+
+
         /*
         // Método String ter que retornar uma string
         // Método int ter que retornar umint

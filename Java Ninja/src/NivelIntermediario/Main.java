@@ -4,22 +4,28 @@ public class Main {
     static void main(String[] args) {
 
 
-        // Criar ninja Naruto - Naruto é um o Objeto
-        Ninja naruto = new Ninja();
+        // Criar ninja Naruto - Naruto é um o Objeto 1
+        Uzumaki naruto = new Uzumaki();
 
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia="Aldeia da folha";
         naruto.idade =18;
+        naruto.AumentoDechakra();
+
+
         
 
-        // Criar ninja Sasuke - Sasuke é um objeto
+        // Criar ninja Sasuke - Sasuke é um objeto 2
 
-        Ninja sasuke = new Ninja();
+        Uchiha sasuke = new Uchiha();
 
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.aldeia="Aldeia da folha";
-        sasuke.idade =27;
+        sasuke.nome ="Sasuke Uchiha";
+        sasuke.idade = 18;
+        sasuke.aldeia ="Vila da Folha";
+        sasuke.ShariganAtivado();
 
+
+        /*
         // aplicando métodos aos meus objetos
         sasuke.ShariganAtivado();
         String retornando =sasuke.EuSouUmNinja();
@@ -28,12 +34,24 @@ public class Main {
         int quantoTempoFalta = sasuke.TempoHokage(50);
         System.out.println("Você tem " + sasuke.idade + " anos, falta "+ quantoTempoFalta+ " anos para ser hokage");
 
-        // Criar Sakura  - sakura é um objeto
+         */
 
-        Ninja Sakura = new Ninja();
-        sasuke.nome = "Sakura Haruno";
-        sasuke.aldeia="Aldeia da folha";
-        sasuke.idade =18;
+        // Criar Sakura  - sakura é um objeto 3
+
+        Haruno Sakura = new Haruno();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia="Aldeia da folha";
+        Sakura.idade =18;
+        Sakura.Regeneracao();
+
+        // Criar Hinata  - hinata é um objeto 4
+
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata  Hyuga";
+        Hinata.aldeia="Aldeia da folha";
+        Hinata.idade =18;
+        Hinata.Byakugan();
+        
 
         
 

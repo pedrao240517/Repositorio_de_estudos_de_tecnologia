@@ -289,7 +289,40 @@ Primeiramente, quais os pilares da orientação a objeto: Emcapsulamento,Heranç
 
 Usar caracteristicas de um class mãe em outras classes filhas para assim poupar codigo e agilizar trabalho.
 
+![alt text](image-19.png)
 
+pra isso é importante usar a palavra chave da herança na nossa classe - extends.
+
+
+````
+package NivelIntermediario;
+
+public class Main {
+    static void main(String[] args) {
+
+
+        // Criar ninja Naruto - Naruto é um o Objeto 1
+        Uzumaki naruto = new Uzumaki();
+
+        naruto.nome = "Naruto Uzumaki";
+        naruto.aldeia="Aldeia da folha";
+        naruto.idade =18;
+        naruto.AumentoDechakra();
+
+
+        
+
+        // Criar ninja Sasuke - Sasuke é um objeto 2
+
+        Uchiha sasuke = new Uchiha();
+
+        sasuke.nome ="Sasuke Uchiha";
+        sasuke.idade = 18;
+        sasuke.aldeia ="Vila da Folha";
+        sasuke.ShariganAtivado();c
+    }
+
+````
 
 
 2) Polimorfismo
