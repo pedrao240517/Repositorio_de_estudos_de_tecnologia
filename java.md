@@ -231,4 +231,162 @@ Durante a sobre escrita, o Garbage collector retira momentaneamente o array decl
 
 O Garbage Collection é especialmente importante em linguagens como Java e C#, onde a memória é gerenciada automaticamente.
 
+## Nível intermediário
+
+Obs: tudo no java é um objeto - maneiras que pode trabalhar e manipular .
+
+Todo objeto é feito atráves de um molde (class).
+
+No caso do java, você cria uma nova class(molde) no mesmo package e depois inicializamos esse molde em um objeto  em outro class.
+
+````
+molde 
+
+package NivelIntermediario;
+
+public class Ninja {
+        String nome;
+        String aldeia;
+        int idade;
+
+    
+}
+
+
+objeto trabalhado
+
+package NivelIntermediario;
+
+public class Main {
+    static void main(String[] args) {
+
+
+        // Criar ninja Naruto - Naruto é um objeto
+        String nome ="Naruto Uzumaki";
+        int idade = 18;
+        String aldeia = "Aldeia da folha";
+        System.out.println("Nome do ninja é "+ nome);
+
+        // Criar ninja Sasuke - Sasuke é um objeto
+
+        Ninja sasuke = new Ninja();
+
+        sasuke.nome = "Sasuke Uchiha";
+        sasuke.aldeia="Aldeia da folha";
+        sasuke.idade =18; 
+    }
+}
+
+````
+
+vale resaltar que todas as variáveis declaradas dentro de um class a fim de dar caracteristicas a um objeto ém chamado de atributo.
+### Orientação a objeto 
+
+Primeiramente, quais os pilares da orientação a objeto: Emcapsulamento,Herança e Polimorfismo.
+
+
+1) herança
+
+Usar caracteristicas de um class mãe em outras classes filhas para assim poupar codigo e agilizar trabalho.
+
+
+
+
+2) Polimorfismo
+
+Criar uma função unica (trecho de código[algoritmos]) que pode ser utilizada em diferentes classes com diferentes caracteristicas.
+
+3) Emcapsulamento 
+Capacidade de proteger variaveis e classes para que não haja vazamento e mantendo assim portegida e encpsulada nossos objetos. (evitar vazmento de dados)
+
+
+#### Métodos e parâmetros 
+
+Existem dois Tipos de métodos:
+
+1) Void -  Não precisa retornar nada pra gente (procedimento)
+
+````
+
+public class Pessoa {
+
+    // Método PÚBLICO e VOID (não retorna nada, apenas executa a ação)
+    public void cumprimentar(String nome) {
+        System.out.println("Olá, " + nome + "! Tudo bem?");
+    }
+
+    public static void main(String[] args) {
+        // Criando o objeto da classe Pessoa
+        Pessoa alguem = new Pessoa();
+
+        // Chamando o método público void
+        alguem.cumprimentar("Carlos");
+    }
+}
+````
+
+
+2) Return -  Precisa retornar um valor pra gente (função)(return) e tem que ter um tipo de dado específico(qualquer tipo)
+
+outra coisa que podemos usar parâmetros( as declarações dentro dos parenteses dos métodos) ou seja o método vai acontecer se você me passar o valor do parãmetro
+
+````
+
+// Exemplo de métodos e parâmetros
+public class Calculadora {
+
+    // Método para somar dois números
+    public int somar(int a, int b) {
+        return a + b;
+    }
+
+    // Método para subtrair dois números
+    public int subtrair(int a, int b) {
+        return a - b;
+    }
+
+    // Método para multiplicar dois números
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    // Método para dividir dois números
+    public double dividir(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Não é possível dividir por zero.");
+            return 0;
+        }
+    }
+
+    public static void main(String[] args) {
+        Calculadora calc = new Calculadora();
+        
+        // Chamando os métodos e passando parâmetros
+        int soma = calc.somar(5, 3);
+        int subtracao = calc.subtrair(10, 4);
+        int multiplicacao = calc.multiplicar(7, 6);
+        double divisao = calc.dividir(20, 4);
+        
+        // Exibindo os resultados
+        System.out.println("Soma: " + soma);
+        System.out.println("Subtração: " + subtracao);
+        System.out.println("Multiplicação: " + multiplicacao);
+        System.out.println("Divisão: " + divisao);
+    }
+}
+    
+````
+
+
+Etapas pra criação de método personalizado.
+
+1- Colar o método como público para que as outras class possam receber 
+
+2- colocar o tipo de método utilizado
+
+3- colocar nome do método e parenteses(pra indicar que é um método)
+
+4- aplicar no objeto trabalhado o método
 
