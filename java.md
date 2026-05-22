@@ -293,6 +293,10 @@ Usar caracteristicas de um class mãe em outras classes filhas para assim poupar
 
 pra isso é importante usar a palavra chave da herança na nossa classe - extends.
 
+obs: ao usar a herança a ordem sequencial mostrada das variveis será com base a class mê/pai
+
+obs: sobrescrição de métodos consiste em repitir o método da class mãe no filho adicionando o metódo da class filho
+
 
 ````
 package NivelIntermediario;
@@ -422,4 +426,6 @@ Etapas pra criação de método personalizado.
 3- colocar nome do método e parenteses(pra indicar que é um método)
 
 4- aplicar no objeto trabalhado o método
+
+
 
