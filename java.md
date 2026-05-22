@@ -282,6 +282,8 @@ public class Main {
 vale resaltar que todas as variáveis declaradas dentro de um class a fim de dar caracteristicas a um objeto ém chamado de atributo.
 ### Orientação a objeto 
 
+A Programação Orientada a Objetos (POO) é um paradigma(Um paradigma de desenvolvimento define o conjunto de crenças, conceitos e metodologias que guiam a forma como os profissionais abordam a criação de algo) de desenvolvimento que organiza o código em "objetos" — que combinam dados e comportamentos. Ela é amplamente utilizada porque facilita a criação de sistemas complexos, promove a reutilização de código e torna a manutenção muito mais eficiente
+
 Primeiramente, quais os pilares da orientação a objeto: Emcapsulamento,Herança e Polimorfismo.
 
 
@@ -333,11 +335,33 @@ public class Main {
 
 Criar uma função unica (trecho de código[algoritmos]) que pode ser utilizada em diferentes classes com diferentes caracteristicas.
 
+Polimorfismo permite que objetos de diferentes classes sejam tratados como objetos de uma classe base comum, o que facilita a criação de código flexível e reutilizável.
+
+no caso você vai sobrescrever  o método que quer reutilizar em uma classe que você vai usar, pra isso use a o método @Override
+
+
+```
+package NivelIntermediario.Polimorfismo;
+
+public class Uchiha extends  Ninja {
+
+
+    // sobrescrever a classe ninja pelo uchiha - polimorfismo
+    @Override
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome é "+ nome+ " e esse meu uchiha, um ataque de fogo");
+
+    }
+}
+```
+
+
+
 3) Emcapsulamento 
 Capacidade de proteger variaveis e classes para que não haja vazamento e mantendo assim portegida e encpsulada nossos objetos. (evitar vazmento de dados)
 
 
-#### Métodos e parâmetros 
+### Métodos e parâmetros 
 
 Existem dois Tipos de métodos:
 
@@ -427,5 +451,115 @@ Etapas pra criação de método personalizado.
 
 4- aplicar no objeto trabalhado o método
 
+### Interfaces
 
+Ela seria como uma janela/portal - Interfaces permitem que você especifique métodos que uma classe deve implementar, sem definir como esses métodos são executados.
+
+*implementes - obrigatoriamente tem que tirar algo de dentro da interface (todos)
+
+
+obs: sempre de preferência de trabalhar com interfaces no lugar de classes.
+
+obs: Todos os atributos de uma interface são públicos por padrão.
+
+relembrando: Atributos são variáveis ​​que armazenam dados sobre um objeto
+
+interface :
+
+```
+package NivelIntermediario;
+
+public interface HyugaUzumaki {
+
+    void AtivarOKarma();
+    
+    void AtivarJougan();
+
+}
+```
+
+classe boruto 
+}
+```
+package NivelIntermediario;
+
+public class Boruto extends Uzumaki  implements  HyugaUzumaki{
+    
+
+   public void AtivarOKarma(){
+        System.out.println("O Karma foi ativado! Eu sou um Hyuga Uzumaki ");
+    }
+
+    
+    public void AtivarJougan(){
+        System.out.println("O Jougan foi ativado! Eu sou um Hyuga Uzumaki");
+    }
+    
+}
+
+```
+implementando na Main
+
+
+```
+// Criar Boruto - Boruto é um Objeto 5
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto  Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+        Boruto.AumentoDechakra();
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
+
+
+```
+
+### Construtores - Organizando e padronizando objetos
+
+ moldes dentros dos moldes (class) - criação de padrão que todos que forem trabalhar com aquele objeto vai usar.
+
+ obs: toda vez que você cria uma nova classe o java entende que você quer criar um objeto a partir dessa classe.
+
+
+ - Tipos de construtores
+
+ 1) NoArgs Constructor
+
+ Um construtor que vem vazio , não necessariamente recebe argumento nenhum.
+
+ 2) AllArgs Constructor
+
+ um constructor que é preenchido como todos os atributos de classe - com argumentos.
+
+ ---
+
+ obs:  Um argumento em Java é o valor real (dados) que você passa para um método quando o invoca.
+
+ Pra ficar menos abstrato, vamos pro exemplo:
+
+ ```
+  public Hokages(String nome){
+        //Construtor vazio com argumento
+        this.nome = nome;
+        
+
+
+    }
+
+  ```
+
+  você está pendindo que todo objeto que  for criado a partir dessa classe, pode ter um construtor, com o usario inserindo o nome do objeto.
+
+  This - referência esse atributo( variáveis ​​que armazenam dados sobre um objeto) declarado na class e o atributo recebe como valor o parametro(declarações dentro dos parenteses dos métodos) do constrututor.
+
+
+obs: geralmente você coloca todos os argumentos do construtor
+shortcut - alt+ insert = criar construtor(1, nenhum ou todos)
+
+obs: o nome do construtor deve ser igual ao nome da class
+
+
+
+ 
 

@@ -1,6 +1,6 @@
-package NivelIntermediario;
+package NivelIntermediario.POObasicoeOutros;
 
-public class Hyuga extends Ninja{
+public class Hyuga extends Ninja {
     public void Byakugan (){
         System.out.println("Meu nome é " + nome + " meu byakugan ativou pois eu sou uma hyuga");
     }

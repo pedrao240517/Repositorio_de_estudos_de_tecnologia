@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.POObasicoeOutros;
 
 public class Uzumaki extends Ninja {
     public void  AumentoDechakra(){

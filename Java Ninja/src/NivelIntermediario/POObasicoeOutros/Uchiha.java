@@ -1,6 +1,6 @@
-package NivelIntermediario;
+package NivelIntermediario.POObasicoeOutros;
 
-public class Uchiha  extends Ninja{
+public class Uchiha  extends Ninja {
     
 
 

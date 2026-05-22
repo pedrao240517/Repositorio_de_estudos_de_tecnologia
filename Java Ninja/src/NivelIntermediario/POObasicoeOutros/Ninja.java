@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.POObasicoeOutros;
 
 public class Ninja {
         String nome;

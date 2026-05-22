@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.POObasicoeOutros;
 
 public class Main {
     static void main(String[] args) {
@@ -52,6 +52,21 @@ public class Main {
         Hinata.idade =18;
         Hinata.Byakugan();
         
+
+        // Criar Boruto - Boruto é um Objeto 5
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto  Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+        Boruto.AumentoDechakra();
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
+
+
+
+
+
 
         
 
