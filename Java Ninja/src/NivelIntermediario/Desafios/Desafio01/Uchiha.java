@@ -9,7 +9,7 @@ public class Uchiha extends Ninja {
     }
     public void mostrarInfomacoes(){   // Criando o método procedimento
         System.out.println("Meu nome é " + nome+ " tenho "+ idade +" anos");
-        System.out.println("Minha missão é "+missao+"de nivel "+ nivelDeDificuldade+ " e foi"+statusDaMissao);
+        System.out.println("Minha missão é "+missao+" de nivel "+ nivelDeDificuldade+ " e foi "+statusDaMissao);
         System.out.println("Minha habilidade é "+habilidadeEspecial);
     }
 }

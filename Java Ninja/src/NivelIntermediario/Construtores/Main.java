@@ -3,8 +3,11 @@ package NivelIntermediario.Construtores;
 public class Main {
     static void main() {
 
+
+        /*
         Hokages hashirama = new Hokages(); // noArgs construtor
         hashirama.nome = "Hashirama Senju";
+        hashirama.sabedoria();
 
         Hokages tobirama = new Hokages("Tobirama Senju"); // AllArgs Construtor - com argumento (geralmente não faz)
         System.out.println(tobirama.nome);
@@ -18,6 +21,18 @@ public class Main {
         System.out.println(minatto.nome);
         System.out.println(minatto.idade);
         System.out.println(minatto.vivoOuNao);
+
+         */
+
+        Senju Hashirama = new Senju() ;
+        Hashirama.nome = "Hashirama Senju";
+        Hashirama.idade = 45;
+        Hashirama.sabedoria();
+
+
+
+
+
 
 
 
