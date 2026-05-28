@@ -601,6 +601,17 @@ shortcut - alt+ insert = criar construtor(1, nenhum ou todos)
 obs: o nome do construtor deve ser igual ao nome da class
 
 
+### Classes abstratas 
+
+Serve para padronizar o código. Elas funcionam como moldes ou "contratos" genéricos para outras classes, permitindo compartilhar comportamentos comuns e exigindo que classes filhas implementem métodos específicos(superclasse)
+
+- Caracteristicas de classes abstratas
+
+1)  Elas não pode ser instanciadas  - não pode criar um objeto a partir dela 
+
+2) metodos abstratos não pode ter escopo
+
+
 
  
 
