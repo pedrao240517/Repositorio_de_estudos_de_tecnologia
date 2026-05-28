@@ -571,13 +571,22 @@ implementando na Main
  Pra ficar menos abstrato, vamos pro exemplo:
 
  ```
-  public Hokages(String nome){
-        //Construtor vazio com argumento
+  public class Hokages {
+
+    String nome;
+
+    // construtor com argumento
+    public Hokages(String nome){
         this.nome = nome;
-        
-
-
     }
+
+    public static void main(String[] args) {
+
+        Hokages hokage1 = new Hokages("Naruto");
+
+        System.out.println(hokage1.nome);
+    }
+}
 
   ```
 
