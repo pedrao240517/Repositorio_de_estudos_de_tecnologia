@@ -19,6 +19,38 @@
 - Configurações
   Ao Longo do aprendizado vou registrar os atalhos de uso da ferramenta que achei aqui.
 
+
+#### Ciclo de vida de um programa JAVA
+
+![ciclo de vida de um programa JAVA](image-21.png)
+
+Existem três estágios principais no ciclo de vida de um programa Java.  São eles:
+1) Editando o programa
+2) Compilando o código-fonte
+3) Executando o código de bytes
+
+1- Primeiro, você começará digitando o programa em um O processo começa com os desenvolvedores escrevendo o código-fonte Java em .javaarquivos usando uma IDE ou um editor de texto.
+
+2-  Esse código é então compilado pelo compilador Java (javac) em bytecode armazenado em .classarquivos, com verificação de sintaxe e tipo realizada durante a compilação.
+
+3- A última etapa é a execução.  O bytecode gerado pelo compilador será executado pela  Máquina Virtual Java (JVM) . A entrada para a JVM é bytecode e a saída é código de máquina (0s e 1s) que será executado pela CPU da máquina local.
+
+Sobre a JVM?
+
+Quando o programa é executado, a Máquina Virtual Java (JVM) carrega esses arquivos de classe compilados na memória por meio de um processo que envolve o carregamento de dados binários, a vinculação para verificação e preparação e a inicialização dos elementos da classe. A JVM então verifica a conformidade de segurança do bytecode, realiza a compilação Just-In-Time (JIT) para traduzir o bytecode em código de máquina nativo para melhor desempenho e executa as instruções do programa enquanto gerencia os recursos do sistema. Ao longo da execução, a JVM lida com a coleta de lixo, recuperando a memória de objetos não utilizados e, finalmente, libera todos os recursos ao término do programa.
+
+ Essa arquitetura permite a capacidade do Java de "escrever uma vez, executar em qualquer lugar", já que o bytecode pode ser executado em qualquer dispositivo com uma JVM compatíve
+
+observações:
+
+obs: compiilador é um programa de computador que traduz o código-fonte (escrito em uma linguagem de programação de alto nível, como C, C++ ou Rust) para uma linguagem de baixo nível( aquelas com pouca ou nenhuma abstração em relação ao hardware), como código de máquina ou assembly, que pode ser executado diretamente pelo processador.
+
+O bytecode é uma representação intermediária de código, posicionada entre o código-fonte de alto nível (como Java ou Python) e o código de máquina que uma CPU física entende.Ele foi projetado para ser executado por uma Máquina Virtual (JVM)
+
+
+Detalhamento do processo da JVM no Futuro.
+
+
 - Variaveis, tipagem de dados
 
 Primeiramente, vale resaltar que java é uma linguagem fortemente tipada, o que é isso? (ma linguagem fortemente tipada (ou altamente tipada) é aquela que impõe regras rigorosas sobre os tipos de dados (como int, string, bool), não permitindo conversões automáticas implícitas entre tipos incompatíveis e exigindo que tipos de variáveis sejam bem definidos.)
