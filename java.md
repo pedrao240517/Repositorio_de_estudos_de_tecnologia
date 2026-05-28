@@ -231,6 +231,9 @@ Durante a sobre escrita, o Garbage collector retira momentaneamente o array decl
 
 O Garbage Collection é especialmente importante em linguagens como Java e C#, onde a memória é gerenciada automaticamente.
 
+- Resumo do básico de java 
+
+
 ## Nível intermediário
 
 Obs: tudo no java é um objeto - maneiras que pode trabalhar e manipular .
