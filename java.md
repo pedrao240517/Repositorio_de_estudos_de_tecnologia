@@ -265,6 +265,10 @@ O Garbage Collection é especialmente importante em linguagens como Java e C#, o
 
 - Resumo do básico de java 
 
+https://www.mindmeister.com/app/map/3958307975
+
+o que falta colocar  : Arrays, loops, basico de poo, fundição de tipos , variaveis e escopos , tipos de dados , basica sintaxe (bufferBufferedReader.)
+
 
 ## Nível intermediário
 
