@@ -9,20 +9,32 @@ public class Main {
 
 
         //obj Ninja Uzumaki
-        Uzumaki naruto = new Uzumaki();
+        Uzumaki naruto = new Uzumaki( "Naruto Uzumaki", "aldeia da folha", 18, 42, NivelNinja.GENIN);
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
         naruto.estrategiaNinja();
 
 
         //obj Ninja Uchiha
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
+        Uchiha sasuke = new Uchiha( "Sasuke Uchiha", "Aldeia da Folha", 18, 32, NivelNinja.GENIN);
         sasuke.habilidadeEspecial();
+        sasuke.estrategiaNinja();
+        sasuke.inteligenciaDeCombate(120);
 
         //obj Uchiha 2
         Uchiha itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27);
         itachi.habilidadeEspecial();
+        itachi.inteligenciaDeCombate(140);
+
+        // obj Uchiha 3
+        Uchiha madara = new Uchiha( "madara Uchiha ", "aldeia da folha", 49,  900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaNinja();
+        //método comum
+        madara.inteligenciaDeCombate();
+        //metodo sobrecarregado
+        madara.inteligenciaDeCombate(200);
+
 
         /*
         // obj ninja não da pra ser criado

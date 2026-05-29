@@ -496,7 +496,6 @@ Ela seria como uma janela/portal - Interfaces permitem que você especifique mé
 
 *implementes - obrigatoriamente tem que tirar algo de dentro da interface (todos)
 
-
 obs: sempre de preferência de trabalhar com interfaces no lugar de classes.
 
 obs: Todos os atributos de uma interface são públicos por padrão.
@@ -554,6 +553,8 @@ implementando na Main
 
 ```
 
+pense na interface como um um contrato, onde eu posso aceitar ou não esse contrato e caso aceite eu tenho que seguir as regras (usar as variveis e os metodos [dando corpo aos métodos])
+
 ### Construtores - Organizando e padronizando objetos
 
  moldes dentros dos moldes (class) - criação de padrão que todos que forem trabalhar com aquele objeto vai usar.
@@ -607,6 +608,8 @@ shortcut - alt+ insert = criar construtor(1, nenhum ou todos)
 
 obs: o nome do construtor deve ser igual ao nome da class
 
+dica: toda vez que inicializou um construtor ele se toran imutavel, no caso você faz a sobrecarga de métodos
+
 
 ### Classes abstratas 
 
@@ -640,5 +643,100 @@ Porém se eu quiser usar um construtor eu vou ter que instanciar (criar) nas sub
 
 Pra resolver isso eu tenho que sobrescrever o construtor na subclasse e usar a palavra reservada no seu body
 
-o super, e no caso pra superclasse usamos this pra referenciar os atributos da superclasse e o super pra refenciar os atributos da subclasse.
+o super, e no caso pra superclasse usamos this pra referenciar os atributos da superclasse e o super pra refenciar os atributos da subclasse.   
+
+### Herança Multipla
+
+Para obter os benefícios da herança múltipla, uma classe pode implementar múltiplas interfaces separadas por vírgula utilizando a palavra-chave implementes
+
+```
+javapublic interface Voador {
+    void voar();
+}
+
+public interface Nadador {
+    void nadar();
+}
+
+// Classe que implementa múltiplas interfaces (herança múltipla de tipos)
+public class Pato implements Voador, Nadador {
+    @Override
+    public void voar() {
+        System.out.println("O pato está voando.");
+    }
+
+    @Override
+    public void nadar() {
+        System.out.println("O pato está nadando.");
+    }
+}
+```
+
+- relembrando 
+
+![alt text](image-24.png)
+
+### Overload - Sobrecarga de métodos 
+
+Usamos quando queremos refatorar o código (construir de novo o código ou consertar)
+
+dica: toda vez que tiver uma nova função de trabalho (task) comente o código (use TODO)
+
+pra fazer isso você usa um construtor e referência o anterior com this.() e acrescenta os outros em superclasses e nas subclasess o próprio inteliIDEA faz por você
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+### enuns
+
+Serve pra colocar atributos que não se alteram como dias da semana, status de pedidos, cargos e etc.
+
+obs: colocar em letras maiscúlas com enum
+
+### Overload/Sobrecarga de metodos
+
+Pra que repetir um método ma interface? a resposta é bem simples pra eu poder usar um método sem parametros e outro com paramêtros, além de eu guardar um único espaço na memória pra esse método
+
+exemplo: 
+```
+   package NivelIntermediario.Polimorfismo;
+
+public interface EstrategiaDeBatalha {
+
+    void estrategiaNinja();
+
+    void  inteligenciaDeCombate();
+
+    void  inteligenciaDeCombate(int qi);
+
+
+
+}
+em outra classe:
+
+
+
+// sobrecarga de método inteligenciaDeCombate(); padrao
+         public void  inteligenciaDeCombate(){
+                 System.out.println(" Essa é minha inteligência de combate ");
+         }
+        // sobrecarga de método inteligenciaDeCombate();
+        public void  inteligenciaDeCombate(int qi){
+                System.out.println(" Essa é minha inteligência de combate ");
+
+                if (qi > 150 ){
+                        System.out.println("Seu QI de batalha é "+ qi + " e você é genio");
+                }else if (qi >= 130){
+                        System.out.println("Seu QI de batalha é "+ qi + " e você é ninja promissor");
+                }else {
+                        System.out.println("Seu QI de batalha é "+ qi +" e você é precisa treinar mais suas estrátegias ");
+                }
+        }
+
+```
+
+depois pra usar ele e só instanciar o método no objeto e colocar o valor do parãmetro
+ 
+
+ ### Dúvida Frequente -  @Override(sobrescrito) como funciona de verdade?
 
