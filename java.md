@@ -612,13 +612,33 @@ obs: o nome do construtor deve ser igual ao nome da class
 
 Serve para padronizar o código. Elas funcionam como moldes ou "contratos" genéricos para outras classes, permitindo compartilhar comportamentos comuns e exigindo que classes filhas implementem métodos específicos(superclasse)
 
+esclabilidade de manuntenção e o principal fator pra usar classes abstratas
+
+Por exemplo : se eu crio uma classe principal(superclasse) Main e uma ninja e deixo a ninja abstrata, eu sou obrigado a criar um subclasse pra criar objetos(instanciar) e pra trabalhar na classe main.
+
 - Caracteristicas de classes abstratas
 
 1)  Elas não pode ser instanciadas  - não pode criar um objeto a partir dela 
 
 2) metodos abstratos não pode ter escopo
 
+- Qual a difernça de uma classe abstrata e uma interface?
 
+Primeiramente vamos as semelhanças, as duas é inpossível criar (instanciar)um objeto. (em termos leigos ela não poderia "procriar")
+
+A principal é que você não pode colocar os atributos (variveis que atuam como caracteristicas dos objetos), sem declarar o valor na interface pois ela é automaticamente final enquanto na classe abstrata você pode.
+![classe abstrata](image-22.png)
+
+![interface](image-23.png)
 
  
+### Super classes x Sub Classes 
+
+A classe mãe chamamos de Super classe pois ela gera outras classes que chamamos de subclasse.
+
+Porém se eu quiser usar um construtor eu vou ter que instanciar (criar) nas subclasses😑😑😑😑
+
+Pra resolver isso eu tenho que sobrescrever o construtor na subclasse e usar a palavra reservada no seu body
+
+o super, e no caso pra superclasse usamos this pra referenciar os atributos da superclasse e o super pra refenciar os atributos da subclasse.
 
