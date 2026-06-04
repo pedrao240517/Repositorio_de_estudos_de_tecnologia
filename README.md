@@ -6,6 +6,7 @@
 
 - Em andamento
 1. [Circuitos Digitais](./circuitos-digitais.md)
+2. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
 
 - Concluído
 
