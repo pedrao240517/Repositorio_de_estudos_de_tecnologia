@@ -7,6 +7,7 @@
 - Em andamento
 1. [Circuitos Digitais](./circuitos-digitais.md)
 2. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
+3. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
 
 - Concluído
 
@@ -27,7 +28,7 @@
 
 - Futuramente
 1. [Web e seus protocolos de comunicação](./web-e-seus-procolos-de-comunicação-básicos.md)  
-5. [cs50x de havard](./cs50x_de_havard.md)
+ 
 
   
 - Outros
