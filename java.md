@@ -738,5 +738,11 @@ em outra classe:
 depois pra usar ele e só instanciar o método no objeto e colocar o valor do parãmetro
  
 
- ### Dúvida Frequente -  @Override(sobrescrito) como funciona de verdade?
+ ### Dúvida Frequente -  @Override(sobrescrito) como funciona de verdade?     
 
+ O Override é uma convenção (padronização[boa prática]), que serve pra evitar a criação de novos métodos por erros de digitação, pois ela "autoriza" a escrita daquele método pois, está correto.
+
+ no geral ele deixa mais legibilidade e claro seu código.
+
+
+### Referência de memoria x Valor em memoria

@@ -37,6 +37,11 @@ public class Uchiha extends  Ninja {
         }
     }
 
+
+    public void provisorio() {
+        super.provisorio();
+    }
+    
     /*
     public abstract void estrategiaNinja(){
         System.out.println("Invocar o susano");
