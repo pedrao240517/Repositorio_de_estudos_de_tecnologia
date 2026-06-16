@@ -13,6 +13,8 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
         naruto.estrategiaNinja();
+        System.out.println(naruto);
+        System.out.println("=========================================================");
 
 
         //obj Ninja Uchiha
@@ -20,12 +22,14 @@ public class Main {
         sasuke.habilidadeEspecial();
         sasuke.estrategiaNinja();
         sasuke.inteligenciaDeCombate(120);
+        System.out.println("=========================================================");
 
         //obj Uchiha 2
         Uchiha itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27);
         itachi.habilidadeEspecial();
         itachi.inteligenciaDeCombate(140);
         itachi.provisorio();
+        System.out.println("=========================================================");
 
         // obj Uchiha 3
         Uchiha madara = new Uchiha( "madara Uchiha ", "aldeia da folha", 49,  900, NivelNinja.KAGE);
@@ -35,6 +39,7 @@ public class Main {
         madara.inteligenciaDeCombate();
         //metodo sobrecarregado
         madara.inteligenciaDeCombate(200);
+        System.out.println("=========================================================");
 
 
         /*

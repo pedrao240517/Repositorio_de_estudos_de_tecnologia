@@ -69,6 +69,10 @@ public  abstract class Ninja implements EstrategiaDeBatalha {
         }
 
 
-
-
+        @Override
+        public String toString() {
+                return"Esse é o método toString para referência de  memória" ;
+        }
+        
+        
 }

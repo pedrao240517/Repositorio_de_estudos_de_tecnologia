@@ -745,4 +745,30 @@ depois pra usar ele e só instanciar o método no objeto e colocar o valor do pa
  no geral ele deixa mais legibilidade e claro seu código.
 
 
-### Referência de memoria x Valor em memoria
+### Referência de memória x Valor em memória
+
+Toda vez que cria um objeto eles tem uma referência em memória(lugar na memória do computador ).
+
+ex:NivelIntermediario.Polimorfismo.Uzumaki@4a574795 
+
+Para eu especificar qual valor da memória eu quero mostrar ou "puxar" eu devo indicar o atributo (variavél caracteristica do objeto) que quero mostrar.
+
+Ou seja a referência de memória é o "mapa" enquanto o valor da memória é a "rua".
+
+Se quisermos ter uma representação textual da mémoria, podemos usar o método toString que serve pra converter um objeto ou valor em sua representação textual.
+
+Caso eu queira mudar o método toString adicionando caracterisiticas novas ao método eu posso sobreescrever o método e mudar ele da minha maneira.
+
+````
+ @Override
+        public String toString() {
+                return"Esse é o método toString para referência de  memória" ;
+        }
+
+````        
+
+obs: é indicado ter um @override do toString 
+
+
+### Final Methods - Deixando os métodos constantes
+
