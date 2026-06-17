@@ -142,3 +142,16 @@ Lembre-se de que as máquinas só entendem código binário. Enquanto os humanos
 Descobrimos que podemos converter código-fonte em código de máquina usando um software muito especial chamado compilador . Hoje, apresentaremos um compilador que permite converter código-fonte da linguagem de programação C em código de máquina.
 
 ![alt text](image-35.png)
+
+para a resolução de e criação dos nossos códigos usaremos o vscode para facilitar questões técnicas e a linguagem C por ser mais recepitiva com iniciantes.
+
+O VS code tem 4 itens relevantes a serem citados 
+
+1) Explorador de arquivos no lado esquerdo, onde você pode encontrar seus arquivos.
+
+2) Editor de texto , onde você pode editar seu programa.
+
+3) Interface gráfica do usuário (GUI), na barra lateral esquerda, várias ferramentas e um explorador de arquivos.
+
+4) por fim há uma (command line interface) interface de linha de comando (CLI ) ou janela de terminal , onde podemos enviar comandos para o computador na nuvem.
+ 
