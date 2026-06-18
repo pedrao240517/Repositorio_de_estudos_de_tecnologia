@@ -73,6 +73,7 @@ public  abstract class Ninja implements EstrategiaDeBatalha {
         public String toString() {
                 return"Esse é o método toString para referência de  memória" ;
         }
-        
-        
+
+
+    public abstract void tacarkunai();
 }

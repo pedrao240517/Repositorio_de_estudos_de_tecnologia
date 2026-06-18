@@ -24,6 +24,6 @@ public class ContaCorrente extends ContaBancaria {
 
     @Override
     public void consultarSaldo() {
-        System.out.println("Saldo: " + "R$"+ );
+        System.out.println("Saldo: " + "R$");
     }
 }

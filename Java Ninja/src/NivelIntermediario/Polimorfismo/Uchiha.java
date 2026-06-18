@@ -41,6 +41,13 @@ public class Uchiha extends  Ninja {
     public void provisorio() {
         super.provisorio();
     }
+
+    @Override
+    public void tacarkunai() {
+
+    }
+
+
     
     /*
     public abstract void estrategiaNinja(){

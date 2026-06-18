@@ -33,6 +33,8 @@ public class Uzumaki extends  Ninja{
             System.out.println("Seu QI de batalha é "+ qi +" e você é precisa treinar mais suas estrátegias ");
         }
     }
+    
+
 
 }
 

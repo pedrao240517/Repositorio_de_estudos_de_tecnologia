@@ -772,3 +772,15 @@ obs: é indicado ter um @override do toString
 
 ### Final Methods - Deixando os métodos constantes
 
+Um método declarado com a palavra-chave final não pode ser sobrescrito por subclasses. Isso é útil quando se deseja garantir que a implementação de um método permaneça inalterada em classes derivadas.
+
+````
+// Todo ninja vai fazer obrigatoriamente
+        final void tacarkunai (){
+                System.out.println("Eu sou um metódo da classe filha");
+        }
+
+
+````
+
+?????????

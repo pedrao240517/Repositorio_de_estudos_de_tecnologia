@@ -28,6 +28,12 @@ public class Ninja {
                 return idadeMinima - idade;
         }
 
+        
+        // Todo ninja vai fazer obrigatoriamente
+         final void tacarkunai (){
+                System.out.println("Eu sou um metódo da classe filha");
+        }
+
 
     
 }
