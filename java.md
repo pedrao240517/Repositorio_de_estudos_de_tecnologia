@@ -321,7 +321,7 @@ public class Main {
 vale resaltar que todas as variáveis declaradas dentro de um class a fim de dar caracteristicas a um objeto ém chamado de atributo.
 ### Orientação a objeto 
 
-A Programação Orientada a Objetos (POO) é um paradigma(Um paradigma de desenvolvimento define o conjunto de crenças, conceitos e metodologias que guiam a forma como os profissionais abordam a criação de algo) de desenvolvimento que organiza o código em "objetos" — que combinam dados e comportamentos. Ela é amplamente utilizada porque facilita a criação de sistemas complexos, promove a reutilização de código e torna a manutenção muito mais eficiente
+A Programação Orientada a Objetos (POO) é um paradigma(Um paradigma de desenvolvimento define o conjunto de crenças, conceitos e metodologias que guiam a forma como os profissionais abordam a criação de algo em desenvolvimento que organiza o código em "objetos" — que combinam dados e comportamentos. Ela é amplamente utilizada porque facilita a criação de sistemas complexos, promove a reutilização de código e torna a manutenção muito mais eficiente
 
 Primeiramente, quais os pilares da orientação a objeto: Emcapsulamento,Herança e Polimorfismo.
 
@@ -336,7 +336,7 @@ pra isso é importante usar a palavra chave da herança na nossa classe - extend
 
 obs: ao usar a herança a ordem sequencial mostrada das variveis será com base a class mê/pai
 
-obs: sobrescrição de métodos consiste em repitir o método da class mãe no filho adicionando o metódo da class filho
+obs: sobrescrição de métodos consiste em repitir o método da class mãe no filho adicionando o metódo na class filho
 
 
 ````
@@ -397,7 +397,7 @@ public class Uchiha extends  Ninja {
 
 
 3) Emcapsulamento 
-Capacidade de proteger variaveis e classes para que não haja vazamento e mantendo assim portegida e encpsulada nossos objetos. (evitar vazmento de dados)
+Capacidade de proteger variaveis e classes para que não haja vazamento e mantendo assim protegida e encpsulada nossos objetos. (evitar vazamento de dados)
 
 
 ### Métodos e parâmetros 

@@ -189,3 +189,5 @@ make  -> compila o arquivo a partir de nossas instruções na linguagem  e cria 
 #### Arquivos de cabeçalho e páginas do CS50
 
 A instrução no início do código #include <stdio.h>é um comando muito especial que informa ao compilador que você deseja usar os recursos de uma biblioteca chamada `studio` stdio.h, um arquivo de cabeçalho `<header>` . Isso permite, entre muitas outras coisas, utilizar a print
+
+26:44
