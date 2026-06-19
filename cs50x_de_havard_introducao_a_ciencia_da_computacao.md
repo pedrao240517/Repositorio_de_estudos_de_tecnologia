@@ -135,6 +135,22 @@ o fluxo especificado no curso será mantido
 
 ## Aula 02 - Semana 1 [C] 
 
+#### Questions 
+
+- What is source code ?
+- Como os computadores entendem?
+- o que é código de máquina ?
+- o que é um compilador? 
+- O que é sintaxe? 
+- O que é CLI?
+- O que é GUI ?
+- O que é um editor de texto ?
+- O que é um explorador de arquivos
+- O que é comandos de escape?
+- o que é uma biblioteca? 
+
+
+
 ### Código-fonte
 
 Lembre-se de que as máquinas só entendem código binário. Enquanto os humanos escrevem código-fonte , uma lista de instruções para o computador que é legível para humanos, as máquinas só entendem o que hoje chamamos de código de máquina . Esse código de máquina é um padrão de uns e zeros que produz o efeito desejado.
@@ -155,3 +171,21 @@ O VS code tem 4 itens relevantes a serem citados
 
 4) por fim há uma (command line interface) interface de linha de comando (CLI ) ou janela de terminal , onde podemos enviar comandos para o computador na nuvem.
  
+ ![alt text](<Captura de tela 2026-06-18 200848.png>)
+
+#### Comandos de terminal 
+
+code  -> criar um novo arquivo
+make  -> compila o arquivo a partir de nossas instruções na linguagem  e cria um arquivo executável chamado o nome que demos.
+./ () -> executa o programa executado que criamos  
+
+#### caracteres de escape
+\n cria uma nova linha
+\r retorna ao início de uma linha
+\" imprime aspas duplas
+\' imprime aspas simples
+\\ imprime uma barra invertida
+
+#### Arquivos de cabeçalho e páginas do CS50
+
+A instrução no início do código #include <stdio.h>é um comando muito especial que informa ao compilador que você deseja usar os recursos de uma biblioteca chamada `studio` stdio.h, um arquivo de cabeçalho `<header>` . Isso permite, entre muitas outras coisas, utilizar a print
