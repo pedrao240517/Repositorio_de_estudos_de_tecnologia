@@ -772,7 +772,7 @@ obs: é indicado ter um @override do toString
 
 ### Final Methods - Deixando os métodos constantes
 
-Um método declarado com a palavra-chave final não pode ser sobrescrito por subclasses. Isso é útil quando se deseja garantir que a implementação de um método permaneça inalterada em classes derivadas.
+Um método declarado com a palavra-chave **final** não pode ser sobrescrito por subclasses. Isso é útil quando se deseja garantir que a implementação de um método permaneça inalterada em classes derivadas.
 
 ````
 // Todo ninja vai fazer obrigatoriamente
@@ -783,4 +783,66 @@ Um método declarado com a palavra-chave final não pode ser sobrescrito por sub
 
 ````
 
-?????????
+Além de métodos Final você pode ter também argumento final.
+
+````
+   final double altura = 1.78;
+````
+obs:  na interface  todos os atributos são final ou seja tem que colocar o valor na hora ? 
+
+Além de métodos, argumentos também podemos colocar isso na classe, o que faz ela não poder ser instanciada ou seja não pode criar objetos nela.
+
+### Final Class - Deixando as Classes constantes 
+
+Onde usar Final ? 
+cpf, rg, id da empresa e etc 
+
+Pra impedir de uma classe seja extendida (herdar)
+
+A diferença da classe final eu posso criar objetos nelas e não posso extender ela  enquanto uma interface eu não posso instanciar um objeto.
+
+obs: os métodos e atributos de uma classe final não precisam ser final obrigatoriamente.
+````
+package NivelIntermediario.Polimorfismo;
+
+final class Anbu {
+
+    String nome;
+
+    public void anbu (){
+        System.out.println("Eu Sou um anbu");
+    }
+
+}
+````
+### Encapsulamento 
+
+Definição: 
+Consiste em proteger os atributos de uma classe, permitindo que sejam acessados ou modificados apenas através de métodos públicos. Isso evita acesso direto e descontrolado aos dados de um objeto.
+
+Toda vez que você inicializa um atributo o java coloca eles como públicos. O encapsulamento vai colocar os atributos como private manualmente.
+
+private x final - final mão pode ser alterado private pode
+
+![ ](image-36.png) 
+
+No caso vamos duplicar nosso espaço na memória do computador da variável e vamos colocar como publica pra conseguir alterar o valor alterando nesse espaço público.
+
+Serve pra indicar onde a pessoa vai atribuir o valor aquela variável
+
+obs: eu tenho que usar um prefixo na varíavel que for duplicada como pública - (GET nome da coisa ) pra tirar algo   e (SET nome da coisa )- pra colocar alfuma  coisa, ou seja vamos usar 3 caixas.
+
+![alt text](image-37.png)
+
+GETTERS E SETTERS  - Tirar e colocar valor na variável 
+
+### GETTERS E SETTERS 
+
+Problemas que o encapsulamento resolve:
+
+1) segurança
+2) Code Review
+3) Padronização
+
+
+

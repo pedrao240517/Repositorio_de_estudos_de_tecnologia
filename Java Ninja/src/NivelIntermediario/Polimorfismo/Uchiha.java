@@ -42,10 +42,7 @@ public class Uchiha extends  Ninja {
         super.provisorio();
     }
 
-    @Override
-    public void tacarkunai() {
 
-    }
 
 
     

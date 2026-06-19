@@ -20,6 +20,10 @@ public class Uzumaki extends  Ninja{
         super(nome, aldeia, idade, numeroDeMissoesConcluida, rank);
     }
 
+   
+    
+    
+
     // sobrecarga de método inteligenciaDeCombate();
     @Override
     public void  inteligenciaDeCombate(int qi){

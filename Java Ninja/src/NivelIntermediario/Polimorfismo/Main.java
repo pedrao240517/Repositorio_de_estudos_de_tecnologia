@@ -13,7 +13,17 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
         naruto.estrategiaNinja();
+        naruto.tacarkunai();
         System.out.println(naruto);
+        System.out.println(naruto.altura);
+        System.out.println("=========================================================");
+
+        
+        // obj Ninja Anbu
+
+        Anbu yamato = new Anbu();
+        yamato.nome = ("Yamato");
+        System.out.println(yamato.nome);
         System.out.println("=========================================================");
 
 
