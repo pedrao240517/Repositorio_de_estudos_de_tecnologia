@@ -788,7 +788,7 @@ Além de métodos Final você pode ter também argumento final.
 ````
    final double altura = 1.78;
 ````
-obs:  na interface  todos os atributos são final ou seja tem que colocar o valor na hora ? 
+obs:  na interface  todos os atributos são final ou seja tem que colocar o valor na hora 
 
 Além de métodos, argumentos também podemos colocar isso na classe, o que faz ela não poder ser instanciada ou seja não pode criar objetos nela.
 
@@ -840,9 +840,9 @@ GETTERS E SETTERS  - Tirar e colocar valor na variável
 
 Problemas que o encapsulamento resolve:
 
-1) segurança
-2) Code Review
-3) Padronização
+1) segurança - encapsula nossas classes e métodos
+2) Code Review - facilita a leitura do código
+3) Padronização- todos tem que usar get e set
 
 
 
