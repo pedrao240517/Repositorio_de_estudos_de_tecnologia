@@ -845,4 +845,189 @@ Problemas que o encapsulamento resolve:
 3) Padronização- todos tem que usar get e set
 
 
+````
+    //tirar dados ou mostrar ao usuario eu uso o GET + nome da variável
+
+    public String getNome(){
+        return nome;
+    }
+
+    //SETTER RECEBE VALORES         
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+````
+
+O método do get tem que ser return pois ele tirar ou mostra algo, já o set não precisa pois ele vai apenas colocar algo, porém pra editar o argumento do atributo definido como público então temos que usar um paramêtro e refereciar com this ou super, assim como no construtor.
+
+*Problema: muito verboso ( muito código pra escrever), pra isso o próprio inteli idea faz pra você [no windows - alt + insert]
+
+exemplo 
+````
+       System.out.println("------------- Naruto Uzumaki -------------------");
+        Uzumaki naruto = new Uzumaki("Naruto", "Aldeia da Folha ", 18, 150, 1.80);
+        naruto.setNome("Naruto");
+        System.out.println(naruto.getNome());
+        naruto.setNome("Naruto Uzumaki");
+        System.out.println(naruto.getNome());
+
+````
+
+### Enuns - Uma releitura (Padronização de código)
+
+Por padrão, você sempre extende o enum mas, não é necessário declarar isso.
+
+Obs: O enum só vai ser usado quando aquilo que você colocar no seu código não vai mudar(ex: dias da semana)
+
+OBS: Uma boa prática é usar letras maisculas 
+
+obs:Não pode ter dois enums em um, pois ele serve pra enxugar código.
+
+Pra colocar atributos  nos elementos do enum é necessario criar atributos privados/públicos e crir os construtores pra obrigar todo elemento do enum passar argumentos pros elementos dos atributos.
+
+Ex:
+````
+package NivelIntermediario.Enums;
+
+public enum RankDeMissoes {
+    
+    D("baixo",1),
+    C("Moderado",2),
+    B("Pouco difícil",3),
+    A("Difícil",4),
+    S("Muito Difícil",5);
+
+    private String descricao;
+    private int dificuldade;
+
+    RankDeMissoes(String descricao, int dificuldade) {
+        this.descricao = descricao;
+        this.dificuldade = dificuldade;
+    }
+
+    RankDeMissoes() {
+    }
+    
+}
+````
+
+Se você colocar getters e setters no enum você pode mostrar e alterar os atributos dos elementos do enum.
+
+Ex: 
+Enum
+
+````
+package NivelIntermediario.Enums;
+
+public enum RankDeMissoes {
+    
+    D("baixo",1),
+    C("Moderado",2),
+    B("Pouco difícil",3),
+    A("Difícil",4),
+    S("Muito Difícil",5);
+
+    private String descricao;
+    private int dificuldade;
+
+    RankDeMissoes(String descricao, int dificuldade) {
+        this.descricao = descricao;
+        this.dificuldade = dificuldade;
+    }
+
+    RankDeMissoes() {
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public int getDificuldade() {
+        return dificuldade;
+    }
+
+    public void setDificuldade(int dificuldade) {
+        this.dificuldade = dificuldade;
+    }
+}
+````
+missao
+
+
+`````
+package NivelIntermediario.Enums;
+
+public class Missoes {
+
+    private String nome;
+    private RankDeMissoes rank;
+
+
+    //método publico pra mostrar informações
+    public void exibirDetalhes(){;
+        System.out.println("Missão: "+ nome+ " Rank: "+rank+ " (Descrição: "+ rank.getDescricao() + ", Dificuldade: "+ rank.getDificuldade()+ " )");
+    }
+
+    public Missoes(String nome, RankDeMissoes rank) {
+        this.nome = nome;
+        this.rank = rank;
+    }
+
+    public Missoes() {
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public RankDeMissoes getRank() {
+        return rank;
+    }
+
+    public void setRank(RankDeMissoes rank) {
+        this.rank = rank;
+    }
+}
+
+``````
+
+Main
+``````
+package NivelIntermediario.Enums;
+
+public class Main {
+    static void main(String[] args) {
+
+    Missoes missao1 = new Missoes("Caçar bandido", RankDeMissoes.C);
+    missao1.exibirDetalhes();
+
+
+
+
+        
+    }
+}
+
+``````
+
+### Refatoração de código 
+
+baseado na metodologia eXtreme Go Horse (XGH)
+
+
+
+
+
+
+
+
+
 

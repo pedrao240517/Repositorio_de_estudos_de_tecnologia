@@ -1,4 +1,4 @@
 package NivelIntermediario.codigopronto;
 
-public class _ {
+public class teste {
 }
