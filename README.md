@@ -1,17 +1,21 @@
 # Tecnologia 
 ## Repositório pra registro das máteria/assuntos de ciência da computação (faculdade e estudo pessoal), programação e tecnologia no geral aprendidos durante o período da faculdade (seja por fora ou pela instituição).
-#### Self-taught computer science and Backend developer project
+
+#### Ciência da computação autodidada e roteiro de dev backend
+
 ---
 ### Por dentro (faculdade e/ou estudos faculdade pessoal)
 
 - Em andamento
 1. [Circuitos Digitais](./circuitos-digitais.md)
-2. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
-3. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
+2. [Geometrica análitica](./geometria-analitica.md)
+3. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
+4. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
 
 - Concluído
 
 - Futuramente
+
 
 ### Por fora da faculdade (projeto backend developer)
  
