@@ -843,5 +843,3 @@ ver os tipos de dowloads
 A emoção das cores - a cor de alguma coisa está relacionado a emoção que ele transmite de maneira inconciente.
 
 ![tabelas cores](image-20.png)
-
-dentro das cores, podemos separá-
