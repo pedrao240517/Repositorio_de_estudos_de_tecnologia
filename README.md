@@ -18,7 +18,7 @@
  - Em andamento
  2. [JAVA](./java.md)
  7. [HTML e CSS](./html-css-notas.md)
-
+ 8. [JavaScript](./JS.md) 
  - Concluído
    
 7. [introdução ao desenvolvimento backend ](./backend.md)  
