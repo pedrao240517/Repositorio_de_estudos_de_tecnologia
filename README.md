@@ -1,7 +1,8 @@
 # Tecnologia 
 ## Repositório pra registro das máteria/assuntos de ciência da computação (faculdade e estudo pessoal), programação e tecnologia no geral aprendidos durante o período da faculdade (seja por fora ou pela instituição).
 
-#### Self-taught computer science and Backend developer project
+#### Ciência da computação autodidada e roteiro de dev backend
+
 ---
 ### Por dentro (faculdade e/ou estudos faculdade pessoal)
 
