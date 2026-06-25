@@ -8,12 +8,14 @@
 
 - Em andamento
 1. [Circuitos Digitais](./circuitos-digitais.md)
-2. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
-3. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
+2. [Geometrica análitica](./geometria-analitica.md)
+3. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
+4. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
 
 - Concluído
 
 - Futuramente
+
 
 ### Por fora da faculdade (projeto backend developer)
  
