@@ -1018,9 +1018,49 @@ public class Main {
 
 ``````
 
-### Refatoração de código 
+### Refatoração de código  (adiado no momento)
 
-baseado na metodologia eXtreme Go Horse (XGH)
+Baseado na metodologia Extreme Go Horse
+
+
+
+### List (lista)- um array com superpoderes
+
+conceito: As Listas em Java são estruturas de dados que permitem armazenar e manipular coleções de objetos de forma dinâmica.
+
+- Diferença de array e list
+
+O array nos temos que determinar o tamanho (lugares da mémoria [referência de memória]) ou seja teria que trabalhar com os indíces, por eles serem (estáticos).
+
+A list no entanto, pode aumentar ou diminuir de tamanho automaticamente e tem métodos próprios que não lidam com memória, sendo desnecessário colocar seu tamanho.
+
+- Como usar listas?
+
+##### instanciar o objeto:
+
+List <tipo de dado> nome = new nome<>()
+
+##### pra adicionar valor:
+
+nome.add(valor);
+
+##### Pra printar:
+
+sout(nomedalista)
+
+##### Pra remover:
+
+nomedalista.remove(valor a ser removido)
+
+##### Pra trocar elementos:
+
+nomedalista.set
+
+##### Tamanho da lista
+
+list.size
+
+
 
 
 
