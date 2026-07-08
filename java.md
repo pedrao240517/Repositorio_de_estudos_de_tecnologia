@@ -51,7 +51,7 @@ O bytecode é uma representação intermediária de código, posicionada entre o
 Detalhamento do processo da JVM no Futuro.
 
 
-- Variaveis, tipagem de dados
+#### Variaveis, tipagem de dados
 
 Primeiramente, vale resaltar que java é uma linguagem fortemente tipada, o que é isso? (ma linguagem fortemente tipada (ou altamente tipada) é aquela que impõe regras rigorosas sobre os tipos de dados (como int, string, bool), não permitindo conversões automáticas implícitas entre tipos incompatíveis e exigindo que tipos de variáveis sejam bem definidos.)
 
@@ -133,6 +133,8 @@ Ctrl + E: Mostrar arquivos recentes
 Ctrl + /: Comentar/descomentar linha
 Ctrl + Shift + F10: Executar a aplicação
 
+### Sintaxe básica 
+
 - Comando de Saída em java 
 
 System.out.print - mostra para o usuário na tela
@@ -162,13 +164,65 @@ Scanner → classe usada para ler entradas do usuário
 
 System.in → entrada padrão do sistema (teclado)
 
-###### métodos
+#### Fundição de tipos (typecasting)
+
+Consiste em converter um tipo de dado em outro, sendo útil quando precisamos realizar operações com diferentes tipos de dados ou quando queremos armazenar um valor de um tipo de dado em uma variável de outro tipo de dado. 
+
+De maneira simples e atribuição do valor de uma variavel de um tipo para outra:
+
+````
+     int numero = 18; // criando varivael de tipo maior
+
+        double valor = numero; // convertendo o tipo
+
+        System.out.println("Número: "+ numero);
+        System.out.println("Valor: "+ valor);
+
+````
+
+Existem milhares de conbinações possíveis de fundição de tipos, entretanto elas sempre seguem um dos dois padrões 
+
+
+- Fundição do tipo alargado:
+
+A conversão de tipo por ampliação (widening type casting) é o processo de converter um tipo de dado inferior para um tipo de dado superior. Também é conhecida como conversão implícita ou casting para baixo. Esse processo é realizado automaticamente e é seguro, pois não há risco de perda de dados. Esse tipo de conversão de tipo em Java ocorre quando:
+
+O tipo de destino é maior que o tipo de origem.
+Os dois tipos de dados são compatíveis.
+byte -> short -> char -> int -> long -> float -> double (Da esquerda para a direita: Tipo de dado inferior para tipo de dado superior)
+
+exemplo relatado acima 
+
+
+- Fundição de Tipo Estreito:
+
+A conversão de tipo por redução (ou "thresholding type casting") é o processo de reduzir um tipo de dados maior para um menor. 
+Em Java, esse processo também é conhecido como conversão ascendente (ou "casting up") ou conversão explícita de tipo. 
+Ele não ocorre automaticamente. Se não for feito explicitamente, ocorrerá um erro de compilação. 
+A conversão de tipo por redução é insegura, pois pode haver perda de dados devido ao menor intervalo de valores permitidos para o tipo de dados inferior. 
+Um operador de conversão (`cast`) auxilia na conversão explícita.
+
+double -> float -> long -> int -> char -> short -> byte (Da esquerda para a direita: do tipo de dado mais significativo para o mais abstrato)
+
+exemplo:
+````
+   int numero = 130;
+
+        byte valorByte = (byte) numero; // int → byte
+
+        System.out.println(valorByte);
+````        
+
+
+##### métodos
+
+É a sequência de passos colocadas dentro de uma escopo de uma classe, podendo ser do tipo void - não retorna valor(procedimento) e return - retorna valor(função)
 
 nextLine(); // recebe texto
 
 nextInt();  // recebe inteiro
 
-- Operadores matematicos básicos 
+#### Operadores matematicos básicos 
 
 Adição - + 
 
@@ -182,7 +236,7 @@ Restante/ Módulo -  %
 
 para saber outros operadores acesse a documentação oficial ou tutoriais (https://jenkov.com/tutorials/java/math-operators-and-math-class.html)
 
-- Condicionais 
+#### Condicionais 
 
 IF - se 
 
@@ -206,7 +260,7 @@ o compilador reclama de tudo;
 exige organização desde o começo.
 obs: pra determinar o fim do comando precisa colocar ; 
 
-- Laços de repetição (sempre inclemente o que 
+#### Laços de repetição (sempre inclemente o que 
 está trabalhando)
 
 while (enquanto) - repete sempre um a mais 
@@ -214,7 +268,7 @@ For (para) -for(inicialização; condição; incremento) { // código }
 do..while(faça enquanto)
 ForEach (para cada)
 
-- Arrays (Matrizes)
+#### Arrays (Matrizes)
 
  São estruturas de dados fundamentais usadas para armazenar uma coleção de elementos do mesmo tipo de dados em locais de memória contíguos. Eles fornecem uma maneira de organizar e acessar múltiplos valores usando um único nome de variável e um índice.
 
