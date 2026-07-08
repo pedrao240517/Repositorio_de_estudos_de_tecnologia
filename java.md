@@ -211,7 +211,35 @@ exemplo:
         byte valorByte = (byte) numero; // int → byte
 
         System.out.println(valorByte);
-````        
+````       
+
+#### Escopo de variaveis 
+
+Em java existem varios tipos de escopos de variaveis mas ele sempre é centrado em escopo local e escopo global
+
+O escopo global e odo o código presente, no caso em java a class, já o escopo local e aquela parte especifica do código onde apenas ali existe aquela variavél.
+
+Os Escopos locais que existe em java são:
+
+1) Escopo da classe - variaveis declarada dentro da classe
+2) Escopo do método - variavel existe apenas no método
+3) Escopo do Loop - variavel existe apenas dentro do loop
+4) suporte para mira telescopica - variavel dentro de concheltes que apenas pode ser executada ali
+5) Escopos e sombreamento de variavel -  uma má pratica de programação onde temos uma variavel da classe e do método do mesmo nome e assim acabamos instanciando duas variaveis, nesse caso se quiser acessar a global pelo método se usar this em subclasses e super e superclasses.
+
+````
+public class NestedScopesExample {
+    String title = "Baeldung";
+    public void printTitle() {
+        System.out.println(title);
+        String title = "John Doe";
+        System.out.println(title);
+    }
+}
+````
+
+
+
 
 
 ##### métodos
@@ -260,13 +288,70 @@ o compilador reclama de tudo;
 exige organização desde o começo.
 obs: pra determinar o fim do comando precisa colocar ; 
 
-#### Laços de repetição (sempre inclemente o que 
-está trabalhando)
+#### Laços de repetição (sempre inclemente o que está trabalhando)
 
-while (enquanto) - repete sempre um a mais 
-For (para) -for(inicialização; condição; incremento) { // código }
-do..while(faça enquanto)
-ForEach (para cada)
+1) while (enquanto) - repete sempre um a mais 
+````
+public class Main {
+    public static void main(String[] args) {
+
+        int contador = 1;
+
+        while (contador <= 5) {
+            System.out.println("Número: " + contador);
+            contador++;
+        }
+
+    }
+}
+````
+2) For (para) -for(inicialização; condição; incremento) { // código }
+````
+// Program to print a text 5 times
+
+class Main {
+  public static void main(String[] args) {
+
+    int n = 5;
+    // for loop  
+    for (int i = 1; i <= n; ++i) {
+      System.out.println("Java is fun");
+    }
+  }
+}
+````
+3) do..while(faça enquanto) - executa o código uma vez e depois verifica
+`````
+public class Main {
+    public static void main(String[] args) {
+
+        int numero = 10;
+
+        do {
+            System.out.println("Executou!");
+            numero++;
+        } while (numero < 5);
+
+    }
+}
+`````
+4) ForEach (para cada)
+````
+// print array elements 
+
+class Main {
+  public static void main(String[] args) {
+      
+    // create an array
+    int[] numbers = {3, 7, 5, -5};
+    
+    // iterating through the array 
+    for (int number: numbers) {
+       System.out.println(number);
+    }
+  }
+}
+````
 
 #### Arrays (Matrizes)
 
