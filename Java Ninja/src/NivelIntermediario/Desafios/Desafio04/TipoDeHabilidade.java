@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio02;
+package NivelIntermediario.Desafios.Desafio04;
 
     public enum TipoDeHabilidade {
 
@@ -6,9 +6,11 @@ package NivelIntermediario.Desafios.Desafio02;
         NINJUTSU,
         GENJUTSU,
         KATON,
-        RINNENGAN
+        RINNENGAN;
 
 
+        
+        
     }
 
 

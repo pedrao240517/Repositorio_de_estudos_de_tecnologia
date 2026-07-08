@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio02;
+package NivelIntermediario.Desafios.Desafio04;
 
 public class ninjaAvançado implements Ninja{
 
@@ -26,6 +26,7 @@ public class ninjaAvançado implements Ninja{
     @Override
     public void executarhabilidade() {
         System.out.println("O ninja " + nome + " está executando a habilidade " + habilidade);
+        System.out.println("Tipo de habilidade: "+TipoDeHabilidade.KATON +" e "+ TipoDeHabilidade.GENJUTSU +" e talvez "+ TipoDeHabilidade.RINNENGAN);
 
 
     }

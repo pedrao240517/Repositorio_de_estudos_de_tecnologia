@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios.Desafio01;
+package NivelIntermediario.Desafios.Desafio03;
 
 public class Uchiha extends Ninja {
     String habilidadeEspecial ="Sharigan"; // criando a habilidade dos uchihas
