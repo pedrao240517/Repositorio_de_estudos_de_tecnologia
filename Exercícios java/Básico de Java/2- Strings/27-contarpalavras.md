@@ -1,0 +1,1 @@
+Leia uma frase e informe quantas palavras existem nela.

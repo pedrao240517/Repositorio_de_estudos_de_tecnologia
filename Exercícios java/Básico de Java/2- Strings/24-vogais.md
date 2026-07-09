@@ -1,0 +1,1 @@
+Leia uma palavra e informe quantas vogais ela possui.

@@ -1,0 +1,1 @@
+Leia uma senha e informe se ela possui pelo menos 8 caracteres.

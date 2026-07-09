@@ -1,0 +1,1 @@
+Leia uma frase e exiba-a totalmente em letras minúsculas.

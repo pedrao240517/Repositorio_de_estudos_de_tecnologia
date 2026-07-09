@@ -1,0 +1,1 @@
+Leia o nome completo de uma pessoa e exiba-o exatamente como foi digitado.
