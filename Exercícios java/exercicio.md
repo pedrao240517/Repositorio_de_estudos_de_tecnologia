@@ -9,4 +9,3 @@
 - Vetores 
 - Matrizes 
 - Funções Recursivas 
-- Exercícios Extras
