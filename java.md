@@ -406,7 +406,7 @@ O Garbage Collection é especialmente importante em linguagens como Java e C#, o
 
 https://www.mindmeister.com/app/map/3958307975
 
-o que falta colocar  : Arrays, loops, basico de poo, fundição de tipos , variaveis e escopos , tipos de dados , basica sintaxe (bufferBufferedReader.)
+o que falta colocar  : basico de poo e basica sintaxe  do bufferBufferedReader.
 
 
 ## Nível intermediário
@@ -1163,7 +1163,7 @@ Baseado na metodologia Extreme Go Horse
 
 
 
-### List (lista)- um array com superpoderes
+###  List (lista)- um array com superpoderes
 
 conceito: As Listas em Java são estruturas de dados que permitem armazenar e manipular coleções de objetos de forma dinâmica.
 
@@ -1198,6 +1198,23 @@ nomedalista.set
 ##### Tamanho da lista
 
 list.size
+
+### Generics 
+
+- Pra que server Generics?
+
+1) deixar o código escalável 
+
+2) Facilistar a manuntenção do código
+
+3) Código reutilizável e genérico
+
+
+
+
+
+
+
 
 
 

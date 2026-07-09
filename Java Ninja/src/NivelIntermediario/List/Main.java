@@ -19,7 +19,7 @@ public class Main {
 
 
         // Lista- Não são estaticas, podem aumentar ou diminuir
-        List<String> ninjasList = new ArrayList<>();
+        List<String> ninjasList = new ArrayList<>(); // criando na lista
 
         //Adicionar na lista
         ninjasList.add("Narutinho ");
