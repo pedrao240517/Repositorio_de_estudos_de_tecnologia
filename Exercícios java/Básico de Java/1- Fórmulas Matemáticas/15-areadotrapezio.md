@@ -1,0 +1,1 @@
+Crie um programa que leia a base maior, a base menor e a altura de um trapézio e calcule sua área.

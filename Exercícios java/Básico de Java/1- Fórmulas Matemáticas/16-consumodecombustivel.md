@@ -1,0 +1,1 @@
+Crie um programa que leia a distância percorrida (em km) e a quantidade de combustível gasta (em litros). Em seguida, calcule o consumo médio.

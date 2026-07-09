@@ -1,0 +1,1 @@
+Crie um programa que leia o peso (kg) e a altura (m) de uma pessoa e calcule seu IMC.
