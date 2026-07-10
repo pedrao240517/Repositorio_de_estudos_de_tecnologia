@@ -1203,7 +1203,7 @@ list.size
 
 - Pra que server Generics?
 
-1) deixar o código escalável 
+1) Deixar o código escalável 
 
 2) Facilistar a manuntenção do código
 
