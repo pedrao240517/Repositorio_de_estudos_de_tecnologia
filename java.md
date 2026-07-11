@@ -1209,6 +1209,9 @@ list.size
 
 3) Código reutilizável e genérico
 
+Pra colocar sua classe como generica primeiramente use esse simbolo <> pra poder
+passar qualquer coisa nela, mas uma boa prática é usar um <T> 
+
 
 
 

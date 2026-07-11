@@ -1,5 +1,7 @@
 package NivelIntermediario.List;
 
+import NivelIntermediario.Generics.comgenerics.EquipamentosNinja;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,7 +40,15 @@ public class Main {
         
         //ver o tamanho da lista
         System.out.println("Tamanho da lista: " + ninjasList.size() + " elementos");
-        
+
+        // caso eu queira adicionar um objeto como tipo da lista eu posso
+        EquipamentosNinja equipamentosNinja0 = new EquipamentosNinja("Kunai de ferro");
+        List<EquipamentosNinja> ninjasList2 = new ArrayList<>(); // criando na lista
+        ninjasList2.add(equipamentosNinja0);
+        System.out.println(ninjasList2);
+
+
+
 
 
 
