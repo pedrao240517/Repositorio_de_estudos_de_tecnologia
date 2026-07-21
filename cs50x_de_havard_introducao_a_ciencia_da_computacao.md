@@ -242,6 +242,6 @@ Seus operadores são:
 <- menor ou igual a que 
 == - igual
 != - diferente de 
-..- - ?
+.. -  ?
 
 ### tipos de dados 
