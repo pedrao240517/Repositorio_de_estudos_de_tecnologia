@@ -133,6 +133,10 @@ https://cs50.harvard.edu/x/psets/0/scratch/
 
 o fluxo especificado no curso será mantido
 
+
+
+
+
 ## Aula 02 - Semana 1 [C] 
 
 #### Questions 
