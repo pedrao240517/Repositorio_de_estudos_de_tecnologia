@@ -180,10 +180,10 @@ O VS code tem 4 itens relevantes a serem citados
 #### Comandos de terminal 
 
 code  -> criar um novo arquivo
-make  -> compila o arquivo a partir de nossas instruções na linguagem  e cria um arquivo executável chamado o nome que demos.
+make  -> compila o arquivo a partir de nossas instruções na linguagem  e cria um arquivo executável chamado o nome que demos. (obs: sempre que sair alguma coisa no compilador após digitar make então você vezz algo de errado).
 ./ () -> executa o programa executado que criamos  
 
-#### caracteres de escape
+#### caracteres de escape/sáida
 \n cria uma nova linha
 \r retorna ao início de uma linha
 \" imprime aspas duplas
@@ -192,6 +192,56 @@ make  -> compila o arquivo a partir de nossas instruções na linguagem  e cria 
 
 #### Arquivos de cabeçalho e páginas do CS50
 
-A instrução no início do código #include <stdio.h>é um comando muito especial que informa ao compilador que você deseja usar os recursos de uma biblioteca chamada `studio` stdio.h, um arquivo de cabeçalho `<header>` . Isso permite, entre muitas outras coisas, utilizar a print
+A instrução no início do código #include <stdio.h>é um comando muito especial que informa ao compilador que você deseja usar os recursos de uma biblioteca chamada `studio` stdio.h, um arquivo de cabeçalho `<header>` . Isso permite, entre muitas outras coisas, utilizar a print e etc.
 
-26:44
+Para procurar bibliotecas e resolver problemas da linguagem, você deve procurar na documentação(manual) da linguagem, o cs50x disponibilizou um mais acessível para a maiores dos iniciantes na linguagem C.  
+
+### Resolução de erros de compilador 
+
+![alt text](image-42.png)
+
+O erro mostra primeiro  o nome do arquivo onde está o problema, o número da linha e o número de caractere da linha, depois explicação do erro.
+
+Embaixo o número de erro gerado no banco de erros do compilador.
+
+### Linux 
+
+Descedente de um S.O chamado Unix, nele podemos usar alguns comandos uteis na CLI que ajudara no desenvolvimento dos códigos. Alguns dele incluem: 
+
+
+![alt text](image-43.png)
+
+
+### condicionais 
+
+Em se as condicionais seguem as regras de verdadeiro ou falso se a condição for atendida.
+```
+// Comparando integrais 
+
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else if (x > y)
+{
+    printf("x is greater than y\n");
+}
+else
+{
+    printf("x is equal to y\n");
+}
+
+````
+
+Seus operadores são:
+
+= - atribuição
+< - menor que 
+> - maior que 
+> - maior ou igual a que 
+<- menor ou igual a que 
+== - igual
+!= - diferente de 
+..- - ?
+
+### tipos de dados 
