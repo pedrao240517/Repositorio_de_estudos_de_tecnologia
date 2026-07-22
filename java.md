@@ -1199,7 +1199,7 @@ nomedalista.set
 
 list.size
 
-### Generics 
+### Generics  -rever sobre 
 
 - Pra que server Generics?
 
@@ -1210,7 +1210,85 @@ list.size
 3) Código reutilizável e genérico
 
 Pra colocar sua classe como generica primeiramente use esse simbolo <> pra poder
-passar qualquer coisa nela, mas uma boa prática é usar um <T> 
+passar qualquer coisa nela, mas uma boa prática é usar um t entre o simbolo
+
+No caso generics são usados para criar coleções de objetos do mesmo tipo. Um bom exemplo 
+é uma bolsa de ferramentas do universo de naruto, sem usar um generic teriamos que criar um array 
+de outro tipo de objeto toda vez que quiser adicionar uma ferramenta  ninja.
+
+![img.png](img.png)
+
+Em vez disso eu posso teruma bolsa generica que pode receber qualquer tipo de ferramenta(objeto)
+
+![img_1.png](img_1.png)
+
+
+### Records 
+
+Um registro é um tipo especial de classe em Java 
+projetada para armazenar dados imutáveis. 
+Ele gera automaticamente métodos como `get` equals(), hashCode()`get` 
+e toString()`get` com base nos componentes declarados em seu cabeçalho, 
+reduzindo a necessidade de código repetitivo
+
+Observações sobre os records:
+
+- todos os atributos são final por padrão, ou seja não tem setter  
+
+nesse caso não precisa de get e setter pra acessar os atributos.
+
+No geral quando os dados não foram alterar(atributos) ou seja serem constantes e bom usar records
+Um bom caso são em uso de cadastros, pois o nome e o identificador sempre sera unico.
+
+
+- Como usar ?
+
+ex:
+
+````
+
+package NivelIntermediario.Records;
+
+public record NinjaRecord(String nome ,String email, int telefone) {
+
+````
+
+### Stack - O ultimo a entrar é o primeiro a sair
+
+Uma stack (ou pilha) é uma estrutura de dados que segue o princípio LIFO (Last In, First Out), ou seja, o último item a ser adicionado é o primeiro a ser removido. Imagine uma pilha de livros: o último
+livro colocado no topo é o primeiro que você tira quando quer pegar um livro.
+
+![img_2.png](img_2.png)
+
+- Inicialização de Stack
+
+        Stack<String> ninjasStack = new Stack<>();
+
+- Métodos para trabalhar com Stack
+
+1) Push - colocar elemento da pilha  
+2) Pop - Tirar elemento da pilha (o que ta no topo)
+3) Peek - Verificar qual o próximo elemento da pilha 
+4) size - verificar o tamanhoa da quantidade de elementos da lista 
+5) Isempty- Verifica se a pilha está vazia
+
+
+Ex: 
+```
+  Stack<String> ninjasStack = new Stack<>();
+        ninjasStack.add("Naruto Uzummki");
+        ninjasStack.push("Sasuke Uchiha");
+        ninjasStack.push("Sakura Haruno");
+        ninjasStack.push("Hinata Hyuga");
+        ninjasStack.push("Kakashi Hatake");
+        System.out.println("Minha stack atual = "+ ninjasStack);
+        ninjasStack.pop();
+        System.out.println("Minha stack atualizada com pop = "+ ninjasStack);
+        System.out.println("Minha stack atualizada com proximo elemento do topo = "+ ninjasStack.peek());
+        System.out.println("Tamanho da Stack = "+ ninjasStack.size() +" elementos");
+        System.out.println("Minha stack atual = "+ ninjasStack);
+
+````
 
 
 
