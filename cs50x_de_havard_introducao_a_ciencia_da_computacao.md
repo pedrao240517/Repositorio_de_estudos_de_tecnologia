@@ -245,3 +245,41 @@ Seus operadores são:
 .. -  ?
 
 ### tipos de dados 
+
+
+bool - lógico
+
+char- um caractere
+
+double - número com ponto e virgula (real)
+
+float - número com ponto e virgula  com mais precisão (real) 
+
+int- números inteiros simples
+
+long - números inteiros maiores
+
+string - cadeia de caracteres
+
+### Códigos de formato
+
+%s - é usado para string  variaveis de cadeia de caracteres
+
+%c -é usado para char variáveis ​​de caractere. 
+
+%f - é usado para float variáveis ​​de ponto flutuante. 
+
+%i - é usado para int variáveis ​​inteiras. 
+
+%li -é usado para variáveis long​ ​inteiras 
+
+### Operadores lógicos
+
+&& (E lógico / AND): Retorna verdadeiro apenas se todas as condições forem verdadeiras.
+
+|| (OU lógico / OR): Retorna verdadeiro se pelo menos uma das condições for verdadeira.
+
+! (Negação / NOT): Inverte o valor lógico (o que é verdadeiro vira falso e vice-versa)
+
+
+### Correção, Design, Estilo 
