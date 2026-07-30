@@ -1289,6 +1289,9 @@ Ex:
         System.out.println("Minha stack atual = "+ ninjasStack);
 
 ````
+### Array x List x Stack - Um resumão de tudo que vimos
+
+
 
 
 
