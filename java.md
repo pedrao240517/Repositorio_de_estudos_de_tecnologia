@@ -1291,20 +1291,85 @@ Ex:
 ````
 ### Array x List x Stack - Um resumão de tudo que vimos
 
+estrutura de dados sempre trabalham com ordenação - a ordem (índice)- sempre vai ser 0
+
+
+- Array
+
+Os array são estáticos ou seja tem tamanho físico, ou seja não temos que alocar na memória
+a quantidade de slots que queremos ter.
+
+Pra referenciar ou seja apontar onde colocar um valor no array temos que colocar o indice 
+na atribuição de valor:
+
+Ex: ninjaArrayNome[0] = "Naruto Uzumaki;"
+
+Caso eu não especifique o index do Array que eu quero printar na  saida ele vai 
+me mostrar a refência de memória ou seja o local de armazemamento da mémoria.
+
+ex:@27716f4
+
+Caso não tenha  valor ele vai devolver um null e caso eu tente printar um index além do tamanho do
+array causa um erro de compilação.
+
+````
+// Devolve o endereço mémoria - @27716f4
+        System.out.println("----------------------ARRAY-----------------------------");
+        System.out.println("Nome do Ninja Array = " + nomeNinjaArray);
+
+        // valor atribuido
+        System.out.println("Nome do Ninja Array = " + nomeNinjaArray[0]);
+
+        // sem valor - Null
+        System.out.println("Nome do Ninja Array = " + nomeNinjaArray[3]);
+        System.out.println("----------------------LISTA-----------------------------");
+````
+
+- lISTA
+
+ Pode ter qualquer tipo de dado ou um dado específico quando declarado.
+
+ex: List<String>nomeNinjaList = new ArrayList<>();
+
+ pra trabalhar com a lista temos que usar diversos métodos da lista importados do próprio java
+quando se adiciona uma lista na classe.
+
+Métodos:
 
 
 
+Para printar na lista apenas colocamos o nome da lista.
+System.out.println("Nome do Ninja List = " + nomeNinjaList);
+
+se eu quiser colocar a referência de memória da lista usar o método to String 
 
 
+o principal problema da lista é que ela é um pouco mais lenta em comparação com o array
 
+- Stack (pilha)
 
+São básicamente lista ordenada ou seja você ta trabalhando com ordenação. Pois o último
+elemento que colocou é o primeiro a sair.
 
+Pode ter qualquer tipo de dado ou um dado específico quando declarado igual a lista .
 
+push - pra adiciona no stack  - equivalente ao add na lista.
+pop pra tirar o elemento  
+pic- mostrar proximo elemento do topo da pila 
 
+````
+Stack<String> nomeNinjaStack = new Stack<>();
+        nomeNinjaStack.push("Naruto Uzumaki");
+        nomeNinjaStack.push("Sasuke Uchiha"); // adicionar elementos do stack
+        nomeNinjaStack.push("Sakura Haruno");
+        nomeNinjaStack.push("Itachi Uchiha");
+        System.out.println("Mostrar  Stack = " + nomeNinjaStack); // printar toda stack
+        System.out.println("tirar da stack  = " + nomeNinjaStack.pop()); // tirar elementos o stack
+        System.out.println("Mostrar  Stack = " + nomeNinjaStack);
+        System.out.println("Ninja no topo(sem remover): " + nomeNinjaStack.peek());
+````
 
-
-
-
+adicionar questoes anki propria e do quiz da aula 
 
 
 
