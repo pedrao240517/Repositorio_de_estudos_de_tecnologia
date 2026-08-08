@@ -1253,7 +1253,7 @@ public record NinjaRecord(String nome ,String email, int telefone) {
 
 ````
 
-### Stack - O ultimo a entrar é o primeiro a sair
+### Stack - O ultimo a entrar é o primeiro a sair (FILO -First in Last Out)
 
 Uma stack (ou pilha) é uma estrutura de dados que segue o princípio LIFO (Last In, First Out), ou seja, o último item a ser adicionado é o primeiro a ser removido. Imagine uma pilha de livros: o último
 livro colocado no topo é o primeiro que você tira quando quer pegar um livro.
@@ -1369,8 +1369,30 @@ Stack<String> nomeNinjaStack = new Stack<>();
         System.out.println("Ninja no topo(sem remover): " + nomeNinjaStack.peek());
 ````
 
-adicionar questoes anki propria e do quiz da aula 
+adicionar questoes anki propria e do quiz da aula  * 
 
+### Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
+
+![img_3.png](img_3.png) Cabeça e rabo
+
+ - Inicialização de Queue
+
+Queue<String> ninjasQueue = new LinkedList<>(); - pois a queue é uma lista ordenada (vou explicar mais pra frente).
+
+Pra adicionar assim como a lista como . add
+
+Ex: ninjasQueue.add("Naruto"); 
+
+- Comandos Usados na Queue
+
+.pool - vai tirar o head(cabeça) da lista 
+.peek - ver o Head da Fila 
+
+Deletar o Tail - Não da pra tirar ou seja você se ferra pois tem que tirar tudo mundo.
+
+* colocar falshcards da aula do quiz e proprio no anki
+
+### LinkedList x ArrayList (Mémoria)
 
 
 
