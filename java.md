@@ -1424,14 +1424,34 @@ Pra resolver esse problema temos a LinkedLists ou listas encadeadas em portuguê
 
 "Array list é excelente para procurar coisas porque possui index, porém é horrível
 quando se precisa fazer um grande números de operações pois nosso algoritmo não fica perfomatico
-ou seja ele fica lento. Já a linkedList é horrível pra busca mais perfeito para grandes operações."
+ou seja ele fica lento. Já a linkedList é horrível pra busca pois ela não tem indíce mais perfeito para grandes operações."
 
 
 - Como ela funciona?
 
-Cada elemento (Referência de mémoria) está apontando pro próximo elemento
+Cada elemento (Referência de mémoria) está apontando pro próximo elemento.
 
 ![img_6.png](img_6.png)
+
+Ai que a "mágica" acontece quando você quiser adicionar/remover etc você apenas 
+tera que mover pra onde o ponteiro do local onde você quer mecher esta apontando.
+
+Ex: se nesse caso acima você quiser colocar o kakashi em 2, você adiciona ela e coloca o 
+ponteiro do naruto pra apontar pra ele e o dele pro sasuke e continua a lista.
+
+![img_7.png](img_7.png)
+
+Linkedlist é encadeado pelos ponteiros entre eles.
+
+Por isso o arraylist é mais lento que o linkedList.
+
+- Mas como Calcular a velocidade de um algoritmo.
+
+Pra isso usamos um algoritmo computacional pra calcular a velocidade computacional de um algoritmo
+denominado notação bigO
+
+* Quiz e anki do conteúdo adicionar. 
+
 
 
 
