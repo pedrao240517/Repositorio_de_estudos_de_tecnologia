@@ -1394,6 +1394,53 @@ Deletar o Tail - Não da pra tirar ou seja você se ferra pois tem que tirar tud
 
 ### LinkedList x ArrayList (Mémoria)
 
+- Como o java aloca um novo espaço na mémoria do computador quando incializamos um objeto
+
+1-  saiba que Array lista - lista sequencial
+
+2-  A interface crie uma copia do nosso ultimo espaço de mémoria criado 
+mantendo ele de forma sequencial
+
+![img_4.png](img_4.png)
+
+E se a gente quiser adicionar um objeto como nesse caso a hinata, em um index que não
+seja o último como 1?
+
+Primeiro teriamos que colocar a hinata no index de mémoria selecionado, passar
+todos os objetos para a direita e reordenar toda a sequencia da lista.
+
+como fazer:
+
+![img_5.png](img_5.png)
+
+Tá mas o que tem tudo isso?
+
+A questão principal e que em uma lista enorme com por exemplo 1 bilhao de lista 
+teriamos que fazer esse processo 1 bilhao de vezes, o que causaria um grande problema
+de mémoria. Por isso Listas são boas para pesquisa mas toda operação que fazemos
+nela é extremamente delicado. 
+
+Pra resolver esse problema temos a LinkedLists ou listas encadeadas em português.
+
+"Array list é excelente para procurar coisas porque possui index, porém é horrível
+quando se precisa fazer um grande números de operações pois nosso algoritmo não fica perfomatico
+ou seja ele fica lento. Já a linkedList é horrível pra busca mais perfeito para grandes operações."
+
+
+- Como ela funciona?
+
+Cada elemento (Referência de mémoria) está apontando pro próximo elemento
+
+![img_6.png](img_6.png)
+
+
+
+
+
+
+
+
+
 
 
 
