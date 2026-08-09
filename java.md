@@ -1461,6 +1461,19 @@ Colections são interfaces que usamos na nossa estrutura de dados.
 Na verdade o arraylis e o linkedList são classes, ou seja colections nada mais é que o
 conjunto de estrutura de dados.
 
+### HashSet - vai usar na maioria das vezes que trabalha com SET
+
+- Qual a diferença de um set pra uma lista 
+
+O set vai ser usado pra poder ignorar itens duplicados na lista(arraymelhorado) e outra 
+caracteristica é que ele não tem sequência(ordem) ou seja ele vai colocar os elementos
+conforme a ordem de implementação na aplicação.
+
+O método addAll() em um Set do Java adiciona todos os elementos de outra coleção informada ao conjunto atual.
+ex:  ninjasset.addAll(ninjas);
+
+
+
 
 
 
