@@ -14,7 +14,7 @@ public class Main {
         ninjas.add("Sasuke");
         ninjas.add("Sakura");
         ninjas.add("Naruto");
-        
+
 
 
         System.out.println("Ninjas: " + ninjas);
