@@ -1452,6 +1452,14 @@ denominado notação bigO
 
 * Quiz e anki do conteúdo adicionar. 
 
+### LinkedList - Introdução a colection
+
+Colections são interfaces que usamos na nossa estrutura de dados.
+
+![img_8.png](img_8.png)
+
+Na verdade o arraylis e o linkedList são classes, ou seja colections nada mais é que o
+conjunto de estrutura de dados.
 
 
 
