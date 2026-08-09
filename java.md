@@ -1463,9 +1463,9 @@ conjunto de estrutura de dados.
 
 ### HashSet - vai usar na maioria das vezes que trabalha com SET
 
-- Qual a diferença de um set pra uma lista 
+- Qual a diferença de um set pra uma lista ? 
 
-O set vai ser usado pra poder ignorar itens duplicados na lista(arraymelhorado) e outra 
+O set vai ser usado pra poder ignorar itens duplicados na lista(array melhorado) e outra 
 caracteristica é que ele não tem sequência(ordem) ou seja ele vai colocar os elementos
 conforme a ordem de implementação na aplicação.
 
