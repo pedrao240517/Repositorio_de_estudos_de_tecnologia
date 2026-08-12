@@ -13,9 +13,9 @@ Conceito: banco de Dados é uma coleção de dados.
 ### 1- O que é um dado?
 
 Nesse contexto, um dado é um fato que deve ser armazenado(persistido) e que tem um significado implícito.
-Ou seja, te, algum aspecto do mundo real que precisa ser modelada e um foco específico.
+Ou seja, tem algum aspecto do mundo real que precisa ser modelada e um foco específico.
 
-Esses dados tem uma estrutura lógica que confere um siginifcado aos dados.
+Esses dados tem uma estrutura lógica que confere um siginifcado aos dados(mini Mundo).
 
 ````
 Pensa em um dado como uma informação importante que queremos guardar.
@@ -36,13 +36,23 @@ Idade → 5 anos
 ### 2- O que SGBD? 
 
 Esse contexto que estamos trabalhando ficará armazenado e
-gerenciado por um  **Sistema de gerenciamento do Banco de dados ( Database Management System)**
+gerenciado por um  **Sistema de gerenciamento do Banco de dados (Database Management System)**
 
-Esse sistema é uma coleção de programas que permite que um usuario crie e mantenha um banco de dados. 
+Esse sistema é uma coleção de programas que permite que um usuario crie e mantenha um banco de dados.O SGBD  é um sistema de sftware de uso geral que facilita o prcesso de 
+definição, construção, manipulação de dados entre diversos usuários e aplicações
 
 Exemplos de SGBDS: 
 
 ![img_10.png](img_10.png)
+
+A definição ou imformação descritiva que o banco organiza eses dados é chamado de **metadados**(dados sobre os dados).
+
+Um programa de aplicação acessa o banco de dados ao enviar consultas ou solicitações de dados ao SGBD.A consulta geralmente é recuperação de dados e transação  e 
+quando quando os dados são lidos e/ou gravados no banco de dados 
+
+- Estrutura de um sistema de Banco de dados.
+
+  ![img_11.png](img_11.png)
 
 ### 3- Vantagens do SGBDs
 
@@ -109,7 +119,7 @@ os que desenvolvem as funcionalidades e o analistas de suporte dos sgbds(lidam c
 #### 6.1 Níveis de Modelagem de Dados
 
 **Conceitual**:
-O nível mais alto e abstrato; foca nos conceitos de negócio, entidades principais e relacionamentos, sem se preocupar com tecnologia ou SGBD (muito proximo da forma - mais simples de explicar).
+O nível mais alto e abstrato; foca nos conceitos de negócio, entidades principais e relacionamentos, sem se preocupar com tecnologia ou SGBD (muito proximo da forma - mais simples de explicar)[especificação e pré requisitos].
 
 **Lógico/Intermediário**: detalha os atributos, chaves primárias/estrangeiras e as regras de negócio estruturadas, mantendo independência da ferramenta final.
 
@@ -136,12 +146,8 @@ DML - Linguagem de manipulação de dados
 
 ![img_11.png](img_11.png)
 
-- Estrutura de um sistema de Banco de dados.
-
-![img_12.png](img_12.png)
-
  - estrutura interna de um SGBD 
- - 
+
 ![img_13.png](img_13.png)
  
  
