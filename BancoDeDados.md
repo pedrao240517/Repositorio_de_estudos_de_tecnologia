@@ -41,6 +41,7 @@ gerenciado por um  **Sistema de gerenciamento do Banco de dados ( Database Manag
 Esse sistema é uma coleção de programas que permite que um usuario crie e mantenha um banco de dados. 
 
 Exemplos de SGBDS: 
+
 ![img_10.png](img_10.png)
 
 ### 3- Vantagens do SGBDs
