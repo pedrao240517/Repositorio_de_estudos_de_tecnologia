@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0
 
 Sistemas de Banco de Dados (Ramez Elmasri, Shamkant B. Navathe)
 
-## CAP1 - Visão geral de banco de dados
+# 01 - Visão geral de banco de dados
 
 Conceito: banco de Dados é uma coleção de dados.
 
@@ -43,16 +43,18 @@ definição, construção, manipulação de dados entre diversos usuários e apl
 
 Exemplos de SGBDS: 
 
-![img_10.png](img_10.png)
+  ![img_10.png](../img_10.png)
 
-A definição ou imformação descritiva que o banco organiza eses dados é chamado de **metadados**(dados sobre os dados).
+A definição ou informação descritiva que o banco organiza eses dados é chamado de **metadados**(dados sobre os dados).
 
 Um programa de aplicação acessa o banco de dados ao enviar consultas ou solicitações de dados ao SGBD.A consulta geralmente é recuperação de dados e transação  e 
 quando quando os dados são lidos e/ou gravados no banco de dados 
 
+![img_14.png](../img_14.png)
+
 - Estrutura de um sistema de Banco de dados.
 
-  ![img_11.png](img_11.png)
+  ![img_11.png](../img_11.png)
 
 ### 3- Vantagens do SGBDs
 
@@ -144,11 +146,23 @@ DDL - linguagem de definição de dados
 
 DML - Linguagem de manipulação de dados
 
-![img_11.png](img_11.png)
+![img_11.png](../img_11.png)
 
  - estrutura interna de um SGBD 
 
-![img_13.png](img_13.png)
+![img_13.png](../img_13.png)
+
+#
+
+
+
+
+
+
+
+
+
+
  
  
 
