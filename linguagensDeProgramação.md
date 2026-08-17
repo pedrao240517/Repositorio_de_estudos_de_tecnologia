@@ -81,7 +81,7 @@ Linguagens: XHTML (marcação), JavaScript e PHP (script), além de Java.
 foi criado pra um determinado objetivo específico, pra resolver isso foi criado bibliotecas, frameworks para simular 
 esses dominios em específicos.
 
-### Crtérios de Avaliação de linguagens 
+### 1.3 Crtérios de Avaliação de linguagens 
 
 - Como saber se a linguagem é boa pra determinada atividade? 
 
@@ -128,15 +128,57 @@ ex: java pra sistemas embutidos(gateways,roteadores, eletrodomesticos inteligent
 
 evitar da merda acontecer. Mas no geral depende do contexto da linguagem.
 
-
-#### **4- legibilidade**
-
-#### **5- custo**
+#### **4- custo**
 
 Geralmente quanto maior a confiabilidade maior o custo da linguagem , seja de manunetanção, implementação ou de recursos
 
+#### Outros Critérios
+
+Portabilidade - ser fácil de implementar em qualquer máquina
+Padronização - ser padrão em qualquer ferramenta de uso da lingaugem (ex: js antes da um determinado problema dependendo do 
+tipo de navergador que você usa.)
+
+### Diferentes visões 
+
+O projetista, programador, design, inplementador tem diferentes visões sobre a lingaugem o que 
+pode ajudar ou atrapalhar dependendo da situação.
 
 ![img_15.png](img_15.png)
+
+### 1.4 INFLUÊNCIAS NO PROJETO DE LINGUAGENS
+
+#### 1- arquitetura do computadores
+
+A arquitetura básica dos computadores tem um efeito profundo no projeto
+de linguagens. A maioria das linguagens populares dos últimos 50 anos tem
+sido projetada considerando a principal arquitetura de computadores, chamada de **arquitetura de von Neumann**, cujo nome é derivado de um de
+seus criadores, John von Neumann (pronuncia-se “von Noyman”). Elas são
+chamadas de **linguagens imperativa**
+
+Outras projetam conforme outros tipos de arquitetura como a arquitetura
+arquitetura multicore.
+
+#### 2 - Metodologias de programação
+
+as metodologias/paradigmas de programação influência de maneira enorme na construções da linguagem,
+como a programação a objetos, a dados e a processos.
+
+
+### 1.5 Categoria de linguagens 
+
+**Imperativas** -  Linguagens imperativas são um tipo de linguagem de programação que diz ao computador como fazer as coisas, passo a passo, por meio de comandos que mudam o estado da memória.
+ex: C, JAVA, PYTHON, PASCAL
+
+**Funcionais** - Linguagens funcionais são um estilo de programação que usa funções matemáticas para criar programas.Em vez de dizer o passo a passo que o computador deve seguir (como em uma receita), você declara quais dados deseja transformar.
+haskell, scala, erlang
+
+**lógicas** -Uma linguagem lógica é um tipo de linguagem de programação baseada em regras formais de lógica matemática para expressar fatos e relações sobre um problema.
+
+**orientadas a objetos** fazendo parte das linguagems imperativas a linguagens orientadas a objetos são aquelas que organizam o código usando classes e objetos para representar o mundo real
+
+
+
+
 
 
 
