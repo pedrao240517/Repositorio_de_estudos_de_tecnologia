@@ -406,7 +406,7 @@ O Garbage Collection é especialmente importante em linguagens como Java e C#, o
 
 https://www.mindmeister.com/app/map/3958307975
 
-o que falta colocar  : basico de poo e basica sintaxe  do bufferBufferedReader.
+**o que falta colocar  : basico de poo e basica sintaxe  do bufferBufferedReader.**
 
 
 ## Nível intermediário
