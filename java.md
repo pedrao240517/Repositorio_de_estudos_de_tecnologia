@@ -1461,7 +1461,7 @@ Colections são interfaces que usamos na nossa estrutura de dados.
 Na verdade o arraylis e o linkedList são classes, ou seja colections nada mais é que o
 conjunto de estrutura de dados.
 
-### HashSet - vai usar na maioria das vezes que trabalha com SET
+### HashSet - vai usar na maioria das vezes que trabalha com SET (A melhor )
 
 - Qual a diferença de um set pra uma lista ? 
 
@@ -1470,7 +1470,36 @@ caracteristica é que ele não tem sequência(ordem) ou seja ele vai colocar os 
 conforme a ordem de implementação na aplicação.
 
 O método addAll() em um Set do Java adiciona todos os elementos de outra coleção informada ao conjunto atual.
-ex:  ninjasset.addAll(ninjas);
+ex:  ninjasset.addAll(ninjas); - adicionou a lista set uma lista deominada lista.
+
+- Trabalhando com set
+
+1- tirar o index (nele não existe ordenação )
+
+2- ignorar os itens duplicados 
+
+obs: exercícios no hackrank/letcoode
+obs: os outros elementos são iguais ao uma lista normal 
+
+Pra remover em um set eu passo no parâmetro do método o objeto, no caso o objeto do tipo string
+
+ex:ninjasset.remove("Sakura Haruno");
+
+Além disso temos o set TreeSet
+
+### LinkedHashSet x Treeset - Mais algumas implementações
+
+O List vai colocar em ordem alfábetica quando for do tipo string, de integer de maneira crescente.
+
+O hashSet quando queremos que não apareça nomes duplicados
+
+O TreeSet vamos colocar também quando não querermos que tenhas elementos duplicados e que eles se organizem de uma 
+
+
+
+
+
+
 
 
 
