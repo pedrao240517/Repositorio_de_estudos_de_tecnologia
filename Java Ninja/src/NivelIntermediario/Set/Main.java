@@ -38,6 +38,12 @@ public class Main {
 
         System.out.println("NinjasTreeSet: "+ ninjas2);
 
+        System.out.println("----------------LinkedHashSet-------------------");
+        Set<String> ninjas3 = new LinkedHashSet<>();
+        ninjas3.addAll(ninjas);
+
+        System.out.println("NinjasLinkedHashset: "+ ninjas3);
+
 
 
 

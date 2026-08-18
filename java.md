@@ -1491,11 +1491,12 @@ Além disso temos o set TreeSet
 
 O List vai colocar em ordem alfábetica quando for do tipo string, de integer de maneira crescente.
 
-O hashSet quando queremos que não apareça nomes duplicados
+O hashSet quando queremos que não apareça nomes duplicados e sem ordem
 
-O TreeSet vamos colocar também quando não querermos que tenhas elementos duplicados e que eles se organizem de uma 
+O TreeSet faz a mesma coisa mais vai deixar em ordem alfabetica 
 
-
+Por fim o LinkedHashset t vamos colocar também quando não querermos que tenhas elementos duplicados e ele vai colocar conforme
+a ordem de implementação.
 
 
 
