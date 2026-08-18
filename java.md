@@ -1157,10 +1157,15 @@ public class Main {
 
 ``````
 
-### Refatoração de código  (adiado no momento)
+### Refatoração de código  
 
 Baseado na metodologia Extreme Go Horse
 
+- Desaclopação de responsabilidade
+
+- como colocar comentários acertivos
+
+existe de linha unica e em bloco, geralmente usamos mais o em bloco
 
 
 ###  List (lista)- um array com superpoderes
@@ -1371,19 +1376,19 @@ Stack<String> nomeNinjaStack = new Stack<>();
 
 adicionar questoes anki propria e do quiz da aula  * 
 
-### Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
+### NivelIntermediario.Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
 
 ![img_3.png](img_3.png) Cabeça e rabo
 
- - Inicialização de Queue
+ - Inicialização de NivelIntermediario.Queue
 
-Queue<String> ninjasQueue = new LinkedList<>(); - pois a queue é uma lista ordenada (vou explicar mais pra frente).
+NivelIntermediario.Queue<String> ninjasQueue = new LinkedList<>(); - pois a queue é uma lista ordenada (vou explicar mais pra frente).
 
 Pra adicionar assim como a lista como . add
 
 Ex: ninjasQueue.add("Naruto"); 
 
-- Comandos Usados na Queue
+- Comandos Usados na NivelIntermediario.Queue
 
 .pool - vai tirar o head(cabeça) da lista 
 .peek - ver o Head da Fila 

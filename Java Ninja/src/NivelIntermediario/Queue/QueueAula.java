@@ -1,7 +1,6 @@
-package Queue;
+package NivelIntermediario.Queue;
 
 import java.util.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 public class QueueAula {
     static void main(String[] args) {
@@ -16,10 +15,10 @@ public class QueueAula {
     // Inicialização de Stack - Pilha
         Stack<String> ninjasstack = new Stack<String>();
 
-    // Incialização de Queue - Filas
+    // Incialização de NivelIntermediario.Queue - Filas
 
         /*
-        Queue<String> ninjasqueue = new Queue<String>();  // Erro
+        NivelIntermediario.Queue<String> ninjasqueue = new NivelIntermediario.Queue<String>();  // Erro
 
          */
        Queue<String> ninjasQueue = new LinkedList<>();

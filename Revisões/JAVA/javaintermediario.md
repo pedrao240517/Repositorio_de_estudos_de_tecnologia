@@ -100,6 +100,9 @@ Prova:
 
 49. O que é a métodologia Extreme Go Horse. 
 
+50. Como referenciar o endereço de mémoria de uma memoria de  um parâmetro com uma variavel da  classe?
+
+
 
 
 
