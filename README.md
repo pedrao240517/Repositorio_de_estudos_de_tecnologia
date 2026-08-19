@@ -60,7 +60,7 @@ Computação Quântica;
 Metodologia da Pesquisa;
 
 - Em andamento
-1. [Linguagens de Programação](./linguagensdeprogramacao.md)
+1. [Linguagens de Programação](./linguagensDeProgramação.md)
 1. [Circuitos Digitais](./circuitos-digitais.md)
 2. [Geometrica análitica](./geometria-analitica.md)
 3. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
