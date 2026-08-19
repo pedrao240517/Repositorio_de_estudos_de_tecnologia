@@ -81,6 +81,10 @@ Linguagens: XHTML (marcação), JavaScript e PHP (script), além de Java.
 foi criado pra um determinado objetivo específico, pra resolver isso foi criado bibliotecas, frameworks para simular 
 esses dominios em específicos.
 
+### O que é uma linguagem de programação
+
+Uma linguagem de programação é um conjunto de regras, palavras e símbolos usado para dar ordens a um computador.
+
 ### 1.3 Crtérios de Avaliação de linguagens 
 
 - Como saber se a linguagem é boa pra determinada atividade? 
@@ -192,17 +196,17 @@ Dinâmica: Agilidade e expressividade na escrita de código, mas transfere a det
 
 No geral as linguagens podem ser implementadas por um dos três métodos gerais.
 
-1- Compiladores: um software que converte de uma lingauaguem pra outra.
+#### 1- Compiladores: um software que converte de uma lingauaguem pra outra.
 
 No método de compilação, o código-fonte inteiro é traduzido de uma só vez para o código de máquina (linguagem binária) antes de ser executado.Como funciona: Um programa especial chamado compilador lê o seu código, faz análises e gera um arquivo executável próprio para o sistema operacional.Vantagem: A execução do programa é muito rápida, pois o computador já entende o binário diretamente.Desvantagem: O processo de compilação demora antes de rodar, e o executável precisa ser refeito se você mudar de sistema operacional.Exemplos: C, C++ e Rust
 
 obs: melhor explicado futuralmente na matéria de compiladores
 
-2- Interpretação pura
+#### 2- Interpretação pura
 
 No método de interpretação pura, o código-fonte é lido e executado linha por linha, em tempo real, por um programa chamado interpretador.Como funciona: O interpretador traduz e executa cada instrução na hora, sem gerar um arquivo executável separado.Vantagem: Facilita muito a busca por erros (depuração) e torna o desenvolvimento mais ágil, pois você vê o resultado imediatamente.Desvantagem: A execução costuma ser mais lenta do que a de um programa compilado, já que a tradução acontece junto com o uso.Exemplos: Versões clássicas de algumas linguagens de script ou interpretadores iniciais
 
-3- Implemetação Híbrida
+#### 3- Implemetação Híbrida
 
 método híbrido mistura características dos dois mundos anteriores para unir velocidade e flexibilidade.Como funciona: O código-fonte é primeiro traduzido parcialmente para uma linguagem intermediária (frequentemente chamada de bytecode). Em seguida, uma máquina virtual ou um interpretador lê esse bytecode e o executa. Muitas tecnologias modernas também usam compilação em tempo de execução (JIT - Just-In-Time) para otimizar partes do código enquanto o programa roda.Vantagens: Oferece boa portabilidade (o mesmo código intermediário roda em qualquer sistema operacional que tenha a máquina virtual adequada) com um desempenho melhor que o da interpretação pura.Desvantagens: Ainda pode ser um pouco menos veloz do que uma compilação totalmente nativa para um hardware específico.Exemplos: Java (que usa a JVM), Python e JavaScript.
 

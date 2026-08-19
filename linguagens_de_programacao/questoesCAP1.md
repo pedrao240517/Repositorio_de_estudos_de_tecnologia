@@ -98,25 +98,186 @@ R: O custo da criação do compilador essa associado ao tempo de finalização d
 
 **21. Que duas deficiências das linguagens de programação foram descobertas como
     um resultado da pesquisa em desenvolvimento de software dos anos 1970?**
-21. 
+
+R: Uso excessivo de goto
+
 22. Quais são os três recursos fundamentais de uma linguagem orientada a objetos?
+
+R: herança, polimorfismo e encapsulamento
 
 23. Qual foi a primeira linguagem a oferecer suporte aos três recursos fundamentais
     da programação orientada a objetos?
 
+R: Smalltalk
+
 24. Dê um exemplo de dois critérios de projeto de linguagens que estão em conflito
     direto um com o outro.
 
+R: facilidade de escrita e facilidade de leitura
+
 25. Quais são os três métodos gerais de implementar uma linguagem de programação?
+
+R: compiladores, interpretadores e implementação híbrida.
 
 26. Qual produz uma execução de programas mais rápida, um compilador ou um
     interpretador puro?
 
+R: compilador, poir trazuz o codigo inteiro de uma vez pra linguagem de máquina.
+
 27. Que papel a tabela de símbolos tem em um compilador?
+
+R:A tabela de símbolos funciona como um "dicionário" ou um registro que o compilador usa para guardar informações sobre os identificadores do programa (como nomes de variáveis, funções, classes, seus tipos, escopos e posições de memória).
+
+Ela serve para o compilador conseguir verificar se uma variável foi declarada antes de ser usada, checar se os tipos de dados são compatíveis e saber onde alocar espaço na memória para cada coisa.
+
 
 28. O que faz um ligador?
 
+R: O ligador (ou linker, em inglês) é um programa responsável por juntar todos os arquivos de código-objeto gerados pelo compilador, além de bibliotecas externas (como funções prontas que a linguagem oferece), para formar um único arquivo executável pronto para rodar.
+
 29. Por que o gargalo de von Neumann é importante?
+
+R:O gargalo de von Neumann é extremamente importante porque ele representa o principal limite de velocidade para o desempenho dos computadores.
 
 30. Quais são as vantagens de implementar uma linguagem com um interpretador
     puro?
+
+R: maior facilidade de implementação da linguagem e economia de recursos.
+
+## Conjunto de problemas 
+
+1. Você acredita que nossa capacidade de abstração é influenciada por nosso domínio de linguagens? Defenda sua opinião.
+
+R: Sim, nossa capacidade de abstração é fortemente influenciada pelo domínio de linguagens. Quanto mais rica e expressiva é uma linguagem (seja natural ou de programação), mais ferramentas mentais ela nos dá para estruturar pensamentos complexos. Na programação, linguagens que oferecem recursos avançados de abstração — como funções, classes e herança — permitem que o programador resolva problemas focando na lógica de alto nível, sem se perder em detalhes mecânicos e repetitivos de baixo nível.
+
+2. Cite alguns dos recursos de linguagens de programação específicas que você
+conhece cujo objetivo seja um mistério para você.
+
+R: Em linguagens mais modernas (como Python, Java ou C#), você simplesmente cria uma variável e guarda um valor nela. Mas em C, você pode criar uma variável que guarda o endereço de memória de outra variável, e até somar números a esse endereço (ponteiro++)
+
+3. Que argumentos você pode dar a favor da ideia de uma única linguagem para
+todos os domínios de programação?
+
+R: A ausência de precisar aprender novas linguagens de computação.
+
+
+4. Que argumentos você pode dar contra a ideia de uma única linguagem para
+   todos os domínios de programação?
+
+R: A generalização de funcionalidades causa a ausência de especificidade necessárias para determinados contextos, ex: quando
+se trabalha com o gerrenciamento de recursos de hardware o java pode ser ruim pelo simples fato de ele gerenciar a mémoria automaticamente com o 
+garbage colection.
+
+5. Nomeie e explique outro critério pelo qual as linguagens podem ser julgadas
+(além dos discutidos neste capítulo).
+
+R: facilidade de aprendizado pra iniciantes na área da computação.
+
+6. Que sentença comum das linguagens de programação, em sua opinião, é mais
+prejudicial à legibilidade?
+
+R:  a necessidade de muita escrita
+
+7. Java usa um símbolo de fechamento de chaves para marcar o término de todas as
+sentenças compostas. Quais são os argumentos a favor e contra essa decisão de
+projeto?
+
+R: Maior controle de escopo e escrita de algoritmos são a vantagem e a desvantagem 
+menor falta de liberdade sobre a escrita e ncessidade de inserção desses simbolos para o compilamento.
+
+8. Muitas linguagens distinguem entre letras minúsculas e maiúsculas em nomes
+definidos pelo usuário. Quais são as vantagens e desvantagens dessa decisão de
+projeto?
+
+Vantagens:Flexibilidade e Padrões: Permite criar convenções de nomenclatura muito claras. Por exemplo, usar letras maiúsculas para classes (Cliente) e minúsculas para variáveis (cliente), o que ajuda na organização e leitura do código.
+
+Desvantagens:  Erros sutis (Bugs): Se o programador digitar total com letra minúscula em uma linha e Total com maiúscula na linha seguinte sem perceber, a linguagem vai achar que são duas variáveis diferentes, gerando um erro difícil de achar.
+
+9. Explique os diferentes aspectos do custo de uma linguagem de programação
+
+R: Maior custo de hardware, de recursos(mémoria), compilação, deploy e etc.
+
+10. Quais são os argumentos para escrever programas eficientes mesmo sabendo
+que os sistemas de hardware são relativamente baratos?
+
+R:  Para otimização do programa em qualquer sistemas de hardware, além de economizar
+esses recursos em escala global ajudando o meio ambiente.
+
+11. Descreva alguns trade-offs de projeto entre a eficiência e a segurança em alguma
+linguagem que você conheça.
+
+R: um grande exemplo disso é o próprio java onde ele foca em sistemas robustos e seguros
+entretanto é que essa segurança e robustez reduzem a eficiência de execução, tornando o programa mais lento se comparado a linguagens como o C."
+
+12. Quais recursos principais uma linguagem de programação perfeita deveria incluir, em sua opinião?
+
+1- segurança acima de tudo
+2- legibilidade alta 
+3- alta portabilidade 
+4- facilidade de aprendizado
+
+13. A primeira linguagem de programação de alto nível que você aprendeu era implementada com um interpretador puro, um sistema de implementação híbrido
+ou um compilador? (Você não necessariamente saberá isso sem pesquisar).
+
+R: Híbrida
+
+
+14. Como sentenças de declaração de tipos para variáveis simples afetam a legibilidade de uma linguagem, considerando que algumas não precisam de tais declarações?
+
+R: A falta de declaração do tipo de variavel torna ela mais dificil de indentificar seu tipo sem ver o tipo de estrutura
+onde ela é usado no algoritmo
+
+15. Algumas linguagens de programação – por exemplo, Pascal – têm usado o ponto
+e vírgula para separar sentenças, enquanto Java os utiliza para terminar sentenças. Qual desses usos, em sua opinião, é mais natural e menos provável de resultar em erros de sintaxe? Justifique sua resposta.
+
+
+R: A maioria dos programadores e especialistas concorda que o uso como terminador (estilo Java) é mais natural e causa menos erros.
+
+Por quê?
+Porque no estilo terminador a regra é simples e mecânica: acabou a linha de comando, coloca ;. Você não precisa ficar pensando se aquele comando é o último de um bloco ou não. No estilo separador do Pascal, se você esquecer e colocar um ponto e vírgula no último comando por hábito, o compilador pode recusar e gerar um erro de sintaxe chato.
+
+
+18. Muitas linguagens contemporâneas permitem dois tipos de comentários: um no
+    qual os delimitadores são usados em ambas as extremidades (comentários de
+    múltiplas linhas) e um no qual um delimitador marca apenas o início do comentário (comentário de uma linha). Discuta as vantagens e desvantagens de cada
+    um dos tipos de acordo com nossos critérios.
+
+R: o de uma linha é bom pra coisas simples e rapidas como titulos de funcionalidades enquanto o de multiplas linha
+pra explicações mais detalhadas por exemplo um método que está sendo extendido de uma outra classes por herança e não por criação proprias
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
