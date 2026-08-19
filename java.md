@@ -1503,6 +1503,267 @@ O TreeSet faz a mesma coisa mais vai deixar em ordem alfabetica
 Por fim o LinkedHashset t vamos colocar também quando não querermos que tenhas elementos duplicados e ele vai colocar conforme
 a ordem de implementação.
 
+## Nível avançado
+
+### Engenharia de linguagens  - tipo forte, fraco estatico e dinâmico
+
+
+Java é fortemente tipada ou seja uma linguagem onde os tipos de uma variável tem que ser declarados antes.
+
+ex: int i = 0;
+
+Em linguagens de tipo fraco não precisamos declarar 
+o seu valor  antes de atribuir seu valor.
+
+ex: nome = "naruto"
+    idade = 7
+    resultado = idade + nome // em pyhon da erro por ser forte mas em java
+script não da 
+
+ex no js:
+
+var soma = 3 + "A"
+console.log(soma)  - resultado 3A
+
+
+- Linguagens de tipo dinâmico e estático
+
+![img_16.png](img_16.png)
+
+tipo estático é linguagens que mostra os erros em tempo de compilação, ou seja o compilador 
+mostra o código antes mesmo de rodar ele e ele não roda até estar ajustado.
+
+ex: String Nome;
+    nome = 7 // erro do compilador 
+
+Tipo dinâmico - ex python
+
+    nome = "Naruto"
+    nome = 7 // compilador da linguagem não deu erro ante de  execução
+
+tempo de compilação - antes de compilar (python, JavaScript)
+tempo de excução - depois de compilar(C, java ) 
+
+Ainda a nível de engenharia, nos tempo a linguagem de tipo forte e tipo fraco.
+
+![img_18.png](img_18.png)
+
+### Escopo estatico + variaveis globais - PSVM
+
+Public Static void main
+
+1. Public - modificador de acesso que permite acessar em qualquer lugar do código
+2. static - não precisa criar um objeto (escopo estatico)
+3. void - método sem retorno (procedimento)
+4. main - 
+
+Ex: de uso de escopo estativo
+
+classes
+
+
+```
+package NivelAvançado.Escopo;
+
+import NivelIntermediario.Records.Ninja;
+
+public class Main {
+static void main(String[] args) {
+
+         ninja naruto = new ninja();
+         naruto.nome = "Naruto Uzumaki";
+
+    }
+}
+```
+
+e 
+
+```
+package NivelAvançado.Escopo;
+
+public class ninja {
+String nome;
+}
+
+
+```
+
+Nesse caso você é obrigado a inicializar um objeto
+pra acessar o atributo da segunda classe (ninja)
+
+#### variavél global
+
+São as variáveis fora do escopo estático, no caso do java antes do 
+psvma
+```
+package NivelAvançado.Escopo;
+
+import NivelIntermediario.Records.Ninja;
+
+public class Main {
+
+    int idadeGlobal = 17; // variavel global
+
+    static void main(String[] args) {
+
+         ninja naruto = new ninja();
+         naruto.nome = "Naruto Uzumaki";
+
+         //System.out.println(idadeGlobal);  - não funciona pois campos não estáticos não podem ser refernciados em um contexto estático
+
+        Main escopo= new Main();
+        System.out.println(escopo.idadeGlobal);
+
+    }
+}
+```
+pra mudar esse problema de precisar instanciar um objeto pra
+acessar a variável, apenas coloque a palavara static antes da variavel
+
+ex:  static int idadeGlobal2 = 18;
+
+#### Métodos estáticos
+
+são métodos que podem ser acessados sem instanciar um objeto
+apenas com o nome do metodo e o . pra acessar o objeto
+
+ex: 
+
+`public static void testeestatico(){
+System.out.println("Teste ativaodo");
+}`
+
+`ninja.testeestatico();`
+
+pra isso basta usar a palavra reservada static
+
+
+### Complexidade de Algoritmos - BigO notation
+
+Como falado anteriormente pra consulta o array list vai ser sempre mais rapido
+
+no entanto o linked list pra operações na lista é mais rapido mais isso apenas quando
+a lista for muito grande.
+
+metódo pra calcular tempo
+
+System.nanoTime(); atribui esse método a uma variavel de tipo real.
+
+Ex de código:
+
+```
+package NivelAvançado.NotacaoBigO;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Main {
+static void main(String[] args) {
+
+        long inicio;
+        long fim;
+        long tempo;
+
+
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+
+        for (int i = 0; i < 50000000; i++) {
+            arrayList.add(i);
+            linkedList.add(i);
+
+
+        }
+
+        inicio = System.nanoTime();
+
+
+        // verificar o número no index do array list
+        arrayList.add(400);
+
+        fim = System.nanoTime();
+        tempo = fim - inicio;
+        System.out.println("Tempo no array list: "+ tempo + " ns.");
+
+        // verificar o número no index do linkedlist
+        inicio = System.nanoTime();
+        linkedList.add(400);
+
+        fim = System.nanoTime();
+        tempo = fim - inicio;
+        System.out.println("Tempo no linkedlist: "+ tempo + " ns.");
+
+    }
+}
+```
+#### Tipos de complexidade
+
+A complexidade em computação mede a quantidade de recursos — como tempo e memória — que um programa ou algoritmo precisa para rodar conforme o tamanho dos dados de entrada aumenta.
+
+Existem dos tipos principais de complexidades
+
+- A complexidade de tempo 
+
+Refere-se ao tempo necessário para executar o algoritmo. A complexidade de tempo é geralmente expressa em termos da notação Big O, que mostra como o tempo de execução cresce em relação ao aumento da entrada.
+
+- Complexidade de Espaço
+
+Refere-se à quantidade de memória necessária para executar o algoritmo. Isso inclui o espaço para armazenar variáveis, estruturas de dados e chamadas de função.
+
+#### Principais Classes de Complexidade de Tempo
+
+1. O(n) - complexidade linear
+
+Dependendo do tamanho de números de elementos mais comlexo vai ficar o algoritmo.
+
+Ex: Um exemplo clássico de algoritmo com complexidade O(n) (ou ordem linear) é uma busca simples em uma lista não ordenada, onde você precisa verificar cada elemento um por um
+ 
+se fosse olha um 1 item por segundo e sua lista tem 400 itens ela vai levar 400 seg.
+mas se tiver mais itens vai demorar mais e se tiver menos vai  demorar menos.
+
+2. 0(1) complexidade constante
+
+independente do número de elementos e operações o tempo de execução
+vai ser o mesmo
+
+esses são os mais comuns mas tem inumeros outros.
+
+O(log n) - Logarítmica
+
+O(n log n) - Linearítmica
+
+O(n^2) - Quadrática
+
+O(2^n) - Exponencial
+
+O(n log n)- linear logaritimica
+
+O(n2) - quadratica
+
+O(n!)- fatorial
+
+**na programação tudo é um algoritmo**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
