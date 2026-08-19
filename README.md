@@ -1,5 +1,5 @@
 # Tecnologia 
-## Repositório pra registro das máteria/assuntos de ciência da computação (faculdade e estudo pessoal), programação e tecnologia no geral aprendidos durante o período da faculdade (seja por fora ou pela instituição).
+## Repositório pra registro dos assuntos de tecnologia estudados.
 
 #### Ciência da computação autodidada e roteiro de dev backend
 
