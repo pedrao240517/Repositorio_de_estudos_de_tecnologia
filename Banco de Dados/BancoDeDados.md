@@ -17,6 +17,8 @@ Ou seja, tem algum aspecto do mundo real que precisa ser modelada e um foco espe
 
 Esses dados tem uma estrutura lógica que confere um siginifcado aos dados(mini Mundo).
 
+
+
 ````
 Pensa em um dado como uma informação importante que queremos guardar.
 
@@ -152,7 +154,76 @@ DML - Linguagem de manipulação de dados
 
 ![img_13.png](../img_13.png)
 
-#
+### Evolução de banco de dados 
+
+1. Inicio da era da computação
+
+Os Dados eram representados em bits (o ou 1 ) sendo manipulados 
+por meior de cartões perfurados e fitas magnéticas.
+
+2. Sistema de arquivos eletrônicos 
+
+Os primeiros computadores permitiu a organização de arquivos 
+por meio de diretórios e subdiretorios.
+
+Porém esses sistema não tinha nenhum tipo de relacionamento entres si.
+
+3. SBDS hierarquicos
+
+sistemas que relacionavam entre si por meio de arquivos de textos
+
+4. Banco de Dados Relacionais 
+
+modelo de organização de dados por meio de tabelas.
+As conexões entre tabelas passaram a ser feitas por meio de chaves primarias e estrangeiras.
+
+O primeiro database relacional  foi o Oracle Database9 (primeiro comerial)
+
+Ex de chaves principais e secundarias ?
+
+tabela 1 de clientes contém é sendo essa a principal  da 
+tabela clientes e uma outra tabela de pedidos tem uma chave principal de pedidos e a chave de clientes 
+ao interagir com a tabela pedios passa a ser secundarias.
+
+5. banco de dados não relacional
+
+E se eu pegar informações com formatos diferentes ou seja uma uniformidade no formato dos dados
+
+Nesse caso eu uso um banco que organiza esses dados
+
+ ## Transações
+
+Uma unidade lógica de trabalho (ou processamento) no banco de dados
+correspondendo a execução do programa.
+
+Elas fazem parte do CRUD ou seja as quatos operações básicas de um porgrama 
+
+Todas as transações devem possuir as seguintes propriedades.
+
+- Atomacidade
+
+
+
+- Consistência 
+
+A execução de uma transação faz o banco de dados 
+passar de um estado consistente para outro.
+
+- Isolmento
+
+Uma transação não deve sofrer interfêrencia 
+de quaisquer outras transações concorretes.
+
+- Durabilidade 
+
+As mudanças aplicadas ao banco de daos por uma transação 
+efetivada devem persistir no banco de dados.
+
+
+
+
+
+
 
 
 
