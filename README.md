@@ -1,7 +1,9 @@
 # Tecnologia 
 ## Repositório pra registro dos assuntos de tecnologia estudados.
 
-#### Ciência da computação autodidada e roteiro de dev backend
+### Ciência da computação autodidada/Acâdemica  e roteiro de dev backend
+
+**Tudo que eu estudei da faculdade seja pela intituição ou por fora (ou seja a nível acâdemico) e o que eu estudei de programação(com foco em desenvolvimento backend) está registrado aqui.** 
 
 ---
 ### Por dentro (faculdade e/ou estudos faculdade pessoal)
