@@ -4,6 +4,10 @@
 
 https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv
 
+https://github.com/malbarbo/na-lp-copl
+
+https://malbarbo.pro.br/ensino/2018/5185/
+
 Programming Language Pragmatics  4ed - Michael L.Scott (fonte principal em inglês)
 
 Conceitos de Linguagens de Programação – Robert W. Sebesta (fonte em pt-br)
@@ -235,6 +239,134 @@ de recursos, construções e capacidades.
 Os principais métodos de implementar linguagens de programação são a compilação, a interpretação pura e a implementação híbrida.
 Os ambientes de programação têm se tornado parte importante dos sistemas de
 desenvolvimento de software, nos quais a linguagem é apenas um dos componentes.
+
+ 
+##  CAP 2 - Evolução das Principais Linguagens de Programação (historia da computação e programação)
+
+
+## CAP 3 - Descrevendo Sintaxe e Semântica (estudado mais Linguagens Formais e Autômatos)
+
+
+## CAP 4 - Análise Léxica e Sintática (estudado mais Linguagens Formais e Autômatos)
+
+
+## CAP 5 - Nomes, Vinculações e Escopos
+
+Objetivo: Debater as principais funcionalidades de linguagens de programação.
+
+### 5.1  -Introdução 
+
+As variavéis são abstração das células de memória podendo ser uma unica célula de inteiro
+ou um array com até 3 dimensões
+
+Ela tem um conjunto de propriedades: tipo, valor, memória, escopo, etc.
+
+### 5.2 - Nomes 
+
+Nomes ou identificadores são associados a rótulos de subprogramas, variáveis e etc, sendo
+é uma cadeia de caracteres usada para identificar alguma entidade em um programa.
+
+#### 5.2.1 - Porque não é trivial criar uma variavel com qualquer tamanho de caractere? 
+
+No começo esse problema era por conta da memória exacerbada que isso custaria. Hoje em dia, esse problema
+de mémoria não é mais válido, entretanto, ainda temos outro problema - a complexidade de implementação
+de uma string de armazenamento estático no meu compilador seria maior. Assim, é uma faca de dois gumes
+que é necessario balencear dependendo do contexto.
+
+Normalmente as linguagens modernas o nome das entidades deixam a quantidade de caracteres  ilimitados.
+
+#### **5.2.2- E os caracteres especiais ?** 
+
+Algumas linguagens pedem caracteres especiais no começo da linguagem e isso pode ser bom ou ruim dependendo do ponto de
+análise.
+
+Pontos bons: fácil identificação apenas com a notação.
+
+Pontos ruins: Prejudica a escritae causa conflitos de sintaxe
+
+outra questão e a sensibilização de caso, por exemplo variaveis podem ou não ser iguais entre **A, B e C e a, b e c**
+ou ter fontes parecidas e ocorrer confundir. No caso ser sensiveis  ao caso e elas não serem iguais.
+
+
+#### **5.2.3- Palavras especiais/reservadas**
+
+As palavras especiais em linguagens de programação são chamadas de palavras reservadas ou palavras-chave (keywords). Elas possuem um significado próprio para o compilador ou interpretador e formam a base da estrutura da linguagem
+
+ex:  tipo de variavél  -  int, boolean e etc
+
+No caso essas palavras não podem ser declaradas como nomes pois o compilador teria que faze rum esforço maior e mais complexo
+pra indentificar o tipo de variavél
+
+ex de erro:  int int = 4;
+
+desvantagens: dar excessões de nomes que não podem ser usadas. Isso pode ser ruim quando tem várias 
+palavras reservadas, um exemplo disso é no cobol que tem 300 palavras reservadas.
+
+#### **5.3- Variáveis **
+
+As variáveis tem caracteristicas específicas, sendo essas:
+
+1. nome - caracterização da variável
+2. endereço ( l - valor) [left] - onde está a variavél, a variável pode ter diferentes endereços ao longo do programa 
+
+em i = 1 e em i = i +1 a variável a esquerda da igualdade e diferente da variavel a direita da igualdade, o tornando
+maior que a da direita  após a leitura da linha.
+
+3. tipo  - tipo de dado
+4. valor (r - valor) [right] - valor em mémoria da variável
+5. tempo de vida  - duração no programa (onde nasce e morre )
+6. escopo - onde está essa variavél no codigo
+
+
+#### **5.3.1- O conceito de vinculação **
+
+definição = Eu quero saber em que momento ocorre determinados eventos, que evento? 
+a associação como entre um atributo e uma entidade ou entre uma operação e um símbolo.
+
+Ex: 
+
+
+#### **5.3.2- Momentos de vinculação **
+
+1. Projetos de linguagem 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
