@@ -1728,6 +1728,10 @@ mas se tiver mais itens vai demorar mais e se tiver menos vai  demorar menos.
 independente do número de elementos e operações o tempo de execução
 vai ser o mesmo
 
+3. O(n2) - quadratica
+
+
+
 esses são os mais comuns mas tem inumeros outros.
 
 O(log n) - Logarítmica
@@ -1740,11 +1744,83 @@ O(2^n) - Exponencial
 
 O(n log n)- linear logaritimica
 
-O(n2) - quadratica
-
 O(n!)- fatorial
 
 **na programação tudo é um algoritmo**
+
+### Introdução a Big O notation
+
+algoritmo: conjunto de passos que quando executados corretamente 
+realizam uma determinada tarefa/atividade(tudo que fazemos na programação).
+
+A notação Big O: é uma ferramenta matemática usada na ciência da computação para classificar o desempenho ou a complexidade de um algoritmo.
+
+seu algoritmo vai depender da estrutura de dados que você está aplicando.
+
+* quanto mais antiga a aplicação mais lenta ela ou seja quanto maior
+a aplicação mais lento e complexo vai ser nosso algoritmo
+
+sistema legado: sistema muito antigo +10 anos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
