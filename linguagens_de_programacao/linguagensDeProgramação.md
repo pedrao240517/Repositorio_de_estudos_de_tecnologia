@@ -14,6 +14,8 @@ Conceitos de Linguagens de Programação – Robert W. Sebesta (fonte em pt-br)
 
 ## 1- Aspectos Preliminares
 
+data: 17/08 até 20/08
+
 ### 1.1 Razões para estudar linguagens de programação
 
 **1- Capacidade aumentada para expressar ideias:** conhecer os recurso
@@ -214,7 +216,6 @@ No método de interpretação pura, o código-fonte é lido e executado linha po
 
 método híbrido mistura características dos dois mundos anteriores para unir velocidade e flexibilidade.Como funciona: O código-fonte é primeiro traduzido parcialmente para uma linguagem intermediária (frequentemente chamada de bytecode). Em seguida, uma máquina virtual ou um interpretador lê esse bytecode e o executa. Muitas tecnologias modernas também usam compilação em tempo de execução (JIT - Just-In-Time) para otimizar partes do código enquanto o programa roda.Vantagens: Oferece boa portabilidade (o mesmo código intermediário roda em qualquer sistema operacional que tenha a máquina virtual adequada) com um desempenho melhor que o da interpretação pura.Desvantagens: Ainda pode ser um pouco menos veloz do que uma compilação totalmente nativa para um hardware específico.Exemplos: Java (que usa a JVM), Python e JavaScript.
 
-
 ### 1.8 Ambientes de programação
 
 Um ambiente de programação é a coleção de ferramentas usadas no desenvolvimento de software. Essa coleção pode consistir em apenas um sistema de
@@ -251,6 +252,8 @@ desenvolvimento de software, nos quais a linguagem é apenas um dos componentes.
 
 
 ## CAP 5 - Nomes, Vinculações e Escopos
+
+data: 20/08 a 23/08
 
 Objetivo: Debater as principais funcionalidades de linguagens de programação.
 
@@ -323,8 +326,7 @@ maior que a da direita  após a leitura da linha.
 definição = Eu quero saber em que momento ocorre determinados eventos, que evento? 
 a associação como entre um atributo e uma entidade ou entre uma operação e um símbolo.
 
-Ex: 
-
+Ex:
 
 #### **5.3.2- Momentos de vinculação **
 
@@ -336,20 +338,27 @@ Ex:
 
 
 
+## CAP 6 - Tipos de dados
 
+## CAP 7 - Expressões e Sentenças de Atribuição
 
+## CAP 8 - Estruturas de Controle no Nível de Sentença
 
+## CAP 9 - Subprogramas
 
+## CAP 10 - Implementando Subprogramas
 
+## CAP 11 -  Tipos de Dados Abstratos e Construções de Encapsulamento
 
+## CAP 12 - Suporte para a Programação Orientada a Objetos
 
+## CAP 13 - Concorrência
 
+## CAP 14 - Tratamento de Exceções e Tratamento de Eventos
 
+## CAP 15 - Linguagens de Programação Funcional
 
-
-
-
-
+## CAP 16 -  Linguagens de Programação Lógica
 
 
 
