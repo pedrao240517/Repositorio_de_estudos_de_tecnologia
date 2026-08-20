@@ -3,8 +3,7 @@
 R: Pois entender como foi a construção da linagugem ajuda a ter clareza de ideias e melhor entendimento ao todo sobre as linguagens 
 facilitando seu uso e aprendizado.
 
-### **2. Como o conhecimento de linguagens de programação pode beneficiar toda a
-comunidade da computação?**
+### **2. Como o conhecimento de linguagens de programação pode beneficiar toda acomunidade da computação?**
 
 R: Facilita a criação de novas linguagens e melhores sugestões de mudanças na linguagem, pois os programadores terão
 um entendimento mais macro sobre toda a ferramenta.
@@ -67,7 +66,7 @@ R: Para evitar erros  de execução
 
 **15. O que são apelidos?(em linguagens de programação)**
 
-R:A contecem quando duas ou mais variáveis diferentes acessam exatamente a mesma posição de memória.
+R:Acontecem quando duas ou mais variáveis diferentes acessam exatamente a mesma posição de memória.
 
 **16. O que é o tratamento de exceções?**
 
