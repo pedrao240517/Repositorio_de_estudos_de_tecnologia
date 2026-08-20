@@ -1762,6 +1762,39 @@ a aplicação mais lento e complexo vai ser nosso algoritmo
 
 sistema legado: sistema muito antigo +10 anos 
 
+macete: 
+
+list - constante O(1)
+
+for dentro de for - O(n²)
+
+for - linear O(n)
+
+![img_19.png](img_19.png)
+
+- Por que Big O é importante
+
+Ela serve pra medir a complexibilidade de algoritmo e com isso
+mexer com a escabilidade do código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

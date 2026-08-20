@@ -26,11 +26,19 @@ public class Main {
         }
 
         System.out.println("---------O(n2)----------");
-        // complexidade quadrática -
+        // complexidade quadrática - O(n²)
         for (int i = 0; i < 3 ; i++) {
                 for (int j = 0; j < 3; j++) {
                 System.out.println(ninjas);
                 }
+        }
+
+        System.out.println("-----------------------notação quadratica-------------------------- ");
+
+        for (int i = 0; i < ninjas.size(); i++) {
+            for (int j = 0; j < ninjas.size(); j++) {
+                System.out.println(ninjas.get(i)+ " Contra" + ninjas.get(j));
+            }
         }
 
 
