@@ -1739,7 +1739,7 @@ O(log n) - Logarítmica
 O(n log n) - Linearítmica
 
 O(n^2) - Quadrática
-
+  
 O(2^n) - Exponencial
 
 O(n log n)- linear logaritimica
