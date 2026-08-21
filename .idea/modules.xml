@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Banco de Dados/Banco de Dados.iml" filepath="$PROJECT_DIR$/Banco de Dados/Banco de Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Repositorio_de_estudos_de_tecnologia.iml" filepath="$PROJECT_DIR$/Repositorio_de_estudos_de_tecnologia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagens/imagens.iml" filepath="$PROJECT_DIR$/imagens/imagens.iml" />
     </modules>
   </component>
 </project>

@@ -7,7 +7,7 @@ link do curso: https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home
 
 Essencialmente, a programação de computadores consiste em receber uma entrada e gerar uma saída — resolvendo, assim, um problema. O que acontece entre a entrada e a saída, o que podemos chamar de caixa preta, é o foco deste curso.
 
-![alt text](image-27.png)
+![alt text](imagens/image-27.png)
 
 Os computadores usam o sistema binário pra receber/ funcionar ou seja é a linguagem deles (0 ou 1 )
 
@@ -19,15 +19,15 @@ Se você imaginar usar uma lâmpada, uma única lâmpada só pode contar de zero
 No entanto, se você tiver três lâmpadas, terá mais opções à sua disposição!
 Dentro de seus dispositivos, como seu iPhone ou computador, existem milhões de lâmpadas metafóricas chamadas transistores , que possibilitam as atividades realizadas nesses dispositivos que muitas vezes consideramos corriqueiras no dia a dia.
 
-![alt text](image-28.png)
+![alt text](imagens/image-28.png)
 
 Os computadores usam o sistema binário (base 2) para contar. Isso pode ser visualizado da seguinte forma:
 
-![alt text](image-29.png)
+![alt text](imagens/image-29.png)
 
 Os computadores geralmente usam oito bits (também conhecidos como bytes ) para representar um número. Por exemplo, 5 00000101representa o número 5 em binário . 111111110 representa o número 255. Você pode imaginar o zero da seguinte forma:
 
-![alt text](image-30.png)
+![alt text](imagens/image-30.png)
 
 ### ASCII
 
@@ -37,11 +37,11 @@ Como existe uma sobreposição entre os uns e zeros que representam números e l
 
 Por exemplo, Adecidiu-se que a letra corresponderia ao número 65. 01000001representa o número 65 em binário. Você pode visualizar isso da seguinte forma:
 
-![alt text](image-31.png)
+![alt text](imagens/image-31.png)
 
 Se você recebeu uma mensagem de texto, o código binário dessa mensagem pode representar os números 72, 73 e 33. Convertendo esses números para ASCII, sua mensagem ficaria assim:
 
-![alt text](image-32.png)
+![alt text](imagens/image-32.png)
 
 segue abaixo uma tabela ASCII
 
@@ -95,7 +95,7 @@ Uma abordagem final, e talvez melhor, seria ir até o meio da lista telefônica 
 
 Cada uma dessas abordagens pode ser chamada de algoritmo. A velocidade de cada um desses algoritmos pode ser representada da seguinte forma, na chamada **notação Big-O** 
 
-![alt text](image-33.png)
+![alt text](imagens/image-33.png)
 
 Observe que o primeiro algoritmo, destacado em vermelho, tem uma complexidade de notação Big-O de O(n log n), npois se houver 100 nomes na lista telefônica, pode levar até 100 tentativas para encontrar o nome correto. O segundo algoritmo, em que duas páginas foram pesquisadas por vez, tem uma complexidade de notação Big-O de O(n log n), n/2pois a busca nas páginas foi realizada duas vezes mais rápido. O algoritmo final tem uma complexidade de notação Big-O de log₂ n , já que dobrar o problema resultaria apenas em mais um passo para resolvê-lo.
 
@@ -110,7 +110,7 @@ A capacidade de criar pseudocódigo é fundamental para o sucesso tanto nesta di
 
 Por exemplo, considerando o terceiro algoritmo acima, poderíamos compor o pseudocódigo da seguinte forma:
 
-![alt text](image-34.png)
+![alt text](imagens/image-34.png)
 
 A pseudocodificação é uma habilidade muito importante por pelo menos dois motivos. Primeiro, ao usar pseudocodificação antes de criar o código formal, você consegue pensar na lógica do problema antecipadamente. Segundo, ao usar pseudocodificação, você pode fornecer essas informações posteriormente a outras pessoas que desejam entender suas decisões de codificação e como seu código funciona.
 
@@ -161,7 +161,7 @@ Lembre-se de que as máquinas só entendem código binário. Enquanto os humanos
 
 Descobrimos que podemos converter código-fonte em código de máquina usando um software muito especial chamado compilador . Hoje, apresentaremos um compilador que permite converter código-fonte da linguagem de programação C em código de máquina.
 
-![alt text](image-35.png)
+![alt text](imagens/image-35.png)
 
 para a resolução de e criação dos nossos códigos usaremos o vscode para facilitar questões técnicas e a linguagem C por ser mais recepitiva com iniciantes.
 
@@ -198,7 +198,7 @@ Para procurar bibliotecas e resolver problemas da linguagem, você deve procurar
 
 ### Resolução de erros de compilador 
 
-![alt text](image-42.png)
+![alt text](imagens/image-42.png)
 
 O erro mostra primeiro  o nome do arquivo onde está o problema, o número da linha e o número de caractere da linha, depois explicação do erro.
 
@@ -209,7 +209,7 @@ Embaixo o número de erro gerado no banco de erros do compilador.
 Descedente de um S.O chamado Unix, nele podemos usar alguns comandos uteis na CLI que ajudara no desenvolvimento dos códigos. Alguns dele incluem: 
 
 
-![alt text](image-43.png)
+![alt text](imagens/image-43.png)
 
 
 ### condicionais 

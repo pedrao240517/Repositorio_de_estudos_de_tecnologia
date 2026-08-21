@@ -65,12 +65,12 @@ Em vez de renomear os aquivos manualmente a cada atualização (feature), um vcs
 
 centralizado/linear: Cada desenvolvedor baixa uma cópia completa do projeto, incluindo todo o seu histórico. Isso significa que você pode trabalhar offline e seus dados ficam altamente seguros contra falhas do servidor.
 
-![alt text](image-41.png)
+![alt text](imagens/image-41.png)
 
 
 distribuido: Todas as versões dos arquivos são hospedadas em um único servidor central. Os desenvolvedores baixam os arquivos de que precisam, fazem as alterações e os enviam diretamente para o servidor.
 
-![alt text](image-40.png)
+![alt text](imagens/image-40.png)
 
 
 ### Termos de VCS

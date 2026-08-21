@@ -153,7 +153,7 @@ tipo de navergador que você usa.)
 O projetista, programador, design, inplementador tem diferentes visões sobre a lingaugem o que 
 pode ajudar ou atrapalhar dependendo da situação.
 
-![img_15.png](../img_15.png)
+![img_15.png](../imagens/img_15.png)
 
 ### 1.4 INFLUÊNCIAS NO PROJETO DE LINGUAGENS
 

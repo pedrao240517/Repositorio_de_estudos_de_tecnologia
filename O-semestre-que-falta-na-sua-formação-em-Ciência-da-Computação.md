@@ -58,7 +58,7 @@ comando --help -> explica as opções e o que faz esse comando faz.
 O seu computador vem com inúmeros programas embutidos, entre eles um para específicações de terminal.
 Quando você executa um comando no shell, você está escrevendo um pequeno pedaço de código que seu shell interpreta. Se você digita um comando que o shell não reconhece, ele consulta uma variável de ambiente chamada $PATH que lista quais diretórios que o shell deve procurar por programas
 
-![img_9.png](img_9.png)
+![img_9.png](imagens/img_9.png)
 
 Para saber exatemente o que um comando/programa roda usamos o comando which +
 programa que queremos saber 
