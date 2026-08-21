@@ -1376,7 +1376,7 @@ Stack<String> nomeNinjaStack = new Stack<>();
 
 adicionar questoes anki propria e do quiz da aula  * 
 
-### NivelIntermediario.Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
+### Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
 
 ![img_3.png](imagens/img_3.png) Cabeça e rabo
 
