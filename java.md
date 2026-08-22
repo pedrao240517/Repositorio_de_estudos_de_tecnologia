@@ -1777,6 +1777,40 @@ for - linear O(n)
 Ela serve pra medir a complexibilidade de algoritmo e com isso
 mexer com a escabilidade do código.
 
+existem maneiras de deixar o seu código mais escalável.
+
+### Streams - a melhor featuere de java
+
+introduzindo no Java 8, facilitam o processamento de coleção de dados de forma funcional e eficiente.
+permitindo operações como filtragem, trasnformação e redução.
+
+ninjas.stream - posso fazer qualquer operação da api de streams
+
+cada . pode adicionar um novo método
+
+Ex:
+
+````
+ninjas.stream()
+    .filter(ninja1 -> ninja1.getAldeia()
+    .equals("vila da areai")
+    .foreach(System.out::println; 
+
+````
+
+esse código e pra filtragem de ninjas da vila da areia e é necessario como uma 
+boa prática a identação de código após . e o método.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
