@@ -8,13 +8,13 @@ Uma matriz é uma tabela de números organizadas em linhas(-) e colunas(|) com u
 
 #### Estrutura de uma matriz
 
-![alt text](image-38.png)
+![alt text](imagens/image-38.png)
 
 obs: uso de colchetes e letras pra colocar indicar ela.
 
 #### Notação
 
-![alt text](image-39.png)
+![alt text](imagens/image-39.png)
 
 A -> a matriz
 

@@ -22,7 +22,7 @@
 
 #### Ciclo de vida de um programa JAVA
 
-![ciclo de vida de um programa JAVA](image-21.png)
+![ciclo de vida de um programa JAVA](imagens/image-21.png)
 
 Existem três estágios principais no ciclo de vida de um programa Java.  São eles:
 1) Editando o programa
@@ -100,7 +100,7 @@ obs: São tipos de dados em que pode-se colocar metódos para fazer alterações
 
 poder usar métodos nas variáveis.
 
-![alt text](image.png)
+![alt text](imagens/image.png)
 
 - O que são métodos ?
 
@@ -357,7 +357,7 @@ class Main {
 
  São estruturas de dados fundamentais usadas para armazenar uma coleção de elementos do mesmo tipo de dados em locais de memória contíguos. Eles fornecem uma maneira de organizar e acessar múltiplos valores usando um único nome de variável e um índice.
 
- ![Arrays unidimensionais](image-14.png)
+ ![Arrays unidimensionais](imagens/image-14.png)
 
  Estrutura array unidimensionais 
 
@@ -469,7 +469,7 @@ Primeiramente, quais os pilares da orientação a objeto: Emcapsulamento,Heranç
 
 Usar caracteristicas de um class mãe em outras classes filhas para assim poupar codigo e agilizar trabalho.
 
-![alt text](image-19.png)
+![alt text](imagens/image-19.png)
 
 pra isso é importante usar a palavra chave da herança na nossa classe - extends.
 
@@ -769,9 +769,9 @@ Por exemplo : se eu crio uma classe principal(superclasse) Main e uma ninja e de
 Primeiramente vamos as semelhanças, as duas é inpossível criar (instanciar)um objeto. (em termos leigos ela não poderia "procriar")
 
 A principal é que você não pode colocar os atributos (variveis que atuam como caracteristicas dos objetos), sem declarar o valor na interface pois ela é automaticamente final enquanto na classe abstrata você pode.
-![classe abstrata](image-22.png)
+![classe abstrata](imagens/image-22.png)
 
-![interface](image-23.png)
+![interface](imagens/image-23.png)
 
  
 ### Super classes x Sub Classes 
@@ -813,7 +813,7 @@ public class Pato implements Voador, Nadador {
 
 - relembrando 
 
-![alt text](image-24.png)
+![alt text](imagens/image-24.png)
 
 ### Overload - Sobrecarga de métodos 
 
@@ -822,9 +822,9 @@ Usamos quando queremos refatorar o código (construir de novo o código ou conse
 dica: toda vez que tiver uma nova função de trabalho (task) comente o código (use TODO)
 
 pra fazer isso você usa um construtor e referência o anterior com this.() e acrescenta os outros em superclasses e nas subclasess o próprio inteliIDEA faz por você
-![alt text](image-25.png)
+![alt text](imagens/image-25.png)
 
-![alt text](image-26.png)
+![alt text](imagens/image-26.png)
 
 ### enuns
 
@@ -963,7 +963,7 @@ Toda vez que você inicializa um atributo o java coloca eles como públicos. O e
 
 private x final - final mão pode ser alterado private pode
 
-![ ](image-36.png) 
+![ ](imagens/image-36.png) 
 
 No caso vamos duplicar nosso espaço na memória do computador da variável e vamos colocar como publica pra conseguir alterar o valor alterando nesse espaço público.
 
@@ -971,7 +971,7 @@ Serve pra indicar onde a pessoa vai atribuir o valor aquela variável
 
 obs: eu tenho que usar um prefixo na varíavel que for duplicada como pública - (GET nome da coisa ) pra tirar algo   e (SET nome da coisa )- pra colocar alfuma  coisa, ou seja vamos usar 3 caixas.
 
-![alt text](image-37.png)
+![alt text](imagens/image-37.png)
 
 GETTERS E SETTERS  - Tirar e colocar valor na variável 
 
@@ -1221,11 +1221,11 @@ No caso generics são usados para criar coleções de objetos do mesmo tipo. Um 
 é uma bolsa de ferramentas do universo de naruto, sem usar um generic teriamos que criar um array 
 de outro tipo de objeto toda vez que quiser adicionar uma ferramenta  ninja.
 
-![img.png](img.png)
+![img.png](imagens/img.png)
 
 Em vez disso eu posso teruma bolsa generica que pode receber qualquer tipo de ferramenta(objeto)
 
-![img_1.png](img_1.png)
+![img_1.png](imagens/img_1.png)
 
 
 ### Records 
@@ -1263,7 +1263,7 @@ public record NinjaRecord(String nome ,String email, int telefone) {
 Uma stack (ou pilha) é uma estrutura de dados que segue o princípio LIFO (Last In, First Out), ou seja, o último item a ser adicionado é o primeiro a ser removido. Imagine uma pilha de livros: o último
 livro colocado no topo é o primeiro que você tira quando quer pegar um livro.
 
-![img_2.png](img_2.png)
+![img_2.png](imagens/img_2.png)
 
 - Inicialização de Stack
 
@@ -1376,9 +1376,9 @@ Stack<String> nomeNinjaStack = new Stack<>();
 
 adicionar questoes anki propria e do quiz da aula  * 
 
-### NivelIntermediario.Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
+### Queue - Estutura de Dados  (FIFO- First in Firt Out) - O primeiro a chegar e o primeiro a sair 
 
-![img_3.png](img_3.png) Cabeça e rabo
+![img_3.png](imagens/img_3.png) Cabeça e rabo
 
  - Inicialização de NivelIntermediario.Queue
 
@@ -1406,7 +1406,7 @@ Deletar o Tail - Não da pra tirar ou seja você se ferra pois tem que tirar tud
 2-  A interface crie uma copia do nosso ultimo espaço de mémoria criado 
 mantendo ele de forma sequencial
 
-![img_4.png](img_4.png)
+![img_4.png](imagens/img_4.png)
 
 E se a gente quiser adicionar um objeto como nesse caso a hinata, em um index que não
 seja o último como 1?
@@ -1416,7 +1416,7 @@ todos os objetos para a direita e reordenar toda a sequencia da lista.
 
 como fazer:
 
-![img_5.png](img_5.png)
+![img_5.png](imagens/img_5.png)
 
 Tá mas o que tem tudo isso?
 
@@ -1436,7 +1436,7 @@ ou seja ele fica lento. Já a linkedList é horrível pra busca pois ela não te
 
 Cada elemento (Referência de mémoria) está apontando pro próximo elemento.
 
-![img_6.png](img_6.png)
+![img_6.png](imagens/img_6.png)
 
 Ai que a "mágica" acontece quando você quiser adicionar/remover etc você apenas 
 tera que mover pra onde o ponteiro do local onde você quer mecher esta apontando.
@@ -1444,7 +1444,7 @@ tera que mover pra onde o ponteiro do local onde você quer mecher esta apontand
 Ex: se nesse caso acima você quiser colocar o kakashi em 2, você adiciona ela e coloca o 
 ponteiro do naruto pra apontar pra ele e o dele pro sasuke e continua a lista.
 
-![img_7.png](img_7.png)
+![img_7.png](imagens/img_7.png)
 
 Linkedlist é encadeado pelos ponteiros entre eles.
 
@@ -1461,7 +1461,7 @@ denominado notação bigO
 
 Colections são interfaces que usamos na nossa estrutura de dados.
 
-![img_8.png](img_8.png)
+![img_8.png](imagens/img_8.png)
 
 Na verdade o arraylis e o linkedList são classes, ou seja colections nada mais é que o
 conjunto de estrutura de dados.
@@ -1528,7 +1528,7 @@ console.log(soma)  - resultado 3A
 
 - Linguagens de tipo dinâmico e estático
 
-![img_16.png](img_16.png)
+![img_16.png](imagens/img_16.png)
 
 tipo estático é linguagens que mostra os erros em tempo de compilação, ou seja o compilador 
 mostra o código antes mesmo de rodar ele e ele não roda até estar ajustado.
@@ -1546,7 +1546,7 @@ tempo de excução - depois de compilar(C, java )
 
 Ainda a nível de engenharia, nos tempo a linguagem de tipo forte e tipo fraco.
 
-![img_18.png](img_18.png)
+![img_18.png](imagens/img_18.png)
 
 ### Escopo estatico + variaveis globais - PSVM
 
@@ -1770,7 +1770,7 @@ for dentro de for - O(n²)
 
 for - linear O(n)
 
-![img_19.png](img_19.png)
+![img_19.png](imagens/img_19.png)
 
 - Por que Big O é importante
 

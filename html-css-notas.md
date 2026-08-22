@@ -148,7 +148,7 @@ No caso a World Wide Web e uma subrede da internet.
 ##### Representação de Dados
 01- digito binario -> bit ->  8 bits -> byte (porção minima pra representação de dados) 
 Código do teclado atual -> código mulitbyte UTF-8
-![ondas](image-3.png)
+![ondas](imagens/image-3.png)
 
 transfomação e a cada cojunto de 1024
 1024 bytes = 1 KB (\(2^{10}\))
@@ -190,7 +190,7 @@ A internet tem uma "agenda eletrônica" que salva os ips em nomes que nem uma ag
 
  Na URL -Uniform Resource Locator (Localizador Uniforme de Recursos) cada parte dela tem uma função.
 
- ![URL](image-4.png)
+ ![URL](imagens/image-4.png)
 
 Extensões finais
  TLD - top level domain (.com, .gov, .io, .edu.br)  
@@ -204,7 +204,7 @@ Um subdomínio é um prefixo adicionado ao nome de domínio principal,  serve pa
 o caminho e literalmente o caminho que o servidor vai recorrer( detalhado em introdução ao desenvolvimento backend)
 
 outro:
-![alt text](image-5.png)
+![alt text](imagens/image-5.png)
 
 Os tipos incluem hospedagem compartilhada, VPS, hospedagem dedicada e hospedagem em nuvem com recursos escaláveis. Os serviços incluem infraestrutura, registro de domínio, segurança e suporte técnico para garantir a disponibilidade confiável do site.
 
@@ -251,10 +251,10 @@ Um navegador web é um aplicativo usado para acessar sites na Internet. É um so
 exemplos: Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge e Opera.
 ###### História dos navegadores da Web
 Mosaic (primeiro navegador gráfico da web.)
-![alt text](image-9.png)
+![alt text](imagens/image-9.png)
 
 Netscape Navigator(o primeiro navegador comercial amplamente utilizado.)
-![alt text](image-10.png)
+![alt text](imagens/image-10.png)
 
 Internet Explorer (acesso gratuito com windows)
 
@@ -355,9 +355,9 @@ JS   -> Java Script (interatividade)
 extension web developer pra visualização das ferramentas em um site 
 
 ###### HTML (contéudo)
-![alt text](image-13.png)
+![alt text](imagens/image-13.png)
 <img src ="foto.png"> alt =" exemplo de foto">
-![tags básicas](image-6.png)
+![tags básicas](imagens/image-6.png)
 
 ###### Estilo CSS
 <pre>
@@ -371,7 +371,7 @@ H1(seletor) {
 </code>
 </pre>
 ##### Estrutura básica da HTML
-![alt text](image-12.png)
+![alt text](imagens/image-12.png)
 ###### Tags HTML
 
 obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, uma boa prática é escrver todas em minusculas para melhor legibilidade e consistência no código.
@@ -431,7 +431,7 @@ address -  fornecer metadados legíveis por máquina sobre a autoria ou propried
 
 tabela de opçoes de símbolos (pesquise na documentação se não achar)
 
-![tabela](image-11.png)
+![tabela](imagens/image-11.png)
 
 Para emojis você pode colar no vscode mais pra funcionar 100% vai em um site de emoji e pegue o código em hexadecimal. Para inserir coloque &amp;#xcodigo;
 
@@ -481,7 +481,7 @@ A principal característica do PNG - e que o diferencia do JPEG - é a capacidad
 configurar a opacidade de cada pixel (deixá-lo transparente ou com transparência
 limitada). 
 
-![formatos de imagem ](image-15.png)
+![formatos de imagem ](imagens/image-15.png)
 
 - outros 
 
@@ -519,7 +519,7 @@ height - altura da imagem
 
 Aqueles icones que coloca em cima de guias 
 
-![favicons exemplo](image-16.png)
+![favicons exemplo](imagens/image-16.png)
 
 procure no iconearchive
 
@@ -658,7 +658,7 @@ indicada no atributo srcset.
 #### Audios 
 
 use a tag <audio  e algusn source para fazer o site ser capaz de tocar qualquer audio.
-![alt text](image-18.png)
+![alt text](imagens/image-18.png)
 
 Vamos analisar os principais atributos da tag <audio> antes de mais nada:
 
@@ -842,4 +842,4 @@ ver os tipos de dowloads
 
 A emoção das cores - a cor de alguma coisa está relacionado a emoção que ele transmite de maneira inconciente.
 
-![tabelas cores](image-20.png)
+![tabelas cores](imagens/image-20.png)

@@ -45,18 +45,18 @@ definição, construção, manipulação de dados entre diversos usuários e apl
 
 Exemplos de SGBDS: 
 
-  ![img_10.png](../img_10.png)
+  ![img_10.png](../imagens/img_10.png)
 
 A definição ou informação descritiva que o banco organiza eses dados é chamado de **metadados**(dados sobre os dados).
 
 Um programa de aplicação acessa o banco de dados ao enviar consultas ou solicitações de dados ao SGBD.A consulta geralmente é recuperação de dados e transação  e 
 quando quando os dados são lidos e/ou gravados no banco de dados 
 
-![img_14.png](../img_14.png)
+![img_14.png](../imagens/img_14.png)
 
 - Estrutura de um sistema de Banco de dados.
 
-  ![img_11.png](../img_11.png)
+  ![img_11.png](../imagens/img_11.png)
 
 ### 3- Vantagens do SGBDs
 
@@ -148,11 +148,11 @@ DDL - linguagem de definição de dados
 
 DML - Linguagem de manipulação de dados
 
-![img_11.png](../img_11.png)
+![img_11.png](../imagens/img_11.png)
 
  - estrutura interna de um SGBD 
 
-![img_13.png](../img_13.png)
+![img_13.png](../imagens/img_13.png)
 
 ### Evolução de banco de dados 
 
