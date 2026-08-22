@@ -17,7 +17,7 @@ public class Main {
         ninjas.add(new Ninja("Neji Hyuga", "vila da folha", 18));
         ninjas.add(new Ninja("temari", "vila da areia", 18));
 
-        // .Stream - filtragem dos ninjas por vila 
+        // .Stream - filtragem dos ninjas por vila
         ninjas.stream()
                 .filter(ninja1 -> ninja1.getAldeia().equals("vila da areia"))
                 .forEach(System.out::println);// soutc
