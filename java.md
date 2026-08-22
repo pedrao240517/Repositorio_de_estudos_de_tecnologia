@@ -1563,7 +1563,7 @@ classes
 
 
 ```
-package NivelAvançado.Escopo;
+package NivelAvancado.Escopo;
 
 import NivelIntermediario.Records.Ninja;
 
@@ -1580,7 +1580,7 @@ static void main(String[] args) {
 e 
 
 ```
-package NivelAvançado.Escopo;
+package NivelAvancado.Escopo;
 
 public class ninja {
 String nome;
@@ -1597,7 +1597,7 @@ pra acessar o atributo da segunda classe (ninja)
 São as variáveis fora do escopo estático, no caso do java antes do 
 psvma
 ```
-package NivelAvançado.Escopo;
+package NivelAvancado.Escopo;
 
 import NivelIntermediario.Records.Ninja;
 
@@ -1653,7 +1653,7 @@ System.nanoTime(); atribui esse método a uma variavel de tipo real.
 Ex de código:
 
 ```
-package NivelAvançado.NotacaoBigO;
+package NivelAvancado.NotacaoBigO;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
