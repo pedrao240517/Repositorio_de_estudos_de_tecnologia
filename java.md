@@ -1801,6 +1801,16 @@ ninjas.stream()
 esse código e pra filtragem de ninjas da vila da areia e é necessario como uma 
 boa prática a identação de código após . e o método.
 
+Além disso podemos realizar a ordenação de uma lista com o strem 
+usando o método sorted e fazendo a ordenação por comparação
+
+Também podemos usar o map pra mapear toda a lista por um determinado atributo.
+
+
+
+
+
+
 
 
 
