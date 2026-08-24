@@ -61,10 +61,10 @@ Metodologia da Pesquisa;
 
 - Em andamento
 
-1. [Circuitos Digitais](./circuitos-digitais.md)
-2. [Geometrica análitica](./geometria-analitica.md)
+1. [Circuitos Digitais](circuitosdigitais/circuitos-digitais.md)
+2. [Geometrica análitica](geometriaanalitica/geometria-analitica.md)
 3. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
-4. [cs50x de havard_introducao_a_ciencia_da_computacao](./cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
+4. [cs50x de havard_introducao_a_ciencia_da_computacao](cs50x/cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
 
 - Concluído
 
@@ -74,22 +74,22 @@ Metodologia da Pesquisa;
 ### Por fora da faculdade (projeto backend developer)
  
  - Em andamento
- 2. [JAVA](./java.md)
- 7. [HTML e CSS](./html-css-notas.md)
- 8. [JavaScript](./JS.md) 
+ 2. [JAVA](Java%20Ninja/java.md)
+ 7. [HTML e CSS](html-css/html-css-notas.md)
+ 8. [JavaScript](js/JS.md) 
  - Concluído
    
-7. [introdução ao desenvolvimento backend ](./backend.md)  
- 3. [algoritmos](./algoritmos.md)
- 4. [Git e Github](./git-hub.md)
+7. [introdução ao desenvolvimento backend ](backend/backend.md)  
+ 3. [algoritmos](algoritmos/algoritmos.md)
+ 4. [Git e Github](gitegithub/git-hub.md)
 
 
 - Futuramente
-1. [Web e seus protocolos de comunicação](./web-e-seus-procolos-de-comunicação-básicos.md)  
+1. [Web e seus protocolos de comunicação](webeseusprotocolosdecomunicacao/web-e-seus-procolos-de-comunicação-básicos.md)  
  
 
   
 - Outros
   
- 6. [Livros](./livros.md)
+ 6. [Livros](livros/livros.md)
   

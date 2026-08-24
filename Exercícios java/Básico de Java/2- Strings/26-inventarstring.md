@@ -1,1 +1,0 @@
-Leia uma palavra e exiba-a invertida.

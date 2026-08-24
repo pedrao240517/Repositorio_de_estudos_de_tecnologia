@@ -1,1 +1,0 @@
-Criar um programa que calcule a média de salários de uma empresa, declarando o valor e a grade de funcionários e os salários, e devolvendo a média salarial.

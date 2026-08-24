@@ -1,1 +1,0 @@
-Leia uma frase e exiba a mesma frase sem os espaços do início e do fim.

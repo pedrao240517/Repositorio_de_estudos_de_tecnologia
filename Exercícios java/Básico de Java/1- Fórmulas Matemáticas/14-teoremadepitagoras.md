@@ -1,1 +1,0 @@
-Crie um programa que leia os dois catetos de um triângulo retângulo e calcule o valor da hipotenusa.

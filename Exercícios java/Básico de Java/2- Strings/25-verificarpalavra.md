@@ -1,1 +1,0 @@
-Leia uma frase e verifique se ela contém a palavra:

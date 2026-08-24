@@ -1,1 +1,0 @@
-Leia uma frase e informe quantos caracteres ela possui (incluindo espaços).
