@@ -51,8 +51,34 @@ poom.xml - depêndencia do projeto em xml(configuração do projeto).
 
 ### configurando o git no Projeto
 
-tem duas de configurar o git 
 1. via terminal 
+
+obs: necessário aprender git de maneira completa mais pra frente 
+
+## O intermédiario entre o banco de dados e o cliente(o backend)
+
+![img_1.png](img_1.png)
+
+Um dos filtros principais entre o banco de Dados e o usuário e a 
+API -  (Interface de Programação de Aplicações)é um conjunto de regras e protocolos que permite que diferentes sistemas de software se comuniquem e troquem dados entre si de forma automática.
+
+Primeiramente vamos adicionar um controlador- intermediário , gerenciando a comunicação entre a interface do usuário e a lógica de dados da aplicação.
+
+Pra adicionar esse controlador  temos que inicializar o spring em uma pasta criada 
+pelo próprio projeto spring inicializer(springBootApplication).
+
+Toda Vez que criamos uma API, nos estamos criando uma mapa de rotas.
+(spring é um grande mapa de rotas).
+
+### mapenado nossa primeira rota 
+
+ex: localhost:8080/cadastro
+ex: localhost:8080/deletar
+ex: localhost:8080/ninjas
+
+
+
+
 
 
 
