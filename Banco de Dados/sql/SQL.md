@@ -65,7 +65,22 @@ Durabilidade: Dados salvos persistem mesmo após falhas do sistema.
 ![img_2.png](img_2.png)
 
 o id pode ser chamado de chaver substituta pois ele é artificial ou seja não é uma chave de uma coluna existente, mais sim de uma nova. 
-pra declarar essa coluna colocamos nome da tabela e id, ex:fil_id
+pra declarar essa coluna colocamos nome da tabela e id, 
+
+ex:film_id
+
+
+a chave estrangeira garante a qualidade dos dados ou seja ela 
+verifica se um identificador de uma tabela tem em outra .
+
+As chaves garantem que os dados sejam válidos.
+
+-  Mas porque devemos organizar tudo em tabelas?
+
+para reduzir redudancias e facilitar nosso trabalho.
+
+
+
 
 
 
