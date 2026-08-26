@@ -73,8 +73,36 @@ Toda Vez que criamos uma API, nos estamos criando uma mapa de rotas.
 ### mapenado nossa primeira rota 
 
 ex: localhost:8080/cadastro
+
 ex: localhost:8080/deletar
+
 ex: localhost:8080/ninjas
+
+No caso quando você tenta acessar essa rota, pode ser que por padrao
+você receba o erro de whitelab, pois você provalvelmente não criou ainda nenhuma rota
+pra onde você quer acessar.
+
+-  passo a passo pra criar uma rota
+
+apenas coloque a barra depois do local host
+
+Ex: localhost:8080/minha_rota
+
+### anotation pra  constolodores
+
+toda vez que criarmos um controler em java 
+devemos colocar a notação
+@RestControler pra especificar pro spring que aquela classe é um controlador.
+
+Além disso precisamos de uma mapa de todas as rotas.Pra 
+isso nos especificamos com a notação @RequestMapping
+
+Ademais, quando criamos um método pra um rota pegar informações
+usamos a notação @GetMapping pra pegar as informações dessa rota
+
+
+Ai quando rodarmos o primeiro local host, rodamos o primeiro projeto do springboot
+
 
 
 
