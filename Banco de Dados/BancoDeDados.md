@@ -219,6 +219,79 @@ de quaisquer outras transações concorretes.
 As mudanças aplicadas ao banco de daos por uma transação 
 efetivada devem persistir no banco de dados.
 
+## Diferença de de DER x MER 
+
+DER -  diagrama de entidade - relacionamento
+MER -  modelo de entidade e relacionamento
+
+O mer é uma técnica de modelagem de dados que utiliza 
+o diagram de entidade relacionamento para visualizar  a estrutura e as relaçõs entre os dados em um sistema de banco de dados.
+
+### Entidade 
+
+entidade é uma representação de um objeto do mundo real ou um conceito 
+
+sendo reprentados por retangulos nos DER: 
+
+![img.png](img.png)
+
+### atributo 
+ atributo é uma propriedade ou caracteristica que descreve a entidade
+
+#### tipos de atributo.
+
+![img_1.png](img_1.png)
+
+##### atributo chave  -  um atributo especial
+
+atributo chave indentifica  de forma unica cada instancia da entidade.
+
+
+![img_2.png](img_2.png)
+
+##### atributo derivado
+
+é um attibuto cujo valor pode ser derivado(calculado) a parti de  outros atributos
+
+![img_3.png](img_3.png)
+
+##### atributo multivalorado
+
+um atributo que pode assumir multiplos valores
+
+![img_4.png](img_4.png)
+
+##### atributo compostos 
+
+um atributo composto  é aquele que contem varios subatributos.
+
+![img_5.png](img_5.png)
+
+#### Relacionamento
+
+é uma associação entre entidades que indicam como elas 
+estao inteligadas.
+
+![img_6.png](img_6.png)
+
+Exemplo de mer: 
+
+![img_7.png](img_7.png)
+
+#### cardinalidade
+indica a quantidade mínima e maxima de instancia de uma entidade podem estar associadas a uma instância de outra entidade em um relacionamento
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
