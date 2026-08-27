@@ -307,9 +307,11 @@ Exemplo de mer:
 ![img_7.png](img_7.png)
 
 #### cardinalidade
+
 indica a quantidade mínima e maxima de instância de uma entidade podem estar associadas a uma instância de outra entidade em um relacionamento
-=======
->>>>>>> 926f412dc2c87e526832c08f612f79b041a06152
+
+
+
 
 
 
