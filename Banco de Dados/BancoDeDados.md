@@ -131,9 +131,13 @@ O nível mais alto e abstrato; foca nos conceitos de negócio, entidades princip
 
 #### 6.2 Componentes de Abstração de Banco de Dados
 
-**Esquema(Schema)**:É a definição estrutural do banco de dados.Determina o nome das tabelas, colunas, tipos de dados e restrições.Muda com pouca frequência (apenas quando o sistema sofre alterações de projeto).É a "intenção" ou o projeto do banco
+**Esquema(Schema)** connjuto de entidades que tem o mesmos atributos
 
-**Instância (Instance)**: São os dados reais que preenchem as tabelas em um momento específico.Representa o conteúdo armazenado ou as ocorrências ativas.Muda constantemente a cada inserção, alteração ou exclusão de registros.É a "extensão" ou a materialização do esquema
+![img_10.png](img_10.png)
+
+**Instância (Instance)**: conjunto entidade com entidades individuais.
+
+![img_11.png](img_11.png)
 
 **Estado do Banco de Dados (Database State)**:É a imagem ou retrato completo de todas as informações contidas no banco em um instante particular no tempo.É sinônimo prático do conjunto atual de instâncias.Cada comando que modifica dados transforma o banco em um novo estado.O SGBD assegura que todo estado seja válido e obedeça às regras estabelecidas no esquema.
 
@@ -154,132 +158,132 @@ DML - Linguagem de manipulação de dados
 
 ![img_13.png](../imagens/img_13.png)
 
-### Evolução de banco de dados 
+## Modelo de Entidade- relacionamento (MER)
 
-1. Inicio da era da computação
+para constuir um banco de dados  é necessário
+estabelecer a forma como os dados 
+serão armazenadaos nesses banco 
 
-Os Dados eram representados em bits (o ou 1 ) sendo manipulados 
-por meior de cartões perfurados e fitas magnéticas.
+Estabelecer a forma como os dados serão armazenados
+implicam na construção de um modelo para organização dos dados : **uma modelagem
+de dados**.
 
-2. Sistema de arquivos eletrônicos 
-
-Os primeiros computadores permitiu a organização de arquivos 
-por meio de diretórios e subdiretorios.
-
-Porém esses sistema não tinha nenhum tipo de relacionamento entres si.
-
-3. SBDS hierarquicos
-
-sistemas que relacionavam entre si por meio de arquivos de textos
-
-4. Banco de Dados Relacionais 
-
-modelo de organização de dados por meio de tabelas.
-As conexões entre tabelas passaram a ser feitas por meio de chaves primarias e estrangeiras.
-
-O primeiro database relacional  foi o Oracle Database9 (primeiro comerial)
-
-Ex de chaves principais e secundarias ?
-
-tabela 1 de clientes contém é sendo essa a principal  da 
-tabela clientes e uma outra tabela de pedidos tem uma chave principal de pedidos e a chave de clientes 
-ao interagir com a tabela pedios passa a ser secundarias.
-
-5. banco de dados não relacional
-
-E se eu pegar informações com formatos diferentes ou seja uma uniformidade no formato dos dados
-
-Nesse caso eu uso um banco que organiza esses dados
-
- ## Transações
-
-Uma unidade lógica de trabalho (ou processamento) no banco de dados
-correspondendo a execução do programa.
-
-Elas fazem parte do CRUD ou seja as quatos operações básicas de um porgrama 
-
-Todas as transações devem possuir as seguintes propriedades.
-
-- Atomacidade
+é um tipo de modelos de dados conceitual de alto nível, existe 
+uma notação baseadas em diagrama para a construção de um MER o diagrama entidade - relaciomento ou  DER.
 
 
+### elementos do diagrama ER 
 
-- Consistência 
+entidades, atributo, chaves , relacionamentos e cardinalidades.
 
-A execução de uma transação faz o banco de dados 
-passar de um estado consistente para outro.
+#### Entidade
 
-- Isolmento
+1. entidade forte -  é um objeto básico usado para 
+representar um coisa no mundo real, fisica ou conceitual com exsitencia independente.
+2. entidade fraca - se a existência dó faz sentido quando está relacionada a outra entidade.
 
-Uma transação não deve sofrer interfêrencia 
-de quaisquer outras transações concorretes.
+dica:  as entidades são frequentemente mencionada e suas propriedades descritas.
 
-- Durabilidade 
+as entidades são representadas por retângulos e a do tipo fraco 
+por borda dupla 
+![img_8.png](img_8.png)
 
-As mudanças aplicadas ao banco de daos por uma transação 
-efetivada devem persistir no banco de dados.
+#### atributo 
+é uma propriedade que descreve uma entidade sendo representado em elipses
 
-## Diferença de de DER x MER 
+![img_9.png](img_9.png)
 
-DER -  diagrama de entidade - relacionamento
-MER -  modelo de entidade e relacionamento
+##### tipos de atributos
 
-O mer é uma técnica de modelagem de dados que utiliza 
-o diagram de entidade relacionamento para visualizar  a estrutura e as relaçõs entre os dados em um sistema de banco de dados.
+1. simples x compostos
 
-### Entidade 
-
-entidade é uma representação de um objeto do mundo real ou um conceito 
-
-sendo reprentados por retangulos nos DER: 
-
-![img.png](img.png)
-
-### atributo 
- atributo é uma propriedade ou caracteristica que descreve a entidade
-
-#### tipos de atributo.
-
-![img_1.png](img_1.png)
-
-##### atributo chave  -  um atributo especial
-
-atributo chave indentifica  de forma unica cada instancia da entidade.
+as simples tem apenas um atributo e as compostas
+mais de uma  atributo pra ele (ex: nome pode ter  primeiro nome e sobrenome)
 
 
-![img_2.png](img_2.png)
+2. univalorados x multivalorados
 
-##### atributo derivado
+um atributos multivalorado é aquele que pode ter varios valores  ex: localizações
 
-é um attibuto cujo valor pode ser derivado(calculado) a parti de  outros atributos
 
-![img_3.png](img_3.png)
+3. armazendados x derivados
 
-##### atributo multivalorado
+os derivados são aqueles que são calculdados com base de outros valores 
 
-um atributo que pode assumir multiplos valores
+ex: idade é o calculo de data atual - data de nascimento
 
-![img_4.png](img_4.png)
 
-##### atributo compostos 
+4. atributo chave 
 
-um atributo composto  é aquele que contem varios subatributos.
+tem o papel de designar o tipo de entidade.
+ou seja o id - identificador, faz com que duas entidades do mesmo  conjunto tenham os mesmos valores.
 
-![img_5.png](img_5.png)
+![img_12.png](img_12.png)
 
-#### Relacionamento
+a entidade fraca recebe o nome de **chave parcial*
 
-é uma associação entre entidades que indicam como elas 
-estao inteligadas.
+#### Relacionamentos
 
-![img_6.png](img_6.png)
+relacionamento entre entidades. Represetado pro losangos
 
-Exemplo de mer: 
+o grau de relacionamento é o  número de tipos entidade
+participantes do relacionamento.
 
-![img_7.png](img_7.png)
+##### grau de relacionamento
 
-#### cardinalidade
-indica a quantidade mínima e maxima de instancia de uma entidade podem estar associadas a uma instância de outra entidade em um relacionamento
+1. binário - grau dois
+2. ternario - grau três
+3.n - ario  - grau n
+
+dica: geralmente é ações que envolvem entidades (verbos)
+
+
+#### relacionamento do tipo recursivo
+
+ocorre quando o mesmo relacionamento assumim papeis
+diferentes.
+
+ex: um funcionario sempre é supervisionado e supervisor de alguem.
+
+![img_14.png](img_14.png)
+
+#### cardinalidades
+
+explica numero maximo e minimos de instancias de ralacionamento entr entidades
+
+tipos: 
+
+1:1 
+1:N
+M:N
+
+![img_13.png](img_13.png)
+
+#### restrição de participação.
+
+ se uma entidade precisa estar associada  a um relacionamento outra ou não.
+
+Se sim é participação total, se não é parcial.
+
+total é mostrado por linha dupla 
+
+parcial é mostrado por linha unica
+
+#### propriedades de relacionamento
+
+um relacionamneto pode ter um atributo.
+
+exemplo: trabalha  - pode ter horas 
+
+
+
+
+
+
+
+
+
+
 
 
 
