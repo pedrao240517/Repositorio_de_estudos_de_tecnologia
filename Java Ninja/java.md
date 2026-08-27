@@ -4,6 +4,7 @@
 ### Fontes 
 - Java 10x  -Fiasco
 - Roadmaph.sh (https://roadmap.sh/java)
+- compilador online pra exercicios em máquina bloqueada: onecompiler.com
 
 ---
 - O que é uma IDE?
@@ -259,7 +260,7 @@ subtração - (-)
 Divisão  - / 
 
 Multiplicação - *
-
+[java.md](java.md)
 Restante/ Módulo -  %
 
 para saber outros operadores acesse a documentação oficial ou tutoriais (https://jenkov.com/tutorials/java/math-operators-and-math-class.html)
@@ -1542,7 +1543,7 @@ Tipo dinâmico - ex python
     nome = 7 // compilador da linguagem não deu erro ante de  execução
 
 tempo de compilação - antes de compilar (python, JavaScript)
-tempo de excução - depois de compilar(C, java ) 
+tempo de execução - depois de compilar(C, java ) 
 
 Ainda a nível de engenharia, nos tempo a linguagem de tipo forte e tipo fraco.
 
