@@ -6,6 +6,16 @@ https://missing-semester-pt.github.io/2020/course-shell/
 
 ## 01 - Visão geral do curso + Introdução ao Shell
 
+ferramentas:
+
+https://penguin-gym-linux.com/pt/terminal - exercicios de terminal
+
+https://www.webminal.org/ - terminal web pra prática
+
+obs: é praticamente essencial baixar um terminal linux basedo em UNIX no seu pc, seja por meio de 
+um wsl pra windows, maquina virutal ou trocar seu s.o pra uma distro linux
+
+
 - O que é o shell? 
 
 É a interface textual do computador que atua como intermediário entre o usuário e o sistema operacional. Eles
