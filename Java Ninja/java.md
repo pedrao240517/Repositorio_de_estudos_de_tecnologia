@@ -458,7 +458,7 @@ public class Main {
 
 ````
 
-vale resaltar que todas as variáveis declaradas dentro de um class a fim de dar caracteristicas a um objeto ém chamado de atributo.
+vale resaltar que todas as variáveis declaradas dentro de um class a fim de dar caracteristicas a um objeto ém chamado de **atributo**.
 ### Orientação a objeto 
 
 A Programação Orientada a Objetos (POO) é um paradigma(Um paradigma de desenvolvimento define o conjunto de crenças, conceitos e metodologias que guiam a forma como os profissionais abordam a criação de algo em desenvolvimento que organiza o código em "objetos" — que combinam dados e comportamentos. Ela é amplamente utilizada porque facilita a criação de sistemas complexos, promove a reutilização de código e torna a manutenção muito mais eficiente
