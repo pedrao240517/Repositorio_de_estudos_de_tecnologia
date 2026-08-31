@@ -1542,13 +1542,38 @@ Tipo dinâmico - ex python
     nome = "Naruto"
     nome = 7 // compilador da linguagem não deu erro ante de  execução
 
-tempo de compilação - antes de compilar (python, JavaScript)
-tempo de execução - depois de compilar(C, java ) 
+tempo de execução - antes de compilar (python, JavaScript)
+
+tempo de compilação - depois de compilar(C, java ) 
 
 Ainda a nível de engenharia, nos tempo a linguagem de tipo forte e tipo fraco.
 
 ![img_18.png](../imagens/img_18.png)
 
+
+•  Tempo de Execução: Momento do uso (o programa rodando)
+
+•  Estática: O tipo é checado e fixado antes de rodar (na compilação). 
+
+•  Dinâmica: O tipo é checado e fixado depois que roda (em execução). 
+
+•  Forte: A linguagem bloqueia operações entre tipos diferentes (ex: número + texto dá erro).
+•  Fraca: A linguagem permite operações entre tipos diferentes fazendo conversões automáticas (ex: número + texto vira tudo texto).
+
+````
+               (TEMPO DE EXECUÇÃO)
+         O programa já está rodando na tela
+                         │
+         JavaScript      │      Python
+       (Fraca/Dinâmica)  │  (Forte/Dinâmica)
+─────────────────────────┼─────────────────────────
+            C            │       Java
+        (Fraca/Estática) │  (Forte/Estática)
+│
+               (TEMPO DE COMPILAÇÃO)
+         O programa ainda está sendo fabricado
+
+````
 ### Escopo estatico + variaveis globais - PSVM
 
 Public Static void main
@@ -1556,7 +1581,7 @@ Public Static void main
 1. Public - modificador de acesso que permite acessar em qualquer lugar do código
 2. static - não precisa criar um objeto (escopo estatico)
 3. void - método sem retorno (procedimento)
-4. main - 
+4. main -  principal
 
 Ex: de uso de escopo estativo
 

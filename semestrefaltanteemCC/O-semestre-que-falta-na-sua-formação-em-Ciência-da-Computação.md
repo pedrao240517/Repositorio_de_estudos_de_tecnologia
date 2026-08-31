@@ -10,7 +10,7 @@ ferramentas:
 
 https://penguin-gym-linux.com/pt/terminal - exercicios de terminal
 
-https://www.webminal.org/ - terminal web pra prática
+
 
 obs: é praticamente essencial baixar um terminal linux basedo em UNIX no seu pc, seja por meio de 
 um wsl pra windows, maquina virutal ou trocar seu s.o pra uma distro linux
@@ -148,6 +148,8 @@ cp - pra copiar um arquivo
 
 mkdir - para fazer um novo diretorio
 
+tail - exibi a éltima parte de um arquivo (por padrão as 10 últimas linhas )
+
 outro muito importante é o man com a flag - ls  ->  man -ls  exibi todas as flags que se pode usar e o que faz 
 
 uma lista pra consulta: 
@@ -188,13 +190,46 @@ outro operador é o PIPE | ou barra em pé,  conecta a saída padrão de um coma
 
 cat arquivo.txt | grep "palavra"
 
+- Uma ferramenta versátil e poderosa.
+
+Na maioria dos sistemas do tipo Unix, existe um usuário especial: o usuário "root". 
+
+Pra acessar ele você usa o comando sudo pra  atuar como adm
 
 
+exercicios: 
+
+###  Exercício: Introdução ao Shell Unix (Missing Semester)
+
+1. Para este curso, você precisa usar um shell Unix como Bash ou ZSH. Se você estiver usando Linux ou macOS, não precisa fazer nada de especial. Se estiver usando Windows, certifique-se de não estar executando o cmd.exe ou o PowerShell; você pode usar o Subsistema Windows para Linux (WSL) ou uma máquina virtual Linux para usar ferramentas de linha de comando no estilo Unix. Para garantir que você esteja executando o shell apropriado, você pode usar o comando ` ls -l` echo $SHELL. Se o resultado for algo como `ls -l` /bin/bashou ` /usr/bin/zshls -l`, significa que você está executando o programa correto.
+
+3. Crie um novo diretório chamado missingem /tmp.
+
+5. Consulte o touchprograma. O manprograma é seu amigo.
+
+7. Use touchpara criar um novo arquivo chamado semesterem missing.
+
+Escreva o seguinte nesse arquivo, uma linha de cada vez:
+#!/bin/sh
+curl --head --silent https://missing.csail.mit.edu
+A primeira linha pode ser um pouco complicada de fazer funcionar. E útil saber que `\` #inicia um comentário no Bash e !tem um significado especial mesmo dentro de strings entre aspas duplas (`\ "`). O Bash trata strings entre aspas simples (`\ '`) de forma diferente: elas funcionarão neste caso. Consulte a página do manual de aspas do Bash para obter mais informações.
 
 
+14. Tente executar o arquivo, ou seja, digite o caminho para o script ( ./semester) no seu terminal e pressione Enter. Entenda por que não funciona consultando a saída de ls(dica: observe as permissões do arquivo).
+
+16. Execute o comando iniciando explicitamente o shinterpretador e fornecendo o arquivo semestercomo primeiro argumento, ou seja sh semester, `. Por que isso funciona, enquanto `./` ./semesternão funcionou?
+
+18. Procure o chmodprograma (por exemplo, use man chmod).
+
+20. Use `--shebang` chmodpara possibilitar a execução do comando ./semesterem vez de ter que digitá-lo sh semester. Como o seu shell sabe que o arquivo deve ser interpretado usando ` --shebang` sh? Consulte esta página sobre a linha shebang para obter mais informações.
+
+22. Use `printf` |e `printf` >para escrever a data da "última modificação" exibida por `printf` semesterem um arquivo chamado `file` last-modified.txtno seu diretório pessoal.
+
+24. Escreva um comando que leia o nível de energia da bateria do seu laptop ou a temperatura da CPU do seu computador de mesa /sys. Observação: se você usa macOS, seu sistema operacional não possui o sysfs, então você pode pular este exercício.
+. 
 
 
-
+## 02-  Ferramentas de Shell e Scripting
 
 
 

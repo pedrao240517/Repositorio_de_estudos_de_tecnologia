@@ -326,11 +326,23 @@ maior que a da direita  após a leitura da linha.
 definição = Eu quero saber em que momento ocorre determinados eventos, que evento? 
 a associação como entre um atributo e uma entidade ou entre uma operação e um símbolo.
 
-Ex:
+Ex: int idade = 25 (em java ou C)
 
 #### **5.3.2- Momentos de vinculação **
 
-1. Projetos de linguagem 
+1. **Projetos de linguagem** :Ocorre quando os projetistas definem construções fundamentais da linguagem, como o significado do operador +ou palavras-chave reservadas.
+2. **implementação da linguagem**: Decisões tomadas pelos desenvolvedores do compilador ou interpretador, como o tamanho exato em bytes alocados para um tipo de dado numérico.
+3. **tempo de compilação(*mais importante)** :
+4. **tempo de ligação**:Ocorre quando o código compilado é combinado com bibliotecas externas e outros módulos para formar o novovel final.
+5. **tempo de carregamento** :Ocorre quando o sistema operacional carrega o programa seguinte para a memória principal, definindo os endereços de memória base.
+6. **tempo de execução**(*mais importante) :Ocorre enquanto o programa está rodando ativamente; é o momento em que valores de variáveis ​​são atribuídos, funções são chamadas e a alocação dinâmica de memória acontece.
+
+
+comprender quando as vinculações ocorrem é pré requisito para entender a semântica de uma linguagem de programção.
+
+
+
+
 
 
 
