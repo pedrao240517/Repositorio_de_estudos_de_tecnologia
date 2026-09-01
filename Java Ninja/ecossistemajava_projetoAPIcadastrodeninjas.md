@@ -88,7 +88,7 @@ apenas coloque a barra depois do local host
 
 Ex: localhost:8080/minha_rota
 
-### anotation pra  constolodores
+### anotation pra  controladores
 
 toda vez que criarmos um controler em java 
 devemos colocar a notação

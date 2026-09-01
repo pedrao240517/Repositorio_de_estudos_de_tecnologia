@@ -166,7 +166,7 @@ pra criar um basta inicializar da seguinte forma.
 
 String[][] ninjasEaldeias = new String[3][3]; é uma matriz
 
-**25-  De maneira direta como funciona o garage colector ?**
+**25-  De que maneira direta como funciona o garage colector ?**
 
 R: é um processo automatico de gerenciamento de mémoria onde objetos/variaveis/ procesos  são removidos 
 da mémoria quando não usados.
