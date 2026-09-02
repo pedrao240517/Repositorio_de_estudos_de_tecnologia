@@ -121,6 +121,47 @@ conjunto de problemas que se resolver resolve um objetivo.
 
 podemos configurar issues(problema) a milestone(marco).
 
+### Entidades e persistência de dados -  tabela de Ninjas 
+
+Vamos criar um classe com atibutos, nome, clã, rank , técnicas 
+e vamos tranformar em uma entidade pra virar uma tabela no banco de dados.
+
+
+primeiramente na criação de classes: 
+
+ quando criamos uma classe no spring é um padrão
+colocarmos primeiro o objeto que vamos trabalhar 
+e depois o padrão que vamos usar. 
+
+Ex: NinjaModel
+
+a criação dos atributos vão ser padrão com construtores e getter e setter 
+porém também vamos ter  um atributo chamado id -  identificator 
+pra poder achar um ninja no nosso banco de dados.
+Esse Id vai ser do tipo long caso tenha muitos ninnjas  e temos  
+ que colocar na classe uma notação chamada @Entity
+pra avisar ao java que aqueles atibutos são entidades.
+
+Pra usar essa notação você deve instalar  um dependência do Spring data chamada
+Sprinf Data JPA que fornece a abstração completa de repositorio sobre API de Persistência
+JAVA.
+
+Pra instalar ela você vai no spring inicializer 
+e  pega o com xml do poom.xml apos adicionar um dependencia.
+
+feito isso você consegue usar essa notação
+e também outras notações como  Table
+pra colocar o nome da tabela (ex: tb_cadastro)
+ e a notação ID pra tranformar o atributo da classe em um id 
+
+Tudo isso vem do JPA = Java Persistence API
+
+
+### git Amend - Hash e git garbage collection
+
+Git amend -> remendo de um comit
+
+
 
 
 
