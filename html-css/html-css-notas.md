@@ -1,9 +1,11 @@
 # HTML E CSS
-## Repositório pra registro do curso de 5 módulos de HTML e CSS3 do curso em vídeo.
 ---
+Repositório pra registro do curso de 5 módulos de HTML e CSS3 do curso em vídeo.
+
+
 ### O que vamos aprender? 
 
-#### Módulo 1 - Primeiros passos (cap 1 a 12)
+### Módulo 1 - Primeiros passos (cap 1 a 12)
 1) Evolução da internet
 2) Como Surgiu?
 3) Como a internet funciona?
@@ -52,8 +54,8 @@
 38) Projeto Final
 
 Acesse a pasts questões HTML e CSS, exercícios e Desafios para ver o que foi feito durante o curso
----
-- melhores livros pra aprender HTML e CSS
+
+### melhores livros pra aprender HTML e CSS
 1) Material de apoio - curso em vídeo
 2) Rerências on-line
 MDN
@@ -79,7 +81,7 @@ CSS3 - Moujour
 2) Como Surgiu?
 3) Como a internet funciona?
 
-##### História da Internet
+#### História da Internet
 
 A internet surgiu durante a guerra fria, com a URSS lançando um sátelite espacial(Sputinick), para saber a órbita da terra, no entando, os EUA achavam que era algum tipo de sátelite espião. Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas, tornando os EUA
 vulneráveis. 
@@ -111,11 +113,11 @@ Comerciais
 
 Essas redes queriam se conectar em inglês - Interconnect Networking que abreviando fica internetwoking que abreviando de novo fica internet.
 
-##### Como funciona a internet?
+#### Como funciona a internet?
 
 1) O computador transfere a informação solicitada por meio de pacotes e enviado para o destinatario (O IP indenfica o destinatario e enviador e o tcp envia os pacotes depois de quebrar a mensagem )
 
-###### O passo a passo da Infraestrura da internet
+### O passo a passo da Infraestrura da internet
 
 Primeiramente a internet e dividida em milhas, a primeira é ultima milha server pra tudo que fazemos para nos conectar ou receber informações.
 
@@ -134,7 +136,7 @@ Ok, nesse ponto abrangimos, quase tudo sobre a infraestrutura da internet, mas v
 
 Para isso temos meios de trasnmissão de internet para todos como sátelites e balões atmosfericos que funcionam como cabos por meio de ondas de rádio e assim sendo usados como pontos de transmissão.
 
-##### Como era a internet antigamente?
+### Como era a internet antigamente?
 
 
 Por meio de um protocolo de navegação chamado gopher, era acessado as informações que o funcionário queria.
@@ -145,7 +147,7 @@ Outra coisa que foi criado pra internet funcionar foi um navegador (O Mosaic)
 
 No caso a World Wide Web e uma subrede da internet.
 
-##### Representação de Dados
+### Representação de Dados
 01- digito binario -> bit ->  8 bits -> byte (porção minima pra representação de dados) 
 Código do teclado atual -> código mulitbyte UTF-8
 ![ondas](../imagens/image-3.png)
@@ -168,7 +170,7 @@ transfomação e a cada cojunto de 1024
 
 MB <> Mb (Megabytes[armazenamento] e megabits[transmissão])
 
-##### Voltando a internet o passo a passo
+### Voltando a internet o passo a passo
 
 1) computador pede mensagem (requisão) essa mensagem é divida em partes e enviadas em pacotes de bytes 
 
@@ -549,7 +551,7 @@ mais rapido -> ctrl + fixa + P, digite abb , coloque wrab abrevision e coloque a
 
 pra saber qual usar pesquise aqui e veja tags html
 
-### Listas em HDML
+### Listas em HTML
 
 - lista ordenada(1,2,3..)
 
@@ -835,6 +837,26 @@ historia do navegadores
 sobre seo
 dfn 
 ver os tipos de dowloads
+
+
+Resumo modulo 1 
+
+1) A Origem eo Propósito da internet
+2) A Infraestrutura Física (Como a internet viaja)
+3) O Nascimento da Web (WWW)
+4) Como funciona os protocolo
+5) Endereços de Rede (IP e DNS)
+6) Domínios e Tipos de Hospedagem
+7) Como funcionam os Navegadores (Navegadores)
+8) SEO (Otimização para Mecanismos de Busca)
+9) A Tríade do Desenvolvimento Web
+10) Estrutura básica de HTML e CSS
+11) tags de HTML
+12) imagens e favicons
+13) hierarquia de títulos e Lista em HTML
+14) Links e Âncoras(hiperlinks)
+15) Audios e videos
+15) Incorporação de Estilos na CSS
 
 ## Módulo 2 - Deixando as coisas mais bonitas 
 
