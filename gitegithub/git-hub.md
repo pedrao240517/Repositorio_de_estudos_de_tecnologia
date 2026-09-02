@@ -59,14 +59,22 @@ roteiro utilizado para guia:https://roadmap.sh/git-github
 
 VCS é version control system ou sistema de controloe de versão é uma ferramenta de software que rastreia, organiza e gerencia alterações em arquivos e código-fonte ao longo do tempo.Ele funciona como uma "máquina do tempo" do projeto, permitindo visualizar estados anteriores, experimentar com segurança sem comprometer o projeto principal e reverter para versões anteriores caso ocorram erros.
 
-Em vez de renomear os aquivos manualmente a cada atualização (feature), um vcs aoutomatiza o processo criando snapshots(versões) do seu código fonte.
+Em vez de renomear os aquivos manualmente a cada atualização (feature), um vcs automatiza o processo criando snapshots(versões) do seu código fonte.
+
+
+### O que é o Git?
+
+O Git é um sistema de controle de distribuição distribuído que rastreia alterações em arquivos, usado principalmente no desenvolvimento de versão de software.
+
+### O que é o GITHUB? 
+
+O GitHub é uma plataforma online de hospedagem de código-fonte e arquivos que usa o sistema de controle da versão Git
 
 ### Tipos de VCS
 
 centralizado/linear: Cada desenvolvedor baixa uma cópia completa do projeto, incluindo todo o seu histórico. Isso significa que você pode trabalhar offline e seus dados ficam altamente seguros contra falhas do servidor.
 
 ![alt text](../imagens/image-41.png)
-
 
 distribuido: Todas as versões dos arquivos são hospedadas em um único servidor central. Os desenvolvedores baixam os arquivos de que precisam, fazem as alterações e os enviam diretamente para o servidor.
 
@@ -75,9 +83,16 @@ distribuido: Todas as versões dos arquivos são hospedadas em um único servido
 
 ### Termos de VCS
 
-Repositório -  É o banco de dados (ou pasta) que armazena todo o histórico, arquivos e versões do seu projeto. Pode ser local (na sua máquina) ou remoto (hospedado na nuvem, como o GitHub).
+Repositório -  É o banco de dados (ou pasta) que armazena todo o histórico, arquivos e versões do seu projeto. Pode ser local (na sua máquina) ou remoto (hospedado na nuvem, como o GitHub) sendo  representado por .git.
 
-Commit: É a "fotografia" do estado atual do seu projeto. Cada vez que você salva e registra suas alterações, você cria um commit. Ele recebe um código identificador único.
+Commit: É a "fotografia" do estado atual do seu projeto. Cada vez que você salva e registra suas alterações, você cria um commit. Ele recebe um código identificador único(marco histórico).
+
+Estados de um arquivo: 
+
+1. modified : qualquer alteração de arquivo
+2. staging : preparar pra ser comitado (existe pra segurança de modificações)
+3. commited : arquivos enviados
+
 
 Branch (Ramificação/Galho): Uma ramificação independente do seu código. Permite que você crie novos recursos ou teste coisas novas sem alterar o código principal (a versão de produção). A ramificação principal padrão costuma se chamar main ou master
 
@@ -97,7 +112,9 @@ Conflict (Conflito): Ocorre quando duas pessoas alteram a mesma linha de um arqu
 
 As Issues (que significa "problemas" ou "questões") no GitHub funcionam como um gerenciador de tarefas e discussões.
 
-Um Pull Request (PR) no GitHub éuma proposta para mesclar alterações de código de uma ramificação em outra
+- Um Pull Request (PR) no GitHub éuma proposta para mesclar alterações de código de uma ramificação em outra
 
 
-### Partindo para o Git
+### Partindo para o 
+
+verificação de instalação/versão do git -> git --version
