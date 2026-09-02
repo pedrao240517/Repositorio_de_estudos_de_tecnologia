@@ -42,6 +42,22 @@ roteiro utilizado para guia:https://roadmap.sh/git-github
 
 
 ### Aprendendo o básico
+https://www.boot.dev/lessons/65e6780d-fdde-447a-9898-b30b73793a3a
+
+https://www.youtube.com/watch?v=rH3zE7VlIMs&list=PLw1W1TeNPmy5psU4VrWYVu3j1frw30m9I&index=1&t=409s
+
+Curso de git usando comandos via termianl completo
+
+Pra acessar o manual do git execute no terminal git help git 
+
+1. q Sai do manual
+2. j Uma linha abaixo
+3. k Uma fila para cima
+4. d Meia página abaixo
+5. u Meia página acima
+6. /<term>: Pesquisar por "termo" (ex /OPTIONS:)
+7. n: Próximo termo de pesquisa
+8. N Termo de pesquisa anterior
 
 #### Objetivos 
 
@@ -118,3 +134,28 @@ As Issues (que significa "problemas" ou "questões") no GitHub funcionam como um
 ### Partindo para o 
 
 verificação de instalação/versão do git -> git --version
+
+### Comandos de Porcelana e Encantamento
+
+No Git, os comandos são divididos em comandos de alto nível ("de porcelana") e comandos de baixo nível ("de encanamento"). Os comandos de porcelana são aqueles que você usará com mais frequência como desenvolvedor para interagir com seu código. Alguns exemplos de comandos de porcelana são:
+````
+git status
+git add
+git commit
+git push
+git pull
+git log
+````
+
+Alguns exemplos de comandos de encanamento são:
+
+````
+git apply
+git commit-tree
+git hash-object
+
+````
+
+
+
+
