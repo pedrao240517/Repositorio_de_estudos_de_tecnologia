@@ -103,8 +103,23 @@ usamos a notação @GetMapping pra pegar as informações dessa rota
 
 Ai quando rodarmos o primeiro local host, rodamos o primeiro projeto do springboot
 
+comandos git -
 
+git reset arquivo -> tirar arquivo do git status
 
+git status-  qual o status do repositorio local
+
+git add patch - adiciona arquivo ao repositorio remoto
+
+git add . -  adiciona tudo em vermelho
+
+git comit -m "Add controller-aula4"
+
+### Conjunto de Issues - Milestone
+
+conjunto de problemas que se resolver resolve um objetivo.
+
+podemos configurar issues(problema) a milestone(marco).
 
 
 

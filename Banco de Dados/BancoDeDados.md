@@ -275,40 +275,13 @@ um relacionamneto pode ter um atributo.
 
 exemplo: trabalha  - pode ter horas 
 
+esses atributos ocorrem apenas quando a relação entre entidades e de N:M (muito pra muitos)
+
+cardinalidade, o grau, a participação e os atributos do próprio relacionamento.
+são suas propriedades
 
 
 
-
-
-
-
-
-
-<<<<<<< HEAD
-um atributo que pode assumir multiplos valores
-
-![img_4.png](img_4.png)
-
-##### atributo compostos 
-
-um atributo composto  é aquele que contem varios subatributos.
-
-![img_5.png](img_5.png)
-
-#### Relacionamento
-
-é uma associação entre entidades que indicam como elas 
-estao inteligadas.
-
-![img_6.png](img_6.png)
-
-Exemplo de mer: 
-
-![img_7.png](img_7.png)
-
-#### cardinalidade
-
-indica a quantidade mínima e maxima de instância de uma entidade podem estar associadas a uma instância de outra entidade em um relacionamento
 
 
 
