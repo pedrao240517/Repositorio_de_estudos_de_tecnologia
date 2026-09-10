@@ -2,6 +2,8 @@
 ---
 Repositório pra registro do curso de 5 módulos de HTML e CSS3 do curso em vídeo.
 
+fonte: curso de html5 e CSS 3 -curso em vúdeo
+
 
 ### O que vamos aprender? 
 

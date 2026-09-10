@@ -131,7 +131,7 @@ As Issues (que significa "problemas" ou "questões") no GitHub funcionam como um
 - Um Pull Request (PR) no GitHub éuma proposta para mesclar alterações de código de uma ramificação em outra
 
 
-### Partindo para o 
+### Partindo para o git
 
 verificação de instalação/versão do git -> git --version
 
