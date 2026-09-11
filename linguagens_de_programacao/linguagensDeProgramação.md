@@ -244,11 +244,46 @@ desenvolvimento de software, nos quais a linguagem é apenas um dos componentes.
  
 ##  CAP 2 - Evolução das Principais Linguagens de Programação (historia da computação e programação)
 
+influências de linguagens e datas
+![img.png](img.png)
+
+
+1. Primeira linguagem de programação do Mundo - PLANKALKÜL DE ZUSE(calculo de programas de zule)
+
+Desenvolvida em 1945, mas não publicada até 1972 e nunca foi implementada. Muitas de suas capacidades apenas foram publicadas 15 anos após seu desenvolvimento.
+
+Estrutura de dados Avançados
+
+    -ponto flutuante(complemento de dois bit "oculto") vetores, registro.
+
+A seguinte sentença de atribuição de exemplo, a qual atribui o valor da
+expressão A[4] + 1 para A[5], ilustra essa notação. A linha rotulada V é para
+os índices, e a S é para os tipos de dados. Nesse exemplo, 1.n significa um
+inteiro de n bits:
+
+![img_1.png](img_1.png)
+
+
+2. Programação de hardware mínima: Pseudocódigos
+
+Qual era o problema de usar código de máquina? 
+
+    -baixa legibilidade
+    -
+
+
+
+
+
+
+
 
 ## CAP 3 - Descrevendo Sintaxe e Semântica (estudado mais Linguagens Formais e Autômatos)
 
 
 ## CAP 4 - Análise Léxica e Sintática (estudado mais Linguagens Formais e Autômatos)
+
+
 
 
 ## CAP 5 - Nomes, Vinculações e Escopos
