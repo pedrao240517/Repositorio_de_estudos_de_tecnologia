@@ -1516,14 +1516,18 @@ ex: int i = 0;
 Em linguagens de tipo fraco não precisamos declarar 
 o seu valor  antes de atribuir seu valor.
 
-ex: nome = "naruto"
+ex: 
+
+nome = "naruto"
+
     idade = 7
-    resultado = idade + nome // em pyhon da erro por ser forte mas em java
-script não da 
+
+    resultado = idade + nome // em pyhon da erro por ser forte mas em javascript não da 
 
 ex no js:
 
 var soma = 3 + "A"
+
 console.log(soma)  - resultado 3A
 
 

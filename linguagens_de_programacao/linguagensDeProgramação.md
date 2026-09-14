@@ -269,7 +269,9 @@ inteiro de n bits:
 Qual era o problema de usar código de máquina? 
 
     -baixa legibilidade
-    -
+    -modificações de programas tedidosos e possíveis erros
+    -deficiências de máquina  - sem indentação ou ponto flutante
+
 
 
 
@@ -287,8 +289,6 @@ Qual era o problema de usar código de máquina?
 
 
 ## CAP 5 - Nomes, Vinculações e Escopos
-
-data: 20/08 a 23/08
 
 Objetivo: Debater as principais funcionalidades de linguagens de programação.
 
@@ -359,6 +359,7 @@ maior que a da direita  após a leitura da linha.
 #### **5.3.1- O conceito de vinculação **
 
 definição = Eu quero saber em que momento ocorre determinados eventos, que evento? 
+
 a associação como entre um atributo e uma entidade ou entre uma operação e um símbolo.
 
 Ex: int idade = 25 (em java ou C)
@@ -367,13 +368,90 @@ Ex: int idade = 25 (em java ou C)
 
 1. **Projetos de linguagem** :Ocorre quando os projetistas definem construções fundamentais da linguagem, como o significado do operador +ou palavras-chave reservadas.
 2. **implementação da linguagem**: Decisões tomadas pelos desenvolvedores do compilador ou interpretador, como o tamanho exato em bytes alocados para um tipo de dado numérico.
-3. **tempo de compilação(*mais importante)** :
+3. **tempo de compilação(*mais importante)** : é o momento em que o código-fonte é traduzido para a linguagem de máquina
 4. **tempo de ligação**:Ocorre quando o código compilado é combinado com bibliotecas externas e outros módulos para formar o novovel final.
 5. **tempo de carregamento** :Ocorre quando o sistema operacional carrega o programa seguinte para a memória principal, definindo os endereços de memória base.
 6. **tempo de execução**(*mais importante) :Ocorre enquanto o programa está rodando ativamente; é o momento em que valores de variáveis ​​são atribuídos, funções são chamadas e a alocação dinâmica de memória acontece.
 
 
 comprender quando as vinculações ocorrem é pré requisito para entender a semântica de uma linguagem de programção.
+
+### Vinculação de atributos a variáveis 
+
+1. vinculação estática : ocorre antes da execução do programa(tempo de compilação) e permanece inalterada ( C e JAVA)
+
+Tipos:
+
+.explicita:
+
+int x;
+
+.inplicita(por convenção): 
+
+ex: Por letras(I,K,L,M), simbolos $ % &  e etc 
+
+
+. inferência 
+
+ocorre por "indução" ou argumento indutivo, se algo x é y então tudo é mais ou menos x(interpretado por contexto)
+
+ex: 
+
+i = 1; se i é 1 então i é inteiro
+
+
+2. Vinculação dinãmica : ocorre ou altera durante a execução do programa.
+
+vantagens: 
+
++flexibilidade
++expressividade
++facilidade de escrita
+
+Desvantagem: 
+
+-detecção de erros de compilador 
+-custo (checagem dinâmica de tipo e interpretação) + custo de criação de compilador
+-dificuldade em criar um bom suporte nos editores
+
+### Vinculação de memória e tempo de vida
+
+Alocação: tornar uma célula de mémoria um conjunto de mémoria disponivel.
+
+Desalocação: devolver um célula de memória desvinculada ao conjunto de memória disponível
+
+tempo de vida:  é o tempo durante o qual a variálvel está vinculada a uma celula de memória especifica.
+
+classificação segundo tempo de vida de  variaveis escalares(guarda um valor por vez)
+
+1) estática
+
+vinculada a cédula de memória antes da execução do programa e premace vinculda a mesma célula durante a execução.
+
+ex:
+
+variveis globais e etc
+
+Vantegens: eficiência e sensibilidade a história.
+
+Desvantagem:  flexibilidade (não suporta recursão), a méma memória não pode ser compartilhada por variveis diferentes.
+
+
+2) Dinâmica na pilha 
+
+vinculada a célula de mémoria quando sua declaração é elaborada
+
+ex: variavéis locais em java 
+
+vantagem: recurssão e compartilhamento de mémoria.
+
+desvantagens: custo de alocação e desalocação, subprogramas não podem ser sensível a contexto
+
+3) Dinâmica explicita no heap
+4) Dinâmica implicita no heap
+
+
+
 
 
 
