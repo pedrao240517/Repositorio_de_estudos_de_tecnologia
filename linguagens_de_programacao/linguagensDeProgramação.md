@@ -14,7 +14,6 @@ Conceitos de Linguagens de Programação – Robert W. Sebesta (fonte em pt-br)
 
 ## 1- Aspectos Preliminares
 
-data: 17/08 até 20/08
 
 ### 1.1 Razões para estudar linguagens de programação
 
