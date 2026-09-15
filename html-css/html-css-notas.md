@@ -833,12 +833,6 @@ O CSS externo consiste em escrever regras CSS em um arquivo separado (com .cssex
 
 obs: Você pode usar os três tipos de aplicações no css.
 
-nota -
-como era a internet antigamente ?
-historia do navegadores
-sobre seo
-dfn 
-ver os tipos de dowloads
 
 
 Resumo modulo 1 
