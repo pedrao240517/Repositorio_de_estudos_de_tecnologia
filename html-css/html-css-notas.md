@@ -856,8 +856,37 @@ Resumo modulo 1
 
 ## Módulo 2 - Deixando as coisas mais bonitas 
 
+O que vamos aprender? 
+
+1) psicologia das cores
+2) Cores que mais combinam (hamornização)
+3) paletas de cores
+4) Tipografia(fontes)
+5) Anatomia dos tipos
+6) Familia tipografica
+7) Intergração entre cor e tipo
+8) Caracteristicas das CSS aplicadas aos titulos 
+9) Ferramentas pra trabalhar com Fontes
+10) Estudos dos ID
+11) Estudo das classes
+12) variaveis em css
+13) modelos de caixa
+14) site do zero
+
 ### Psicologia das cores 
 
 A emoção das cores - a cor de alguma coisa está relacionado a emoção que ele transmite de maneira inconciente.
 
 ![tabelas cores](../imagens/image-20.png)
+
+
+#### Porque achamos algo bonito, mas não sabe o pq? 
+
+boa parte dessa percepção é o conjunto, harmonia e simetria geomtricas das cores e formas 
+
+#### O círculo cromático
+
+Precisamos separar as cores em grupos, para que possamos decidir se as escolhas que vamos fazer
+para o nosso site vão fazer um sentido harmõnico.
+
+![img.png](img.png)
