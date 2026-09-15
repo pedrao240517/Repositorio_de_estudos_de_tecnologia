@@ -382,7 +382,7 @@ obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, u
 
 obs: Não utlize o br br várias vezes 
 
-&nbsp  (espaço que não quebra linha).
+&nbsp  (espaço que não quebra linha). 
 
 pre → preserva todos os espaços
 
