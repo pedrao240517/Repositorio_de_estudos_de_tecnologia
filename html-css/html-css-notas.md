@@ -879,14 +879,168 @@ A emoção das cores - a cor de alguma coisa está relacionado a emoção que el
 
 ![tabelas cores](../imagens/image-20.png)
 
-
 #### Porque achamos algo bonito, mas não sabe o pq? 
 
 boa parte dessa percepção é o conjunto, harmonia e simetria geomtricas das cores e formas 
 
-#### O círculo cromático
+### Implantações cores com CSS (núcleos em css) 
+
+1) por nome
+2) por código hexadecimal 
+3) por rgb [código hexadecimal também]
+4) Caracteristicas de cores (matriz,saturção e luminosidade - hsl)
+
+````
+<h2 style="background-color: blue;color:white;">Exemplos de cores</h2>
+
+<h2 style="background-color: #00f;color: #fff;;">Exemplos de cores</h2>
+
+<h2 style="background-color: rgb(0, 0, 255);color: rgb(255, 255, 255);">Exemplos de cores</h2>
+
+<h2 style="background-color: hsl(240, 100%, 50%);color: hsl(0, 0%, 100%);">
+````
+
+clique no quadrado de cores pra escolher qual implementação você vai usar 
+
+ou use a extensão colorzila 
+
+#### O círculo cromático (harmonia de cores)
 
 Precisamos separar as cores em grupos, para que possamos decidir se as escolhas que vamos fazer
 para o nosso site vão fazer um sentido harmõnico.
 
 ![img.png](img.png)
+
+Cores primárias : Amarelo, Azul, vermelho
+![img_1.png](img_1.png)
+
+cores secundarias: verde, laranja,violeta
+![img_2.png](img_2.png)
+
+cores terciarias(entre as primaria e secundaria:  amarelo- esverdeado,
+amarelo alaranjado, vermelho-alaranjado, vermelho arroxeado, azul-arroxeador, azul-esverdeado
+
+tons pasteis.
+
+![img_3.png](img_3.png)
+
+
+Cores complementares(maior contraste)
+
+![img_5.png](img_5.png)
+
+cores análogas
+
+![img_6.png](img_6.png)
+
+Cores Análogas relacionadas
+
+![img_7.png](img_7.png)
+
+cores intercaladas
+
+![img_8.png](img_8.png)
+
+- famosas cores intercaldas 
+
+triadicas
+
+![img_9.png](img_9.png)
+
+quadrado
+![img_10.png](img_10.png)
+
+tetradica
+
+![img_11.png](img_11.png)
+
+##### temperaturas de cores
+
+![img_4.png](img_4.png)
+
+
+##### Monogromia
+
+Pegar uma cor e alterar a **saturação** e o **brilho** pro **hsl**
+
+![img_12.png](img_12.png)
+
+##### Paletas de cores
+de 3 a 5 cores (media 4),
+Uma técnica é usar as duas análogas e uma complementar  pra usar como paleta de cores 
+
+https://color.adobe.com/ - pra criação de paletas próprias ou de logos 
+
+paleto..com
+coolors
+
+exemplo de paleta com o site 
+
+![img_13.png](img_13.png)
+
+- rapida relembrada em css 
+
+```
+h1(seletor){
+ color (propriedade): blue (valor);
+
+}
+*declaração e o que fica dentro do bloco de chaves.
+
+```
+
+- Dica prática: como capturar cores da tela? 
+Use o colorzilaou printa a tela 
+
+##### Aprendendo a fazer um degradé(gradiente)
+use a propriedade   background-image no seletor body e coloque subpropredade
+linear-gradiente e sua direção) 
+
+````
+body{
+     background-color: rgb(54, 106, 155);
+     background-image: linear-gradient(to right, white, blue);
+     }
+````
+background-attachment: fixed; pra manter o fundo 
+
+configuraçãoes globais de css:
+```
+*{
+
+}
+```
+
+### Fontes 
+
+#### Estudo básico de Tipografia
+
+tipografia é uma arte antiga que estuda técnicas de escrita (do grego 
+graphia), primeiros os monges copistas, geravam copias de livros.
+
+Johannes Gutenberg acabou com isso inventando a prensa mecanica de tipos moveis, 
+automatizando a produção de documentos(ele é considerado o pai da imprensa).
+
+No caso a tipografia surgiu nesse momento pois eles queriam formas mais legiveis e que aproveitassem melhor os espaços
+na prensa.
+
+* a forma de escrever também transmite emoções
+
+exemplo
+![img_14.png](img_14.png)
+
+em design as pessoas pensam em juntar três coisas, **cores, imagens e fontes.**
+
+#### Anatomia dos tipos (como desenhar as letras)
+
+
+![img_15.png](img_15.png)
+
+fonte padrão dos navegadores = times new roman
+
+Como construir uma fonte: 
+
+1) tamanho da letra (x é pponto de partida)
+2) 
+
+
