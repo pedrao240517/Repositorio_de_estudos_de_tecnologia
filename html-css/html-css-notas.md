@@ -1040,7 +1040,62 @@ fonte padrão dos navegadores = times new roman
 
 Como construir uma fonte: 
 
-1) tamanho da letra (x é pponto de partida)
-2) 
+1) tamanho da letra (x é pponto de partida[altura x][altura das maisculas])
+
+ainda temos o vazamento pra cima (ascendente) e pra baixo (descendente)
+
+2) serifa
+
+(traçinho- serve pra alinhar os pontos de leitura )
+
+3) Anatomias Geometricas 
+
+Haste
+
+arco
+
+filete
+
+esporão
+
+vertice
+
+terminal
+
+![img_16.png](img_16.png)
+
+
+4) anatomias Humanizadas 
+
+braço
+
+perna
+
+pé
+
+espinha
+
+barriga 
+
+olho
+
+orelha
+
+cauda
+
+![img_17.png](img_17.png)
+
+Glifo = letra
+
+conjunto de glifos = fonte
+
+familia tipografica: 
+
+![img_18.png](img_18.png)
+
+Categoria de fontes:
+
+
+
 
 
