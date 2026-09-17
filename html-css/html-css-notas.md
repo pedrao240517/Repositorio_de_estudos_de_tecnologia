@@ -1095,6 +1095,110 @@ familia tipografica:
 
 Categoria de fontes:
 
+1) Serifadas
+
+fontes sem serifa
+
+2) Sans-serif (sem serifa) 
+
+textos muitos longos são indicadas  as fontes em serifa 
+
+3) Monoespaçada (com ou sem serifa)
+
+todas os glifos tem sempre a mesma largura 
+
+4) Handwriting(simula caligrafia a mão)
+
+5) Display
+
+Comemorativa  e com pouco ou nenhum padrão.
+```
+<style>
+        body {
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+    </style>
+
+```
+
+*colocar  no minimo 3 fontes semelheantes para questões de mostragem  em dispositivos (safe combination)
+
+
+*sempre termine com uma fonte generica
+
+
+#### Tamanhos das fontes W3C
+
+
+Medidads Absolutas:
+
+Cm,mm, ir, px, pt, pc
+
+Medidas relativas:
+
+em(tamanho da letra normalmente) , ax(altura x da fonte), rem(fonte relativa do body),
+vx(largura da viewport), vh(altura da viewport), %
+
+* w3c recomenda pro font-size (px) e em.
+* 16px tamanho padrão da fonte ou 1em
+
+#### peso, estilo e shorthand font
+
+peso da fonte (expressura) - fonte weight (light, normal, bold ,bolder) [algumas fontes tem 1 todos ou nenhum]
+ainda tem por tamanho númerico, 100,200,300 .....
+
+estilo da fonte  - fonte style (italico ,normal e oblico)             
+            
+* a familia de fonte deve suportar, negrito, italico e sublinhado
+
+unica declaração exemplo:
+
+`````
+h1{
+font: italic bolder 3em  'Work Sans', sans-serif;
+}
+`````
+
+* no geral tres tipos de fonts um pra destaque, um pra titulo e um pra normal
+
+#### Usando o Google fonts e importando de outros baixadas 
+
+vai no google fontes e pegue o codigo de importação da fonte que você 
+pegou
+
+````
+ <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap')
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: "Kaushan Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+        h1 {
+         font-family: "Work Sans", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+            }
+         h2 {
+         font-family: "Work Sans", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+            }
+
+    </style>
+````
+fontes externas, da fonte.
+
+
+
+
+
+
+
 
 
 
