@@ -1191,15 +1191,128 @@ pegou
 
     </style>
 ````
-fontes externas, da fonte.
+##### fontes externas
+
+sites pra baixar fontes:
+
+1- da fonte, 2-netfontes e etc 
+
+
+Tipos de format()
+*opentrype(otf)
+*truetype(ttf)
+*enbedded-opentype
+*truetype-att(Apple-advanced Typograph)
+*svg
 
 
 
+passo a passo: 
+
+1) baixe a fonte  em arquivos (otf, ttf)
+2) implemente o seletor @font-face
+3) coloque o arquivo url e o formato 
+4) implemente ela no font family de outro seletor
 
 
+exemplo:
 
+````
+@font-face {
+font-family: 'love';
+src: url('fontes/CHERL___.TTF')format('opentype');
 
+            font-weight: normal;
+            font-style:normal ;
+        } 
 
+````
 
+##### Como capturar fonte de um site 
+
+extensão do google chroome: fonts ninja
+
+##### Dectando fontes de imagens
+
+use o site myfonts,whatfonts,fontsquirel para identificar fonte de uma imagem 
+
+#### Alinhamento de texto
+
+text-align  e text-indent (paragrafo)
+
+Ex: 
+
+````
+   <style>
+        body{
+            font: normal 16px Arial, Verdana, serif;
+           
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        }
+    </style>
+</head>
+````
+
+#### Identificadores e classes 
+
+tag id pra criar um identificador (dentro de um html só pode ter um id)
+
+em html é id =  em css é #
+em html é class =  em css é .
+
+ex: 
+````
+#principal {
+text-align: center;
+}
+````
+
+Além disso temos o class conjunto de elementos de classes
+podendo ser varios elementos
+
+ex: 
+
+`````
+<h2 class="medio">HTML Intermediario</h2>
+
+.medio {
+color: yellow;
+}
+
+`````
+
+* obs: O id sobrepoe as configurações de classes 
+
+* herarquia de configuração
+1) seletores iniciais
+2) id
+3) class 
+
+#### Pseudoclasses 
+
+div -> espaço qualquer
+
+* anotações importantes 
+height: altura
+width: largura
+
+: é uma pseudoclasse, sendo relacionado a um estado de um determinado elemento.
+
+exemplo:
+````````
+div:hover{
+background-color: yellow;
+}
+````````
+nesse caso acima accim que eu passar o mouse em cima da div eu vou ter ela como amarelo.
 
 
