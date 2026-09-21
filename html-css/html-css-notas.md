@@ -1299,6 +1299,12 @@ color: yellow;
 
 #### Pseudoclasses 
 
+As pseudoclasses em CSS são palavras-chave adicionadas aos seletores que especificam um estado especial do(s) elemento(s) selecionado(s).
+
+Elas permitem estilizar um elemento com base em fatores como interação do usuário (por exemplo, passar o mouse sobre ele), sua posição na estrutura do documento (por exemplo, o primeiro elemento filho) ou outras características do elemento (por exemplo, estar marcado). Elas permitem aplicar estilos aos elementos dinamicamente, sem a necessidade de modificar o HTML ou usar JavaScript.
+
+ex: hover, visited,active,checked,empty, focus
+
 div -> espaço qualquer
 
 * anotações importantes 
@@ -1313,6 +1319,133 @@ div:hover{
 background-color: yellow;
 }
 ````````
-nesse caso acima accim que eu passar o mouse em cima da div eu vou ter ela como amarelo.
+nesse caso acima acima que eu passar o mouse em cima da div eu vou ter ela como amarelo.
 
+As tags possuem um sistema de hieraquia quando colocadads uma dentro das outras e segue a sequencia descrita dentro da
+tag html.
+
+Passa ocultar uma tag dentro de outra basta usar o atributo de display com o valor de none. 
+
+Ex: 
+````
+div > p{
+display: none;
+}
+
+````
+
+No caso esse > defini a filiação da classe div com a p dentro dela.
+
+pra resumir 
+`````
+# = id
+. = class
+: = pseudo-class
+::pseudo-element
+> clidren
+
+`````
+
+obs: Os pseudo-elementos em CSS permitem estilizar partes específicas de um elemento. Eles possibilitam adicionar estilos a elementos que não existem de fato na estrutura HTML, como a primeira linha de um parágrafo ou o conteúdo antes ou depois de um elemento. Isso é feito usando dois pontos (::) seguidos pelo nome do pseudo-elemento.
+
+
+#### Modelo de caixas (box-model)
+
+O modelo de caixa CSS descreve como os elementos em uma página da web são estruturados como caixas retangulares. Cada caixa consiste em conteúdo (texto, imagens, etc.), preenchimento (espaço ao redor do conteúdo), borda (uma linha ao redor do preenchimento e do conteúdo) e margem (espaço ao redor da borda).
+
+![img_19.png](img_19.png)
+
+ex: 
+
+![img_21.png](img_21.png)
+
+
+##### Anatomia de uma caixa
+
+height - altura
+
+width - largura
+
+border -  borda
+
+passing - preenchimento 
+
+![img_22.png](img_22.png)
+
+margin - margem 
+
+outline  -traçado/contorno
+
+##### Tipos de caixa
+
+box-level x inline-level
+
+![img_23.png](img_23.png)
+
+
+exemplo de tag box level : div, h1-h5,main,header,nav,video,form,footer,aside,article
+
+exemplo de tag inline-level: span, a, code, strong , em , sup-bu,label, button, input,select
+
+##### Box- model
+em modelos de caixas em boxes podemos alterar cada anotomia da caixa diretamente no arquivo de forma permanente ou temporária
+pelo dev tools pra isso basta especificar o nome da anantomia e o que quer mexer nela e o seu valor.
+
+ex:  border-color:  blue;
+
+padding tem top, right, botton  e left, vale configurar todas quando quer mecher no preenchimento.
+
+margin assim como o padding tem todos os lados e o auto pra centralizar
+
+outline pra uma linha entre o final da margem 
+
+![img_24.png](img_24.png)
+
+todos as anatomias da caixa pode  ser resumidas seu valores em apenas uma linha.
+
+ex: border: 10px solid blue ;
+
+display - controla com um elemento é renderizado em uma pagian web. definindo especificamente seu tipo de caixa e como ele interage com outros elemento.
+
+podendo ser inline, block e inline-block.
+
+
+#### Gruping Tags 
+
+DIV - caixa de box level  (O <div>elemento é um contêiner genérico para conteúdo de fluxo, o que, em termos mais simples, significa que é uma forma de agrupar outros elementos HTML)
+
+SPAN - caixa de inline level(O <span>elemento `<span>` é um contêiner embutido usado para delimitar uma parte de um texto ou de um documento.)
+
+
+#### Tags semânticas 
+
+header(div) - cabeçalho
+
+main(div)  - conteúdo principal 
+
+footer(div)  - rodapé 
+
+nav(div) - menu 
+
+section(div)- seção
+
+article(div) - artigo
+
+aside(div) - conteúdo periferico ao artigo
+
+#### Sombras
+
+a sequencia ao colocar box-shadow é espalhamento horizontal, verical e espalhamento 
+
+muda a sombra como quiser no dev tools
+
+![img_25.png](img_25.png
+
+#### Caixas Arrredondada
+
+Border-radiuns  a mesma mecanica de margin e padding
+
+pra poder criar uma bola você pode colocar um bordar radiuns de 50px ou 50%
+
+#### Bordas Decoradas
 
