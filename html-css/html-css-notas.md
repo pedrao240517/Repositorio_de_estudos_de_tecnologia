@@ -1215,6 +1215,7 @@ passo a passo:
 4) implemente ela no font family de outro seletor
 
 
+
 exemplo:
 
 ````
@@ -1448,4 +1449,20 @@ Border-radiuns  a mesma mecanica de margin e padding
 pra poder criar uma bola você pode colocar um bordar radiuns de 50px ou 50%
 
 #### Bordas Decoradas
+
+1) crie uma imagem no guimp (como essa)
+
+![img_26.png](img_26.png)
+
+2) Coloque as seguintes configurações
+
+`````````
+h1 {
+border:  20px  solid black;
+padding: 10px;
+border-image-source: url(Sem\ título.png);
+border-image-slice: 20;
+border-image-repeat: stretch ou repeat;
+}
+`````````
 
