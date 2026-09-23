@@ -1440,7 +1440,6 @@ a sequencia ao colocar box-shadow é espalhamento horizontal, verical e espalham
 
 muda a sombra como quiser no dev tools
 
-![img_25.png](img_25.png
 
 #### Caixas Arrredondada
 
@@ -1465,4 +1464,46 @@ border-image-slice: 20;
 border-image-repeat: stretch ou repeat;
 }
 `````````
+
+#### Planejando a estrutura de um site 
+
+site para criação de layout(wiframe - formato): MockFlow
+
+#### Variaveís em CSS
+
+Pra que usar variáveis? 
+
+facilitar nossa vida no geral.
+
+pra declarar você usa o pseudeclasse chamada root
+e coloca nela as suas variveis seguindo de --nomedavairvel: valor;
+
+ex: 
+`````
+:root{
+--cor1:#c5ede6;
+--cor2:#83e1ad;
+--cor3:#3ddc84;
+--cor4:#2fa866;
+--cor5:#063e1e;
+}
+`````
+
+assim você consegue acessar aquele valor pelo nome da varivel
+`````
+header > h1 {
+color:var(--cor5);
+}
+`````
+
+#### Responsividade
+
+adatptar o tamanho do site ao tamanho da tela.
+
+O primeiro recurso e limitar o tamanho mínimo e máximo 
+
+Redimensionador de janela extensão é ideal para ver essa questão.
+ou o inspencionar do dev tools
+
+
 
