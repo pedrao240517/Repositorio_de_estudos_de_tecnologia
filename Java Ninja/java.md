@@ -909,6 +909,22 @@ Caso eu queira mudar o método toString adicionando caracterisiticas novas ao m�
 
 obs: é indicado ter um @override do toString 
 
+### Modificadores de Acesso
+
+São palavaras chaves que controlam a visibilidade ou acessibilidade de classes, méodos, construtores e outros 
+membros.
+
+Java fornece 4 Modificadores de acesso: 
+
+1) private - pode ser acessado apenas na mesma class
+2) default - pode ser acessado apenas por classes do mesmo pacote
+3) protected- pode ser acessado por classes do mesmo pacote ou derivado da classes
+4) public - Pode ser acessado em qualquer classe independente se está
+no mesmo pacote, outro , derivada ou não relacionada
+
+### Palavra reservada Static
+
+
 
 ### Final Methods - Deixando os métodos constantes
 
