@@ -1,10 +1,6 @@
 # SQL - Structured Query Language
 
-curso: https://www.youtube.com/playlist?list=PLhq-SSGmAY_0BPSjOvRD_pfCSPFd12Kpx
-
-site do curso de exercicios:https://www.masterywithsql.com/all_exercises#chapter-3
-
-
+roadmap = roadmap.sh/sql
 ### O que é o SQL?
 
 SQL (Structured Query Language) é uma linguagem de programação usada para gerenciar e manipular dados armazenados em sistemas de gerenciamento de banco de dados relacionais (SGBDR). Ela permite recuperar, inserir, atualizar e excluir dados, bem como definir esquemas de banco de dados e controlar o acesso aos dados. O conhecimento básico de SQL é fundamental para interagir com praticamente qualquer banco de dados.
@@ -79,7 +75,18 @@ As chaves garantem que os dados sejam válidos.
 
 para reduzir redudancias e facilitar nosso trabalho.
 
+### Sintaxe básica de SQL
 
+#### SELECT 
+
+Usado pra consultas ou seja recuperar dados  de uma tabela, ele permite 
+especificar quais colunas buscar, aplicar condições de filtragem, classificar resutados e realizar diversas operações nos dados.
+
+````SELECT name, balance FROM users;`````
+
+Nesse caso acima eu estou querendo consultar as colunas name e balance das colunas usuários
+
+obs: caso eu queira consultar todos as colunas de uma tabela basta eu usar o caractere coring (*)
 
 
 

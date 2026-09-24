@@ -1,0 +1,185 @@
+<!doctype html>  <!--Indica a versão do html que o navegador deve renderizar --->
+<html lang="pt-br"> <!--atributo lang indica o idioma do contéudo daquele texto, enquanto a tag html é a principal indicando o fechamento e entrada de todo o código html--->
+<head>    <!--a cabeça da sua pagina html e serve pra colocar as inofrmações meta importantes sobre a sua pagina --->
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <meta charset="UTF-8"> <!-- indica a codificação de caracteres pelo sistema de codificação UTF 8  por meio do atributo charsed  ---><!-- o meta serve pra fornecer metados ou seja informaçãoe sobre os dados da pagina  --->
+
+    <link rel="stylesheet" href="style.css"> <!-- estilos externos precista do link do head pra vincular o css com essa pagina html -->
+
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Revisão</title> <!--titulo da página no navegador --->
+    <!---css interno, coloca o style diretamente no head e fica apenas em todos os atributos daquela páginha-->
+     <!---
+     <style> 
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font: size 20px; ;
+        }
+        h1{
+            color: blue;
+            background-color: yellow;
+        }
+        h2{
+            color: red;
+        }
+        p{
+            text-align: justify;
+        }
+
+    </style>
+    ---->
+</head>
+
+<body><!--= indica todo o contéudo da pagina --->
+    <h1>teste</h1>
+
+    <p><!--Indica os paragrafos do textos  --->
+        <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse voluptatum perferendis sequi, enim modi dolore exercitationem iusto, quis accusantium omnis hic? Quaerat amet sed veniam dolores eaque cupiditate ducimus. - tagm lorem pra texto aletorior -->
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita maxime ex omnis sequi, natus reprehenderit dolorem porro, aspernatur officiis quis, unde praesentium nostrum vitae dolore explicabo corporis. Numquam, optio voluptatem.
+    </p> 
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod repellat dignissimos cum eos nihil, debitis ipsam velit numquam placeat amet nulla voluptates obcaecati optio error id minima odit adipisci accusantium.
+    </p>
+    <hr><!--indica uma linha horizontal  --->
+    <p>
+        <h1>titulo 1 </h1><!--indica titulo com niveis --->
+        <h2>titulo 2 </h2>
+        <h3>titulo 3 </h3>
+        <h4>titulo 4 </h4>
+        <h5>titulo 5 </h5>
+        <h6>titulo 6 </h6> 
+    </p>
+    <p>
+        <strong>texto em negrito</strong><!--texto em negrito  --->
+        <br><!--pula texto  --->
+        <i>texto em italico (muda mais sem importancia no texto)</i> <!--italico ---> 
+        <br> 
+        <em> texto em italico (muda mais com importantcia pra texto </em> <!--indica umaitalico com destaque pra frase/palavra  --->
+    </p>
+    <!--tags em html tem nível de irmão, pai e filho---> 
+    <pre> <!--texto pre formato (mantém o padrão escrito no arquivo html)  --->
+        o 
+        sd
+        sd
+        ssd
+    </pre>
+    <p> 
+        representação de  &lt; por meio de outras tags, isso são as entidades em html
+        <br>
+        <mark> <!--marcatexto  --->
+            usada pra destacar partes especificas 
+        </mark>
+        <br>
+        <sub> texto subescrito  (abixo da linha normal)  </sub> 
+        <br>
+        <sup> texto soprescrito (acmia da linha normal)   </sup>
+    </p>
+    <p>
+        listas ordenada (numeradas ) e não ordenadas (com marcadoresl) e lista de definições
+        <br>
+        lista ordenada
+        <ol>  <!--lista ordenda  --->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>  <!--linha   --->
+        </ol>
+        <br>
+        lista  não ordenadas
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+        lista de definições
+        <dl>
+             <dt>item 1 </dt>  <dd>oioioio</dd>
+             <dt>item 2 </dt><dd>oioioio</dd>
+             <dt>item 3 </dt><dd>oioioio</dd>
+        </dl>
+        <br>
+        lista alinhadas
+        <ul>
+            <li>frutas
+                <ol>
+                    <li>maça</li>
+                    <li>banana</li>
+                </ol>
+            </li>
+            <li>legumes
+                <ol>
+                    <li>alface</li>
+                    <li>cenoura</li>
+                </ol>
+            </li>
+        </ul>
+
+    </p> 
+    <p>
+        <ol>outras tags  (não precisa decorar todas)
+            <li><small>small texto menor </small></li>
+            <li><q> q citação</q></li>
+            <li><blockquote> blockquote citações em bloco</blockquote></li>
+            <li><code> code trechos de codigo</code></li>
+ 
+        </ol>
+    </p>
+    <a href="https://www.freecodecamp.org/portuguese/learn/the-odin-project/top-links-and-images/links-and-images-lesson-a">clique aqui</a> <!--- links (html, imagens, documentos e etc )-->
+    <!--href é a referncia do hyperlink-->
+    <p>
+        Existem dois tipos de links 
+       <ol>
+        <li>lins pra suas paginas(links relativos )</li>
+        <li>link pra paginas dos outros </li>
+       </ol>
+       <br>
+       exemplo de cada 
+       <a href="link.html">minha pagina </a>
+       <br>
+       pagina de outro <a href="https://www.youtube.com/watch?v=gSUuFZK3hMA">.</a>
+    </p>
+    <p>
+        pra abir um link em outra pagina use o atributo target black  e rel pra mostrar a natureza do destino do link 
+        <a href="https://www.cursoemvideo.com/cursos/" target="_blank">aqui pra abrir nova guia </a>
+    </p>
+    <p>
+        trabalhando com imagens 
+        <br>
+        <img src="charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="corno" width="150" height="150"> <!-- Img é a tag pra imagens, sendo  src, a fonte da imagem e alt  texto alternativo--> 
+        <!--atibuto width e pra largura a  height  pra altura --> 
+        <br>
+        imagens dinamica
+        <br>
+    <picture>
+        <source media="(max-width: 750px )" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="imagem flexivel">
+    </picture>
+    </p>
+    <p>
+        <audio preload="metadata" controls autoplay lang="">
+            <source src="sample-0.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        videos
+        <br>
+        <video controls width="600" poster="limoes-capa.png">
+            <source src="meu-video.m4v"type = "">
+
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gSUuFZK3hMA?si=zg7gNR7UVFbPzwDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p>
+    <p>
+        <h4 style="color: blue; font-size: 16px; font-family:fantasy"> css em  linha/embutido </h5> <!---altera propriedades espeficiamente nessa tag -->
+    </p>
+    
+   
+
+
+</body>
+</html>

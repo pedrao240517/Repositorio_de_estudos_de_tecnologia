@@ -382,7 +382,7 @@ obs: apesar do navegador entender a tag tanto em minuscula quanto em maiscula, u
 
 obs: Não utlize o br br várias vezes 
 
-&nbsp  (espaço que não quebra linha).
+&nbsp  (espaço que não quebra linha). 
 
 pre → preserva todos os espaços
 
@@ -833,12 +833,6 @@ O CSS externo consiste em escrever regras CSS em um arquivo separado (com .cssex
 
 obs: Você pode usar os três tipos de aplicações no css.
 
-nota -
-como era a internet antigamente ?
-historia do navegadores
-sobre seo
-dfn 
-ver os tipos de dowloads
 
 
 Resumo modulo 1 
@@ -862,8 +856,654 @@ Resumo modulo 1
 
 ## Módulo 2 - Deixando as coisas mais bonitas 
 
+O que vamos aprender? 
+
+1) psicologia das cores
+2) Cores que mais combinam (hamornização)
+3) paletas de cores
+4) Tipografia(fontes)
+5) Anatomia dos tipos
+6) Familia tipografica
+7) Intergração entre cor e tipo
+8) Caracteristicas das CSS aplicadas aos titulos 
+9) Ferramentas pra trabalhar com Fontes
+10) Estudos dos ID
+11) Estudo das classes
+12) variaveis em css
+13) modelos de caixa
+14) site do zero
+
 ### Psicologia das cores 
 
 A emoção das cores - a cor de alguma coisa está relacionado a emoção que ele transmite de maneira inconciente.
 
 ![tabelas cores](../imagens/image-20.png)
+
+#### Porque achamos algo bonito, mas não sabe o pq? 
+
+boa parte dessa percepção é o conjunto, harmonia e simetria geomtricas das cores e formas 
+
+### Implantações cores com CSS (núcleos em css) 
+
+1) por nome
+2) por código hexadecimal 
+3) por rgb [código hexadecimal também]
+4) Caracteristicas de cores (matriz,saturção e luminosidade - hsl)
+
+````
+<h2 style="background-color: blue;color:white;">Exemplos de cores</h2>
+
+<h2 style="background-color: #00f;color: #fff;;">Exemplos de cores</h2>
+
+<h2 style="background-color: rgb(0, 0, 255);color: rgb(255, 255, 255);">Exemplos de cores</h2>
+
+<h2 style="background-color: hsl(240, 100%, 50%);color: hsl(0, 0%, 100%);">
+````
+
+clique no quadrado de cores pra escolher qual implementação você vai usar 
+
+ou use a extensão colorzila 
+
+#### O círculo cromático (harmonia de cores)
+
+Precisamos separar as cores em grupos, para que possamos decidir se as escolhas que vamos fazer
+para o nosso site vão fazer um sentido harmõnico.
+
+![img.png](img.png)
+
+Cores primárias : Amarelo, Azul, vermelho
+![img_1.png](img_1.png)
+
+cores secundarias: verde, laranja,violeta
+![img_2.png](img_2.png)
+
+cores terciarias(entre as primaria e secundaria:  amarelo- esverdeado,
+amarelo alaranjado, vermelho-alaranjado, vermelho arroxeado, azul-arroxeador, azul-esverdeado
+
+tons pasteis.
+
+![img_3.png](img_3.png)
+
+
+Cores complementares(maior contraste)
+
+![img_5.png](img_5.png)
+
+cores análogas
+
+![img_6.png](img_6.png)
+
+Cores Análogas relacionadas
+
+![img_7.png](img_7.png)
+
+cores intercaladas
+
+![img_8.png](img_8.png)
+
+- famosas cores intercaldas 
+
+triadicas
+
+![img_9.png](img_9.png)
+
+quadrado
+![img_10.png](img_10.png)
+
+tetradica
+
+![img_11.png](img_11.png)
+
+##### temperaturas de cores
+
+![img_4.png](img_4.png)
+
+
+##### Monogromia
+
+Pegar uma cor e alterar a **saturação** e o **brilho** pro **hsl**
+
+![img_12.png](img_12.png)
+
+##### Paletas de cores
+de 3 a 5 cores (media 4),
+Uma técnica é usar as duas análogas e uma complementar  pra usar como paleta de cores 
+
+https://color.adobe.com/ - pra criação de paletas próprias ou de logos 
+
+paleto..com
+coolors
+
+exemplo de paleta com o site 
+
+![img_13.png](img_13.png)
+
+- rapida relembrada em css 
+
+```
+h1(seletor){
+ color (propriedade): blue (valor);
+
+}
+*declaração e o que fica dentro do bloco de chaves.
+
+```
+
+- Dica prática: como capturar cores da tela? 
+Use o colorzilaou printa a tela 
+
+##### Aprendendo a fazer um degradé(gradiente)
+use a propriedade   background-image no seletor body e coloque subpropredade
+linear-gradiente e sua direção) 
+
+````
+body{
+     background-color: rgb(54, 106, 155);
+     background-image: linear-gradient(to right, white, blue);
+     }
+````
+background-attachment: fixed; pra manter o fundo 
+
+configuraçãoes globais de css:
+```
+*{
+
+}
+```
+
+### Fontes 
+
+#### Estudo básico de Tipografia
+
+tipografia é uma arte antiga que estuda técnicas de escrita (do grego 
+graphia), primeiros os monges copistas, geravam copias de livros.
+
+Johannes Gutenberg acabou com isso inventando a prensa mecanica de tipos moveis, 
+automatizando a produção de documentos(ele é considerado o pai da imprensa).
+
+No caso a tipografia surgiu nesse momento pois eles queriam formas mais legiveis e que aproveitassem melhor os espaços
+na prensa.
+
+* a forma de escrever também transmite emoções
+
+exemplo
+![img_14.png](img_14.png)
+
+em design as pessoas pensam em juntar três coisas, **cores, imagens e fontes.**
+
+#### Anatomia dos tipos (como desenhar as letras)
+
+
+![img_15.png](img_15.png)
+
+fonte padrão dos navegadores = times new roman
+
+Como construir uma fonte: 
+
+1) tamanho da letra (x é pponto de partida[altura x][altura das maisculas])
+
+ainda temos o vazamento pra cima (ascendente) e pra baixo (descendente)
+
+2) serifa
+
+(traçinho- serve pra alinhar os pontos de leitura )
+
+3) Anatomias Geometricas 
+
+Haste
+
+arco
+
+filete
+
+esporão
+
+vertice
+
+terminal
+
+![img_16.png](img_16.png)
+
+
+4) anatomias Humanizadas 
+
+braço
+
+perna
+
+pé
+
+espinha
+
+barriga 
+
+olho
+
+orelha
+
+cauda
+
+![img_17.png](img_17.png)
+
+Glifo = letra
+
+conjunto de glifos = fonte
+
+familia tipografica: 
+
+![img_18.png](img_18.png)
+
+Categoria de fontes:
+
+1) Serifadas
+
+fontes sem serifa
+
+2) Sans-serif (sem serifa) 
+
+textos muitos longos são indicadas  as fontes em serifa 
+
+3) Monoespaçada (com ou sem serifa)
+
+todas os glifos tem sempre a mesma largura 
+
+4) Handwriting(simula caligrafia a mão)
+
+5) Display
+
+Comemorativa  e com pouco ou nenhum padrão.
+```
+<style>
+        body {
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+    </style>
+
+```
+
+*colocar  no minimo 3 fontes semelheantes para questões de mostragem  em dispositivos (safe combination)
+
+
+*sempre termine com uma fonte generica
+
+
+#### Tamanhos das fontes W3C
+
+
+Medidads Absolutas:
+
+Cm,mm, ir, px, pt, pc
+
+Medidas relativas:
+
+em(tamanho da letra normalmente) , ax(altura x da fonte), rem(fonte relativa do body),
+vx(largura da viewport), vh(altura da viewport), %
+
+* w3c recomenda pro font-size (px) e em.
+* 16px tamanho padrão da fonte ou 1em
+
+#### peso, estilo e shorthand font
+
+peso da fonte (expressura) - fonte weight (light, normal, bold ,bolder) [algumas fontes tem 1 todos ou nenhum]
+ainda tem por tamanho númerico, 100,200,300 .....
+
+estilo da fonte  - fonte style (italico ,normal e oblico)             
+            
+* a familia de fonte deve suportar, negrito, italico e sublinhado
+
+unica declaração exemplo:
+
+`````
+h1{
+font: italic bolder 3em  'Work Sans', sans-serif;
+}
+`````
+
+* no geral tres tipos de fonts um pra destaque, um pra titulo e um pra normal
+
+#### Usando o Google fonts e importando de outros baixadas 
+
+vai no google fontes e pegue o codigo de importação da fonte que você 
+pegou
+
+````
+ <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap')
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: "Kaushan Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+        h1 {
+         font-family: "Work Sans", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+            }
+         h2 {
+         font-family: "Work Sans", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+            }
+
+    </style>
+````
+##### fontes externas
+
+sites pra baixar fontes:
+
+1- da fonte, 2-netfontes e etc 
+
+
+Tipos de format()
+*opentrype(otf)
+*truetype(ttf)
+*enbedded-opentype
+*truetype-att(Apple-advanced Typograph)
+*svg
+
+
+
+passo a passo: 
+
+1) baixe a fonte  em arquivos (otf, ttf)
+2) implemente o seletor @font-face
+3) coloque o arquivo url e o formato 
+4) implemente ela no font family de outro seletor
+
+
+
+exemplo:
+
+````
+@font-face {
+font-family: 'love';
+src: url('fontes/CHERL___.TTF')format('opentype');
+
+            font-weight: normal;
+            font-style:normal ;
+        } 
+
+````
+
+##### Como capturar fonte de um site 
+
+extensão do google chroome: fonts ninja
+
+##### Dectando fontes de imagens
+
+use o site myfonts,whatfonts,fontsquirel para identificar fonte de uma imagem 
+
+#### Alinhamento de texto
+
+text-align  e text-indent (paragrafo)
+
+Ex: 
+
+````
+   <style>
+        body{
+            font: normal 16px Arial, Verdana, serif;
+           
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        }
+    </style>
+</head>
+````
+
+#### Identificadores e classes 
+
+tag id pra criar um identificador (dentro de um html só pode ter um id)
+
+em html é id =  em css é #
+em html é class =  em css é .
+
+ex: 
+````
+#principal {
+text-align: center;
+}
+````
+
+Além disso temos o class conjunto de elementos de classes
+podendo ser varios elementos
+
+ex: 
+
+`````
+<h2 class="medio">HTML Intermediario</h2>
+
+.medio {
+color: yellow;
+}
+
+`````
+
+* obs: O id sobrepoe as configurações de classes 
+
+* herarquia de configuração
+1) seletores iniciais
+2) id
+3) class 
+
+#### Pseudoclasses 
+
+As pseudoclasses em CSS são palavras-chave adicionadas aos seletores que especificam um estado especial do(s) elemento(s) selecionado(s).
+
+Elas permitem estilizar um elemento com base em fatores como interação do usuário (por exemplo, passar o mouse sobre ele), sua posição na estrutura do documento (por exemplo, o primeiro elemento filho) ou outras características do elemento (por exemplo, estar marcado). Elas permitem aplicar estilos aos elementos dinamicamente, sem a necessidade de modificar o HTML ou usar JavaScript.
+
+ex: hover, visited,active,checked,empty, focus
+
+div -> espaço qualquer
+
+* anotações importantes 
+height: altura
+width: largura
+
+: é uma pseudoclasse, sendo relacionado a um estado de um determinado elemento.
+
+exemplo:
+````````
+div:hover{
+background-color: yellow;
+}
+````````
+nesse caso acima acima que eu passar o mouse em cima da div eu vou ter ela como amarelo.
+
+As tags possuem um sistema de hieraquia quando colocadads uma dentro das outras e segue a sequencia descrita dentro da
+tag html.
+
+Passa ocultar uma tag dentro de outra basta usar o atributo de display com o valor de none. 
+
+Ex: 
+````
+div > p{
+display: none;
+}
+
+````
+
+No caso esse > defini a filiação da classe div com a p dentro dela.
+
+pra resumir 
+`````
+# = id
+. = class
+: = pseudo-class
+::pseudo-element
+> clidren
+
+`````
+
+obs: Os pseudo-elementos em CSS permitem estilizar partes específicas de um elemento. Eles possibilitam adicionar estilos a elementos que não existem de fato na estrutura HTML, como a primeira linha de um parágrafo ou o conteúdo antes ou depois de um elemento. Isso é feito usando dois pontos (::) seguidos pelo nome do pseudo-elemento.
+
+
+#### Modelo de caixas (box-model)
+
+O modelo de caixa CSS descreve como os elementos em uma página da web são estruturados como caixas retangulares. Cada caixa consiste em conteúdo (texto, imagens, etc.), preenchimento (espaço ao redor do conteúdo), borda (uma linha ao redor do preenchimento e do conteúdo) e margem (espaço ao redor da borda).
+
+![img_19.png](img_19.png)
+
+ex: 
+
+![img_21.png](img_21.png)
+
+
+##### Anatomia de uma caixa
+
+height - altura
+
+width - largura
+
+border -  borda
+
+passing - preenchimento 
+
+![img_22.png](img_22.png)
+
+margin - margem 
+
+outline  -traçado/contorno
+
+##### Tipos de caixa
+
+box-level x inline-level
+
+![img_23.png](img_23.png)
+
+
+exemplo de tag box level : div, h1-h5,main,header,nav,video,form,footer,aside,article
+
+exemplo de tag inline-level: span, a, code, strong , em , sup-bu,label, button, input,select
+
+##### Box- model
+em modelos de caixas em boxes podemos alterar cada anotomia da caixa diretamente no arquivo de forma permanente ou temporária
+pelo dev tools pra isso basta especificar o nome da anantomia e o que quer mexer nela e o seu valor.
+
+ex:  border-color:  blue;
+
+padding tem top, right, botton  e left, vale configurar todas quando quer mecher no preenchimento.
+
+margin assim como o padding tem todos os lados e o auto pra centralizar
+
+outline pra uma linha entre o final da margem 
+
+![img_24.png](img_24.png)
+
+todos as anatomias da caixa pode  ser resumidas seu valores em apenas uma linha.
+
+ex: border: 10px solid blue ;
+
+display - controla com um elemento é renderizado em uma pagian web. definindo especificamente seu tipo de caixa e como ele interage com outros elemento.
+
+podendo ser inline, block e inline-block.
+
+
+#### Gruping Tags 
+
+DIV - caixa de box level  (O <div>elemento é um contêiner genérico para conteúdo de fluxo, o que, em termos mais simples, significa que é uma forma de agrupar outros elementos HTML)
+
+SPAN - caixa de inline level(O <span>elemento `<span>` é um contêiner embutido usado para delimitar uma parte de um texto ou de um documento.)
+
+
+#### Tags semânticas 
+
+header(div) - cabeçalho
+
+main(div)  - conteúdo principal 
+
+footer(div)  - rodapé 
+
+nav(div) - menu 
+
+section(div)- seção
+
+article(div) - artigo
+
+aside(div) - conteúdo periferico ao artigo
+
+#### Sombras
+
+a sequencia ao colocar box-shadow é espalhamento horizontal, verical e espalhamento 
+
+muda a sombra como quiser no dev tools
+
+
+#### Caixas Arrredondada
+
+Border-radiuns  a mesma mecanica de margin e padding
+
+pra poder criar uma bola você pode colocar um bordar radiuns de 50px ou 50%
+
+#### Bordas Decoradas
+
+1) crie uma imagem no guimp (como essa)
+
+![img_26.png](img_26.png)
+
+2) Coloque as seguintes configurações
+
+`````````
+h1 {
+border:  20px  solid black;
+padding: 10px;
+border-image-source: url(Sem\ título.png);
+border-image-slice: 20;
+border-image-repeat: stretch ou repeat;
+}
+`````````
+
+#### Planejando a estrutura de um site 
+
+site para criação de layout(wiframe - formato): MockFlow
+
+#### Variaveís em CSS
+
+Pra que usar variáveis? 
+
+facilitar nossa vida no geral.
+
+pra declarar você usa o pseudeclasse chamada root
+e coloca nela as suas variveis seguindo de --nomedavairvel: valor;
+
+ex: 
+`````
+:root{
+--cor1:#c5ede6;
+--cor2:#83e1ad;
+--cor3:#3ddc84;
+--cor4:#2fa866;
+--cor5:#063e1e;
+}
+`````
+
+assim você consegue acessar aquele valor pelo nome da varivel
+`````
+header > h1 {
+color:var(--cor5);
+}
+`````
+
+#### Responsividade
+
+adatptar o tamanho do site ao tamanho da tela.
+
+O primeiro recurso e limitar o tamanho mínimo e máximo 
+
+Redimensionador de janela extensão é ideal para ver essa questão.
+ou o inspencionar do dev tools
+
+
+

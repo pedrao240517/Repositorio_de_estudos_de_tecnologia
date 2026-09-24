@@ -14,7 +14,6 @@ Conceitos de Linguagens de Programação – Robert W. Sebesta (fonte em pt-br)
 
 ## 1- Aspectos Preliminares
 
-data: 17/08 até 20/08
 
 ### 1.1 Razões para estudar linguagens de programação
 
@@ -244,6 +243,41 @@ desenvolvimento de software, nos quais a linguagem é apenas um dos componentes.
  
 ##  CAP 2 - Evolução das Principais Linguagens de Programação (historia da computação e programação)
 
+influências de linguagens e datas
+![img.png](img.png)
+
+
+1. Primeira linguagem de programação do Mundo - PLANKALKÜL DE ZUSE(calculo de programas de zule)
+
+Desenvolvida em 1945, mas não publicada até 1972 e nunca foi implementada. Muitas de suas capacidades apenas foram publicadas 15 anos após seu desenvolvimento.
+
+Estrutura de dados Avançados
+
+    -ponto flutuante(complemento de dois bit "oculto") vetores, registro.
+
+A seguinte sentença de atribuição de exemplo, a qual atribui o valor da
+expressão A[4] + 1 para A[5], ilustra essa notação. A linha rotulada V é para
+os índices, e a S é para os tipos de dados. Nesse exemplo, 1.n significa um
+inteiro de n bits:
+
+![img_1.png](img_1.png)
+
+
+2. Programação de hardware mínima: Pseudocódigos
+
+Qual era o problema de usar código de máquina? 
+
+    -baixa legibilidade
+    -modificações de programas tedidosos e possíveis erros
+    -deficiências de máquina  - sem indentação ou ponto flutante
+
+
+
+
+
+
+
+
 
 ## CAP 3 - Descrevendo Sintaxe e Semântica (estudado mais Linguagens Formais e Autômatos)
 
@@ -251,9 +285,9 @@ desenvolvimento de software, nos quais a linguagem é apenas um dos componentes.
 ## CAP 4 - Análise Léxica e Sintática (estudado mais Linguagens Formais e Autômatos)
 
 
-## CAP 5 - Nomes, Vinculações e Escopos
 
-data: 20/08 a 23/08
+
+## CAP 5 - Nomes, Vinculações e Escopos
 
 Objetivo: Debater as principais funcionalidades de linguagens de programação.
 
@@ -324,6 +358,7 @@ maior que a da direita  após a leitura da linha.
 #### **5.3.1- O conceito de vinculação **
 
 definição = Eu quero saber em que momento ocorre determinados eventos, que evento? 
+
 a associação como entre um atributo e uma entidade ou entre uma operação e um símbolo.
 
 Ex: int idade = 25 (em java ou C)
@@ -332,13 +367,90 @@ Ex: int idade = 25 (em java ou C)
 
 1. **Projetos de linguagem** :Ocorre quando os projetistas definem construções fundamentais da linguagem, como o significado do operador +ou palavras-chave reservadas.
 2. **implementação da linguagem**: Decisões tomadas pelos desenvolvedores do compilador ou interpretador, como o tamanho exato em bytes alocados para um tipo de dado numérico.
-3. **tempo de compilação(*mais importante)** :
+3. **tempo de compilação(*mais importante)** : é o momento em que o código-fonte é traduzido para a linguagem de máquina
 4. **tempo de ligação**:Ocorre quando o código compilado é combinado com bibliotecas externas e outros módulos para formar o novovel final.
 5. **tempo de carregamento** :Ocorre quando o sistema operacional carrega o programa seguinte para a memória principal, definindo os endereços de memória base.
 6. **tempo de execução**(*mais importante) :Ocorre enquanto o programa está rodando ativamente; é o momento em que valores de variáveis ​​são atribuídos, funções são chamadas e a alocação dinâmica de memória acontece.
 
 
 comprender quando as vinculações ocorrem é pré requisito para entender a semântica de uma linguagem de programção.
+
+### Vinculação de atributos a variáveis 
+
+1. vinculação estática : ocorre antes da execução do programa(tempo de compilação) e permanece inalterada ( C e JAVA)
+
+Tipos:
+
+.explicita:
+
+int x;
+
+.inplicita(por convenção): 
+
+ex: Por letras(I,K,L,M), simbolos $ % &  e etc 
+
+
+. inferência 
+
+ocorre por "indução" ou argumento indutivo, se algo x é y então tudo é mais ou menos x(interpretado por contexto)
+
+ex: 
+
+i = 1; se i é 1 então i é inteiro
+
+
+2. Vinculação dinãmica : ocorre ou altera durante a execução do programa.
+
+vantagens: 
+
++flexibilidade
++expressividade
++facilidade de escrita
+
+Desvantagem: 
+
+-detecção de erros de compilador 
+-custo (checagem dinâmica de tipo e interpretação) + custo de criação de compilador
+-dificuldade em criar um bom suporte nos editores
+
+### Vinculação de memória e tempo de vida
+
+Alocação: tornar uma célula de mémoria um conjunto de mémoria disponivel.
+
+Desalocação: devolver um célula de memória desvinculada ao conjunto de memória disponível
+
+tempo de vida:  é o tempo durante o qual a variálvel está vinculada a uma celula de memória especifica.
+
+classificação segundo tempo de vida de  variaveis escalares(guarda um valor por vez)
+
+1) estática
+
+vinculada a cédula de memória antes da execução do programa e premace vinculda a mesma célula durante a execução.
+
+ex:
+
+variveis globais e etc
+
+Vantegens: eficiência e sensibilidade a história.
+
+Desvantagem:  flexibilidade (não suporta recursão), a méma memória não pode ser compartilhada por variveis diferentes.
+
+
+2) Dinâmica na pilha 
+
+vinculada a célula de mémoria quando sua declaração é elaborada
+
+ex: variavéis locais em java 
+
+vantagem: recurssão e compartilhamento de mémoria.
+
+desvantagens: custo de alocação e desalocação, subprogramas não podem ser sensível a contexto
+
+3) Dinâmica explicita no heap
+4) Dinâmica implicita no heap
+
+
+
 
 
 

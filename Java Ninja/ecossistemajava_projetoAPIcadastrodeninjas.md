@@ -159,6 +159,9 @@ Tudo isso vem do JPA = Java Persistence API
 
 ### git Amend - Hash e git garbage collection
 
+trabalhando com git log:
+
+
 Git amend -> remendo de um comit
 
 
