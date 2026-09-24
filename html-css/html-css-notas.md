@@ -1502,8 +1502,42 @@ adatptar o tamanho do site ao tamanho da tela.
 
 O primeiro recurso e limitar o tamanho mínimo e máximo 
 
+ideal -> 1000 a 1200px de largura 
+
+
 Redimensionador de janela extensão é ideal para ver essa questão.
 ou o inspencionar do dev tools
 
+
+pra imagens colocar largura máxima.
+
+* gambbiarra pra colocar o video centralizado no meio do site
+
+````
+div.video {
+background-color: var(--cor6);
+margin: 0px -20px 30px -20px;
+padding: 20px;
+position: relative;
+padding-bottom: 59%;
+}
+div.video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height:90% ;
+}
+````
+
+## Módulo 3 - Colocando o projeto no ar
+
+### O que vamos aprender 
+
+1) configurações de imagens de fundo
+2) centralização de imagens 
+3) efeito paralax
+4) projeto cordel
+5) Trabalhar com Tabela
 
 
