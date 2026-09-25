@@ -1542,3 +1542,46 @@ height:90% ;
 
 
 #### Imagens de fundo
+
+pra colocar basta usar o
+`background-image: url(imagens/wallpaper002.jpg);`
+
+Existe três maneiras de colocar o fundo
+
+````
+        div#q1 {
+            background-color: skyblue; - cor sólida
+        }
+        div#q2 {
+            background-image: linear-gradient(to bottom, orange, red); - cor em degrade
+        }
+        div#q3 {
+            background-image: url(imagens/wallpaper002.jpg); - imagem de fundo
+        }
+
+````
+* todos elementos de caixa podem receber uma imagem de fundo
+* background-size é pra definir o tamanho da imagem em pixel
+
+auto - padrão
+contain - Redimensiona a imagem para que fique totalmente visível dentro do contêiner, o que pode deixar espaços vazios.
+cover  -  : Redimensiona a imagem para cobrir completamente o recipiente, o que pode cortar as bordas se as proporções não corresponderem.
+
+* A background-repeat propriedade CSS define como uma imagem de fundo se repete em um elemento.
+
+ponto de partida no canto superior esquerdo,
+repeat- repete tudo horizontal e vertical
+repeat-x - repete horizontal
+repeat-y - repete vertical
+no-repeat - não repete
+
+
+#### Posição do fundo
+
+Para definir a posição de imagem de fundo, você deve conferir essas propiedades:
+
+background-position: left, botto, top, right, center
+
+e definir o backgorund repeat para não repeat
+
+dica - sempre coloque um backgorund color antes da imagem de fundo pois carrega primeiro
