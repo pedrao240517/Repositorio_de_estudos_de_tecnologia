@@ -1585,3 +1585,18 @@ background-position: left, botto, top, right, center
 e definir o backgorund repeat para não repeat
 
 dica - sempre coloque um backgorund color antes da imagem de fundo pois carrega primeiro
+
+### Backgroud attachement
+
+Em CSS, a propriedade `background attachment` controla o comportamento de uma imagem de fundo quando a página é rolada.
+
+scroll ou fixed 
+
+Ela pode ser fixa ou a imagem de fundo rolar junto com o conteúdo.
+
+Ela é útil pra criar efeitos visuais como rolagem parallx ou manter uma marca d'água na tela.
+
+### Shorthand backgorund
+
+color, img, position, repeat, size, attachment
+
