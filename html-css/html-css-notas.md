@@ -1600,3 +1600,28 @@ Ela é útil pra criar efeitos visuais como rolagem parallx ou manter uma marca 
 
 color, img, position, repeat, size, attachment
 
+* apesar da documentação dizer que é assim que escreve o size ou seja o tamanho não está funcionando então temos 
+que colocar ele de maneira separada.
+
+ex: 
+````
+            background: black url('imagens/wallpaper002.jpg') center  no-repeat  fixed;
+            background-size: cover;
+````
+
+### Centralização vertical da caixa
+
+Quando tentamos centralizar um conteudo no meuio do site tanto horizontal, tanto veritical, acabamos com um problema, que o margin auto 
+faz isso apenas horizontal e não da maneira vertical.
+
+Pra fazermos isso vamo enteder um pouco mais de posição.
+
+Todo container em html e css tem a posição relativa ou  permite desloca o elemento pra sua posição normal 
+do fluxo do documento.
+
+a regra geral e o que esta de fora(contendo) é posisionamento relatio e o de dentro (contido) esta absoluto
+
+depois o left e o top 50% no absoluto  
+e depois faz uma tranformação de translate(mover) em -50% e -50%
+
+
