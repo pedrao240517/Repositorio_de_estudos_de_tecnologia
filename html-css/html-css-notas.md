@@ -1646,3 +1646,8 @@ ex:
         transform: translate(-50%, -50%);       
      }
 ````
+
+* pra colocar letra em maiscula você pode usar :
+
+ text- transformation touppercase
+ font-variant: small-caps;
