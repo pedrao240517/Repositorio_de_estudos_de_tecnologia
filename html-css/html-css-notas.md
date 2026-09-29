@@ -1624,4 +1624,25 @@ a regra geral e o que esta de fora(contendo) é posisionamento relatio e o de de
 depois o left e o top 50% no absoluto  
 e depois faz uma tranformação de translate(mover) em -50% e -50%
 
-
+ex: 
+````
+        #container {
+            background-image: url(imagens/Design_sem_nome__1_-removebg-preview.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+        }
+        #conteudo {
+            background-image: url(imagens/Design_sem_nome__1_-removebg-preview.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+        transform: translate(-50%, -50%);       
+     }
+````
