@@ -1651,3 +1651,7 @@ ex:
 
  text- transformation touppercase
  font-variant: small-caps;
+ 
+* técnica basica de tamanho de fonte (gabiarra)
+ colocar o font-size como porcentagem da viewport ou seja do vw.
+obs: não fica muito bom em telas muito grandes, então é uma pequena ganbiarra
