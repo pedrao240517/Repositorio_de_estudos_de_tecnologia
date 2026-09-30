@@ -1667,3 +1667,9 @@ Todas as Tabelas tem a seguinte hieraquia simples:
 -table header = cabeçalhoo de tabela
 -table data = dado de tabela 
 
+sem hierarquia o dado vai aparecer antes ou depois da tabela.
+
+obs: Aborder-collapse: collapse; propriedade CSS mescla as bordas das células adjacentes da tabela em uma única borda compartilhada.
+
+- o w3c coloca como opcional o fechamento das tags tr e td
+
