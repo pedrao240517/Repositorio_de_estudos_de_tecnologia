@@ -1654,4 +1654,16 @@ ex:
  
 * técnica basica de tamanho de fonte (gabiarra)
  colocar o font-size como porcentagem da viewport ou seja do vw.
-obs: não fica muito bom em telas muito grandes, então é uma pequena ganbiarra
+obs: não fica muito bom em telas muito grandes, então é uma pequena ganbiarra.
+
+### Tabelas em HTML 
+
+* O uso de tabelas não deve ser feito pra criar a estrutura do seu site.
+
+Todas as Tabelas tem a seguinte hieraquia simples:
+
+1) table = tabela 
+2) table ROW = linhas de tabela 
+-table header = cabeçalhoo de tabela
+-table data = dado de tabela 
+
