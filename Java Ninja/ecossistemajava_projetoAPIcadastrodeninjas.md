@@ -161,10 +161,25 @@ Tudo isso vem do JPA = Java Persistence API
 
 trabalhando com git log:
 
+git log comando éUtilizado para exibir o histórico de commits de um repositório Git.Por padrão, ele lista todos os commits acessíveis a partir do seu branch atual em ordem cronológica inversa (os commits mais recentes aparecem primeiro).
+ou seja em  forma de pilha .
+
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
 
 Git amend -> remendo de um comit
 
+git commit --amend
 
+Git garbage collection  - sistema de remoção de git quando não está sendo usado (em nenhuma branch e não está no main)
+
+### Modelando o Banco de Dados 
+
+antes de mecher no projeto, temos que definir a arquitetura do projeto .
+
+Vamos organizar em arquitetura de camada
 
 
 
