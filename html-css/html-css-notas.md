@@ -1663,13 +1663,40 @@ obs: não fica muito bom em telas muito grandes, então é uma pequena ganbiarra
 Todas as Tabelas tem a seguinte hieraquia simples:
 
 1) table = tabela 
-2) table ROW = linhas de tabela 
--table header = cabeçalhoo de tabela
--table data = dado de tabela 
+2) table ROW = linhas de tabela   - tr
+-table header = cabeçalhoo de tabela - th 
+-table data = dado de tabela  - td
 
 sem hierarquia o dado vai aparecer antes ou depois da tabela.
 
 obs: Aborder-collapse: collapse; propriedade CSS mescla as bordas das células adjacentes da tabela em uma única borda compartilhada.
 
 - o w3c coloca como opcional o fechamento das tags tr e td
+
+#### Alinhamento em tabelas
+
+pra fazer horizontal apenas ajuste o text align do td.
+
+pra fazer verticalmente apenas ajuste o vertical align pra top, middle ou bottom
+
+
+#### Anatomia de tabelas grandes 
+
+Table 
+
+-Thead(
+tr
+td
+th)
+
+-Tbody(
+tr
+td
+th)
+
+-Tfoot(
+tr
+td 
+th)
+
 
