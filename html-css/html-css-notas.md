@@ -1664,7 +1664,7 @@ Todas as Tabelas tem a seguinte hieraquia simples:
 
 1) table = tabela 
 2) table ROW = linhas de tabela   - tr
--table header = cabeçalhoo de tabela - th 
+-table header = cabeçalho de tabela - th 
 -table data = dado de tabela  - td
 
 sem hierarquia o dado vai aparecer antes ou depois da tabela.
@@ -1682,7 +1682,9 @@ pra fazer verticalmente apenas ajuste o vertical align pra top, middle ou bottom
 
 #### Anatomia de tabelas grandes 
 
-Table 
+caption - legenda
+
+Table  - tabela
 
 -Thead(
 tr
@@ -1698,5 +1700,49 @@ th)
 tr
 td 
 th)
+#### Escopo do th 
 
+é bem simples pense o th como titulo e o td como um dado.
+
+em cada th e bom pra motivos de seo definir o scopo do th,
+
+````<th scope="row">Total de habitantes</th>````
+
+parâmetros:
+• col: Defina que as células de cabeçalho se referem a uma coluna inteira (as células de dados abaixo dela).
+
+• row: Defina que as células de cabeçalho se referem a uma linha inteira (como células de dados à direita ou esquerda dela).
+
+• colgroup: Defina que o cabeçalho se aplica a um grupo de colunas. É usado quando uma célula está associada a um elemento <colgroup>.
+
+• rowgroup: Defina que o cabeçalho se aplica a um grupo de linhas. É usado quando uma célula está associada a um grupo como <thead>, <tbody>ou <tfoot>
+
+#### Efeito Zebrado em Tabela
+
+[ :nth-child() Seleciona elementos com base em sua posição entre todos os elementos irmãos dentro de um contêiner pai.
+
+pode ser no parametro 2n, 2n-1/odd, even pra deixar bonito.
+
+#### Cabeçalho fixo em tabelas grandes
+
+
+````````
+thead > tr > th {
+position: sticky;
+top: -1px;
+background-color:gray ;
+}
+````````
+
+#### Meclagem de celulas 
+
+Existe expansão em forma de coluna e em forma de linha 
+
+de coluna :   <td colspan="2">B</td>
+
+![img_27.png](img_27.png)
+
+de linha:   <td rowspan="3">F</td>
+
+![img_28.png](img_28.png)
 
