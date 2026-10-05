@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque {
+            font-style: italic;
+        }
+        col.cgrup {
+            background-color:greenyellow; ;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <caption>CADASTRO</caption>
+        <colgroup>
+            <col class="cgrup" span="2">
+            <col class ="cidade">
+            <col class ="cprof"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col" scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td>Ana Flavia </td>
+                <td>Feminino</td>
+                <td>42</td>
+                <td>Contadora</td>
+            </tr>
+              <tr class="destaque">
+                <td >Pedro</td>
+                <td>Masculino</td>
+                <td>19</td>
+                <td>Programador</td>
+            </tr>
+              <tr>
+                <td>Lucas</td>
+                <td>Masculino</td>
+                <td>27</td>
+                <td>Engenheiro</td>
+            </tr>
+              <tr >
+                <td>Ana Clara</td>
+                <td>Feminino</td>
+                <td>17</td>
+                <td>Estudante</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

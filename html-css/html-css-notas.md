@@ -1746,3 +1746,70 @@ de linha:   <td rowspan="3">F</td>
 
 ![img_28.png](img_28.png)
 
+#### Escopo de Grupos 
+
+Quando tem mesclagem  eu uso o scopo de cowgrupo(linha em grupo)
+porém e importante saber definir extamente qual tipo de escopo de grupo 
+eu tenho que usar.
+
+#### Agrupando colunas para modificações com colgrup
+
+Em html temos as tags colgrpup pra realizar essas modificações 
+basta pra cada coluna colocar um col com um class escrito c+ nome da coluna.
+
+```````
+   <colgroup>
+            <col class ="cnome">
+            <col class ="csexo">
+            <col class ="cidade">
+            <col class ="cprof"> 
+        </colgroup>
+```````
+
+Ainda se quisermos fazer uma modificação pra varias colunas  podemos criar o c grup e 
+ coloc colocar o span como 2
+
+```````
+        <colgroup>
+            <col class="cgrup" span="2">
+            <col class ="cidade">
+            <col class ="cprof"> 
+        </colgroup>
+```````
+
+tabela nome e sexo agrupadas
+![img_29.png](img_29.png)
+
+#### Tabelas Responsivas
+
+macete simples, envelope a tabela em uma div container e coloque em css 
+a propriedade overflow-x com valor auto.
+
+
+``````
+div#container{
+overflow-x: auto;
+}
+````````
+## Módulo iframes, formulários e design responsivo.
+
+O que vamos aprender? 
+
+1) Iframes, pra que serve e como configura
+2) contéudo local do iframe 
+3) navegação no iframe
+4) contéudo no iframe por código
+5) incovenientes do iframe
+6) iframe mais seguros
+7) projeto novo (tela de login)
+8) formulários
+9) Media queries (responsividade)
+
+
+### Iframe ainda podem ser usados? 
+
+iframe  -> frame inline (quadros em linhas)
+
+
+
+
