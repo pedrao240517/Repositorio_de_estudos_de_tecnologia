@@ -1791,7 +1791,7 @@ div#container{
 overflow-x: auto;
 }
 ````````
-## Módulo iframes, formulários e design responsivo.
+## Módulo 4 - iframes, formulários e design responsivo.
 
 O que vamos aprender? 
 
@@ -1808,7 +1808,80 @@ O que vamos aprender?
 
 ### Iframe ainda podem ser usados? 
 
-iframe  -> frame inline (quadros em linhas)
+iframe  -> frame inline (quadros em linhas/online)
+
+quando se adiciona ele deixa por padrão a frameborder(borda do frame)
+como 0 o que tira a borda dele e o source.
+
+Um iframe serve para incorporar outra página ou conteúdo externo — como um vídeo, mapa ou formulário — diretamente dentro de uma página da web atual.
+
+Tem sites que tem proteção pra evitar exibição em iframes.
+
+- configurando os iframe
+
+obs: 300 de largurae 150 de altura
+
+1 - coloque links que complementam as frases entre o iframes.
+2- ajuste a altura e largura 
+3- ajuste o scolling (auto, yes or no) (obs: não funciona em todos os navegadores )
+
+
+* incorporação de iframe em link 
+
+coloque um nome no iframe e depois no link coloque um target como o nome do iframe
+```````
+  <ul>
+        <li><a target="frame" href="paginas extras/teste001.html">Primeira Pagina</a></li>
+        <li><a target="frame" href="paginas extras/page002.html">Segunda Pagina</a></li>
+        <li><a  target="frame" href="paginas extras/page003.html">Terceira Pagina</a></li>
+    </ul>
+````````
+
+- colocando conteudo no iframe 
+
+pra colocar conteúdo no iframe de forma simples e estática, apenas troque o src por srcdoc que permite incorporação de html
+
+ex: 
+
+````````
+     <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis deleniti a facilis rerum laborum voluptatibus distinctio? Illo facilis sit, omnis incidunt laborum aliquam sequi veniam quaerat cum libero, ad sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perspiciatis laudantium temporibus commodi quae consectetur porro veritatis maiores ab illum, labore voluptate ipsam explicabo neque fugiat error corporis delectus alias? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis deleniti a facilis rerum laborum voluptatibus distinctio? Illo facilis sit, omnis incidunt laborum aliquam sequi veniam quaerat cum libero, ad sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perspiciatis laudantium temporibus commodi quae consectetur porro veritatis maiores ab illum, labore voluptate ipsam explicabo neque fugiat error corporis delectus alias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis deleniti a facilis rerum laborum voluptatibus distinctio? Illo facilis sit, omnis incidunt laborum aliquam sequi veniam quaerat cum libero, ad sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perspiciatis laudantium temporibus commodi quae consectetur porro veritatis maiores ab illum, labore voluptate ipsam explicabo neque fugiat error corporis delectus alias</p> <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis deleniti a facilis rerum laborum voluptatibus distinctio? Illo facilis sit, omnis incidunt laborum aliquam sequi veniam quaerat cum libero, ad sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perspiciatis laudantium temporibus commodi quae consectetur porro veritatis maiores ab illum, labore voluptate ipsam explicabo neque fugiat error corporis delectus alias </p> ">infelizmente seu navegador não é compativel</iframe>
+````````
+
+- incovenientes em iframes
+
+1) iframe vs frame 
+
+A principal diferença é que<iframe>(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+
+2) O boot do google 
+
+o google bot de pesquisa de sites pode ter problema com iframe, atrapalhando o seo  
+
+3) usuabilidade e acessibilidade
+
+software de leitores de telas tem probelmas com iframe e 
+alguns navegadores tem alguns problemas de usuabilidade  como target nome do iframe.
+
+4) segurança
+
+Porta de um site pra outros sites(cuidado pra quem abri a porta)
+
+- tornando iframes mais seguros 
+
+mais uma proteção ao recebimentos de dados.
+
+``````
+<iframe src="paginas extras/page004.html" frameborder="1" sandbox="sandbox">seu navegador não é compativel com isso</iframe>
+``````
+pra deixar permitir um pouco coloque  sandbox="allow-same-origin" e/ou allow-forms  e/ou  allow-scripts
+
+pra inpedir, que o contéudo  dentro do iframe colete informações do usuário (referrerpolicy="no-referer)
+
+iframes permitem colocar no seu site mapa, waze , videos, apresentações e etc.
+
+
+
+
 
 
 
