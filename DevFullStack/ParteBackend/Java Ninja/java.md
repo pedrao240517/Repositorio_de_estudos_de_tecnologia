@@ -3,6 +3,7 @@
 -Dominar tudo em java a fim de se tornar um desenvolvedor java moderno
 ### Fontes 
 - Java 10x  -Fiasco
+- javanauta academy
 - Roadmaph.sh (https://roadmap.sh/java)
 - compilador online pra exercicios em máquina bloqueada: onecompiler.com
 
@@ -23,7 +24,7 @@
 
 #### Ciclo de vida de um programa JAVA
 
-![ciclo de vida de um programa JAVA](../../imagens/image-21.png)
+![ciclo de vida de um programa JAVA](../../../Outros/imagens/image-21.png)
 
 Existem três estágios principais no ciclo de vida de um programa Java.  São eles:
 1) Editando o programa
@@ -49,7 +50,7 @@ obs: compiilador é um programa de computador que traduz o código-fonte (escrit
 O bytecode é uma representação intermediária de código, posicionada entre o código-fonte de alto nível (como Java ou Python) e o código de máquina que uma CPU física entende.Ele foi projetado para ser executado por uma Máquina Virtual (JVM)
 
 
-Detalhamento do processo da JVM no Futuro.
+Detalhamento do processo da JVM no Futuro. 
 
 
 #### Variaveis, tipagem de dados
@@ -90,7 +91,7 @@ float: Números de ponto flutuante de precisão simples.
 
 obs: São tipos de dados em que pode-se colocar metódos para fazer alterações na variável sem que seja mudado seu escopo.
 
-1) string(caractere) - aramzenar um nome 
+1) string(caractere) - armamzenar um nome 
 2) array(lista encadeadas)[variável composta homogênea] -Estruturas para armazenar múltiplos valores em uma única variável.
 3) Class - (também conhecida como campo estático) é um atributo declarado com a palavra-chave static dentro de uma classe, mas fora de qualquer método
 4) enuns
@@ -101,7 +102,7 @@ obs: São tipos de dados em que pode-se colocar metódos para fazer alterações
 
 poder usar métodos nas variáveis.
 
-![alt text](../../imagens/image.png)
+![alt text](../../../Outros/imagens/image.png)
 
 - O que são métodos ?
 

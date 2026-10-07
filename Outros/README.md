@@ -79,7 +79,7 @@ Metodologia da Pesquisa;
  8. [JavaScript](../DevFullStack/ParteFrontend/js/JS.md) 
  - Concluído
    
-7. [introdução ao desenvolvimento backend ](../DevFullStack/ParteBackend/backend/backend.md)  
+7. [introdução ao desenvolvimento backend ](../DevFullStack/ParteBackend/01-backend/02-backend.md)  
  3. [algoritmos](../FaculdadeCienciadaComputacao/PorForaDaFaculdade/algoritmos/algoritmos.md)
  4. [Git e Github](../DevFullStack/ParteFrontend/gitegithub/git-hub.md)
 
