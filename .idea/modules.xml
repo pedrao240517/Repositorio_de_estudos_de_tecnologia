@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Banco de Dados/Banco de Dados.iml" filepath="$PROJECT_DIR$/Banco de Dados/Banco de Dados.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Repositorio_de_estudos_de_tecnologia.iml" filepath="$PROJECT_DIR$/Repositorio_de_estudos_de_tecnologia.iml" />
-      <module fileurl="file://$PROJECT_DIR$/imagens/imagens.iml" filepath="$PROJECT_DIR$/imagens/imagens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FaculdadeCienciadaComputacao/PorDentroDaFaculdade/Banco de Dados/Banco de Dados.iml" filepath="$PROJECT_DIR$/FaculdadeCienciadaComputacao/PorDentroDaFaculdade/Banco de Dados/Banco de Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Outros/Repositorio_de_estudos_de_tecnologia.iml" filepath="$PROJECT_DIR$/Outros/Repositorio_de_estudos_de_tecnologia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Outros/imagens/imagens.iml" filepath="$PROJECT_DIR$/Outros/imagens/imagens.iml" />
     </modules>
   </component>
 </project>
