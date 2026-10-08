@@ -1851,7 +1851,7 @@ ex:
 
 1) iframe vs frame 
 
-A principal diferença é que<iframe>(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+A principal diferença é que  ```iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
 
 2) O boot do google 
 
@@ -1878,6 +1878,8 @@ pra deixar permitir um pouco coloque  sandbox="allow-same-origin" e/ou allow-for
 pra inpedir, que o contéudo  dentro do iframe colete informações do usuário (referrerpolicy="no-referer)
 
 iframes permitem colocar no seu site mapa, waze , videos, apresentações e etc.
+
+
 
 
 

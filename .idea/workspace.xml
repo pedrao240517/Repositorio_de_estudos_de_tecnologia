@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86089b67-55fd-4dac-8d40-7dff7dfd03b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/01-backend/01-OqueFazUmDev.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/01-backend/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/backend/backend.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/01-backend/02-backend.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outros/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Outros/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="86089b67-55fd-4dac-8d40-7dff7dfd03b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
