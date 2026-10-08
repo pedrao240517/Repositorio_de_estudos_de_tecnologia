@@ -1851,7 +1851,11 @@ ex:
 
 1) iframe vs frame 
 
+<<<<<<< HEAD
 A principal diferença é que  ```iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+=======
+A principal diferença é que <iframe>(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+>>>>>>> 379a689d7f0d157196f2c023856aa44884fd469c
 
 2) O boot do google 
 
@@ -1879,7 +1883,18 @@ pra inpedir, que o contéudo  dentro do iframe colete informações do usuário 
 
 iframes permitem colocar no seu site mapa, waze , videos, apresentações e etc.
 
+### Como Criar formulários em html
 
+local onde seu visitante pode colocar dados.
+
+![img_30.png](img_30.png)
+
+Todo formulário e criado com a tag ````<form>````
+
+pra colocar a caixa de seleção basta colocar a tag imput, tag que serve pra colocar
+os tipos de entrada do formulário.
+
+sendo os mais simples  imput-text e imput submit (texto e envio)
 
 
 
