@@ -1944,6 +1944,18 @@ existem vários controles e alguns não é compativel com alguns navegadores.
 
 password - senha 
 
+reseat - limpar
+
+submit - enviar
+
+number - numeros
+
+month - periodo (mes e ano)
+
+date - data completa
+
+time - hora 
+
 - atributos: 
 
 required - obrigatorio 
@@ -1957,4 +1969,16 @@ placeholder - dica
 autocomplete - off, on e tipo na caixa.
 
 ex: username, current-password , new-password
+
+min e max - minimo e maximo de uma caixa numerica
+
+step - passo de contagem de um número
+
+value  - valor padrao do elemento aparecendo
+
+
+
+
+
+
 
