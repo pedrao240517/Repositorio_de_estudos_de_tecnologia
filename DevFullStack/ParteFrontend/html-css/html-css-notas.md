@@ -1956,6 +1956,14 @@ date - data completa
 
 time - hora 
 
+email - eamil
+
+tel - telefone
+
+radio - seleciona um ou outro (coloque o name iguais e id diferente )
+
+checkbox  - caixa de seleção 
+
 - atributos: 
 
 required - obrigatorio 
@@ -1976,8 +1984,22 @@ step - passo de contagem de um número
 
 value  - valor padrao do elemento aparecendo
 
+checked - deixa marcado a caixa de seleção de qualquer tipo
 
+ - expressoes regulares Regex
 
+em html pode ser usado com pattern com inicio ^ e final $ "^$"
+
+exemplo pra telefone: 
+````````
+ pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+````````
+
+- outras tags de forms
+
+fieldset - agrupamento de campos
+
+legemd - legenda de agrupamento de campos
 
 
 
