@@ -1854,8 +1854,8 @@ ex:
 <<<<<<< HEAD
 A principal diferença é que  ```iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
 =======
-A principal diferença é que <iframe>(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
->>>>>>> 379a689d7f0d157196f2c023856aa44884fd469c
+A principal diferença é que iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto frame divide toda a janela do navegador em seções separadas..
+
 
 2) O boot do google 
 
@@ -1896,10 +1896,65 @@ os tipos de entrada do formulário.
 
 sendo os mais simples  imput-text e imput submit (texto e envio)
 
+As caixas de seleção frequentemente mantém 
+uma aotoseleção após você colocar algum dado. Você pode controlar se quer permanecer com isso ou não
+colocando autocomplete on or off.
 
+Pra enviar esses dados, você pode vincular com uma linguagem de programação e seu arquivo.
+como php, javascript etc, pra isso você deve colocar a action como parâmetro seu arquivo.
 
+Os navegadores não entendem muito bem  as colunas de formularios ou seja eles não sabem quando um formulário tem colunas 
+que se auto relacionam ou se completam, ex: nome e sobrenome: 
 
+Pra entender de maneira mais profunda, vamos ver a diferença de name e id.
 
+### Diferença de name e id 
 
+name  - mais útil pra html e php
 
+id  - mais útil pra javascript
+
+### Rótulos e entradas 
+
+cada caixa de um formulário deve conter um input com nome e id  e um label (rotulo)
+com o for referenciando o id do imput.
+
+o imput é caixa de seleção e label é o rotulo pra navegador identificar e permite tambem ao clicar no nome
+da caixa se selecionar a caixa(ajuda pra celulares) . 
+
+### Métodos de envio (GET e POST) para formulários 
+
+O método padrão e o get - aparece na url
+
+Uso em dados que não são sensivel, caso queira que seja compartilhavel.
+
+obs: dados por get pode ser no máximo 2mil bytes apx 3000 letras
+
+file:///C:/Users/Pedro%20Lucas/OneDrive/Documentos/segunda%20mente/Repositorio_de_estudos_de_tecnologia/DevFullStack/ParteFrontend/html-css/exercicios-html-css/ex025/cadastro.php?nome=pedro&sobrenome=lucas
+
+O outro método e post -  fica escondido mas acessivel
+
+Uso de dados sensiveis, envio de fotos/arquivos, se tiver mais de 3mil bytes
+
+### Outras caixas/controles e atributos   
+
+- controles: 
+
+existem vários controles e alguns não é compativel com alguns navegadores.
+
+password - senha 
+
+- atributos: 
+
+required - obrigatorio 
+
+min leght e max leght - tamanho minimo e maximo
+
+size:  tamnho da caixa pela quantidade de letras 
+
+placeholder - dica
+
+autocomplete - off, on e tipo na caixa.
+
+ex: username, current-password , new-password
 
