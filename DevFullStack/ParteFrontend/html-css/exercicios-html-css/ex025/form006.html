@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+        <label for="icor">Cor:</label>
+        <input value="#00ff00" type="color" id="icor" name="icor">
+    </p>
+    <p>
+        <label for="inivel">Nível de Satisfação: </label>
+        <input  type="range" id="inivel" name="inivel" min="1" max="5" value="5">
+    </p>
+    <p>
+        <label for="ifoto">Foto do Perfil: </label>
+        <input type="file" id="ifoto" name="ifoto">
+    </p>
+    <p>
+        <input type="submit"value="Enviar">
+        <input type="reset" value="Reset">
+    </p>
+    </form>
+</body>
+</html>

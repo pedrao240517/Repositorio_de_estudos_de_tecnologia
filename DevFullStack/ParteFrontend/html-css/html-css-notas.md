@@ -1964,6 +1964,12 @@ radio - seleciona um ou outro (coloque o name iguais e id diferente )
 
 checkbox  - caixa de seleção 
 
+color  - cor seleção
+
+rangge - nivel/intervalo (bola que rola a quantidade)
+
+file: escolha de arquivo (pra envio de arquivos usa o metodo post)
+
 - atributos: 
 
 required - obrigatorio 
@@ -1988,7 +1994,7 @@ checked - deixa marcado a caixa de seleção de qualquer tipo
 
  - expressoes regulares Regex
 
-em html pode ser usado com pattern com inicio ^ e final $ "^$"
+em html pode ser usado com pattern com inicio ````^```` e final ````$ "^$"````
 
 exemplo pra telefone: 
 ````````
@@ -2000,6 +2006,35 @@ exemplo pra telefone:
 fieldset - agrupamento de campos
 
 legemd - legenda de agrupamento de campos
+
+select  -  menu suspenso e usa a tag option pra dar a opção e opgrup pra agrupar
+
+...lista com opçoes predefinidas e fixas
+
+datalist - cria lista de opções e caixas de texto (pra colocar basta colocar a caixa um list e o id do do data list identicos)
+
+...lista com opções predefinidas e mutaveis ao usuario  
+
+textarea - área de texto ( prcisa colocar quantidade de colunas e linhas - tambem use post )
+
+dica: use style="resize: none;  pra poder proibir do usuario de aumentar o tamanho da área de texto e max leght pra definir
+o maximo de caractere
+
+### Outpud - elemento de saída em html 
+
+outpud - saida em html 
+
+oniput -  entrada de lógica dos campos 
+
+ex : 
+````````
+oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)"
+````````
+
+pra implementar de forma mais completa é legal aprender javascript posteriormente 
+
+
+
 
 
 
