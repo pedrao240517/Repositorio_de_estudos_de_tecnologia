@@ -1851,7 +1851,11 @@ ex:
 
 1) iframe vs frame 
 
-A principal diferença é que <iframe>(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+<<<<<<< HEAD
+A principal diferença é que  ```iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto <frame>divide toda a janela do navegador em seções separadas..
+=======
+A principal diferença é que iframe(Inline Frame) incorpora um documento externo dentro de uma página HTML normal , enquanto frame divide toda a janela do navegador em seções separadas..
+
 
 2) O boot do google 
 
@@ -1891,6 +1895,144 @@ pra colocar a caixa de seleção basta colocar a tag imput, tag que serve pra co
 os tipos de entrada do formulário.
 
 sendo os mais simples  imput-text e imput submit (texto e envio)
+
+As caixas de seleção frequentemente mantém 
+uma aotoseleção após você colocar algum dado. Você pode controlar se quer permanecer com isso ou não
+colocando autocomplete on or off.
+
+Pra enviar esses dados, você pode vincular com uma linguagem de programação e seu arquivo.
+como php, javascript etc, pra isso você deve colocar a action como parâmetro seu arquivo.
+
+Os navegadores não entendem muito bem  as colunas de formularios ou seja eles não sabem quando um formulário tem colunas 
+que se auto relacionam ou se completam, ex: nome e sobrenome: 
+
+Pra entender de maneira mais profunda, vamos ver a diferença de name e id.
+
+### Diferença de name e id 
+
+name  - mais útil pra html e php
+
+id  - mais útil pra javascript
+
+### Rótulos e entradas 
+
+cada caixa de um formulário deve conter um input com nome e id  e um label (rotulo)
+com o for referenciando o id do imput.
+
+o imput é caixa de seleção e label é o rotulo pra navegador identificar e permite tambem ao clicar no nome
+da caixa se selecionar a caixa(ajuda pra celulares) . 
+
+### Métodos de envio (GET e POST) para formulários 
+
+O método padrão e o get - aparece na url
+
+Uso em dados que não são sensivel, caso queira que seja compartilhavel.
+
+obs: dados por get pode ser no máximo 2mil bytes apx 3000 letras
+
+file:///C:/Users/Pedro%20Lucas/OneDrive/Documentos/segunda%20mente/Repositorio_de_estudos_de_tecnologia/DevFullStack/ParteFrontend/html-css/exercicios-html-css/ex025/cadastro.php?nome=pedro&sobrenome=lucas
+
+O outro método e post -  fica escondido mas acessivel
+
+Uso de dados sensiveis, envio de fotos/arquivos, se tiver mais de 3mil bytes
+
+### Outras caixas/controles e atributos   
+
+- controles: 
+
+existem vários controles e alguns não é compativel com alguns navegadores.
+
+password - senha 
+
+reseat - limpar
+
+submit - enviar
+
+number - numeros
+
+month - periodo (mes e ano)
+
+date - data completa
+
+time - hora 
+
+email - eamil
+
+tel - telefone
+
+radio - seleciona um ou outro (coloque o name iguais e id diferente )
+
+checkbox  - caixa de seleção 
+
+color  - cor seleção
+
+rangge - nivel/intervalo (bola que rola a quantidade)
+
+file: escolha de arquivo (pra envio de arquivos usa o metodo post)
+
+- atributos: 
+
+required - obrigatorio 
+
+min leght e max leght - tamanho minimo e maximo
+
+size:  tamnho da caixa pela quantidade de letras 
+
+placeholder - dica
+
+autocomplete - off, on e tipo na caixa.
+
+ex: username, current-password , new-password
+
+min e max - minimo e maximo de uma caixa numerica
+
+step - passo de contagem de um número
+
+value  - valor padrao do elemento aparecendo
+
+checked - deixa marcado a caixa de seleção de qualquer tipo
+
+ - expressoes regulares Regex
+
+em html pode ser usado com pattern com inicio ````^```` e final ````$ "^$"````
+
+exemplo pra telefone: 
+````````
+ pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+````````
+
+- outras tags de forms
+
+fieldset - agrupamento de campos
+
+legemd - legenda de agrupamento de campos
+
+select  -  menu suspenso e usa a tag option pra dar a opção e opgrup pra agrupar
+
+...lista com opçoes predefinidas e fixas
+
+datalist - cria lista de opções e caixas de texto (pra colocar basta colocar a caixa um list e o id do do data list identicos)
+
+...lista com opções predefinidas e mutaveis ao usuario  
+
+textarea - área de texto ( prcisa colocar quantidade de colunas e linhas - tambem use post )
+
+dica: use style="resize: none;  pra poder proibir do usuario de aumentar o tamanho da área de texto e max leght pra definir
+o maximo de caractere
+
+### Outpud - elemento de saída em html 
+
+outpud - saida em html 
+
+oniput -  entrada de lógica dos campos 
+
+ex : 
+````````
+oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)"
+````````
+
+pra implementar de forma mais completa é legal aprender javascript posteriormente 
+
 
 
 
