@@ -2033,9 +2033,9 @@ oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)"
 
 pra implementar de forma mais completa é legal aprender javascript posteriormente 
 
+### O que são Media queries 
 
-
-
+serve pra tratar as questões e responsividade (tamanho do conteúdo)
 
 
 
