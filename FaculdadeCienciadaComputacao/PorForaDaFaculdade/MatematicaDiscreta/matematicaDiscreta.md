@@ -111,7 +111,9 @@ o número de linhas deve ser 2³ =  8 linhas de combinações.
 
 - Algumas tatuologias equivalentes 
 
-1) Comututividade 
+obs: vale resalta a dualidade das equivalências ou seja Cada equivalência em um dos pares é a dual da outra.
+
+**1) Comututividade** 
 
 A ordem dos fatores não altera o resultado.
 
@@ -119,7 +121,7 @@ A ordem dos fatores não altera o resultado.
 
  A ^ B <->  B ^ A -> "A ou B" é o mesmo que "B ou A".
 
-2) Associatividade
+**2) Associatividade**
 
 Quando temos várias operações iguais seguidas, a forma como agrupamos com parênteses não muda o resultado.
 
@@ -127,7 +129,7 @@ Quando temos várias operações iguais seguidas, a forma como agrupamos com par
 
 (A ∧ B) ∧ C ⇔ A ∧ (B ∧ C)
 
-3) Distributividade
+**3) Distributividade**
 
 Esta propriedade funciona de forma muito semelhante à matemática básica que já conhecemos (o chamado "chuveirinho"). Permite distribuir um operador que está do lado de fora por cima dos termos que estão dentro dos parênteses.
 
@@ -135,14 +137,65 @@ A ∨ (B ∧ C) ⇔ (A ∨ B) ∧ (A ∨ C)
 
 A ∧ (B ∨ C) ⇔ (A ∧ B) ∨ (A ∧ C)
 
+**4) Propriedades dos Elementos Neutros**
+
+Estas regras demonstram o comportamento de uma proposição $A$ quando é combinada com valores lógicos fixos: $1$ (que representa o Verdadeiro) e $0'$ (que representa a negação do Falso, ou seja, também equivale ao Verdadeiro).
+
+A ∨ 0′ ⇔ 1
+
+A ∧ 1 ⇔ A 
+
+**5)  Propriedades dos Complementares**
+
+Estas regras estabelecem a relação direta entre uma proposição $A$ e a respetiva negação $A'$. Elas baseiam-se nos princípios fundamentais da lógica clássica (o princípio do terceiro excluído e o princípio da não-contradição).
+
+A ∨ A′ ⇔ 1 (A expressão lê-se como "A ou a negação de A é equivalente a Verdadeiro (1))
+
+Explicação detalhada: Esta regra baseia-se no princípio lógico do terceiro excluído. Numa situação real, uma proposição ou é verdadeira ou a sua negação é verdadeira; não existe uma terceira alternativa.
+
+Exemplo prático: Imagine que A é a afirmação "A porta está aberta". O seu complementar ($A'$), portanto, é "A porta não está aberta". Se dissermos "A porta está aberta ou a porta não está aberta", esta frase cobre todas as hipóteses possíveis do universo. Independentemente de a porta estar aberta ou fechada, a afirmação conjunta é sempre uma certeza absoluta (uma tautologia), resultando sempre em Verdadeiro (1).  
+
+**6) Leis de Morgan** 
+
+`**A ∨ B)′ ↔ A′ ∧ B′  ((A negação do "E"))**`
+
+O que diz: A negação de uma conjunção ("A e B") é equivalente à disjunção das negações ("não A ou não B").
+
+A regra prática: Para negar um "E", você nega cada parte e troca o "E" por "OU".
+
+Exemplo prático:Proposição original (A): "O carro é rápido e econômico".Negação correta (De Morgan): "O carro não é rápido ou não é econômico".
+
+`**(A ∧ B)′ ↔ A′ ∨ B′ ((A negação do "OU"))**`
+
+O que diz: A negação de uma disjunção ("A ou B") é equivalente à conjunção das negações ("não A e não B").
+
+A regra prática: Para negar um "OU", você nega cada parte e troca o "OU" por "E".
+
+Exemplo prático:
+
+Proposição original: "A Ana estuda matemática ou física".
+
+Negação correta (De Morgan): "A Ana não estuda matemática e não estuda física".
+
+![img_4.png](img_4.png)
 
 
+###  Conectivos Lógicos no Mundo Real
 
+Os conectivos são usados no mundo real em debates lógicos, programas de computador e dispositivos elêtronicos 
+com portas lógicas.
 
+### Um algoritmo
 
+Um algoritmo é um conjunto de instruções que podem ser executadas mecanicamente em um tempo finito de modo
+a resolver algum problema.
 
+formas de escrever um algoritimos temos: 
 
+pseudocódigo - código escrito em sua linguá materna
 
+código de máquina - código em 0 ou 1  e etc. 
 
+## SEÇÃO 1.2 LÓGICA PROPOSICIONAL
 
 

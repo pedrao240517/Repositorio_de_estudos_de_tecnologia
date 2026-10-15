@@ -1,3 +1,35 @@
+### Revisão da seção 1 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Problemas práticos 
+
 ### PROBLEMA PRÁTICO 1
 
 Se A fosse verdadeira e B fosse falsa, que valor lógico você atribuiria a A ∧ B? = F
@@ -78,6 +110,13 @@ Júlia odeia manteiga ou gosta de creme.  - certa  (inverte as duas preposiçõe
 
 (A → B) ↔ (B′ → A′) ■
 
+### PROBLEMA PRÁTICO 8 Verifique a equivalência 5a. ■
+
+
+| A | A' | A v  A' |
+|---|----|--------|
+| v | F  | V (1)  |
+| F | V  | V (1)  |
 
 
 
