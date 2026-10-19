@@ -6,6 +6,9 @@ complementares utilizados:Sistemas Digitais: Princípios e Aplicações
 
 curso de circuitos digitais:   https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf
 
+meta de aprendizagem :
+
+1cap a cada 2 dias  (fim em 19/11/2026 ) - 32p
 
 - sobre os problemas: 
 
@@ -30,3 +33,6 @@ As representações eletricas depende da tecnologia do sistema, entretanto no ge
 Para entender o momento de cada nível lógico para interações presentes e futuras no sistema, usamos um **diagrama de tempo**.
 
 ![img.png](img.png)
+
+
+### 1.2 Sinais Digitais 
