@@ -8,7 +8,7 @@ curso de circuitos digitais:   https://www.youtube.com/playlist?list=PLXyWBo_coJ
 
 meta de aprendizagem :
 
-1cap a cada 2 dias  (fim em 19/11/2026 ) - **32p**
+1cap a cada 2 dias  (fim em 19/11/2026 ) - **55p**
 
 - sobre os problemas: 
 
@@ -195,7 +195,187 @@ Pra realizar esse metodo é necessário  esse tipo de técnica e o  **conversor 
 
 ### 1.6 SISTEMAS DE NUMERAÇÃO DIGITAL
 
-Pra lidar com sinais digitais usamos três sistemas de númeração, binário, decimal e hexadecimal.
+Pra lidar com sinais digitais usamos três sistemas de númeração, **binário, decimal e hexadecimal.**
+
+Dentro desses sistemas tempos o  **MSD -dígito mais significativo(do
+inglês, most significant digit)** E O **LSD -dígito menos significativo(do inglês, least significant digit))** que servem como parâmetros de mínimos e máximos de um número.
+
+#### Sistema decimal
+
+composto por 10 numerais: 0,1,2,3,4,5,6,7,8,9 por conta disso também é chamado de sistema de base 10, sendo a posição 
+do número responsável pelo seu valor ou seja é um sistema posicional de certo modo.
+
+![img_6.png](img_6.png)
+
+seu contador é de forma continua ou seja ele se move por cada número até não poder ter mais disponivel naquela casa e assim ter que adicionar mais 
+uma nova casa 
+
+#### Sistema Binário 
+
+composto por 2 numerais : 0 ou 1 ele assim como o decimal tem seu valor posicional e podendo ser convertido pra decimal ou hexadecimal. Nesse sistema 
+diferente do sistema decimal a posição a esqueda são potência de 2 com espoente positivo e a posição inical com espoente zero.
+
+![img_7.png](img_7.png)
+
+sendo o maior número que um conjunto de um byte pode conter é 255(10)
+
+#### Contagem  em binario 
+
+macete: 
+
+1. não zero: 0
+2. Adicione um: 1 (O dígito chegou ao limite!)
+3. Zere à direita e "vai um" para a esquerda: 10 (Este é o número 2)
+4. Adicione um na direita: 11 (Este é o número 3. Ambas as casas estão no limite!)
+5. Zere tudo e adicione uma nova casa à esquerda: 100 (Este é o número 4)
+
+• Decimal 0 = Binário0
+
+• Decimal 1 = Binário1
+
+• Decimal 2 = Binário10
+
+• Decimal 3 = Binário11
+
+• Decimal 4 = Binário100
+
+• Decimal 5 = Binário101
+
+• Decimal 6 = Binário110
+
+• Decimal 7 = Binário111
+
+• Decimal 8 = Binário1000
+
+• Decimal 9 = Binário1001
+
+• Decimal 10 = Binário1010
+
+![img_10.png](img_10.png)
+
+#### Calculo de conversão entre binário e decimal
+
+1) de binario pra decimal 
+
+**1.1) multiplicação de dígitos** 
+
+Multiplique cada dígito do número binário pela potência de 2 correspondente à sua posição, da direita para a esquerda (começando em 2⁰), e somando os resultados:
+
+• Exemplo: Conversor 1101 para decimal
+
+• (1 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰)
+
+• 8 + 0 + 2 + 1 = 11 (decimal)
+
+
+2) decimal pra biário
+
+**2.1) dividi por dois** 
+
+Divida o número decimal sucessivamente por 2. Anote os restos de cada divisão (0 ou 1). O resultado binário é formado pelos restos lidos do último para o primeiro (de baixo para cima).
+• Exemplo: Converter 25 para binário
+
+• 25 ÷ 2 = 12 com resto 1
+
+• 12 ÷ 2 = 6 com resto 0
+
+• 6 ÷ 2 = 3 com resto 0
+
+• 3 ÷ 2 = 1 com resto 1
+
+• 1 ÷ 2 = 0 com resto 1
+
+• Lendo os restos de baixo para cima: 11001
+
+#### Notação em bases númericas 
+
+pra cada número que for feito o cálculo e importante colocar o número embaixo dele pra representar e não confundir a qual sistema ele pertence.
+
+![img_9.png](img_9.png)
+
+### 1.7 REPRESENTAÇÃO DE SINAIS COM QUANTIDADES NUMÉRICAS
+
+Um sinal análogico é representado em binário em sistemas digitais.
+
+### 1.8  TRANSMISSÕES PARALELA E SERIAL
+ 
+OS bits são transmitidos por duas formas, de formma unica com os bits sendo transmitidos em série (transimissão serial) e de forma compartilhada
+com os bits sendo transmitidos simultamnemeamente por várias linhas. 
+
+![img_11.png](img_11.png)
+
+
+em transmissão paralela a velocidade do circuito é maior em contrapartida a sua complexidade maior e em transmissão serial o contrário.
+
+### 1.9 MEMÓRIA
+
+**A mémoria é a propriedade de retenção da resposta a uma entrada momentânea.** Nos dispositivos e circuitos ela serve como armazenamento temporário ou 
+permanente de números binários, podendo alatera a informação contida. 
+
+![img_12.png](img_12.png)
+
+### 1.10  COMPUTADORES DIGITAIS 
+
+um computador é um sistema de hardware que realiza operações aritméticas, manipula dados (normalmente na forma binária) e toma decisões.
+
+Um programa é um conjunto de instruções que um computador recebe pra relaizar uma determinada ação.
+
+#### Principais partes de um computador 
+
+1) unidade de entrada: onde as instruções e dados sõa passados para o computador 
+2) Unidade de mémoria : onde armazena as instruções e dados recebidos 
+3) Unidade de controle : unidade responsável pela busca de instruções na unidade de mémoria e as interpreta.
+4) Unidade lógica/aritemética(CPU) :Todos os cálculos aritimeticos e decisões são realizados por essa unidade (obs: pode ser envidados pra unidade de mémoria )
+5) Unidade de sáida: Apresenta os dados da mémoria ou de outra forma e exibe ao operador (ou processa)
+
+As unidades lógicas são consideradas uma **unidade central de processamento CPU (do inglês, central processing unit)** contendo circuito de busca e decodificação(interpretação)
+de intruções e controle e realização de operações determinadas pelas instruções.
+
+![img_13.png](img_13.png)
+
+
+#### Tipos de computadores 
+
+Vamos definir os tipos de conputadores porém tem várias nomeclaturas e quantidades diferentes que podem ser resumidas nas cinco partes anteriore.
+
+outas questões: 
+
+microprocessadores = CPU integradas em um chip bastante pequeno
+
+microcomputadores =  microprocessadores integrados a circuitos de mémoria, entrada e sáida.
+
+microcomputador =  microcomputadores feitos para um sistema ou tarefa específicas
+
+1) computadores de ponta : Os computadores de ponta são sistemas muito poderosos capazes de lidar com muitas tarefas e produzir resultados muito rapidamente.
+outros nomes conhecidos são supercomputadores, clusters, servidores e mainframes, geralmente composto de vários computadores trabalhando junto.
+
+2) Computadores pessoais:  um computador geral que pode ser usados pra várias aplicações por uma pessoa individualmente. 
+
+3) computadores embarcados:Um computador embarcado é um computador comum (com processador, memória e entradas), mas com duas regras muito claras :
+
+1. Ele fica "escondido" (embarcado) dentro de um produto maior. Ele não parece um computador com teclado, mouse e monitor. Ele é apenas uma placa verde com chips parafusados ​​dentro do aparelho.
+2. Ele só sabe fazer uma única tarefa. Ele nasce, vive e morre fazendo apenas a função do objeto onde foi colocado.
+
+ex: microondas
+
+<img src="mapa%20mental%20cap1%20-circuitos%20digitais.jfif" width="100%">
+
+
+## 02 - SISTEMAS DE NUMERAÇÃO E CÓDIGOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

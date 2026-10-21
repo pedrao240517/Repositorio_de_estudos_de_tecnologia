@@ -178,11 +178,143 @@ R: Fácil de projetar , melhor pra armazenar, maior precisão no siste
 R:perda de valor de analogico pra digital e o processamento de sinais leva mais tempo que um análogico.
 
 
+### 1.6 SISTEMAS DE NUMERAÇÃO DIGITAL
+
+a) Qual é o maior número que pode ser representado usando-se oito bits?
+
+R: 2n - 1 = 2^8 - 1 = 255(10) =  11111111(2)
+
+1. Qual é o número decimal equivalente a 1101011(2)?
+
+R:  1101011 =  1 + 2 + 8  + 32 +64 = 107(10)
+
+2. Qual é o número binário seguinte a 10111, na sequência da contagem?
+
+R:1101100 =108(10)
+
+3. Qual é o valor do maior número decimal que pode ser representado
+   usando-se 12 bits?
+
+R: 111111111111(2) = 2^12 - 1 = 4096-1 = 4095
+
+### 1.7 REPRESENTAÇÃO DE SINAIS COM QUANTIDADES NUMÉRICAS
+
+Como um sinal analógico é representado em um sistema digital?
+
+R: por digitos binarios 
+
+### 1.8 TRANSMISSÕES PARALELA E SERIAL
+
+1. Descreva as vantagens relativas das transmissões paralela e serial
+   de um dado binário.
+
+R: paralela é mais rápida mais tem muito mais fio enquanto a serial é mais lenta mais tem menos fio 
+
+### 1.9 MEMÓRIA
+
+1. Uma saída de circuito sem memória sempre depende da entrada  presente
+   (passado, presente ou futuro).
+
+2. Uma saída de circuito de memória depende de____entrada passadas ____ .
+
+### 1.10 COMPUTADORES DIGITAIS
+
+1. Nomeie as cinco principais unidades funcionais de um computador.
+
+r: entrada, saida, memoria, controle e  arimetica/lógica(CPU) 
+
+
+2. Quais são as duas unidades que compõem a CPU?
+
+R: controle e aritmetica/lógica
+
+3. Qual é a principal estratégia para melhorar as capacidades, a velocidade e a produção de sistemas de computação?
+
+R: colocar mémoria 
+
+4. Qual categoria possui o maior número de aplicativos de computador?
+
+R: computadores pessoais 
+
+5. Se você descobrir a maior invenção do século 21, que tecnologia
+   muito provavelmente estará envolvida?
+
+R: circuitos digitais 
+
+### Problemas do capítulo 1 
+
+![img_3.png](img_3.png)
+
+1.1 Na Figura 1.22(a), qual é o nível lógico que
+deve ser emitido para ligar o LED?
+
+R: alto
+
+1.2 Na Figura 1.22(b), qual é o nível lógico que
+deve ser emitido para ligar o LED?
+
+R: baixo
+
+1.3 Na Figura 1.22(a), qual interruptor deve ser
+fechado para ligar o LED?
+
+R: S1
+
+1.4 Na Figura 1.22(b), qual interruptor deve ser
+fechado para ligar o LED?
+
+R: S2
+
+1.5 Crie um bom rótulo (nome) para cada sinal
+descrito a seguir:
+
+(a)* Um sensor emite um BAIXO quando a
+porta do elevador está fechada.
+
+R:porta fecha (L)
+
+(b) Um sensor de luz de rua produz um
+ALTO quando detecta a luz do dia.
+
+R: Detecta luz (U)
+
+(c) * Um sensor de assento do passageiro fica
+BAIXO quando o assento está vazio.
+
+R: assento abaixado (L)
+
+(d) Um sensor de temperatura fica ALTO
+quando o fluido do radiador está criticamente quente.
+
+R: fluido do radiador quente (U)
+
+1.6 Desenhe dois ciclos do diagrama de tempo
+para um sinal digital que alterna continuamente entre 0,2 V (binário 0) durante 2 ms
+e 4,4 V (binário 1) por 4 ms.
 
 
 
 
+1.7 Meça o período, a frequência e o ciclo de
+trabalho da forma de onda do Problema
+1.6. Suponha que a parte ativa da forma de
+onda seja ALTA.
 
+
+
+1.8 Desenhe dois ciclos do diagrama de tempo
+para um sinal que alterna entre 0,3V (binário 0) por 5 ms e 3,9 V (binário 1) por 2 ms.
+
+1.9 Meça o período, a frequência e o ciclo de
+trabalho da forma de onda do Problema 1.8.
+Suponha que a parte ativada forma de onda
+seja BAIXA.
+
+
+1.10 Rotule cada forma de onda na Figura 1.23:
+periódica/não periódica. Para aquelas que
+são periódicas,meça T, Fe ciclo de trabalho
+(suponha o ALTO ativo).
 
 
 
