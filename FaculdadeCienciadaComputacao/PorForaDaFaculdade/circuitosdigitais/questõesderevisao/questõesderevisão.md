@@ -292,23 +292,26 @@ R: fluido do radiador quente (U)
 para um sinal digital que alterna continuamente entre 0,2 V (binário 0) durante 2 ms
 e 4,4 V (binário 1) por 4 ms.
 
-
-
+![img_4.png](img_4.png)
 
 1.7 Meça o período, a frequência e o ciclo de
 trabalho da forma de onda do Problema
 1.6. Suponha que a parte ativa da forma de
-onda seja ALTA.
+onda seja ALTA.   
 
-
+R: t = 6ms , f= 1/6ms = 166,66hz e ciclo de trablaho   4/6 *100 = 66,66%
 
 1.8 Desenhe dois ciclos do diagrama de tempo
 para um sinal que alterna entre 0,3V (binário 0) por 5 ms e 3,9 V (binário 1) por 2 ms.
+
+R:![img_5.png](img_5.png)
 
 1.9 Meça o período, a frequência e o ciclo de
 trabalho da forma de onda do Problema 1.8.
 Suponha que a parte ativada forma de onda
 seja BAIXA.
+
+R: t= 7ms , f= 1/7ms ~= 143 e ciclo de trabalho = 5/7 * 100  = 71,43%
 
 
 1.10 Rotule cada forma de onda na Figura 1.23:
@@ -317,13 +320,99 @@ são periódicas,meça T, Fe ciclo de trabalho
 (suponha o ALTO ativo).
 
 
+a) periodica  - t= 2,5ms , f= 1/2,5ms = 400khz  e ciclo de trabalho  1/2,5 *100 = 40%
+
+b) não periodica 
+
+c) periodica -  t = 4ms, f = 1/4ms = 250hz e ciclo de trabalho 3/4 *100 = 75%
+
+d) periodica  - t = 6ms, f= 1/6ms = 166,67hz e ciclo de trabalho  5,5/6 * 100 = 91,67%
 
 
+1.11 * Quais das seguintes são quantidades analógicas e quais são digitais?
 
+(a) Número de átomos em uma amostra
+de material. - digital
+(b) Altitude de uma aeronave. -analogica
+(c) Pressão em um pneu de bicicleta. - analogica
+(d) Corrente através de um alto-falante. -analogica
+(e) Sua idade medida em anos. -digital
 
+1.12 Quais das seguintes são quantidades analógicas e quais são digitais?
 
+(a) Largura de uma peça de madeira. -analogico
+(b) A quantidade de tempo antes de o som
+de aviso do forno desligar. -analogico
+(c) A hora do dia exibida em um relógio - digital 
+de quartzo.
+(d) Elevaçã omedida por etapas de contagem em uma escada.  -digital
+(e) Elevação medida por um ponto em - analogico
+uma rampa
+(f) O peso de uma pessoa medido ao longo de um mês. - analogico
+(g) O número de alunos presentes em uma sala de aula. -digital
+(h) O volume de água em um balde é enchido por uma torneira. analogico
+(i) A classificação do placar de um jogo de basquete. -digital
+(j) A temperatura do corpo de uma pessoa medida com uma medição de mercúrio. - analogico
 
+1.13 * Converta os seguintes números binários
+para os valores decimais equivalentes.
 
+(a) 11001, - 1+8+16 = 25(10)
+(b) 1001,1001, - (8 +1) + ( 0,8 +0,01)  = 9,5625(10)
+(c) 10011011001,101102  =  (1+8+16+64+128++1024) + (0,16+0,0002) = 1.241,703125(10)
+
+1.14 Converta os seguintes números binários em
+decimais.
+(a) 10011 - 1+2+16 = 19(10)
+(b) 1100,0101 - 4+8 + 0,5 +125 - 12,3125(10)
+(c) 10011100100,10010 = 4+32+64+128+2048 + 0,5+0,0625 = 1252,5625(10)
+
+1.15* Usando três bits, mostre a sequência de
+  contagem binária de 000 a 111.
+
+1) 000
+2) 001
+3) 010
+4) 011
+5) 100
+6) 101
+7) 110
+8) 111
+
+1.16 Usando seis bits, mostre a sequência de
+contagem binária de 000000 a 111111.
+
+000000 (0) | 17. 010000 (16) | 33. 100000 (32) | 49. 110000 (48)
+
+000001 (1) | 18. 010001 (17) | 34. 100001 (33) | 50. 110001 (49)
+
+000010 (2) | 19. 010010 (18) | 35. 100010 (34) | 51. 110010 (50)
+
+000011 (3) | 20. 010011 (19) | 36. 100011 (35) | 52. 110011 (51)
+
+000100 (4) | 21. 010100 (20) | 37. 100100 (36) | 53. 110100 (52)
+
+000101 (5) | 22. 010101 (21) | 38. 100101 (37) | 54. 110101 (53)
+
+000110 (6) | 23. 010110 (22) | 39. 100110 (38) | 55. 110110 (54)
+
+000111 (7) | 24. 010111 (23) | 40. 100111 (39) | 56. 110111 (55)
+
+001000 (8) | 25. 011000 (24) | 41. 101000 (40) | 57. 111000 (56)
+
+001001 (9) | 26. 011001 (25) | 42. 101001 (41) | 58. 111001 (57)
+
+001010 (10) | 27. 011010 (26) | 43. 101010 (42) | 59. 111010 (58)
+
+001011 (11) | 28. 011011 (27) | 44. 101011 (43) | 60. 111011 (59)
+
+001100 (12) | 29. 011100 (28) | 45. 101100 (44) | 61. 111100 (60)
+
+001101 (13) | 30. 011101 (29) | 46. 101101 (45) | 62. 111101 (61)
+
+001110 (14) | 31. 011110 (30) | 47. 101110 (46) | 63. 111110 (62)
+
+001111 (15) | 32. 011111 (31) | 48. 101111 (47) | 64. 111111 (63)
 
 
 
