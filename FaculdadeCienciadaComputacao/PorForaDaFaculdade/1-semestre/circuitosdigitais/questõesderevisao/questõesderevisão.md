@@ -416,10 +416,49 @@ contagem binária de 000000 a 111111.
 
 
 
+1.17 * Qual é o númeromáximo que se pode contar
+usando 10 bits?
+
+R: 1111111111 = 1+2+4+8+16+32+64+128+256+512 = 1023
+
+1.18 Qual é o número máximo que se pode contar
+usando 14 bits?
+
+R: 11111111111111 = 1+2+4+8+16+32+64+128+256+512 + 1024+2048.4096+8192 = 16383
+
+1.19 * Quantos bits são necessários para se contar
+até um máximo de 511?
+
+R: 511
+
+1.20 Quantos bits são necessários para se contar
+até um máximo de 63
+
+R: 6 bits
+
+1.21 Qual do sseguintes aumentará/diminuirá a
+qualidade do sinal digital?
+
+(a) Aumentar o tempo entre as amostras.  -  -diminuira
+
+(b) Aumentar o número de bits em cada - aumentara
+amostra.
+
+(c) Aumentar a frequência de amostragem. - aumentara
 
 
+1.22 * Suponha que os valores inteiros decimais
+de 0 a 15 sejam transmitidos em binário.
 
+(a) Quantas linhas serão necessárias se a
+representação em paralelo for usada?
 
+R: 4 linha 
+
+(b) Quantas linhas serão necessárias se a
+representação em série for usada?
+
+R:  1
 
 
 

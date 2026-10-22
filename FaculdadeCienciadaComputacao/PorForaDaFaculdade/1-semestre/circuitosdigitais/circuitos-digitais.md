@@ -1,10 +1,12 @@
 Disciplina de circuitos digitais 
 
+## Materiais 
+
 Livro base: Sistemas Digitais: Fundamentos e Aplicações -Floyd, Thomas L.
 
-complementares utilizados:Sistemas Digitais: Princípios e Aplicações
+curso de circuitos digitais do professor Pedro Souza:   https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf
 
-curso de circuitos digitais:   https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf
+provas e exercícios da ufpr do curso de computação :https://www.inf.ufpr.br/fabiano/ci068/ 
 
 meta de aprendizagem :
 
