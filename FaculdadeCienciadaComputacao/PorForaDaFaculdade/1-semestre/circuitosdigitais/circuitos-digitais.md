@@ -259,7 +259,7 @@ macete:
 
 1) de binario pra decimal 
 
-**1.1) multiplicação de dígitos** 
+**1.1) multiplicação de dígitos (soma dos pesos)** 
 
 Multiplique cada dígito do número binário pela potência de 2 correspondente à sua posição, da direita para a esquerda (começando em 2⁰), e somando os resultados:
 
@@ -269,8 +269,20 @@ Multiplique cada dígito do número binário pela potência de 2 correspondente 
 
 • 8 + 0 + 2 + 1 = 11 (decimal)
 
+**1.2) Regra do dobro e soma**
 
-2) decimal pra biário
+1. Comece com o primeiro dígito à esquerda (que sempre é 1 em números binários válidos).
+2. Multiplique o total anterior por 2 e some o dígito atual .
+3. Repita o processo até o último dígito à direita.
+
+Exemplo: Conversor\(1011_{2}\)
+
+• Começa com o primeiro bit: 1
+• Próximo bit (0):((1 * 2) + 0 = 2
+• Próximo bit (1):((2 * 2) + 1 = 5
+• Próximo bit (1):((5 * 2) + 1 = 11{10}
+
+2) decimal pra binário
 
 **2.1) dividi por dois** 
 
@@ -288,6 +300,11 @@ Divida o número decimal sucessivamente por 2. Anote os restos de cada divisão 
 • 1 ÷ 2 = 0 com resto 1
 
 • Lendo os restos de baixo para cima: 11001
+
+Faixa de contagem 
+
+Usando N bits, pode-se representar números decimais na faixa de 0 a
+2^n - 1, em um total de 2^n números diferentes.
 
 #### Notação em bases númericas 
 
@@ -362,34 +379,53 @@ ex: microondas
 
 <img src="mapa%20mental%20cap1%20-circuitos%20digitais.jfif" width="100%">
 
-
 ## 02 - SISTEMAS DE NUMERAÇÃO E CÓDIGOS
 
+### 2.3  SISTEMA DE NUMERAÇÃO HEXADECIMAL
 
+Sistema de 16 digitos que vai de 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
 
 
+![img_14.png](img_14.png)]
 
 
+#### Conversõo de hexa em decimal
 
 
+1) por valor relativo vs valor do peso somandos
 
+![img_16.png](img_16.png)
 
 
+#### Conversão de decimal em hexa
 
+1) dividindo por 16 
 
+![img_17.png](img_17.png)
 
 
+#### Conversão de hexa em binário 
 
+1) agrupamento de 4 bits
 
+![img_18.png](img_18.png)
 
 
+#### Conversão de binário em hexa
 
+1) agrupamento de bits 
 
+![img_19.png](img_19.png)
 
+#### Contagem em hexadecimal
 
+Acrescenta conforme sua posição no sistema
 
+(a) 38, 39,3A, 3B, 3C, 3D, 3E, 3F, 40, 41, 42
 
+### Vantagens do sistemas decimais 
 
+1) trabalho de vários bits 
 
 
 
@@ -615,3 +651,25 @@ ex: microondas
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![img_15.png](img_15.png)

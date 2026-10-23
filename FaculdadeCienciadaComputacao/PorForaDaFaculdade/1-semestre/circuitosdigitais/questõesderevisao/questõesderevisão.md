@@ -460,8 +460,48 @@ representação em série for usada?
 
 R:  1
 
+(a) Qual é a faixa total de valores decimais que se pode representar com
+oito bits?
+
+R:2^8 - 2^8-1  = 256 = 255
+
+(b) Quantos bits são necessários para a representação de valores decimais
+na faixa de 0 a 12.500?
+
+R: 14 bits 
+
+Solução
+(a) Neste caso, temos N = 8. Assim, pode-se representar os números decimais na faixa de 0 a 28 - 1 = 255. É possível comprovar isso verificando-se
+que 111111112, convertido em decimal, vale 25510.
+
+(b) Usando 13 bits, pode-se contar, em decimal, de 0 a 213 -1 = 8.191. Usando
+14 bits, pode-se contar de 0 a 214 - 1 = 16.383. Evidentemente, 13 bits não
+são suficientes, porém com 14 bits é possível ir além de 12.500. Assim, o
+número necessário de bits é 14.
+
+
+1. Converta 83(1O) em binário usando os dois métodos apresentados.
+
+83 /2 - 1 , 41/2 - 1 , 20/2 - 0 , 10/2  - 0  , 5 /2  1,  2 /2-  0 1 /2 - 1 
+
+R: 1010011
 
 
 
+2. Converta 729(1O) em binário usando os dois métodos apresentados.
+   Verifique sua resposta, fazendo a conversão de volta para decimal.
+
+1011011001
+
+3. Quantos bits são necessários para contar até 1 milhão em decimal?
+R:  21 bits
 
 
+1. Converta 24CE16 em decimal.
+2. Converta 311710 em hexa e, em seguida, em binário.
+3. Converta 10010111101101012 em hexa.
+4. Escreva os próximos quatro números da seguinte contagem hexa:
+   E9A, E9B, E9C, E9D,___,___ ,___ ,___ .
+5. Converta 352716 em binário.
+6. Que faixa de valores decimais pode ser representada por números
+   hexa de quatro dígitos?
