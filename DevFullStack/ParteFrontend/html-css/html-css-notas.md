@@ -2037,5 +2037,25 @@ pra implementar de forma mais completa é legal aprender javascript posteriormen
 
 serve pra tratar as questões e responsividade (tamanho do conteúdo)
 
+primeiramente vale resaltar que  é necessário vincular o css com o atributo media com valor screen para tela 
+e all pra tudo se for pra tudo e print se for pra impressora
+
+pra alterar especificamente pra uma coisa como por exemplo em uma impressão você altera ela em um estilo próprio  e configura 
+as tags pra responder aquilo que deseja como ocultar um contéudo com display  none por exemplo.
+
+Chamamos esseas chamadas de Media types: 
+
+
+````````
+ <!----Chamadas de Media Queries-->
+    <link rel="stylesheet" href="estilos/tela.css" media="screen"> 
+    <link rel="stylesheet" href="estilos/impressao.css" media="print">
+````````
+
+media querie = media tpyes + media features 
+
+#### Media Features 
+
+
 
 
