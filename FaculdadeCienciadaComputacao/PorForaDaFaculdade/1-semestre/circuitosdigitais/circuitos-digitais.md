@@ -423,9 +423,12 @@ Acrescenta conforme sua posição no sistema
 
 (a) 38, 39,3A, 3B, 3C, 3D, 3E, 3F, 40, 41, 42
 
-### Vantagens do sistemas decimais 
+### Vantagens do sistemas hexadecimais 
 
 1) trabalho de vários bits 
+2) mais maneiras de contagemns 
+
+
 
 
 

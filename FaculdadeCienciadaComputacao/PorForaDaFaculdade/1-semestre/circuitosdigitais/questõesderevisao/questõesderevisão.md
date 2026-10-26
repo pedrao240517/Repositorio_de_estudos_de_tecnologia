@@ -498,8 +498,14 @@ R:  21 bits
 
 
 1. Converta 24CE16 em decimal.
+
+R: 2412054
+
 2. Converta 311710 em hexa e, em seguida, em binário.
-3. Converta 10010111101101012 em hexa.
+
+R: 
+
+6. Converta 10010111101101012 em hexa.
 4. Escreva os próximos quatro números da seguinte contagem hexa:
    E9A, E9B, E9C, E9D,___,___ ,___ ,___ .
 5. Converta 352716 em binário.
