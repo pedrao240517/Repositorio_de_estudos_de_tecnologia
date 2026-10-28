@@ -61,7 +61,7 @@ Metodologia da Pesquisa;
 
 - Em andamento
 
-1. [Circuitos Digitais](FaculdadeCienciadaComputacao/PorForaDaFaculdade/circuitosdigitais/circuitos-digitais.md)
+1. [Circuitos Digitais](FaculdadeCienciadaComputacao/PorForaDaFaculdade/1-semestre/circuitosdigitais/circuitos-digitais.md)
 2. [Geometrica análitica](FaculdadeCienciadaComputacao/PorForaDaFaculdade/geometriaanalitica/geometria-analitica.md)
 3. [O semestre que falta na sua formação em Ciência da Computação](./O-semestre-que-falta-na-sua-formação-em-Ciência-da-Computação.md)
 4. [cs50x de havard_introducao_a_ciencia_da_computacao](FaculdadeCienciadaComputacao/PorForaDaFaculdade/Introdução_a_ciênciadacomputação_cs50x/cs50x_de_havard_introducao_a_ciencia_da_computacao.md)
@@ -76,7 +76,7 @@ Metodologia da Pesquisa;
  - Em andamento
  2. [JAVA](Java%20Ninja/java.md)
  7. [HTML e CSS](DevFullStack/ParteFrontend/html-css/html-css-notas.md)
- 8. [JavaScript](DevFullStack/ParteFrontend/js/JS.md) 
+ 8. [JavaScript](DevFullStack/ParteFrontend/javascript_e_typescript/JS.md) 
  - Concluído
    
 7. [introdução ao desenvolvimento backend ](DevFullStack/ParteBackend/01-backend/02-backend.md)  

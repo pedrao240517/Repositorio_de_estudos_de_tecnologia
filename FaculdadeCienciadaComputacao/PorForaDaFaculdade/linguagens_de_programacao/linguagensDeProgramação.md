@@ -234,7 +234,7 @@ altamente dependentes do domínio para o qual ela será usada.
 Dentre os critérios mais importantes para a avaliação de linguagens, estão a legibilidade, a facilidade de escrita, a confiabilidade e o custo geral. Esses critérios servirão de base para examinarmos e julgarmos os recursos das linguagens discutidas no
 restante do livro.
 As principais influências no projeto de linguagens têm sido a arquitetura de máquina e as metodologias de projeto de software.
-Projetar uma linguagem de programação é primariamente um esforço de engenharia, no qual uma longa lista de trade-offs deve ser levada em consideração na escolha
+Projetar uma linguagem de programação é primariamente um esforço de engenharia, no qual uma longa lista de trade-offs(sacrificio de caracteristicas) deve ser levada em consideração na escolha
 de recursos, construções e capacidades.
 Os principais métodos de implementar linguagens de programação são a compilação, a interpretação pura e a implementação híbrida.
 Os ambientes de programação têm se tornado parte importante dos sistemas de
@@ -270,6 +270,8 @@ Qual era o problema de usar código de máquina?
     -baixa legibilidade
     -modificações de programas tedidosos e possíveis erros
     -deficiências de máquina  - sem indentação ou ponto flutante
+
+2.1 - Short Code
 
 
 
@@ -319,7 +321,7 @@ análise.
 
 Pontos bons: fácil identificação apenas com a notação.
 
-Pontos ruins: Prejudica a escritae causa conflitos de sintaxe
+Pontos ruins: Prejudica a escrita e causa conflitos de sintaxe
 
 outra questão e a sensibilização de caso, por exemplo variaveis podem ou não ser iguais entre **A, B e C e a, b e c**
 ou ter fontes parecidas e ocorrer confundir. No caso ser sensiveis  ao caso e elas não serem iguais.
@@ -448,6 +450,29 @@ desvantagens: custo de alocação e desalocação, subprogramas não podem ser s
 
 3) Dinâmica explicita no heap
 4) Dinâmica implicita no heap
+
+
+### Escopo 
+
+
+#### Escopo estático
+
+
+#### Blocos
+
+
+#### Ordem de declaração
+
+
+#### Escopo Global
+
+
+#### Avaliação do escopo estático
+
+
+#### Escopo dinâmico
+
+#### Avaliação do escopo dinâmico
 
 
 

@@ -511,3 +511,13 @@ R:
 5. Converta 352716 em binário.
 6. Que faixa de valores decimais pode ser representada por números
    hexa de quatro dígitos?
+
+1. Represente o valor decimal 178 no equivalente binário puro. Em
+   seguida, codifique o mesmo número decimal usando BCD.
+
+R: 
+
+2. Quantos bits são necessários para representar, em BCD, um número
+   decimal de oito dígitos?
+3. Qual é a vantagem da codificação em BCD de um número decimal
+   quando comparada ao binário puro? E qual é a desvantagem?

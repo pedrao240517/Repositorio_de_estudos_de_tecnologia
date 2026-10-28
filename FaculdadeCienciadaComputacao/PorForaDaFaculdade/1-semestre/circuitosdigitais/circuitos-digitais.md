@@ -10,7 +10,7 @@ provas e exercícios da ufpr do curso de computação :https://www.inf.ufpr.br/f
 
 meta de aprendizagem :
 
-1cap a cada 2 dias  (fim em 19/11/2026 ) - **55p**
+1cap a cada 2 dias  (fim em 19/11/2026 ) - **74p**
 
 - sobre os problemas: 
 
@@ -423,32 +423,58 @@ Acrescenta conforme sua posição no sistema
 
 (a) 38, 39,3A, 3B, 3C, 3D, 3E, 3F, 40, 41, 42
 
-### Vantagens do sistemas hexadecimais 
+#### Vantagens do sistemas hexadecimais 
 
 1) trabalho de vários bits 
 2) mais maneiras de contagemns 
 
 
+### 2.4 Código BCD 
 
+O conjunto de grupos de letras ou/e palavras representadas por simbolos é denominado **código**, como por exemplo o código morse (varios pontos e traços),
+quando um decimal é representado por seu binário correspondente, chamamos de **códificação em binário puro**.
 
 
+#### Binary-coded decimal (Codificação binária decimal)
 
+é uma classe de codificações binárias de números decimais onde cada dígito é representado por um número fixo de bits, geralmente quatro ou oito.
 
+Exemplo:
 
+![img_20.png](img_20.png)
 
+O código BCD não utiliza os números(1010, 1011, 1100, 1101,1110 e 1111) ou seja são usado apenas 10 dos 16 possíveis e caso um apareça é indicação de algum erro na 
+conversão.
 
+BCD ≠ coversão decimal - binário 
 
+![img_21.png](img_21.png)
 
+BCD = 12 bits , mais fácil de conversão mais usa mais bits 
 
+binário = 8 bits , maior dificuldade de conversõa e usa menos bits 
 
+### 2.5  Código Gray (binário refletido) 
 
+é um sistema de numeração binário onde dois números sucessivos mudam em apenas um bit. Para converter o binário pra gray  se faz os seguintes passos: 
 
+1) repita o bit mais significativo -MSB
+2) Compare o MSB com o próximo dígito (se for = entao g1 = 0 se for diferente g1 = 1)
+3) depois faz o mesmo com o proximo digito 
 
+exemplo : 111 (b)
+ 
+1) 1  - o  mesmo do binário
+2) 0  - os digitos são iguais 1 e 1
+3) 0 - os digitos são iguais 1 e 1 
 
+A aplicação mais comum desse código é pra  nos codificadores de posição de eixo.
 
 
+#### codificador de quadratura
 
 
+codificador de quadratura (codificador de quadratura) é um tipo de sensor incremental (rotativo ou linear) que gera dois sinais de saída em formato de trem de pulsos, chamados Canal A e Canal B .
 
 
 
@@ -675,4 +701,32 @@ Acrescenta conforme sua posição no sistema
 
 
 
-![img_15.png](img_15.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
