@@ -521,3 +521,42 @@ R:
    decimal de oito dígitos?
 3. Qual é a vantagem da codificação em BCD de um número decimal
    quando comparada ao binário puro? E qual é a desvantagem?
+--------------------------------------
+2.1 Convertaos seguintes números binários em
+decimais.
+2.2
+(a) * 10110  - > 2+4+16 = 22
+
+(b) 10010101  ->  1 +4 +16+128 = 149
+
+(c) 100100001001 -> 1+8+256+2048 = 2313
+
+(d) 01101011 -> 1+2+8+32+64 = 107
+
+(e) * 11111111 = 1+2+4+8+16+32+64+128 = 255
+
+(f) 01101111  -> 1++2+4+8+32+64 = 111
+
+(g) * 1111010111  -> 1+2+4+16+64+128+256+512 = 983
+
+(h) 11011111 -> 1+2+4+8+16+64+128 = 223
+
+(i) * 100110 - >  2+4+32 =  38
+(j) 1101 -> 1+4+8 = 13
+(k) * 111011  = 1+2+8+16+32 = 59
+(1) 1010101 -> 1+4+16+64 =  85
+
+Converta os seguintes valores decimais em
+binários.
+
+(a) 37 
+
+(b) 13  
+
+(c) 189
+
+(d) 1.000 
+
+
+
+
