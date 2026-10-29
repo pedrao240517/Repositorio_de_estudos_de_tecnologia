@@ -473,8 +473,71 @@ A aplicação mais comum desse código é pra  nos codificadores de posição de
 
 #### codificador de quadratura
 
-
 codificador de quadratura (codificador de quadratura) é um tipo de sensor incremental (rotativo ou linear) que gera dois sinais de saída em formato de trem de pulsos, chamados Canal A e Canal B .
+Esses são é aplicação mais comundo do código gray, a medida que o eixo gira ele produz uma sequência de código gray.
+
+### 2.6 Relações entre as representações númericas 
+
+![img_22.png](img_22.png)
+
+### 2.7 BYTE, NIBBLE E PALAVRA
+
+1) Bytes =  conjuntos de 8 bits
+
+2) Nibbles  =  conjunto de 4 bits 
+
+3) Palavra/words  =  unidade  de informação 
+(tamanho da palavra depende de seu caminho de dados que utiliza a informação, podendo ser definidos como o número de bits da palavra binária )
+
+### 2.8 Códigos Alfanuméricos 
+
+Um código alfanumérico é o conjunto de  caracteres numericos, letras, simbolos e etc traduzidos pra bits(linguagem de máquina)
+
+#### ASCII  -American Standard Code for Information Interchange 
+
+O Código Padrão Norte-americano para troca de informações é o principal código alfanúmericos 
+utlizado, contendo 7 bits tem 128 representações codificadas. Seu principal uso é transferência de informações entre um computador e dispositivos externos.
+
+### 2.9 MÉTODO DE PARIDADE PARA DETECÇÃO DE ERROS
+
+Sistemas digitais pode ter erros entre as transmissões de bits entre o trasmissor e o recepetor, como por exemplo ruídos elétricos.
+Afim de  resolver esse problema vários sistemas contém métodos de detecção de erros.
+
+####  Bit de paridade
+
+Consiste em um it extra anexado ao conjunto de bits do código a ser transferido de uma localidade para outra.
+
+Exitem dois metódos desse bit a ser usado:
+
+1) Bit de paridade Par 
+
+o código deve ter uam quantidade par de 1 
+
+ex: 1000011 ->  11000011 (adiciona 1 no começo agora tem 4 bits 1 )
+
+2) Bit de paridade impar 
+
+o código deve ter uam quantidade impar de 1 
+
+ex: 1000001 -> 11000001
+
+Existem vários métodos de detecção e correÇão de erros que ajudam na trasnmissão de bits 
+
+
+![img_24.png](img_24.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
