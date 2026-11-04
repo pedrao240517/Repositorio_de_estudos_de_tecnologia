@@ -152,6 +152,204 @@ system.out.print e system.out.println
 ![img_11.png](img_11.png)
 ![img_12.png](img_12.png)
 
+### Cap 4 - Estrutura condicional 
+
+As estruturas condicionais podem ser simples (se -> então) ou composta (se -> então ->  senão )
+
+#### 4.4 Estrutua condicional em JAVA 
+
+- simples
+
+![img_13.png](img_13.png)
+
+- Composta 
+
+![img_14.png](img_14.png)
+
+- estrutura case 
+
+![img_15.png](img_15.png)
+
+- operadores  lógico  (&&[e], || [ou], ![e])
+
+![img_16.png](img_16.png)
+
+
+### Cap 5 - Estrutura de repetição
+
+Estrutura de repetição são estruturas que fazem que o algoritmo se repita por um número determinado ou infinitamente.
+
+- Com número de repetições definidos (para)
+
+![img_17.png](img_17.png)
+
+- com número indefinido e teste no ínicio (enquanto)
+
+![img_18.png](img_18.png)
+
+- com número indefinido e teste no final(repita)
+
+![img_19.png](img_19.png)
+
+#### 5.4 Estrutura de reptição em JAVA 
+
+- For(para )
+
+![img_20.png](img_20.png)
+
+-while (enquanto)
+
+![img_22.png](img_22.png)
+
+
+- do while (repita)
+
+![img_23.png](img_23.png)
+![img_24.png](img_24.png)
+
+### Cap 6 - Vetor 
+
+Um vetor é uma variável composta homogênea unidimensional, ou seja um conjunto de váriveis do mesmo tipo que possuem apenas um indenficador 
+e são alocados sequencialmente na memória, também podendo ser chamado de array unidimensional.
+
+exemplo:
+
+![img_25.png](img_25.png)
+
+A atribuição de valores consiste no nome do vetor e sua posição, no caso de algumas linguagens o primeiro espaço na mémoria do computador consiste em um indíce 0
+
+![img_26.png](img_26.png)
+
+#### 6.4 Vetor em JAVA 
+
+em java a posição do vetor inica em 0, sendo declarados depois da variavél.
+
+![img_27.png](img_27.png)
+
+- atribuição de valores ao vetor
+
+![img_28.png](img_28.png)
+
+-prenchendo um vetor 
+
+![img_29.png](img_29.png)
+
+-mostrando os elementos do vetor 
+
+![img_30.png](img_30.png)
+
+### Cap 7 - Matriz 
+
+Uma matriz é um variável homogênea multidimensional  
+
+- declaração de matriz 
+
+![img_31.png](img_31.png)
+
+- Exemplos de matriz 
+
+![img_32.png](img_32.png)
+
+
+#### Matriz em JAVA
+
+-Atribuindo valores 
+
+![img_37.png](img_37.png)
+
+-preenchendo uma matriz 
+
+![img_38.png](img_38.png)
+
+-mostrando os elementos de uma matriz 
+
+![img_39.png](img_39.png)
+
+### Cap 8 - subrotinas
+
+Uma sub-rotina é um bloco de código separado que executa uma tarefa específica e pode ser chamado (invocado) várias vezes em diferentes partes de um programa.
+
+#### Subrotinas em JAVA(métodos)
+
+As sub-rotinas em java se resume basicamente em seus métodos, em java cada classe tem seu atributo(informação da variavel ) e  suas funções que são seus métodos,
+além disso em java esses métodos exercem influência de diversos modificadores de acesso entre os principais o static e public, o static  diz que o método podera ser executado sem nenhum objeto da classe instanciado  e publico que o método pode ser chamado por qualquer classe
+
+
+- Sem Retorno e Sem Parâmetros
+
+![img_40.png](img_40.png)
+
+- Sem Retorno e Com Parâmetros
+
+![img_41.png](img_41.png)
+
+- com retorno e sem parâmetro
+
+![img_42.png](img_42.png)
+
+- com retorno e com parâmetro
+
+![img_43.png](img_43.png)
+
+
+### Cap 9- Manipulando cadeias de caracters  (em java)
+
+1) Inicalização de string
+
+String texto1 = new String();
+
+* Métodos essenciais da classe String
+
+![img_45.png](img_45.png)
+
+### Cap 10 - Registro
+
+Registros (Records) em Java são estruturas de dados introduzidas para simplificar a criação de classes que servem puramente como portadoras de dados imutáveis. Como você bem mencionou, eles têm o objetivo principal de agregar vários dados (atributos) acerca de uma mesma entidade de forma muito mais limpa e compacta.
+
+![img_46.png](img_46.png)
+
+
+O que o Java gera automaticamente para você nos bastidores:
+
+• Atributos privados e finais: private final Long id;, etc.
+
+• Um constutor completo para inicializar todos os dados.
+
+• Métodos de leitura (em vez de getId(), usa-se apenas .id()).
+
+• Implementações robustas de toString(), equals() e hashCode().
+
+
+* obs questões sobre tratamentos de arquivos e poo serão tratadas na matérias de programação orientada a objeto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
