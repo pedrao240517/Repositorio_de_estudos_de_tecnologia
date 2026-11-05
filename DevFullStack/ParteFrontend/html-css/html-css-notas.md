@@ -2033,12 +2033,12 @@ oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)"
 
 pra implementar de forma mais completa é legal aprender javascript posteriormente 
 
-### O que são Media queries 
+### O que são Media queries (consulta de media )
 
 serve pra tratar as questões e responsividade (tamanho do conteúdo)
 
 primeiramente vale resaltar que  é necessário vincular o css com o atributo media com valor screen para tela 
-e all pra tudo se for pra tudo e print se for pra impressora
+e **all** pra tudo se for pra tudo e **print** se for pra impressora
 
 pra alterar especificamente pra uma coisa como por exemplo em uma impressão você altera ela em um estilo próprio  e configura 
 as tags pra responder aquilo que deseja como ocultar um contéudo com display  none por exemplo.
@@ -2054,8 +2054,19 @@ Chamamos esseas chamadas de Media types:
 
 media querie = media tpyes + media features 
 
-#### Media Features 
+#### Media Features  (recurso de média) 
 
+propriedade especifica do dispositivo/navegador em código css que verifica como a página está sendo exibida 
+
+Em css pra adicionar um medida feature, basta colocar um and após coloca o tipo de media type e colocar entre parentes sua 
+orientação.
+
+````
+    <link rel="stylesheet" href="estilos/retrato.css" media = "screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media = "screen and (orientation: landscape)
+````
+
+media types não tem parentes e media features entre parentes podendo ser mais de um 
 
 
 
