@@ -3,3 +3,9 @@
 /*
     Configurações de estilo para telas em orientação paisagem(deitado) 
 */
+
+body {
+    background: url(../imagens/cev-landscape.jpg) ;
+    background-position: left bottom;
+    
+}

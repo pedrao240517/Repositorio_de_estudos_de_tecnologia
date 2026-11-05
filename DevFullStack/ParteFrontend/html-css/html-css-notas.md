@@ -2068,5 +2068,17 @@ orientação.
 
 media types não tem parentes e media features entre parentes podendo ser mais de um 
 
+portrait - retrato  e landscape  - paisagem 
 
+outro tipo de declaração no proprio html do media feateure é o` **@media screen + media features`**
 
+#### Mobile First
+
+Abordagem de criação de sites criando primeiramente o site pra dispositivos movéis  e depois pra 
+outros dispositivos. 
+
+- vantagens 
+
+1) maior acesso a mais pessoas 
+2) credibilidade
+3) performace
