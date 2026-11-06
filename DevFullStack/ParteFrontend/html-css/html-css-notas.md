@@ -2082,3 +2082,16 @@ outros dispositivos.
 1) maior acesso a mais pessoas 
 2) credibilidade
 3) performace
+
+
+#### typical device Brakpoints (pontos de interrupção típicos do dispositivo)
+
+eles mudam constanmente então sempre verfifique. 
+
+* pequenas telas  -até  600px
+* celular em modo retrato - até 639px
+* celular grande ou pequenos tablets -576px até 640px
+* tablet  - até 768 px
+* desktop padrao/laptops - de 992px até 1024px
+* desktop grande - de 1200px até 1280px
+* tv ou monitores gigantes - de 1400px até 1536px 
