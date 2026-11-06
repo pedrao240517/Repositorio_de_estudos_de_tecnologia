@@ -527,6 +527,177 @@ Existem vários métodos de detecção e correÇão de erros que ajudam na trasn
 ![img_24.png](img_24.png)
 
 
+## Cap 3  - Descrição dos circuitos lógicos 
+
+O modo como se toma decisões lógica com base em circunstâncias verdadeiras ou falsas é chamado de **lógica booleana** em 
+homenagem a seu criador, e o sistema  que emprega símbolos  e operadores para descrever essas decisões é chamado de **algébra booleana**.
+
+Essas espressões servem pra descrever a relação entre sáida e entradas de circuitos lógicos, sendo as vezes chamado de síntese de circuitos lógicos.
+
+
+### 3.1 CONSTANTES E VARIÁVEIS BOOLEANAS
+
+A álgebra booleana tem três operações básicas  [OR(OU), AND (E), NOT(NÃO)] sendo essas denominadas **operações lógicas**
+
+**Uma constante booleana** é um ponto do circuito onde o nivel lógico nunca muda. níveis lógicos altos geralmente podem ser chaamdos de VCC e baixos de GND.
+
+### 3.2 TABELAS-VERDADE
+
+Uma **tabela-verdade** é um método para descrever como a sáida de um circuito lógico depende dos níveis lógicos presentes na entradas do circuito.
+a quantidade de linhas segue a proporção 2N sendo n o número de entradas, por exemplo uma tabela com 3 entradas tera 8 linhas.
+
+
+### 3.3 OPERAÇÃO OR COM PORTA OR
+
+Um exemplo simples da operação or é a lãmpada de um forno - a lampãda deve ligar quando acende(A) o forno OU abre a porta do forno(B).
+
+Sua expressão booleanda é: 
+
+````
+X = A + B 
+````
+porta e tabela-verdade OR 
+
+![img_25.png](img_25.png)
+
+resumo :
+
+![img_26.png](img_26.png)
+
+
+### 3.4 OPERAÇÃO AND COM PORTA AND
+
+Um exemplo da operação AND é uma secadora de roupa - ela opera apenas se o temporizador estiver acima de zero(A)  E com a porta fechada(B)
+
+sua expressão boolena é : 
+
+````
+X + A . B 
+````
+porta e tabela verdade and 
+
+![img_27.png](img_27.png)
+
+resumo: 
+
+![img_28.png](img_28.png)
+
+### 3.5 OPERAÇÃO NOT
+
+A operação not é diferente pois pode ser realiza com apenas uma entrada, com sua expressão representada por X= A' ou com qualquer simbolo (em lógica boolena geralmente é representado por um traçao em cima do A ).
+
+Sua operação também é conhecida por inversão ou complemento
+
+porta, tabela verdade e amostra de ondas NOT
+
+![img_29.png](img_29.png)
+
+### 3.6 DESCRIÇÃO DOS CIRCUITOS LÓGICOS ALGEBRICAMENTE
+
+Qualquer circuito lógico, independentemente de sua complexidade, pode ser descrito usando-se as três operações booleanas básicas, porque as portas OR, AND e circuito NOT são os blocos fundamentais dos sistemas
+digitais.
+
+![img_30.png](img_30.png)
+
+### Precedência de operador
+
+Ficou esclarecido que as portas AND tem preferência, a menos que aja uso de parênteses
+
+### Inversores em circuitos
+
+Sempre que um INVERSOR estiver presente em um circuito lógico, a
+expressão para a saída do INVERSOR será igual à expressão de entrada
+com uma barra sobre ela.
+
+![img_31.png](img_31.png)
+
+
+### 3.7 Avaliação das sáidas dos circuitos lógicos 
+
+Pra descobrir seu valor lógico se considere uma das possíbilidades da entrada e use esses valores trocados em sua expressão booleana.
+
+ex; 
+
+![img_32.png](img_32.png)
+
+As regras gerais são: 
+
+![img_33.png](img_33.png)
+
+### Analise com o uso de tabela
+
+A tabela verdade é o melhor método de análise completa de todas as possibilidades dos circuitos
+
+Ex: 
+
+![img_34.png](img_34.png)
+
+### 3.8!IMPLEMENTAÇÃO DE CIRCUITOS A PARTIR DE EXPRESSÕES BOOLEANAS
+
+A regra básica e fazer de traz pra frente ou seja pegue o resultado final da expressão e depois vai regredindo.
+
+
+ex: y = CA + BC + ABC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
