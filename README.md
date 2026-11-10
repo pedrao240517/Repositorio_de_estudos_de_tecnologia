@@ -76,7 +76,7 @@ Metodologia da Pesquisa;
  - Em andamento
  2. [JAVA](Java%20Ninja/java.md)
  7. [HTML e CSS](DevFullStack/ParteFrontend/html-css/html-css-notas.md)
- 8. [JavaScript](DevFullStack/ParteFrontend/javascript_e_typescript/JS.md) 
+ 8. [JavaScript](DevFullStack/ParteFrontend/javascript/JS.md) 
  - Concluído
    
 7. [introdução ao desenvolvimento backend ](DevFullStack/ParteBackend/01-backend/02-backend.md)  
