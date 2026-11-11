@@ -52,6 +52,14 @@ O bytecode é uma representação intermediária de código, posicionada entre o
 
 Detalhamento do processo da JVM no Futuro. 
 
+### Lógica sequencial 
+
+Lógica sequencial é a ordem de instruções determinado pelo desevenvolvedor.
+
+> de cima pra baixo e da esquerda pra direita.
+
+obs: em java o código está na pasta src ou seja source e classe principal se chama main 
+
 
 #### Variaveis, tipagem de dados
 
@@ -69,20 +77,20 @@ exemplo: idade = 16;
 
 - Tipos de dados (primitivos)
 
-obs: São tipos de dados que de maneira geral não recebem métodos de maneira padrão.
+obs: São tipos de dados que de maneira geral não recebem métodos de maneira padrão, existem 8 tipos primitivos .
 
 1) caractere
-char - pra armazenar um único caractere
+char - pra armazenar um único caractere (declarado com apostrofo inves de aspas )
 
 2) int(Números inteiro) - valor máximo 2 147 483 647 
 sub dados 
 long - com sinal de 64 bits usado para armazenar números inteiros grande (9.223.372.036.854.775.807)[o atribuir um valor literal a uma longvariável, você deve acrescentar um L(ou minúsculo l, embora maiúsculo seja preferível para maior clareza) para informar ao compilador que o número é um longe não um algarismo int]
 
-byte: Números inteiros pequenos.
+byte: Números inteiros  muito pequenos.
 
 short: Números inteiros menores que um int.
 
-3) Double(Números reais) -  números de ponto flutuante de precisão dupla.
+3) Double(Números reais) -  números de ponto flutuante de precisão dupla(mais utilizado, se usa ponto ) .
 float: Números de ponto flutuante de precisão simples.
 
 4) Boolean (lógico - true e false)
@@ -98,11 +106,30 @@ obs: São tipos de dados em que pode-se colocar metódos para fazer alterações
 5) objects -Instâncias de classes que encapsulam dados e comportamentos. 
 6) interfaces
 
-- Principal difença entre dados primitivo e não primitivos ?
+obs: pra nomes de variaveis começamos com letra minuscula e segue o padrão camelcase (ex: salarioMensal)
+
+- Principal diferença entre dados primitivo e não primitivos ?
 
 poder usar métodos nas variáveis.
 
 ![alt text](../../../Outros/imagens/image.png)
+
+### Trabalhando com  strings 
+
+Concatenação = "texto" + variavel
+
+métodos úteis da string 
+
+1)  lenght - tamanho da string 
+2) equals - igualdade de variaveis
+3) to upercace e lower case - maisculas e minusculas 
+4) empty - está vazia a string ? 
+5) concat - pra concatenação de variaveis
+
+### Imports 
+
+java.util  - mais usado 
+bibliotecas de classes com utilizades de várias funcionalidades como por exemplo o scanner.
 
 - O que são métodos ?
 
@@ -141,6 +168,7 @@ Ctrl + Shift + F10: Executar a aplicação
 
 System.out.print - mostra para o usuário na tela
 System.out.println - mostra para o usuário na tela e pula uma linha 
+System.out.printf  - imprime formatado
 
 - Comando de Entrada em Java 
 
@@ -185,7 +213,7 @@ De maneira simples e atribuição do valor de uma variavel de um tipo para outra
 Existem milhares de conbinações possíveis de fundição de tipos, entretanto elas sempre seguem um dos dois padrões 
 
 
-- Fundição do tipo alargado:
+- Fundição do tipo alargado/implicita:
 
 A conversão de tipo por ampliação (widening type casting) é o processo de converter um tipo de dado inferior para um tipo de dado superior. Também é conhecida como conversão implícita ou casting para baixo. Esse processo é realizado automaticamente e é seguro, pois não há risco de perda de dados. Esse tipo de conversão de tipo em Java ocorre quando:
 
@@ -196,7 +224,7 @@ byte -> short -> char -> int -> long -> float -> double (Da esquerda para a dire
 exemplo relatado acima 
 
 
-- Fundição de Tipo Estreito:
+- Fundição de Tipo Estreito/explicita:
 
 A conversão de tipo por redução (ou "thresholding type casting") é o processo de reduzir um tipo de dados maior para um menor. 
 Em Java, esse processo também é conhecido como conversão ascendente (ou "casting up") ou conversão explícita de tipo. 
@@ -208,12 +236,24 @@ double -> float -> long -> int -> char -> short -> byte (Da esquerda para a dire
 
 exemplo:
 ````
-   int numero = 130;
+    double d2 = 10.5;
+        int numero2 = (int) d2;
 
-        byte valorByte = (byte) numero; // int → byte
+        System.out.println(d2);
+        System.out.println(numero2);
 
-        System.out.println(valorByte);
+* resultado do número 2 vai ser 10 assim perndendo 0,5
 ````       
+
+pra conversões de int pra sting se usa o integer por ser mais completo que o int e não ser um tipo primitivo 
+
+````
+Integer numero3 = 123;
+ String numero4 = Integer.toString(numero3);
+````
+
+long é um dos tipo de dados que converte entre tipos de dados primitivo e tipo nao primitivo(referência) por ser um tipo 
+wrapper (envoltórias)
 
 #### Escopo de variaveis 
 
@@ -252,7 +292,7 @@ nextLine(); // recebe texto
 
 nextInt();  // recebe inteiro
 
-#### Operadores matematicos básicos 
+#### Operadores matematicos básicos (operadores Aritméticos)
 
 Adição - + 
 
@@ -261,8 +301,10 @@ subtração - (-)
 Divisão  - / 
 
 Multiplicação - *
-[java.md](java.md)
+
 Restante/ Módulo -  %
+
+Ordem de precedência dos operadores: 1 - multiplicação , divisão , adição e subtração
 
 para saber outros operadores acesse a documentação oficial ou tutoriais (https://jenkov.com/tutorials/java/math-operators-and-math-class.html)
 

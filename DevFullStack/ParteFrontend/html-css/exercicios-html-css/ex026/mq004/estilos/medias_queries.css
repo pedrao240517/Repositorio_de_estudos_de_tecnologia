@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/*todas as demais medias */
+
+/* typical device Brakpoints
+
+pequenas telas  -até  600px
+celular em modo retrato - até 639px 
+celular grande ou pequenos tablets -576px até 640px
+tablet  - até 768 px 
+desktop padrao/laptops - de 992px até 1024px
+desktop grande - de 1200px até 1280px
+tv ou monitores gigantes - de 1400px até 1536px 
+
+
+*/
+
+@media print {  /*media query para impressão */
+    body{ 
+       /* background-image: url(../imagens/icon-print.png);desnecessário*/ 
+       font-family: 'Courier New', Courier, monospace;
+    }
+    main { 
+        border: 2px solid black;
+    }
+    main::after {
+        font-size: 0.4em;
+        content: "Versão para impressão";
+        text-decoration: overline;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: rgba(0, 0, 0, 0.59);
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+/*media query para tablets 
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+
+
+}
+/*media query para desktops padrão/laptops
+*/
+@media screen and (min-width: 1024px) and (max-width: 1600px) { 
+      body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+
+
+}
+
+
+
+
+/*media query para desktops grandes e tvs
+*/
+@media screen and (min-width: 1601px)  { 
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    main{
+        width: 700px;
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+    
+}

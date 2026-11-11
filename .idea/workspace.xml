@@ -4,23 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="86089b67-55fd-4dac-8d40-7dff7dfd03b7" name="Changes" comment="" />
-=======
-    <list default="true" id="86089b67-55fd-4dac-8d40-7dff7dfd03b7" name="Changes" comment="">
+    <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/deconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/diasvividos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/mediaFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/salario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/soma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/temperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoalargado.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoalargado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoextreito.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoextreito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoalargado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoextreito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" afterDir="false" />
     </list>
->>>>>>> 379a689d7f0d157196f2c023856aa44884fd469c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -28,88 +40,143 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2,
-  &quot;fromUser&quot;: false
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="3GKgYl7Qfmgn4J9yiDHhQOWoYSZ" />
+  <component name="ProjectId" id="3LxX5H31UZR3u8Kdwt96EuJrf2C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Carro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Kunai.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListAula.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueAula.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResumoEstuturaDeDados.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
-    &quot;Application.cadastrosimples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculadoraDeSomaRapida.executor&quot;: &quot;Run&quot;,
-    &quot;Application.cartaoDeApresentacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.escadaDeAlargamento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.escopoDeBloco.executor&quot;: &quot;Run&quot;,
-    &quot;Application.limiteDoEscopoLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.perigoDaReducao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testantoLimites.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testeEscopo.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pedro Lucas/OneDrive/Documentos/segunda mente/Repositorio_de_estudos_de_tecnologia/DevFullStack/Java Ninja&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Pedro Lucas/OneDrive/Documentos/segunda mente/Repositorio_de_estudos_de_tecnologia/FaculdadeCienciadaComputacao/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SintaxeBasica.executor": "Run",
+    "Application.deconto.executor": "Run",
+    "Application.diasvividos.executor": "Run",
+    "Application.logicasequencial (1).executor": "Run",
+    "Application.logicasequencial.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.mediaFinal.executor": "Run",
+    "Application.numeros.executor": "Run",
+    "Application.operadoresAritmeticos.executor": "Run",
+    "Application.retangulo.executor": "Run",
+    "Application.salario.executor": "Run",
+    "Application.soma.executor": "Run",
+    "Application.temperatura.executor": "Run",
+    "Application.tipoalargado.executor": "Run",
+    "Application.tipoextreito.executor": "Run",
+    "Application.trabalhandoComStrings (1).executor": "Run",
+    "Application.trabalhandoComStrings.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pedro Lucas\OneDrive\Documentos\segunda mente\Repositorio_de_estudos_de_tecnologia\DevFullStack\Java Ninja" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pedrocorrea\Documents\GitHub\Repositorio_de_estudos_de_tecnologia\DevFullStack\ParteFrontend" />
-      <recent name="C:\Users\pedrocorrea\Documents\GitHub\Repositorio_de_estudos_de_tecnologia\DevFullStack\ParteBackend\Java Ninja" />
-      <recent name="C:\Users\pedrocorrea\Documents\GitHub\Repositorio_de_estudos_de_tecnologia\FaculdadeCienciadaComputacao\PorForaDaFaculdade" />
-      <recent name="C:\Users\Pedro Lucas\OneDrive\Documentos\segunda mente\Repositorio_de_estudos_de_tecnologia\DevFullStack\ParteFrontend" />
-      <recent name="C:\Users\Pedro Lucas\OneDrive\Documentos\segunda mente\Repositorio_de_estudos_de_tecnologia\DevFullStack" />
-    </key>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SintaxeBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.SintaxeBasica" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logicasequencial (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.logicasequencial.logicasequencial" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.logicasequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logicasequencial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.logicasequencial.logicasequencial" />
+      <module name="Repositorio_de_estudos_de_tecnologia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.logicasequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trabalhandoComStrings (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.trabalhandoComStrings" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trabalhandoComStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.trabalhandoComStrings" />
+      <module name="Repositorio_de_estudos_de_tecnologia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SintaxeBasica" />
+        <item itemvalue="Application.trabalhandoComStrings (1)" />
+        <item itemvalue="Application.logicasequencial (1)" />
+        <item itemvalue="Application.logicasequencial" />
+        <item itemvalue="Application.trabalhandoComStrings" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="86089b67-55fd-4dac-8d40-7dff7dfd03b7" name="Changes" comment="" />
-      <created>1783725723361</created>
+      <changelist id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="" />
+      <created>1794390281081</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1783725723361</updated>
+      <updated>1794390281081</updated>
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FaculdadeCienciadaComputacao/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
