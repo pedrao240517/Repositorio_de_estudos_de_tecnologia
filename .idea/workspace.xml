@@ -5,142 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/OperadoresAritméticos/operadoresAritmeticos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/trabalhandoComStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/logicasequencial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Tipos_de_dados/dados_primitivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Tipos_de_dados/dados_primitivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outros/Repositorio_de_estudos_de_tecnologia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Outros/Repositorio_de_estudos_de_tecnologia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/Escopo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/Escopo/ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/NotacaoBigO/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/NotacaoBigO/tiposdebigOnotation/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/NotacaoBigO/tiposdebigOnotation/ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/streams/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelAvancado/streams/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/EstudoSwitchcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/IF_AND_ELSE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/ScannerDOUsuário.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/forAndIFElse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/lacoDeRepetição.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Condicionais/ternarios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Desafios/DESAFIO1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Desafios/DESAFIO2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Fundicaodetipos/tipoalargado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Fundicaodetipos/tipoextreito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/SintaxeBasica/SintaxeBasica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/SintaxeBasica/exerciciosSintaxeBasica/ex001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/SintaxeBasica/exerciciosSintaxeBasica/ex002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Tipos_de_dados/Arrays_matrizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Tipos_de_dados/DadosNãoPrimitivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Tipos_de_dados/arrayMultidimensionais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelBasico/Tipos_de_dados/dados_primitivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/ClassesAbstratas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/ClassesAbstratas/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/ClassesAbstratas/NinjaInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/ClassesAbstratas/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/ClassesAbstratas/Uzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Construtores/Hokages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Construtores/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Construtores/Senju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio03/Desafio01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio03/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio03/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio04/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio04/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio04/TipoDeHabilidade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio04/ninjaAvançado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio04/ninjaBasico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio06/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Desafios/Desafio06/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Enums/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Enums/Missoes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Enums/RankDeMissoes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/comgenerics/Bolsagenerica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/comgenerics/EquipamentosNinja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/comgenerics/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/exemploinical/bolsaninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/exemploinical/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/semgenerics/Bolsakunai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/semgenerics/Kunai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/semgenerics/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Generics/semgenerics/pergaminho.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Anbu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Hatake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Hokage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Sharigan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/HerancaMultipla/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/List/LinkedListAula.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/List/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/List/listExemplo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Boruto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Haruno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Hyuga.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/HyugaUzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/POObasicoeOutros/Uzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/Anbu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/EstrategiaDeBatalha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/NivelNinja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Polimorfismo/Uzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Queue/QueueAula.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Records/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Records/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Records/NinjaRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/Anbu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/EstrategiaDeBatalha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/NivelNinja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/Uzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Refatoração/shariganAtivado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Set/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Stack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Stack/ResumoEstuturaDeDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Static/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/Static/Teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/codigopronto/getters_e_setters/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/codigopronto/getters_e_setters/Ninja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/codigopronto/getters_e_setters/Uchiha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/codigopronto/getters_e_setters/Uzumaki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/codigopronto/teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/NivelIntermediario/modificadoresDeAcesso/modificadoresDeAcesso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/garbagecollector/personagem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/Arrays/array2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/Arrays/arrayunidmencional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/Arrays/inicializacaoDeArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/condicionais/If_Else.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/condicionais/elseif.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/condicionais/switchcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/condicionais/ternario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/escopoDeVariaveis/escopoDeBloco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/escopoDeVariaveis/escopoDeClasse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/escopoDeVariaveis/escopoDoMetodo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/escopoDeVariaveis/limiteDoEscopoLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/escopoDeVariaveis/sombreamentoDeVariaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/fundicaoDetipos/escadaDeAlargamento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/fundicaoDetipos/perigoDaReducao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/fundicaoDetipos/testantoLimites.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/loops/Dowhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/loops/For__.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/loops/While_enquanto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/loops/foreach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/metodoseOperacoes/metodoseOperacoesMatematicos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/sintaxebasica/cadastrosimples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/sintaxebasica/calculadoraDeSomaRapida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repositorio_de_estudos_de_tecnologia/exercicioNoCodigoJava/iniciante/sintaxebasica/cartaoDeApresentacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/Java Ninja.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3LxX5H31UZR3u8Kdwt96EuJrf2C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -181,19 +48,47 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.trabalhandoComStrings">
+  <component name="RunManager">
+    <configuration name="SintaxeBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.SintaxeBasica" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logicasequencial (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.logicasequencial.logicasequencial" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.logicasequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="logicasequencial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NivelBasico.logicasequencial.logicasequencial" />
       <module name="Repositorio_de_estudos_de_tecnologia" />
@@ -207,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operadoresAritmeticos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NivelBasico.OperadoresAritméticos.operadoresAritmeticos" />
-      <module name="Repositorio_de_estudos_de_tecnologia" />
+    <configuration name="trabalhandoComStrings (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.trabalhandoComStrings" />
+      <module name="Java Ninja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NivelBasico.OperadoresAritméticos.*" />
+          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.trabalhandoComStrings" />
-        <item itemvalue="Application.operadoresAritmeticos" />
+        <item itemvalue="Application.SintaxeBasica" />
+        <item itemvalue="Application.trabalhandoComStrings (1)" />
+        <item itemvalue="Application.logicasequencial (1)" />
         <item itemvalue="Application.logicasequencial" />
+        <item itemvalue="Application.trabalhandoComStrings" />
       </list>
     </recent_temporary>
   </component>
