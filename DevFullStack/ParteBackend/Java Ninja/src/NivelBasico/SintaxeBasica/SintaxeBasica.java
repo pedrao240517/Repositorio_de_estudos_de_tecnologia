@@ -1,10 +1,11 @@
 package NivelBasico.SintaxeBasica;
 
-import java.util.Scanner;
 import java.io.IOException;
+import java.util.Scanner;
+
 
 public class SintaxeBasica {
-    static void main(String[] args) throws IOException {
+   public static void main(String[] args) throws IOException {
 
 
         // Comando de saída- System.out.println e System.out.print
@@ -15,6 +16,6 @@ public class SintaxeBasica {
         String nome = scaneio.nextLine();
         scaneio.close();
 
-
+        System.out.println("Nome: "  + nome);
     }
 }

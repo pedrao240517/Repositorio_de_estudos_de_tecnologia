@@ -74,7 +74,7 @@ Metodologia da Pesquisa;
 ### Por fora da faculdade (projeto backend developer)
  
  - Em andamento
- 2. [JAVA](Java%20Ninja/java.md)
+ 2. [JAVA](DevFullStack/ParteBackend/Java_Ninja/java.md)
  7. [HTML e CSS](DevFullStack/ParteFrontend/html-css/html-css-notas.md)
  8. [JavaScript](DevFullStack/ParteFrontend/js/JS.md) 
  - Concluído
