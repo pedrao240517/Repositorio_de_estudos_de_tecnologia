@@ -14,8 +14,12 @@ public class SintaxeBasica {
         //Comando de entrada - Scanner e BuffedReader
         Scanner scaneio = new Scanner((System.in));
         String nome = scaneio.nextLine();
-        scaneio.close();
+
 
         System.out.println("Nome: "  + nome);
+        System.out.println("Digite sua idade: ");
+        int idade =  scaneio.nextInt();
+        System.out.println("Nossa, tudo isso!!!");
+        scaneio.close();
     }
 }

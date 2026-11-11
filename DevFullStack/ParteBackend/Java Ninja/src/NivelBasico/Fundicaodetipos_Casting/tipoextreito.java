@@ -1,7 +1,7 @@
-package NivelBasico.Fundicaodetipos;
+package NivelBasico.Fundicaodetipos_Casting;
 
 public class tipoextreito {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
 
 
@@ -19,7 +19,24 @@ public class tipoextreito {
 
         byte valorByte = (byte) numero; // int → byte
 
+        System.out.println(numero);
         System.out.println(valorByte);
+
+        double d2 = 10.5;
+        int numero2 = (int) d2;
+
+        System.out.println(d2);
+        System.out.println(numero2);
+
+        Integer numero3 = 123;
+        String numero4 = Integer.toString(numero3);
+
+        System.out.println(numero3);
+        System.out.println(numero4);
+        System.out.println(numero4 + 3 );
+
+
+
 
 
     }

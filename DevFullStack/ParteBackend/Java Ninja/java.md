@@ -213,7 +213,7 @@ De maneira simples e atribuição do valor de uma variavel de um tipo para outra
 Existem milhares de conbinações possíveis de fundição de tipos, entretanto elas sempre seguem um dos dois padrões 
 
 
-- Fundição do tipo alargado:
+- Fundição do tipo alargado/implicita:
 
 A conversão de tipo por ampliação (widening type casting) é o processo de converter um tipo de dado inferior para um tipo de dado superior. Também é conhecida como conversão implícita ou casting para baixo. Esse processo é realizado automaticamente e é seguro, pois não há risco de perda de dados. Esse tipo de conversão de tipo em Java ocorre quando:
 
@@ -224,7 +224,7 @@ byte -> short -> char -> int -> long -> float -> double (Da esquerda para a dire
 exemplo relatado acima 
 
 
-- Fundição de Tipo Estreito:
+- Fundição de Tipo Estreito/explicita:
 
 A conversão de tipo por redução (ou "thresholding type casting") é o processo de reduzir um tipo de dados maior para um menor. 
 Em Java, esse processo também é conhecido como conversão ascendente (ou "casting up") ou conversão explícita de tipo. 
@@ -236,12 +236,24 @@ double -> float -> long -> int -> char -> short -> byte (Da esquerda para a dire
 
 exemplo:
 ````
-   int numero = 130;
+    double d2 = 10.5;
+        int numero2 = (int) d2;
 
-        byte valorByte = (byte) numero; // int → byte
+        System.out.println(d2);
+        System.out.println(numero2);
 
-        System.out.println(valorByte);
+* resultado do número 2 vai ser 10 assim perndendo 0,5
 ````       
+
+pra conversões de int pra sting se usa o integer por ser mais completo que o int e não ser um tipo primitivo 
+
+````
+Integer numero3 = 123;
+ String numero4 = Integer.toString(numero3);
+````
+
+long é um dos tipo de dados que converte entre tipos de dados primitivo e tipo nao primitivo(referência) por ser um tipo 
+wrapper (envoltórias)
 
 #### Escopo de variaveis 
 

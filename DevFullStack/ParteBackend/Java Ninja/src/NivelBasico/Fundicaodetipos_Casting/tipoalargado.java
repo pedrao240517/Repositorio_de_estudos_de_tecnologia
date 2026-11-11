@@ -1,7 +1,7 @@
-package NivelBasico.Fundicaodetipos;
+package NivelBasico.Fundicaodetipos_Casting;
 
 public class tipoalargado {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
 
         /*

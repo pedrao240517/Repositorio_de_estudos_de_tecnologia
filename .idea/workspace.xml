@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/deconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/diasvividos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/mediaFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/salario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/soma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/temperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/Java Ninja.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoalargado.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoalargado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoextreito.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoextreito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoalargado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoextreito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -39,9 +55,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SintaxeBasica.executor": "Run",
+    "Application.deconto.executor": "Run",
+    "Application.diasvividos.executor": "Run",
+    "Application.logicasequencial (1).executor": "Run",
     "Application.logicasequencial.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.mediaFinal.executor": "Run",
+    "Application.numeros.executor": "Run",
     "Application.operadoresAritmeticos.executor": "Run",
+    "Application.retangulo.executor": "Run",
+    "Application.salario.executor": "Run",
+    "Application.soma.executor": "Run",
+    "Application.temperatura.executor": "Run",
+    "Application.tipoalargado.executor": "Run",
+    "Application.tipoextreito.executor": "Run",
+    "Application.trabalhandoComStrings (1).executor": "Run",
     "Application.trabalhandoComStrings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
