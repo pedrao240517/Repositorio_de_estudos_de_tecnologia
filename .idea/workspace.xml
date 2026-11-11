@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/deconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/diasvividos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/mediaFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/salario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/soma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/temperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoalargado.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoalargado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos/tipoextreito.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Fundicaodetipos_Casting/tipoextreito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/SintaxeBasica/SintaxeBasica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoalargado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Fundicaodetipos/tipoextreito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/SintaxeBasica/SintaxeBasica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/nodeVsnavegador/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/nodeVsnavegador/console_log/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/nodeVsnavegador/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/nodeVsnavegador/console_log/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,45 +40,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SintaxeBasica.executor": "Run",
-    "Application.deconto.executor": "Run",
-    "Application.diasvividos.executor": "Run",
-    "Application.logicasequencial (1).executor": "Run",
-    "Application.logicasequencial.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.mediaFinal.executor": "Run",
-    "Application.numeros.executor": "Run",
-    "Application.operadoresAritmeticos.executor": "Run",
-    "Application.retangulo.executor": "Run",
-    "Application.salario.executor": "Run",
-    "Application.soma.executor": "Run",
-    "Application.temperatura.executor": "Run",
-    "Application.tipoalargado.executor": "Run",
-    "Application.tipoextreito.executor": "Run",
-    "Application.trabalhandoComStrings (1).executor": "Run",
-    "Application.trabalhandoComStrings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SintaxeBasica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.deconto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diasvividos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.logicasequencial (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.logicasequencial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mediaFinal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.operadoresAritmeticos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.retangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.salario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.soma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.temperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tipoalargado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tipoextreito.executor&quot;: &quot;Run&quot;,
+    &quot;Application.trabalhandoComStrings (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.trabalhandoComStrings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pedrocorrea\Documents\GitHub\Repositorio_de_estudos_de_tecnologia\DevFullStack\ParteFrontend\javascript\fundamentosDoJavascript\nodeVsnavegador\console_log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.logicasequencial">
     <configuration name="SintaxeBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.SintaxeBasica" />
       <module name="Java Ninja" />
