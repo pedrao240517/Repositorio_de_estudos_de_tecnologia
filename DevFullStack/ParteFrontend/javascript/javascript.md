@@ -5,6 +5,8 @@
 Javascript foi criado pra dar vida as páginas web, se iniciu com o nome livescript mas por conta da popularidade do java na época 
 ele decidiu qe seria mais vantajoso se tornar "o imão mais novo" do java 
 
+Essa linguagem tem tipagam fraca e dinâmica  e com o vinculação dinâmica em tempo de execução
+
 ### Confiurações de ambiente 
 
 - google chrome = navegador 

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/problemasvar/varProblem.js" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/fundamentosDoJavascript/problemasvar/varProblem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <recent name="C:\Users\pedrocorrea\Documents\GitHub\Repositorio_de_estudos_de_tecnologia\DevFullStack\ParteFrontend\javascript\fundamentosDoJavascript\nodeVsnavegador\console_log" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.logicasequencial">
+  <component name="RunManager">
     <configuration name="SintaxeBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.SintaxeBasica" />
       <module name="Java Ninja" />
