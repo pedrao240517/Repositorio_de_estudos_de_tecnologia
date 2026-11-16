@@ -320,6 +320,19 @@ Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pod
 
 ?: ternário- maneira pra enxugar o código (if e else junto)
 
+#### Expressôes comparativas: 
+
+== : igual
+
+!= diferente de :
+
+">": maior que 
+
+"<" menor que: 
+
+">=" maior ou igual a 
+
+"<=" menor ou igual a 
 
 - Qual a maior diferença de JAVA pra JS e porque é mais complicado que algumas linguagens?
 
