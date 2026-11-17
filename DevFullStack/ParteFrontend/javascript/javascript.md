@@ -76,7 +76,21 @@ antes vamos entender os valores que podemos receber em caso de erro
 O mais problema do var á bagunça de redeclaração (declara + valor) e mudança de valor da variável que ela deixa,
 o let não permite redeclarar mas permite mudar o valor.
 
+obs: antes do ECMAScript 6 (ES6/ES2015) era tudo var. Var tem problemas de escopo, hosting ou içamento, redeclaração. 
 
+### Regras e convenções ao declarar variavéis
 
+- Regras:
+
+1) (X) Proibido começar com um número 
+2) (X) Não pode dar espaço
+3) (X) Não pode usar . , - e caracteres especiais 
+
+- Convenção 
+
+1) CamelCase("ex: umaVariavel")
+2) Deixe o mais claro possível 
+
+obs: é possível 
 
 
