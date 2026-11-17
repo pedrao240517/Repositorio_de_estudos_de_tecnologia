@@ -1,6 +1,6 @@
 package NivelBasico.logicasequencial;
 
-public class deconto {
+public class metros {
     public static void main(String[] args) {
 
         int metros = 100;
