@@ -334,6 +334,16 @@ Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pod
 
 "<=" menor ou igual a 
 
+obs:  = diferente de ==
+
+### Operadores lógicos
+
+&&: E lógico(AND)
+
+||: Ou lógico (OR)
+
+!: Negação lógica(NOT)
+
 - Qual a maior diferença de JAVA pra JS e porque é mais complicado que algumas linguagens?
 
 Java é considerada mais complicada porque:
