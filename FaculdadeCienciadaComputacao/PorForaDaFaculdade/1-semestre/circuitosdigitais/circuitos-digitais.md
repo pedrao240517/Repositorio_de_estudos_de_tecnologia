@@ -10,7 +10,7 @@ provas e exercícios da ufpr do curso de computação :https://www.inf.ufpr.br/f
 
 meta de aprendizagem :
 
-1cap a cada 2 dias  (fim em 19/11/2026 ) - **55p**
+1cap a cada 2 dias  (fim em 19/11/2026 ) - **74p**
 
 - sobre os problemas: 
 
@@ -259,7 +259,7 @@ macete:
 
 1) de binario pra decimal 
 
-**1.1) multiplicação de dígitos** 
+**1.1) multiplicação de dígitos (soma dos pesos)** 
 
 Multiplique cada dígito do número binário pela potência de 2 correspondente à sua posição, da direita para a esquerda (começando em 2⁰), e somando os resultados:
 
@@ -269,8 +269,20 @@ Multiplique cada dígito do número binário pela potência de 2 correspondente 
 
 • 8 + 0 + 2 + 1 = 11 (decimal)
 
+**1.2) Regra do dobro e soma**
 
-2) decimal pra biário
+1. Comece com o primeiro dígito à esquerda (que sempre é 1 em números binários válidos).
+2. Multiplique o total anterior por 2 e some o dígito atual .
+3. Repita o processo até o último dígito à direita.
+
+Exemplo: Conversor\(1011_{2}\)
+
+• Começa com o primeiro bit: 1
+• Próximo bit (0):((1 * 2) + 0 = 2
+• Próximo bit (1):((2 * 2) + 1 = 5
+• Próximo bit (1):((5 * 2) + 1 = 11{10}
+
+2) decimal pra binário
 
 **2.1) dividi por dois** 
 
@@ -288,6 +300,11 @@ Divida o número decimal sucessivamente por 2. Anote os restos de cada divisão 
 • 1 ÷ 2 = 0 com resto 1
 
 • Lendo os restos de baixo para cima: 11001
+
+Faixa de contagem 
+
+Usando N bits, pode-se representar números decimais na faixa de 0 a
+2^n - 1, em um total de 2^n números diferentes.
 
 #### Notação em bases númericas 
 
@@ -362,8 +379,340 @@ ex: microondas
 
 <img src="mapa%20mental%20cap1%20-circuitos%20digitais.jfif" width="100%">
 
-
 ## 02 - SISTEMAS DE NUMERAÇÃO E CÓDIGOS
+
+### 2.3  SISTEMA DE NUMERAÇÃO HEXADECIMAL
+
+Sistema de 16 digitos que vai de 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+
+![img_14.png](img_14.png)]
+
+
+#### Conversõo de hexa em decimal
+
+
+1) por valor relativo vs valor do peso somandos
+
+![img_16.png](img_16.png)
+
+
+#### Conversão de decimal em hexa
+
+1) dividindo por 16 
+
+![img_17.png](img_17.png)
+
+
+#### Conversão de hexa em binário 
+
+1) agrupamento de 4 bits
+
+![img_18.png](img_18.png)
+
+
+#### Conversão de binário em hexa
+
+1) agrupamento de bits 
+
+![img_19.png](img_19.png)
+
+#### Contagem em hexadecimal
+
+Acrescenta conforme sua posição no sistema
+
+(a) 38, 39,3A, 3B, 3C, 3D, 3E, 3F, 40, 41, 42
+
+#### Vantagens do sistemas hexadecimais 
+
+1) trabalho de vários bits 
+2) mais maneiras de contagemns 
+
+
+### 2.4 Código BCD 
+
+O conjunto de grupos de letras ou/e palavras representadas por simbolos é denominado **código**, como por exemplo o código morse (varios pontos e traços),
+quando um decimal é representado por seu binário correspondente, chamamos de **códificação em binário puro**.
+
+
+#### Binary-coded decimal (Codificação binária decimal)
+
+é uma classe de codificações binárias de números decimais onde cada dígito é representado por um número fixo de bits, geralmente quatro ou oito.
+
+Exemplo:
+
+![img_20.png](img_20.png)
+
+O código BCD não utiliza os números(1010, 1011, 1100, 1101,1110 e 1111) ou seja são usado apenas 10 dos 16 possíveis e caso um apareça é indicação de algum erro na 
+conversão.
+
+BCD ≠ coversão decimal - binário 
+
+![img_21.png](img_21.png)
+
+BCD = 12 bits , mais fácil de conversão mais usa mais bits 
+
+binário = 8 bits , maior dificuldade de conversõa e usa menos bits 
+
+### 2.5  Código Gray (binário refletido) 
+
+é um sistema de numeração binário onde dois números sucessivos mudam em apenas um bit. Para converter o binário pra gray  se faz os seguintes passos: 
+
+1) repita o bit mais significativo -MSB
+2) Compare o MSB com o próximo dígito (se for = entao g1 = 0 se for diferente g1 = 1)
+3) depois faz o mesmo com o proximo digito 
+
+exemplo : 111 (b)
+ 
+1) 1  - o  mesmo do binário
+2) 0  - os digitos são iguais 1 e 1
+3) 0 - os digitos são iguais 1 e 1 
+
+A aplicação mais comum desse código é pra  nos codificadores de posição de eixo.
+
+
+#### codificador de quadratura
+
+codificador de quadratura (codificador de quadratura) é um tipo de sensor incremental (rotativo ou linear) que gera dois sinais de saída em formato de trem de pulsos, chamados Canal A e Canal B .
+Esses são é aplicação mais comundo do código gray, a medida que o eixo gira ele produz uma sequência de código gray.
+
+### 2.6 Relações entre as representações númericas 
+
+![img_22.png](img_22.png)
+
+### 2.7 BYTE, NIBBLE E PALAVRA
+
+1) Bytes =  conjuntos de 8 bits
+
+2) Nibbles  =  conjunto de 4 bits 
+
+3) Palavra/words  =  unidade  de informação 
+(tamanho da palavra depende de seu caminho de dados que utiliza a informação, podendo ser definidos como o número de bits da palavra binária )
+
+### 2.8 Códigos Alfanuméricos 
+
+Um código alfanumérico é o conjunto de  caracteres numericos, letras, simbolos e etc traduzidos pra bits(linguagem de máquina)
+
+#### ASCII  -American Standard Code for Information Interchange 
+
+O Código Padrão Norte-americano para troca de informações é o principal código alfanúmericos 
+utlizado, contendo 7 bits tem 128 representações codificadas. Seu principal uso é transferência de informações entre um computador e dispositivos externos.
+
+### 2.9 MÉTODO DE PARIDADE PARA DETECÇÃO DE ERROS
+
+Sistemas digitais pode ter erros entre as transmissões de bits entre o trasmissor e o recepetor, como por exemplo ruídos elétricos.
+Afim de  resolver esse problema vários sistemas contém métodos de detecção de erros.
+
+####  Bit de paridade
+
+Consiste em um it extra anexado ao conjunto de bits do código a ser transferido de uma localidade para outra.
+
+Exitem dois metódos desse bit a ser usado:
+
+1) Bit de paridade Par 
+
+o código deve ter uam quantidade par de 1 
+
+ex: 1000011 ->  11000011 (adiciona 1 no começo agora tem 4 bits 1 )
+
+2) Bit de paridade impar 
+
+o código deve ter uam quantidade impar de 1 
+
+ex: 1000001 -> 11000001
+
+Existem vários métodos de detecção e correÇão de erros que ajudam na trasnmissão de bits 
+
+
+![img_24.png](img_24.png)
+
+
+## Cap 3  - Descrição dos circuitos lógicos 
+
+O modo como se toma decisões lógica com base em circunstâncias verdadeiras ou falsas é chamado de **lógica booleana** em 
+homenagem a seu criador, e o sistema  que emprega símbolos  e operadores para descrever essas decisões é chamado de **algébra booleana**.
+
+Essas espressões servem pra descrever a relação entre sáida e entradas de circuitos lógicos, sendo as vezes chamado de síntese de circuitos lógicos.
+
+
+### 3.1 CONSTANTES E VARIÁVEIS BOOLEANAS
+
+A álgebra booleana tem três operações básicas  [OR(OU), AND (E), NOT(NÃO)] sendo essas denominadas **operações lógicas**
+
+**Uma constante booleana** é um ponto do circuito onde o nivel lógico nunca muda. níveis lógicos altos geralmente podem ser chaamdos de VCC e baixos de GND.
+
+### 3.2 TABELAS-VERDADE
+
+Uma **tabela-verdade** é um método para descrever como a sáida de um circuito lógico depende dos níveis lógicos presentes na entradas do circuito.
+a quantidade de linhas segue a proporção 2N sendo n o número de entradas, por exemplo uma tabela com 3 entradas tera 8 linhas.
+
+
+### 3.3 OPERAÇÃO OR COM PORTA OR
+
+Um exemplo simples da operação or é a lãmpada de um forno - a lampãda deve ligar quando acende(A) o forno OU abre a porta do forno(B).
+
+Sua expressão booleanda é: 
+
+````
+X = A + B 
+````
+porta e tabela-verdade OR 
+
+![img_25.png](img_25.png)
+
+resumo :
+
+![img_26.png](img_26.png)
+
+
+### 3.4 OPERAÇÃO AND COM PORTA AND
+
+Um exemplo da operação AND é uma secadora de roupa - ela opera apenas se o temporizador estiver acima de zero(A)  E com a porta fechada(B)
+
+sua expressão boolena é : 
+
+````
+X + A . B 
+````
+porta e tabela verdade and 
+
+![img_27.png](img_27.png)
+
+resumo: 
+
+![img_28.png](img_28.png)
+
+### 3.5 OPERAÇÃO NOT
+
+A operação not é diferente pois pode ser realiza com apenas uma entrada, com sua expressão representada por X= A' ou com qualquer simbolo (em lógica boolena geralmente é representado por um traçao em cima do A ).
+
+Sua operação também é conhecida por inversão ou complemento
+
+porta, tabela verdade e amostra de ondas NOT
+
+![img_29.png](img_29.png)
+
+### 3.6 DESCRIÇÃO DOS CIRCUITOS LÓGICOS ALGEBRICAMENTE
+
+Qualquer circuito lógico, independentemente de sua complexidade, pode ser descrito usando-se as três operações booleanas básicas, porque as portas OR, AND e circuito NOT são os blocos fundamentais dos sistemas
+digitais.
+
+![img_30.png](img_30.png)
+
+### Precedência de operador
+
+Ficou esclarecido que as portas AND tem preferência, a menos que aja uso de parênteses
+
+### Inversores em circuitos
+
+Sempre que um INVERSOR estiver presente em um circuito lógico, a
+expressão para a saída do INVERSOR será igual à expressão de entrada
+com uma barra sobre ela.
+
+![img_31.png](img_31.png)
+
+
+### 3.7 Avaliação das sáidas dos circuitos lógicos 
+
+Pra descobrir seu valor lógico se considere uma das possíbilidades da entrada e use esses valores trocados em sua expressão booleana.
+
+ex; 
+
+![img_32.png](img_32.png)
+
+As regras gerais são: 
+
+![img_33.png](img_33.png)
+
+### Analise com o uso de tabela
+
+A tabela verdade é o melhor método de análise completa de todas as possibilidades dos circuitos
+
+Ex: 
+
+![img_34.png](img_34.png)
+
+### 3.8!IMPLEMENTAÇÃO DE CIRCUITOS A PARTIR DE EXPRESSÕES BOOLEANAS
+
+A regra básica e fazer de traz pra frente ou seja pegue o resultado final da expressão e depois vai regredindo.
+
+
+ex: y = CA + BC + ABC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
