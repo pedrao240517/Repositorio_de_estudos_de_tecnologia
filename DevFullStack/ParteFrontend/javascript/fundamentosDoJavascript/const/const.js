@@ -2,7 +2,7 @@ let exemplo = "exemplo";
 /* exemplo = "reatribuição"; 
 
 console.log(exemplo); */
-// const usamos quando nãomqueremos reatribuir valor a variável
+// const usamos quando não mqueremos reatribuir valor a variável
 // Não funciona assim pra objetos 
 const pessoa = { nome: "Ana", idade: 17};
 pessoa.nome = "João";

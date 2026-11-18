@@ -135,6 +135,97 @@ resumo rápido:
 
 ### Palavras reservadas
 
+• Palavras-chave e Literais: Inclui termos estruturais como function, return, if, else, const, let, class, além de literais como null, truee false.
+
+• Futuro / Restritas: Abrangem palavras reservadas em modo estrito ( implements, interface, static, etc.), módulos ( await) e resquícios de especificações antigas ( abstract, byte, goto, etc.)
 
 
+### Tipos de dados
+
+1. **String (caractere)** =  escrever Aspas Simples ( ') ou Aspas Duplas ( ")é basicamente
+a mesma coisa, ou pro meio de crases que permitem  multilinhas sem o caractere de escape \n e inserçõa de variaveis usando a ${expressao}
+
+````
+let nome = 'Maria';
+let sobrenome = "Silva";
+
+let idade = 20;
+let mensagem = `Olá, meu nome é ${nome} 
+e eu tenho ${idade} anos.`;
+
+````
+
+
+
+Problema: 
+
+* Conflito de Delimitadores (Asppas dentro de aspas)
+
+Se você abrir uma string com um tipo de aspa e tentar usar o mesmo tipo de aspa dentro do texto, o JavaScript achará que uma string terminou antes da hora, gerando um erro de sintaxe.Pra resolver
+isso alterne as aspas com as dupla por fora e simples por dentro ou vice versa ou colocar uma (\) ou usar crases
+
+````
+let texto = 'O livro 'O Pequeno Príncipe' é clássico.'; // Erro de sintaxe!
+````
+
+* Quebras de linha inválidas com Aspas Simples ou Duplas
+
+Se você tentar quebrar uma linha diretamente abertaEnterno teclado usando'ou",o JavaScript gerará um erro.
+
+O problema:
+````
+let texto = 'Esta string continua
+na linha de baixo.'; // SyntaxError: Invalid or unexpected token
+````
+pra resolver use \n, =(concatenação) ou crases
+
+* Esquecer de fechar uma string
+
+se esquecer de fechar o js entende que tudo o resto debaixo é string
+
+* Confundir Interpolação com Aspas Comuns
+ 
+funciona apenas com crases 
+
+2. **Number** = números inteiros e de pontos flutuantes (todos são armzenados como float )
+
+valores especiais: 
+
+3. **undefined** = variavel declarada mas não recebeu valor, também é o retorno das funções que não retornam nada explicitamente.
+
+4. **null** = null é um valor primitivo que representa explicitamente a ausência de qualquer valor ou objeto. É tipicamente usado para indicar que uma variável intencionalmente não contém nenhum valor. typeof nullRetorna "object", o que é uma peculiaridade conhecida da linguagem desde sua implementação original.
+
+obs: null é intencionalmente vazio, undefined é algo que não foi definido.
+
+5. **boolean** = boolean é um dado lógico que pode ser verdadeiro ou falso
+
+
+### Operadores em Javascript 
+
+obs: erro classico em javascript e somar uma sting com um number
+```
+const numero = 1
+const numero1 = "50"
+
+console.log(numero + numero1)
+```
+= -> atribuição
+
+"+" -> concatenação
+
+- Operadores aritmeticos
+
+obs: ordem de precedência -> parenteses, ** , * ou / , + e -
+
+"+" Adicção
+
+"-" subtração
+
+"/"divisão
+
+"*" multiplicação
+
+"%" resto da divisão
+
+"**" potência
 
