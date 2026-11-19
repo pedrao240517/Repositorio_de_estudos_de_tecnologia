@@ -22,12 +22,31 @@ console.log(numero2 % numero3) // resto
 
 console.log(numero4 ** numero5) // potencia
 
-const numeroIncremental = 1 ; 
-numeroIncremental++
-console.log(numeroIncremental)
+/* let numeroIncremental = 1 ; 
+ numeroIncremental++ 
+console.log("Número incrementado: "+numeroIncremental++)
+console.log(++numeroIncremental) */
 
+let contador = 0
+let numerosDePassosPorTurno = 2
 
+contador += numerosDePassosPorTurno// 2
+contador += numerosDePassosPorTurno//4
+contador += numerosDePassosPorTurno//6
+contador += numerosDePassosPorTurno//8
+contador += numerosDePassosPorTurno//10
 
+console.log(contador)
+
+/* const nun1 = 10 
+const nun2 = "ANA"
+
+console.log(num1 + num2 ) // nan not a number  */
+
+const num3 = 10
+const num4 = "5"
+
+console.log(num3 * num4) // faz a multiplicação ??????? typescript resolve alguns desses problemas
 
 
 

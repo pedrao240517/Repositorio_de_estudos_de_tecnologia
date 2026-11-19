@@ -209,11 +209,11 @@ const numero1 = "50"
 
 console.log(numero + numero1)
 ```
-= -> atribuição
+
 
 "+" -> concatenação
 
-- Operadores aritmeticos
+#### Operadores aritmeticos
 
 obs: ordem de precedência -> parenteses, ** , * ou / , + e -
 
@@ -228,4 +228,70 @@ obs: ordem de precedência -> parenteses, ** , * ou / , + e -
 "%" resto da divisão
 
 "**" potência
+
+#### Operadores de atribuição
+
+= -> atribuição
+
+++/-- -> incremento e decremento 
+
+"+= x ou += variavel" soma valor predeterminado, funciona também pra decremento,
+multiplicação,divisão,resto e potencia 
+
+#### Operadores de comparação
+
+Servem pra nos devolver os dados verdadeiro ou falso.
+````
+> maior  que
+< menor que
+>= maior ou igual a
+<= Menor ou igual a
+== igualdade 
+!= diferente de 
+=== igualdade de valor é tipo (igualdade estrita )
+````
+
+obs:  a igualdade == não é usada mais pois ela compara apenas o número e não o tipo também 
+
+#### Operadores lógicos 
+
+complementam os operadores de comparações (intersectam)
+
+&& and (E) - os dois tem que ser verdadeiros 
+|| or (ou) - um dos dois tem que ser verdadeiro
+! not (não) - inversão de valor 
+
+#### Outros operadores 
+
+operador de coalescência nula(??) define um valor padrão caso uma varaivável seja nula, no caso ele mostra  um valor se o dado for null ou undefined e se nao for esse valor ele mostra o dado,
+bastante usado pra preservar  0 ou falso , não serve pra valores nan ," "
+
+
+### Avaliação de curto circuito (short - circuit evaluation)
+
+Avaliação de curto -circuito é uma estratégia de execução na qual o segundo argumento de um operador lógico só é avaliado se o primeiro argumento não for suficiente para determinar o valor final da expressão.
+
+exemplo com &&  que ele para na hora se a primeira for falsa.
+
+`console.log(true && console.log("Não passou aqui") )` - retorno undefined pois o console.log nao tem valor lógico 
+
+exemplo com ||  que qualquer coisa vailda ele pega o valor e ignora o resto.
+
+```
+let nomeDigitado = ""; // O usuário deixou o campo em branco (vazio = falso)
+
+// Como o nome está vazio, o JS pula para a segunda opção e usa "Visitante".
+let nomeFinal = nomeDigitado || "Visitante";
+
+console.log(nomeFinal); // Mostra: "Visitante"
+```
+de forma simples o e o padrao e false e o ou o padrao e true
+
+vale resaltar que os valores  que são falsos porém não booleanas podem acontecer chamados popularmente de falsy, esses dados são:
+
+* 0 
+* "" ou ''
+* null
+* undefined - não deve proporcionamente ser usado
+* Nan
 
