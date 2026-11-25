@@ -83,7 +83,7 @@ console.log(valor)  - comando de saída (escreva )
 
 serve pra aviso, alerta, comenta(deixar salvo) o código.
 
-//  pra comentarios em linha 
+//  pra comentarios em linha   (ctrl k + ctrl c)
 /**/ pra comentarios em blocos (alt+ shift +a)
 
 
@@ -261,11 +261,43 @@ complementam os operadores de comparações (intersectam)
 || or (ou) - um dos dois tem que ser verdadeiro
 ! not (não) - inversão de valor 
 
-#### Outros operadores 
+#### Outros operadores
 
-operador de coalescência nula(??) define um valor padrão caso uma varaivável seja nula, no caso ele mostra  um valor se o dado for null ou undefined e se nao for esse valor ele mostra o dado,
+1. operador de coalescência nula(??) 
+
+define um valor padrão caso uma varaivável seja nula, no caso ele mostra  um valor se o dado for null ou undefined e se nao for esse valor ele mostra o dado,
 bastante usado pra preservar  0 ou falso , não serve pra valores nan ," "
 
+````
+let saldoBancario   // undefined
+
+console.log(saldoBancario ??  "Carregando Dados ... ")
+/* 
+saldoBancario = 0
+
+console.log(saldoBancario ?? "Carregando Dados ... ") */
+
+// vai mostrar carregando dados pois o valor da variavel é undefined inves de 0 ou false 
+````
+2. Operador de negação dupla(!!)
+
+converte qualquer valor pra um booleano explicito.
+
+````
+// Valores truthy viram true
+!!"texto"      // true
+!!10           // true
+!!{}           // true (objetos vazios são truthy)
+!![]           // true (arrays vazios são truthy)
+
+// Valores falsy viram false
+!!""           // false (string vazia)
+!!0            // false
+!!null         // false
+!!undefined    // false
+!!NaN          // false
+
+````
 
 ### Avaliação de curto circuito (short - circuit evaluation)
 
@@ -294,4 +326,87 @@ vale resaltar que os valores  que são falsos porém não booleanas podem aconte
 * null
 * undefined - não deve proporcionamente ser usado
 * Nan
+
+### Conversões de Tipos 
+
+1. Conversão de tipo explícita 
+
+A conversão de tipo significa transferir dados de um tipo de dados para outro, especificando explicitamente o tipo para o qual os dados devem ser convertidos. A conversão explícita de tipo geralmente é feita para tornar os dados compatíveis com outras variáveis. 
+
+metodos de conversão são: 
+
+1.1 - parseInt()/parseFloat -  é uma função JavaScript integrada que converte um valor em uma string e o analisa como um número inteiro (ou decimal NaN) em uma base numérica ( radix ) especificada, se for tipo float faz isso pro tipo float
+
+````
+const num1 = 10
+const num2 = parseInt("5")
+
+console.log(typeof num2, num2)
+console.log(num1 + num2)
+
+// resultado  ->  number 5 e 15 
+````
+
+outros menos usados e colocar o tipo de dado antes do valor da variavel como number ou + .
+
+
+### Estrutura condicionais em JS
+
+1. IF and ELSE (se e senao)
+
+````
+
+if(condicao) {
+    //condicao quando verdadeira
+} else{
+    // condicao quando falsa 
+}
+
+````
+
+2.  Operadore ternário
+
+````
+condição ? valor verdadeiro : valor falso 
+````
+
+3. Switch case
+
+````
+switch(variavel) {
+    case 1:
+        //valor
+    break;    
+    case 2:
+        //valor
+        break;
+    case 3:
+        //valor
+        break;
+    case 4:
+        //valor
+        break;
+    break;
+    case 5:
+        //valor
+    break;
+    default: 
+        //valor
+    break;
+    }    
+````
+
+### Estruturas de repetição em JS
+
+1. for 
+````
+for (inicialização, condicao, incremento) {
+  // condição executada a cada interação
+}
+
+obs: inicialização nao precisa ser necessariamente no paramentro, mas quando temos uma varivael  apenas pro laço colocamos o i dentro do 
+parametro apenas por questões de boas práticas na programação
+
+outra forma e colocar o metodo length que pega todo  o tamanho da variavel, muito usado pra array 
+````
 
