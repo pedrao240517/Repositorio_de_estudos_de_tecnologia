@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/maiorDeDois.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/parOuImpar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/OperadoresLogicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/anoBissexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/aprovadoReprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/calculadoraSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/classificaçãoatleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/desconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/diaDaSemana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/faixaEtaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/maiorTresNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/notaConceito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/positivoNegativoZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/verificarNumeroPositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/verificartriangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +58,26 @@
     "Application.IMC.executor": "Run",
     "Application.OperadoresLogicos.executor": "Run",
     "Application.SintaxeBasica.executor": "Run",
+    "Application.anoBissexto.executor": "Run",
+    "Application.aprovadoReprovado.executor": "Run",
+    "Application.calculadoraSimples.executor": "Run",
     "Application.carro.executor": "Run",
     "Application.deconto.executor": "Run",
     "Application.desconto.executor": "Run",
+    "Application.diaDaSemana.executor": "Run",
     "Application.diasvividos.executor": "Run",
+    "Application.faixaEtaria.executor": "Run",
     "Application.logicasequencial (1).executor": "Run",
     "Application.logicasequencial.executor": "Run",
     "Application.main.executor": "Run",
     "Application.maiorDeDois.executor": "Run",
+    "Application.maiorTresNumeros.executor": "Run",
     "Application.mediaFinal.executor": "Run",
+    "Application.notaConceito.executor": "Run",
     "Application.numeros.executor": "Run",
     "Application.operadoresAritmeticos.executor": "Run",
     "Application.parOuImpar.executor": "Run",
+    "Application.positivoNegativoZero.executor": "Run",
     "Application.retangulo.executor": "Run",
     "Application.salario.executor": "Run",
     "Application.soma.executor": "Run",
@@ -80,6 +90,8 @@
     "Application.troca.executor": "Run",
     "Application.velocidade.executor": "Run",
     "Application.vendedor.executor": "Run",
+    "Application.verificarNumeroPositivo.executor": "Run",
+    "Application.verificartriangulo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
