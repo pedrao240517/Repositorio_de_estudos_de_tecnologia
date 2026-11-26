@@ -407,6 +407,53 @@ for (inicialização, condicao, incremento) {
 obs: inicialização nao precisa ser necessariamente no paramentro, mas quando temos uma varivael  apenas pro laço colocamos o i dentro do 
 parametro apenas por questões de boas práticas na programação
 
+obs: tem que tomar cuidado pra não criar um loop infinito
+
 outra forma e colocar o metodo length que pega todo  o tamanho da variavel, muito usado pra array 
 ````
+
+2. For in 
+````
+propeidade de repetição pra percorrer propriedades de objetos
+
+for(let chave in objeto){
+    // codigo a ser  executado para cada propriedade
+}
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
