@@ -318,7 +318,8 @@ ELSE-IF = se encadeado
 
 Swicht case - escolha caso (precisa colocar o Break no final do case) ((não pode usar tipo lógico))
 
-?: ternário- maneira pra enxugar o código (if e else junto)
+?: ternário- maneira pra enxugar o código (if e else junto) - variavel = (condicao)?"valorseverdadeiro:valorseFalso
+
 
 #### Expressôes comparativas: 
 

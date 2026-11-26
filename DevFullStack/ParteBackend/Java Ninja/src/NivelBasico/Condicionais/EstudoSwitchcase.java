@@ -2,7 +2,7 @@ package NivelBasico.Condicionais;
 import java.util.Scanner;
 
 public class EstudoSwitchcase {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
 
         /*
@@ -25,13 +25,13 @@ public class EstudoSwitchcase {
             // Reação ao escolher o usuário
             switch (escolhaDoUsuario) {
                 case 1:
-                    System.out.println("O Usuário escolheu o Naruto Uzumaki");
+                    System.out.println("O Usuário escolheu o Naruto Uzumaki -   quer o protagonista né safado");
                     break;
                 case 2:
-                    System.out.println("O Usuário escolheu o Sasuke Uchicha");
+                    System.out.println("O Usuário escolheu o Sasuke Uchicha - uiuiu ele é das trevas");
                     break;
                 case 3:
-                    System.out.println("O Usuário escolheu a Sakura Haruno");
+                    System.out.println("O Usuário escolheu a Sakura Haruno - serio a mais inutil? qualquer coisa era melhor ");
                     break;
                 default:
                     System.out.println("Você é burro? e pra escolher de 1 a 3, tente de novo");

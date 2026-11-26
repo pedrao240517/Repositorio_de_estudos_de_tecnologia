@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ExpressoesComparativas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/OperadoresLogicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/maiorDeDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/parOuImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/OperadoresLogicos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/logicasequencial/velocidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/logicasequencial/velocidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dolar.executor": "Run",
+    "Application.EstudoSwitchcase.executor": "Run",
     "Application.ExpressoesComparativas.executor": "Run",
+    "Application.IF_AND_ELSE.executor": "Run",
     "Application.IMC.executor": "Run",
     "Application.OperadoresLogicos.executor": "Run",
     "Application.SintaxeBasica.executor": "Run",
@@ -55,13 +63,16 @@
     "Application.logicasequencial (1).executor": "Run",
     "Application.logicasequencial.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.maiorDeDois.executor": "Run",
     "Application.mediaFinal.executor": "Run",
     "Application.numeros.executor": "Run",
     "Application.operadoresAritmeticos.executor": "Run",
+    "Application.parOuImpar.executor": "Run",
     "Application.retangulo.executor": "Run",
     "Application.salario.executor": "Run",
     "Application.soma.executor": "Run",
     "Application.temperatura.executor": "Run",
+    "Application.ternarios.executor": "Run",
     "Application.tipoalargado.executor": "Run",
     "Application.tipoextreito.executor": "Run",
     "Application.trabalhandoComStrings (1).executor": "Run",
