@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/maiorDeDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/parOuImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/OperadoresLogicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/EstudoSwitchcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/IF_AND_ELSE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/ternarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" afterDir="false" />
+>>>>>>> ecc6c38b2c274209bee40b8864acd0fb8b44bf23
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Dolar.executor&quot;: &quot;Run&quot;,
@@ -84,6 +99,58 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Dolar.executor": "Run",
+    "Application.EstudoSwitchcase.executor": "Run",
+    "Application.ExpressoesComparativas.executor": "Run",
+    "Application.IF_AND_ELSE.executor": "Run",
+    "Application.IMC.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
+    "Application.SintaxeBasica.executor": "Run",
+    "Application.carro.executor": "Run",
+    "Application.deconto.executor": "Run",
+    "Application.desconto.executor": "Run",
+    "Application.diasvividos.executor": "Run",
+    "Application.logicasequencial (1).executor": "Run",
+    "Application.logicasequencial.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.maiorDeDois.executor": "Run",
+    "Application.mediaFinal.executor": "Run",
+    "Application.numeros.executor": "Run",
+    "Application.operadoresAritmeticos.executor": "Run",
+    "Application.parOuImpar.executor": "Run",
+    "Application.retangulo.executor": "Run",
+    "Application.salario.executor": "Run",
+    "Application.soma.executor": "Run",
+    "Application.temperatura.executor": "Run",
+    "Application.ternarios.executor": "Run",
+    "Application.tipoalargado.executor": "Run",
+    "Application.tipoextreito.executor": "Run",
+    "Application.trabalhandoComStrings (1).executor": "Run",
+    "Application.trabalhandoComStrings.executor": "Run",
+    "Application.troca.executor": "Run",
+    "Application.velocidade.executor": "Run",
+    "Application.vendedor.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+>>>>>>> ecc6c38b2c274209bee40b8864acd0fb8b44bf23
   }
 }</component>
   <component name="RunManager">
