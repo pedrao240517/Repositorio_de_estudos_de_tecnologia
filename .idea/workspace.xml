@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d664914e-30f8-41b7-a45f-0ea438640af9" name="Changes" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" afterDir="false" />
-=======
       <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/maiorDeDois.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/parOuImpar.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/logicasequencial/OperadoresLogicos.java" afterDir="false" />
@@ -21,7 +16,16 @@
       <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/EstudoSwitchcase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/IF_AND_ELSE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Ninja/NivelBasico/Condicionais/ternarios.class" afterDir="false" />
->>>>>>> ecc6c38b2c274209bee40b8864acd0fb8b44bf23
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/javascript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteFrontend/javascript/logicaDeProgramacaoEmJS/FOR.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/TipoDeTriangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/dowhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/classificaçãoatleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Condicionais/exercicios/classificaçãoatleta.java" afterDir="false" />
+>>>>>>> 9a7e4b609488dab01f9a1a26b3c1be82b0f95853
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,53 +57,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Dolar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExpressoesComparativas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IMC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresLogicos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SintaxeBasica.executor&quot;: &quot;Run&quot;,
-    &quot;Application.carro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.deconto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.desconto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diasvividos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.logicasequencial (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.logicasequencial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mediaFinal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.operadoresAritmeticos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.retangulo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.salario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.temperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tipoalargado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tipoextreito.executor&quot;: &quot;Run&quot;,
-    &quot;Application.trabalhandoComStrings (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.trabalhandoComStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.troca.executor&quot;: &quot;Run&quot;,
-    &quot;Application.velocidade.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vendedor.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pedro Lucas/source/Repositorio_de_estudos_de_tecnologia&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dolar.executor": "Run",
@@ -109,18 +66,30 @@
     "Application.IMC.executor": "Run",
     "Application.OperadoresLogicos.executor": "Run",
     "Application.SintaxeBasica.executor": "Run",
+    "Application.TipoDeTriangulo.executor": "Run",
+    "Application.While.executor": "Debug",
+    "Application.anoBissexto.executor": "Run",
+    "Application.aprovadoReprovado.executor": "Run",
+    "Application.calculadoraSimples.executor": "Run",
     "Application.carro.executor": "Run",
+    "Application.classificaçãoatleta.executor": "Run",
     "Application.deconto.executor": "Run",
     "Application.desconto.executor": "Run",
+    "Application.diaDaSemana.executor": "Run",
     "Application.diasvividos.executor": "Run",
+    "Application.dowhile.executor": "Run",
+    "Application.faixaEtaria.executor": "Run",
     "Application.logicasequencial (1).executor": "Run",
     "Application.logicasequencial.executor": "Run",
     "Application.main.executor": "Run",
     "Application.maiorDeDois.executor": "Run",
+    "Application.maiorTresNumeros.executor": "Run",
     "Application.mediaFinal.executor": "Run",
+    "Application.notaConceito.executor": "Run",
     "Application.numeros.executor": "Run",
     "Application.operadoresAritmeticos.executor": "Run",
     "Application.parOuImpar.executor": "Run",
+    "Application.positivoNegativoZero.executor": "Run",
     "Application.retangulo.executor": "Run",
     "Application.salario.executor": "Run",
     "Application.soma.executor": "Run",
@@ -133,6 +102,8 @@
     "Application.troca.executor": "Run",
     "Application.velocidade.executor": "Run",
     "Application.vendedor.executor": "Run",
+    "Application.verificarNumeroPositivo.executor": "Run",
+    "Application.verificartriangulo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -150,9 +121,13 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import"
->>>>>>> ecc6c38b2c274209bee40b8864acd0fb8b44bf23
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro Lucas\source\Repositorio_de_estudos_de_tecnologia\Outros" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SintaxeBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.SintaxeBasica" />
@@ -160,6 +135,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NivelBasico.Loops.While" />
+      <module name="Java Ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NivelBasico.Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,26 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trabalhandoComStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NivelBasico.SintaxeBasica.trabalhandoComStrings" />
-      <module name="Repositorio_de_estudos_de_tecnologia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NivelBasico.SintaxeBasica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.While" />
         <item itemvalue="Application.SintaxeBasica" />
         <item itemvalue="Application.trabalhandoComStrings (1)" />
         <item itemvalue="Application.logicasequencial (1)" />
         <item itemvalue="Application.logicasequencial" />
-        <item itemvalue="Application.trabalhandoComStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -241,5 +216,31 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/While.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/While.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/While.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DevFullStack/ParteBackend/Java Ninja/src/NivelBasico/Loops/While.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
