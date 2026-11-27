@@ -425,7 +425,7 @@ class Main {
 
  São estruturas de dados fundamentais usadas para armazenar uma coleção de elementos do mesmo tipo de dados em locais de memória contíguos. Eles fornecem uma maneira de organizar e acessar múltiplos valores usando um único nome de variável e um índice.
 
- ![Arrays unidimensionais](../../imagens/image-14.png)
+ ![Arrays unidimensionais](/outros/imagens/image-14.png)
 
  Estrutura array unidimensionais 
 
@@ -473,8 +473,6 @@ O Garbage Collection é especialmente importante em linguagens como Java e C#, o
 - Resumo do básico de java 
 
 https://www.mindmeister.com/app/map/3958307975
-
-**o que falta colocar  : basico de poo e basica sintaxe  do bufferBufferedReader.**
 
 
 ## Nível intermediário
