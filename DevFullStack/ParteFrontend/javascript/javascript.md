@@ -85,6 +85,7 @@ serve pra aviso, alerta, comenta(deixar salvo) o código.
 
 //  pra comentarios em linha   (ctrl k + ctrl c)
 /**/ pra comentarios em blocos (alt+ shift +a)
+alt + shift + f pra identação automatica do codigo
 
 
 ### Constantes e variaveís
@@ -414,7 +415,7 @@ outra forma e colocar o metodo length que pega todo  o tamanho da variavel, muit
 
 2. For in 
 ````
-propeidade de repetição pra percorrer propriedades de objetos
+propeidade de repetição pra percorrer propriedades de  um objeto
 
 for(let chave in objeto){
     // codigo a ser  executado para cada propriedade
